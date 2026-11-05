@@ -1,9 +1,9 @@
-# Corduroy privacy policy
+# Lapin privacy policy
 
-Last updated 23 October 2026.
+Last updated 29 October 2026.
 
-Corduroy keeps your ski days on your phone. There are no accounts, no ads, no analytics and no tracking. The developer
-runs no server that receives your data, and nothing you enter is sold or shared.
+Lapin: Ski Pass & Resort Log ("Lapin") is made by Burrow Works LLC. Lapin keeps your ski days on your phone.
+There are no accounts, no ads, no analytics and no tracking. Burrow Works runs no server that receives your data, and nothing you enter is sold or shared.
 
 ## What stays on your phone
 
@@ -68,12 +68,12 @@ privacy policies.
 
 ## Imported files
 
-Files you share to Corduroy or pick in Settings are read on your phone. Their tracks are kept on your phone and are
+Files you share to Lapin or pick in Settings are read on your phone. Their tracks are kept on your phone and are
 not uploaded. The same goes for the days you record.
 
 ## Children
 
-Corduroy isn't directed at children under 13 and doesn't knowingly collect anything from them.
+Lapin isn't directed at children under 13 and doesn't knowingly collect anything from them.
 
 ## Changes
 
@@ -82,3 +82,5 @@ If this policy changes, the new version will be posted here with a new date.
 ## Contact
 
 Questions about this policy: [CONTACT EMAIL]
+
+© Burrow Works LLC
