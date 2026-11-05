@@ -1,6 +1,6 @@
 {
  "format": 1,
- "version": 18,
+ "version": 19,
  "season": "2026-27",
  "dataAsOf": "2026-10-22",
  "passes": [
@@ -93,6 +93,36 @@
    "family": "Ski Free",
    "name": "Helly Hansen Ski Free",
    "hasBlackouts": true
+  },
+  {
+   "id": "boyne-passport",
+   "family": "Boyne",
+   "name": "Boyne Passport",
+   "hasBlackouts": false
+  },
+  {
+   "id": "ne-gold",
+   "family": "Boyne",
+   "name": "New England Gold Pass",
+   "hasBlackouts": false
+  },
+  {
+   "id": "ne-silver",
+   "family": "Boyne",
+   "name": "New England Silver Pass",
+   "hasBlackouts": true
+  },
+  {
+   "id": "ne-bronze",
+   "family": "Boyne",
+   "name": "New England Bronze Pass",
+   "hasBlackouts": true
+  },
+  {
+   "id": "snow-pass",
+   "family": "Snow Pass",
+   "name": "Snow Pass",
+   "hasBlackouts": false
   }
  ],
  "resorts": [
@@ -1944,7 +1974,13 @@
    "country": "US",
    "lat": 42.12822,
    "lon": -74.48852,
-   "access": [],
+   "access": [
+    {
+     "passId": "snow-pass",
+     "daysAllowed": 2,
+     "notes": "2 days, then 30% off more days. No blackouts listed."
+    }
+   ],
    "verticalFt": 1370,
    "lifts": 8,
    "baseM": 626,
@@ -2340,6 +2376,48 @@
    }
   },
   {
+   "id": "big-snow",
+   "name": "Big SNOW American Dream",
+   "state": "NJ",
+   "country": "US",
+   "lat": 40.81046,
+   "lon": -74.0703,
+   "access": [
+    {
+     "passId": "snow-pass",
+     "daysAllowed": 2,
+     "notes": "2 days, then 30% off more days. No blackouts listed."
+    }
+   ],
+   "lifts": 4,
+   "baseM": 3,
+   "topM": 4,
+   "website": "https://www.bigsnowamericandream.com/",
+   "runMix": [
+    2,
+    1,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "North America's first indoor ski slope, inside the American Dream complex at the Meadowlands and open all year at a steady 28°F. It's about 4 acres and 160 feet of vertical, with three trails, a terrain park and a quad chair, and tickets are booked for a time slot ahead. Good for a first try or a summer fix rather than a full day.",
+    "tags": [
+     "Good for beginners",
+     "Terrain parks"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Big_Snow_American_Dream",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 40.81041,
+    "lon": -74.07036,
+    "radiusM": 400
+   }
+  },
+  {
    "id": "big-sky",
    "name": "Big Sky",
    "state": "MT",
@@ -2363,6 +2441,15 @@
      "allExtraDaysDiscounted": true,
      "reservationRequired": false,
      "notes": "2 free days here, then 50% off any additional day. No blackouts. Some destinations need advance reservations."
+    },
+    {
+     "passId": "boyne-passport",
+     "notes": "Unlimited at all 10 Boyne resorts, no blackout dates."
+    },
+    {
+     "passId": "ne-gold",
+     "daysAllowed": 3,
+     "notes": "3 free days, then 50% off more Boyne days."
     }
    ],
    "verticalFt": 4350,
@@ -2672,6 +2759,48 @@
     "lat": 44.58022,
     "lon": -70.62224,
     "radiusM": 1052
+   }
+  },
+  {
+   "id": "blue-hills",
+   "name": "Blue Hills Ski Area",
+   "state": "MA",
+   "country": "US",
+   "lat": 42.21528,
+   "lon": -71.11917,
+   "access": [
+    {
+     "passId": "snow-pass",
+     "daysAllowed": 2,
+     "notes": "2 days, then 30% off more days. No blackouts listed."
+    }
+   ],
+   "verticalFt": 310,
+   "lifts": 4,
+   "baseM": 83,
+   "topM": 177,
+   "website": "https://www.bluehillsboston.com/",
+   "runMix": [
+    5,
+    4,
+    4,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Skiing just south of Boston, on the west face of Great Blue Hill in Canton inside the Blue Hills Reservation state park. About 309 feet of vertical off a double chair, with carpets for the beginner area; it opened in 1950 and usually runs from December into March.",
+    "tags": [
+     "Good for beginners"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Blue_Hills_Ski_Area",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 42.21514,
+    "lon": -71.11719,
+    "radiusM": 496
    }
   },
   {
@@ -3091,6 +3220,15 @@
      "passId": "ikon-base",
      "daysAllowed": 5,
      "reservationRequired": false
+    },
+    {
+     "passId": "boyne-passport",
+     "notes": "Unlimited at all 10 Boyne resorts, no blackout dates."
+    },
+    {
+     "passId": "ne-gold",
+     "daysAllowed": 3,
+     "notes": "3 free days, then 50% off more Boyne days."
     }
    ],
    "verticalFt": 440,
@@ -3310,6 +3448,15 @@
      "passId": "ikon-base",
      "daysAllowed": 5,
      "reservationRequired": false
+    },
+    {
+     "passId": "boyne-passport",
+     "notes": "Unlimited at all 10 Boyne resorts, no blackout dates."
+    },
+    {
+     "passId": "ne-gold",
+     "daysAllowed": 3,
+     "notes": "3 free days, then 50% off more Boyne days."
     }
    ],
    "verticalFt": 1700,
@@ -5973,6 +6120,15 @@
      "passId": "ikon-base",
      "daysAllowed": 5,
      "reservationRequired": false
+    },
+    {
+     "passId": "boyne-passport",
+     "notes": "Unlimited at all 10 Boyne resorts, no blackout dates."
+    },
+    {
+     "passId": "ne-gold",
+     "daysAllowed": 3,
+     "notes": "3 free days, then 50% off more Boyne days."
     }
    ],
    "verticalFt": 1980,
@@ -7737,7 +7893,13 @@
    "country": "US",
    "lat": 43.68153,
    "lon": -74.0164,
-   "access": [],
+   "access": [
+    {
+     "passId": "snow-pass",
+     "daysAllowed": 2,
+     "notes": "2 days, then 30% off more days. No blackouts listed."
+    }
+   ],
    "verticalFt": 2530,
    "lifts": 14,
    "baseM": 321,
@@ -9562,6 +9724,48 @@
     "lat": 46.13833,
     "lon": 7.96344,
     "radiusM": 2561
+   }
+  },
+  {
+   "id": "holimont",
+   "name": "HoliMont",
+   "state": "NY",
+   "country": "US",
+   "lat": 42.27057,
+   "lon": -78.68685,
+   "access": [
+    {
+     "passId": "snow-pass",
+     "daysAllowed": 2,
+     "notes": "2 days, then 30% off more days. No blackouts listed."
+    }
+   ],
+   "verticalFt": 670,
+   "lifts": 6,
+   "baseM": 484,
+   "topM": 688,
+   "website": "https://holimont.com/",
+   "runMix": [
+    13,
+    11,
+    16,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A members' ski club in Ellicottville, started in 1962 by 13 families and now the largest private ski area by membership. Visitors can buy day tickets only on weekdays that aren't holidays, so check the date before driving out.",
+    "tags": [
+     "Local vibe"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Private_ski_area_(North_America)",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 42.26935,
+    "lon": -78.68702,
+    "radiusM": 1106
    }
   },
   {
@@ -12643,6 +12847,22 @@
      "passId": "ikon-base",
      "daysAllowed": 5,
      "reservationRequired": true
+    },
+    {
+     "passId": "boyne-passport",
+     "notes": "Unlimited at all 10 Boyne resorts, no blackout dates."
+    },
+    {
+     "passId": "ne-gold",
+     "notes": "Unlimited, every day."
+    },
+    {
+     "passId": "ne-silver",
+     "notes": "Seven days a week except holiday blackouts. Nitro Limited works the same."
+    },
+    {
+     "passId": "ne-bronze",
+     "notes": "Monday to Friday, except holiday blackouts."
     }
    ],
    "verticalFt": 2190,
@@ -14309,7 +14529,13 @@
    "country": "US",
    "lat": 38.51683,
    "lon": -106.34436,
-   "access": [],
+   "access": [
+    {
+     "passId": "snow-pass",
+     "daysAllowed": 2,
+     "notes": "2 days, then 30% off more days. No blackouts listed."
+    }
+   ],
    "verticalFt": 1110,
    "lifts": 9,
    "baseM": 3260,
@@ -15122,6 +15348,51 @@
    }
   },
   {
+   "id": "mount-southington",
+   "name": "Mount Southington",
+   "state": "CT",
+   "country": "US",
+   "lat": 41.58129,
+   "lon": -72.92781,
+   "access": [
+    {
+     "passId": "snow-pass",
+     "daysAllowed": 2,
+     "notes": "2 days, then 30% off more days. No blackouts listed."
+    }
+   ],
+   "verticalFt": 360,
+   "lifts": 7,
+   "baseM": 62,
+   "topM": 171,
+   "website": "https://mountsouthington.com/",
+   "runMix": [
+    4,
+    5,
+    2,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A small hill in Plantsville near Waterbury, open since 1964 on what was a dairy farm, with every trail lit and covered by snowmaking. About 425 feet of vertical over 14 trails, plus a children's learning area and a beginner chair of its own. An after-work and learn-to-ski spot more than a day trip.",
+    "tags": [
+     "Night skiing",
+     "Snowmaking",
+     "Good for beginners",
+     "Family friendly"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Mount_Southington",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 41.58136,
+    "lon": -72.92916,
+    "radiusM": 574
+   }
+  },
+  {
    "id": "mount-sunapee",
    "name": "Mount Sunapee",
    "state": "NH",
@@ -15168,6 +15439,50 @@
     "lat": 43.32381,
     "lon": -72.07534,
     "radiusM": 1485
+   }
+  },
+  {
+   "id": "mountain-creek",
+   "name": "Mountain Creek",
+   "state": "NJ",
+   "country": "US",
+   "lat": 41.18331,
+   "lon": -74.51629,
+   "access": [
+    {
+     "passId": "snow-pass",
+     "daysAllowed": 2,
+     "notes": "2 days, then 30% off more days. No blackouts listed."
+    }
+   ],
+   "verticalFt": 1000,
+   "lifts": 11,
+   "baseM": 140,
+   "topM": 445,
+   "website": "https://www.mountaincreek.com/",
+   "runMix": [
+    16,
+    8,
+    9,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "New Jersey's biggest ski area, in Vernon under an hour from the George Washington Bridge, spread over Vernon, South, Bear and Granite peaks with snowmaking on everything. Most trails are lit at night and the parks have long been the draw; the base grew out of Vernon Valley and Great Gorge, home of the old Action Park. Snow Partners, the company behind the Snow Pass, owns it.",
+    "tags": [
+     "Night skiing",
+     "Terrain parks",
+     "Snowmaking"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Mountain_Creek",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 41.18091,
+    "lon": -74.51684,
+    "radiusM": 1908
    }
   },
   {
@@ -17034,6 +17349,50 @@
    }
   },
   {
+   "id": "oak-mountain",
+   "name": "Oak Mountain",
+   "state": "NY",
+   "country": "US",
+   "lat": 43.51719,
+   "lon": -74.36216,
+   "access": [
+    {
+     "passId": "snow-pass",
+     "daysAllowed": 2,
+     "notes": "2 days, then 30% off more days. No blackouts listed."
+    }
+   ],
+   "verticalFt": 590,
+   "lifts": 4,
+   "baseM": 558,
+   "topM": 737,
+   "website": "https://oakmountainski.com/oak/",
+   "runMix": [
+    11,
+    6,
+    4,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "One of the oldest ski areas in the Adirondacks, built in 1948 in Speculator and run by the O'Brien family since 2012. About 650 feet of vertical over 22 runs and 50 acres; daily tickets are capped, so lines stay short. There's a tubing hill, snowshoe trails and a pub with a new themed menu each week.",
+    "tags": [
+     "Uncrowded",
+     "Local vibe",
+     "Family friendly"
+    ],
+    "source": "https://www.adirondacklife.com/2024/01/04/small-wonder-speculators-oak-mountain/",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 43.51939,
+    "lon": -74.36159,
+    "radiusM": 858
+   }
+  },
+  {
    "id": "ober-mountain",
    "name": "Ober Mountain",
    "state": "TN",
@@ -18638,6 +18997,56 @@
     "lat": 47.74964,
     "lon": -120.66078,
     "radiusM": 800
+   }
+  },
+  {
+   "id": "pleasant-mountain",
+   "name": "Pleasant Mountain",
+   "state": "ME",
+   "country": "US",
+   "lat": 44.0512,
+   "lon": -70.81804,
+   "access": [
+    {
+     "passId": "boyne-passport",
+     "notes": "Unlimited at all 10 Boyne resorts, no blackout dates."
+    },
+    {
+     "passId": "ne-gold",
+     "notes": "Unlimited, every day."
+    },
+    {
+     "passId": "snow-pass",
+     "daysAllowed": 2,
+     "notes": "2 days, then 30% off more days. No blackouts listed."
+    }
+   ],
+   "verticalFt": 1240,
+   "lifts": 5,
+   "baseM": 160,
+   "topM": 538,
+   "website": "https://www.pleasantmountain.com",
+   "runMix": [
+    5,
+    24,
+    11,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Maine's longest-running major ski area, open since 1938 on the north side of Pleasant Mountain in Bridgton, and called Shawnee Peak from 1988 to 2022. About 1,300 feet of vertical over 44 trails and 245 acres, with lit trails for night skiing. Boyne has owned it since 2021, alongside Sunday River, Sugarloaf and Loon.",
+    "tags": [
+     "Night skiing"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Pleasant_Mountain_Ski_Area",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 44.05241,
+    "lon": -70.81665,
+    "radiusM": 987
    }
   },
   {
@@ -21295,6 +21704,11 @@
      "passId": "ikon",
      "daysAllowed": 2,
      "notes": "Bonus mountain. Ikon lists blackout dates for some bonus mountains without naming them, so they are shown here."
+    },
+    {
+     "passId": "snow-pass",
+     "daysAllowed": 2,
+     "notes": "2 days, then 30% off more days. No blackouts listed."
     }
    ],
    "verticalFt": 940,
@@ -21376,6 +21790,50 @@
     "lat": 65.05111,
     "lon": -147.41068,
     "radiusM": 1061
+   }
+  },
+  {
+   "id": "ski-martock",
+   "name": "Ski Martock",
+   "state": "NS",
+   "country": "CA",
+   "lat": 44.93507,
+   "lon": -64.16964,
+   "access": [
+    {
+     "passId": "snow-pass",
+     "daysAllowed": 2,
+     "notes": "2 days, then 30% off more days. No blackouts listed."
+    }
+   ],
+   "verticalFt": 530,
+   "lifts": 3,
+   "baseM": 25,
+   "topM": 188,
+   "website": "https://www.martock.com/",
+   "runMix": [
+    4,
+    7,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "The closest downhill skiing to Halifax, about 45 minutes away near Windsor, and Nova Scotia's second-largest ski hill. About 600 feet of vertical with night skiing, snowmaking, a terrain park and a glade, and it hosted the cross-country events of the 2011 Canada Winter Games.",
+    "tags": [
+     "Night skiing",
+     "Snowmaking",
+     "Terrain parks"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Ski_Martock",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 44.93301,
+    "lon": -64.16729,
+    "radiusM": 672
    }
   },
   {
@@ -21956,6 +22414,11 @@
      "daysAllowed": 2,
      "thirdDayDiscount": true,
      "reservationRequired": false
+    },
+    {
+     "passId": "snow-pass",
+     "daysAllowed": 2,
+     "notes": "2 days, then 30% off more days. No blackouts listed."
     }
    ],
    "verticalFt": 1560,
@@ -23375,6 +23838,22 @@
      "allExtraDaysDiscounted": true,
      "reservationRequired": false,
      "notes": "2 free days here, then 50% off any additional day. No blackouts. Some destinations need advance reservations."
+    },
+    {
+     "passId": "boyne-passport",
+     "notes": "Unlimited at all 10 Boyne resorts, no blackout dates."
+    },
+    {
+     "passId": "ne-gold",
+     "notes": "Unlimited, every day."
+    },
+    {
+     "passId": "ne-silver",
+     "notes": "Seven days a week except holiday blackouts. Nitro Limited works the same."
+    },
+    {
+     "passId": "ne-bronze",
+     "notes": "Monday to Friday, except holiday blackouts."
     }
    ],
    "verticalFt": 2770,
@@ -23626,6 +24105,22 @@
      "allExtraDaysDiscounted": true,
      "reservationRequired": false,
      "notes": "2 free days here, then 50% off any additional day. No blackouts. Some destinations need advance reservations."
+    },
+    {
+     "passId": "boyne-passport",
+     "notes": "Unlimited at all 10 Boyne resorts, no blackout dates."
+    },
+    {
+     "passId": "ne-gold",
+     "notes": "Unlimited, every day."
+    },
+    {
+     "passId": "ne-silver",
+     "notes": "Seven days a week except holiday blackouts. Nitro Limited works the same."
+    },
+    {
+     "passId": "ne-bronze",
+     "notes": "Monday to Friday, except holiday blackouts."
     }
    ],
    "verticalFt": 2320,
@@ -24364,6 +24859,15 @@
      "passId": "ikon-base",
      "daysAllowed": 5,
      "reservationRequired": false
+    },
+    {
+     "passId": "boyne-passport",
+     "notes": "Unlimited at all 10 Boyne resorts, no blackout dates."
+    },
+    {
+     "passId": "ne-gold",
+     "daysAllowed": 3,
+     "notes": "3 free days, then 50% off more Boyne days."
     }
    ],
    "verticalFt": 520,
@@ -24530,6 +25034,15 @@
      "passId": "ikon-base",
      "daysAllowed": 5,
      "reservationRequired": false
+    },
+    {
+     "passId": "boyne-passport",
+     "notes": "Unlimited at all 10 Boyne resorts, no blackout dates."
+    },
+    {
+     "passId": "ne-gold",
+     "daysAllowed": 3,
+     "notes": "3 free days, then 50% off more Boyne days."
     }
    ],
    "verticalFt": 760,
@@ -26563,6 +27076,11 @@
      "allExtraDaysDiscounted": true,
      "reservationRequired": false,
      "notes": "2 free days here, then 50% off any additional day. No blackouts. Some destinations need advance reservations."
+    },
+    {
+     "passId": "snow-pass",
+     "daysAllowed": 2,
+     "notes": "2 days, then 30% off more days. No blackouts listed."
     }
    ],
    "verticalFt": 3150,
@@ -36048,6 +36566,816 @@
    "passId": "hh-ski-free",
    "start": "2027-03-10",
    "end": "2027-03-15"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ne-silver",
+   "start": "2026-12-27",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ne-silver",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ne-silver",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ne-bronze",
+   "start": "2026-10-03",
+   "end": "2026-10-04"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ne-bronze",
+   "start": "2026-10-10",
+   "end": "2026-10-11"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ne-bronze",
+   "start": "2026-10-17",
+   "end": "2026-10-18"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ne-bronze",
+   "start": "2026-10-24",
+   "end": "2026-10-25"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ne-bronze",
+   "start": "2026-10-31",
+   "end": "2026-11-01"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ne-bronze",
+   "start": "2026-11-07",
+   "end": "2026-11-08"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ne-bronze",
+   "start": "2026-11-14",
+   "end": "2026-11-15"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ne-bronze",
+   "start": "2026-11-21",
+   "end": "2026-11-22"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ne-bronze",
+   "start": "2026-11-28",
+   "end": "2026-11-29"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ne-bronze",
+   "start": "2026-12-05",
+   "end": "2026-12-06"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ne-bronze",
+   "start": "2026-12-12",
+   "end": "2026-12-13"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ne-bronze",
+   "start": "2026-12-19",
+   "end": "2026-12-20"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ne-bronze",
+   "start": "2026-12-26",
+   "end": "2026-12-27"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ne-bronze",
+   "start": "2027-01-02",
+   "end": "2027-01-03"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ne-bronze",
+   "start": "2027-01-09",
+   "end": "2027-01-10"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ne-bronze",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ne-bronze",
+   "start": "2027-01-23",
+   "end": "2027-01-24"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ne-bronze",
+   "start": "2027-01-30",
+   "end": "2027-01-31"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ne-bronze",
+   "start": "2027-02-06",
+   "end": "2027-02-07"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ne-bronze",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ne-bronze",
+   "start": "2027-02-20",
+   "end": "2027-02-21"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ne-bronze",
+   "start": "2027-02-27",
+   "end": "2027-02-28"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ne-bronze",
+   "start": "2027-03-06",
+   "end": "2027-03-07"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ne-bronze",
+   "start": "2027-03-13",
+   "end": "2027-03-14"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ne-bronze",
+   "start": "2027-03-20",
+   "end": "2027-03-21"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ne-bronze",
+   "start": "2027-03-27",
+   "end": "2027-03-28"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ne-bronze",
+   "start": "2027-04-03",
+   "end": "2027-04-04"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ne-bronze",
+   "start": "2027-04-10",
+   "end": "2027-04-11"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ne-bronze",
+   "start": "2027-04-17",
+   "end": "2027-04-18"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ne-bronze",
+   "start": "2027-04-24",
+   "end": "2027-04-25"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ne-bronze",
+   "start": "2027-05-01",
+   "end": "2027-05-02"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ne-bronze",
+   "start": "2027-05-08",
+   "end": "2027-05-09"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ne-bronze",
+   "start": "2027-05-15",
+   "end": "2027-05-16"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ne-bronze",
+   "start": "2027-05-22",
+   "end": "2027-05-23"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ne-bronze",
+   "start": "2027-05-29",
+   "end": "2027-05-30"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ne-bronze",
+   "start": "2027-06-05",
+   "end": "2027-06-06"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ne-bronze",
+   "start": "2027-06-12",
+   "end": "2027-06-13"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ne-bronze",
+   "start": "2027-06-19",
+   "end": "2027-06-20"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ne-bronze",
+   "start": "2027-06-26",
+   "end": "2027-06-27"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ne-bronze",
+   "start": "2026-12-28",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ne-bronze",
+   "start": "2027-02-15",
+   "end": "2027-02-19"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ne-silver",
+   "start": "2026-12-27",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ne-silver",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ne-silver",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ne-bronze",
+   "start": "2026-10-03",
+   "end": "2026-10-04"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ne-bronze",
+   "start": "2026-10-10",
+   "end": "2026-10-11"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ne-bronze",
+   "start": "2026-10-17",
+   "end": "2026-10-18"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ne-bronze",
+   "start": "2026-10-24",
+   "end": "2026-10-25"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ne-bronze",
+   "start": "2026-10-31",
+   "end": "2026-11-01"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ne-bronze",
+   "start": "2026-11-07",
+   "end": "2026-11-08"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ne-bronze",
+   "start": "2026-11-14",
+   "end": "2026-11-15"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ne-bronze",
+   "start": "2026-11-21",
+   "end": "2026-11-22"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ne-bronze",
+   "start": "2026-11-28",
+   "end": "2026-11-29"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ne-bronze",
+   "start": "2026-12-05",
+   "end": "2026-12-06"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ne-bronze",
+   "start": "2026-12-12",
+   "end": "2026-12-13"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ne-bronze",
+   "start": "2026-12-19",
+   "end": "2026-12-20"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ne-bronze",
+   "start": "2026-12-26",
+   "end": "2026-12-27"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ne-bronze",
+   "start": "2027-01-02",
+   "end": "2027-01-03"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ne-bronze",
+   "start": "2027-01-09",
+   "end": "2027-01-10"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ne-bronze",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ne-bronze",
+   "start": "2027-01-23",
+   "end": "2027-01-24"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ne-bronze",
+   "start": "2027-01-30",
+   "end": "2027-01-31"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ne-bronze",
+   "start": "2027-02-06",
+   "end": "2027-02-07"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ne-bronze",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ne-bronze",
+   "start": "2027-02-20",
+   "end": "2027-02-21"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ne-bronze",
+   "start": "2027-02-27",
+   "end": "2027-02-28"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ne-bronze",
+   "start": "2027-03-06",
+   "end": "2027-03-07"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ne-bronze",
+   "start": "2027-03-13",
+   "end": "2027-03-14"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ne-bronze",
+   "start": "2027-03-20",
+   "end": "2027-03-21"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ne-bronze",
+   "start": "2027-03-27",
+   "end": "2027-03-28"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ne-bronze",
+   "start": "2027-04-03",
+   "end": "2027-04-04"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ne-bronze",
+   "start": "2027-04-10",
+   "end": "2027-04-11"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ne-bronze",
+   "start": "2027-04-17",
+   "end": "2027-04-18"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ne-bronze",
+   "start": "2027-04-24",
+   "end": "2027-04-25"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ne-bronze",
+   "start": "2027-05-01",
+   "end": "2027-05-02"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ne-bronze",
+   "start": "2027-05-08",
+   "end": "2027-05-09"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ne-bronze",
+   "start": "2027-05-15",
+   "end": "2027-05-16"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ne-bronze",
+   "start": "2027-05-22",
+   "end": "2027-05-23"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ne-bronze",
+   "start": "2027-05-29",
+   "end": "2027-05-30"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ne-bronze",
+   "start": "2027-06-05",
+   "end": "2027-06-06"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ne-bronze",
+   "start": "2027-06-12",
+   "end": "2027-06-13"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ne-bronze",
+   "start": "2027-06-19",
+   "end": "2027-06-20"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ne-bronze",
+   "start": "2027-06-26",
+   "end": "2027-06-27"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ne-bronze",
+   "start": "2026-12-28",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ne-bronze",
+   "start": "2027-02-15",
+   "end": "2027-02-19"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-silver",
+   "start": "2026-12-27",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-silver",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-silver",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-silver",
+   "start": "2027-02-15",
+   "end": "2027-02-15"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-silver",
+   "start": "2027-02-20",
+   "end": "2027-02-20"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-bronze",
+   "start": "2026-10-03",
+   "end": "2026-10-04"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-bronze",
+   "start": "2026-10-10",
+   "end": "2026-10-11"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-bronze",
+   "start": "2026-10-17",
+   "end": "2026-10-18"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-bronze",
+   "start": "2026-10-24",
+   "end": "2026-10-25"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-bronze",
+   "start": "2026-10-31",
+   "end": "2026-11-01"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-bronze",
+   "start": "2026-11-07",
+   "end": "2026-11-08"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-bronze",
+   "start": "2026-11-14",
+   "end": "2026-11-15"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-bronze",
+   "start": "2026-11-21",
+   "end": "2026-11-22"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-bronze",
+   "start": "2026-11-28",
+   "end": "2026-11-29"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-bronze",
+   "start": "2026-12-05",
+   "end": "2026-12-06"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-bronze",
+   "start": "2026-12-12",
+   "end": "2026-12-13"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-bronze",
+   "start": "2026-12-19",
+   "end": "2026-12-20"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-bronze",
+   "start": "2026-12-26",
+   "end": "2026-12-27"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-bronze",
+   "start": "2027-01-02",
+   "end": "2027-01-03"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-bronze",
+   "start": "2027-01-09",
+   "end": "2027-01-10"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-bronze",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-bronze",
+   "start": "2027-01-23",
+   "end": "2027-01-24"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-bronze",
+   "start": "2027-01-30",
+   "end": "2027-01-31"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-bronze",
+   "start": "2027-02-06",
+   "end": "2027-02-07"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-bronze",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-bronze",
+   "start": "2027-02-20",
+   "end": "2027-02-21"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-bronze",
+   "start": "2027-02-27",
+   "end": "2027-02-28"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-bronze",
+   "start": "2027-03-06",
+   "end": "2027-03-07"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-bronze",
+   "start": "2027-03-13",
+   "end": "2027-03-14"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-bronze",
+   "start": "2027-03-20",
+   "end": "2027-03-21"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-bronze",
+   "start": "2027-03-27",
+   "end": "2027-03-28"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-bronze",
+   "start": "2027-04-03",
+   "end": "2027-04-04"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-bronze",
+   "start": "2027-04-10",
+   "end": "2027-04-11"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-bronze",
+   "start": "2027-04-17",
+   "end": "2027-04-18"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-bronze",
+   "start": "2027-04-24",
+   "end": "2027-04-25"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-bronze",
+   "start": "2027-05-01",
+   "end": "2027-05-02"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-bronze",
+   "start": "2027-05-08",
+   "end": "2027-05-09"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-bronze",
+   "start": "2027-05-15",
+   "end": "2027-05-16"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-bronze",
+   "start": "2027-05-22",
+   "end": "2027-05-23"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-bronze",
+   "start": "2027-05-29",
+   "end": "2027-05-30"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-bronze",
+   "start": "2027-06-05",
+   "end": "2027-06-06"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-bronze",
+   "start": "2027-06-12",
+   "end": "2027-06-13"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-bronze",
+   "start": "2027-06-19",
+   "end": "2027-06-20"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-bronze",
+   "start": "2027-06-26",
+   "end": "2027-06-27"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-bronze",
+   "start": "2026-12-28",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-bronze",
+   "start": "2027-02-15",
+   "end": "2027-02-19"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ne-bronze",
+   "start": "2027-01-18",
+   "end": "2027-01-18"
   }
  ]
 }
