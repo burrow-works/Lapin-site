@@ -1,6 +1,6 @@
 {
  "format": 1,
- "version": 20,
+ "version": 21,
  "season": "2026-27",
  "dataAsOf": "2026-10-22",
  "passes": [
@@ -8,85 +8,356 @@
    "id": "indy-base",
    "family": "Indy",
    "name": "Indy Base Pass",
-   "hasBlackouts": true
+   "hasBlackouts": true,
+   "price": 349,
+   "priceNote": "26/27 renewal price, adult",
+   "renewBy": [
+    {
+     "date": "2027-02-24",
+     "label": "Renewals open for passholders",
+     "estimate": true
+    },
+    {
+     "date": "2027-03-01",
+     "label": "Public sale, while passes last",
+     "estimate": true
+    }
+   ]
   },
   {
    "id": "indy-plus",
    "family": "Indy",
    "name": "Indy+ Pass",
-   "hasBlackouts": false
+   "hasBlackouts": false,
+   "price": 399,
+   "priceNote": "26/27 price, adult",
+   "renewBy": [
+    {
+     "date": "2027-02-24",
+     "label": "Renewals open for passholders",
+     "estimate": true
+    },
+    {
+     "date": "2027-03-01",
+     "label": "Public sale, while passes last",
+     "estimate": true
+    }
+   ]
   },
   {
    "id": "indy-xc",
    "family": "Indy",
    "name": "Indy XC Pass",
-   "hasBlackouts": false
+   "hasBlackouts": false,
+   "price": 99,
+   "priceNote": "26/27 price, adult"
   },
   {
    "id": "epic",
    "family": "Epic",
    "name": "Epic Pass",
-   "hasBlackouts": false
+   "hasBlackouts": false,
+   "price": 1089,
+   "priceNote": "26/27 launch price, adult",
+   "renewBy": [
+    {
+     "date": "2026-12-04",
+     "label": "26/27 passes go off sale",
+     "estimate": true
+    },
+    {
+     "date": "2027-03-02",
+     "label": "27/28 passes on sale at the lowest price",
+     "estimate": true
+    },
+    {
+     "date": "2027-05-25",
+     "label": "First 27/28 price increase",
+     "estimate": true
+    },
+    {
+     "date": "2027-09-06",
+     "label": "Labor Day price increase",
+     "estimate": true
+    }
+   ]
   },
   {
    "id": "epic-local",
    "family": "Epic",
    "name": "Epic Local Pass",
-   "hasBlackouts": true
+   "hasBlackouts": true,
+   "price": 809,
+   "priceNote": "26/27 launch price, adult",
+   "renewBy": [
+    {
+     "date": "2026-12-04",
+     "label": "26/27 passes go off sale",
+     "estimate": true
+    },
+    {
+     "date": "2027-03-02",
+     "label": "27/28 passes on sale at the lowest price",
+     "estimate": true
+    },
+    {
+     "date": "2027-05-25",
+     "label": "First 27/28 price increase",
+     "estimate": true
+    },
+    {
+     "date": "2027-09-06",
+     "label": "Labor Day price increase",
+     "estimate": true
+    }
+   ]
   },
   {
    "id": "epic-northeast-value",
    "family": "Epic",
    "name": "Northeast Value Pass",
-   "hasBlackouts": true
+   "hasBlackouts": true,
+   "price": 662,
+   "priceNote": "26/27 launch price, adult",
+   "renewBy": [
+    {
+     "date": "2026-12-04",
+     "label": "26/27 passes go off sale",
+     "estimate": true
+    },
+    {
+     "date": "2027-03-02",
+     "label": "27/28 passes on sale at the lowest price",
+     "estimate": true
+    },
+    {
+     "date": "2027-05-25",
+     "label": "First 27/28 price increase",
+     "estimate": true
+    },
+    {
+     "date": "2027-09-06",
+     "label": "Labor Day price increase",
+     "estimate": true
+    }
+   ]
   },
   {
    "id": "epic-northeast-midweek",
    "family": "Epic",
    "name": "Northeast Midweek Pass",
-   "hasBlackouts": true
+   "hasBlackouts": true,
+   "renewBy": [
+    {
+     "date": "2026-12-04",
+     "label": "26/27 passes go off sale",
+     "estimate": true
+    },
+    {
+     "date": "2027-03-02",
+     "label": "27/28 passes on sale at the lowest price",
+     "estimate": true
+    },
+    {
+     "date": "2027-05-25",
+     "label": "First 27/28 price increase",
+     "estimate": true
+    },
+    {
+     "date": "2027-09-06",
+     "label": "Labor Day price increase",
+     "estimate": true
+    }
+   ]
   },
   {
    "id": "epic-tahoe-local",
    "family": "Epic",
    "name": "Tahoe Local Pass",
-   "hasBlackouts": true
+   "hasBlackouts": true,
+   "price": 585,
+   "priceNote": "26/27 launch price, adult",
+   "renewBy": [
+    {
+     "date": "2026-12-04",
+     "label": "26/27 passes go off sale",
+     "estimate": true
+    },
+    {
+     "date": "2027-03-02",
+     "label": "27/28 passes on sale at the lowest price",
+     "estimate": true
+    },
+    {
+     "date": "2027-05-25",
+     "label": "First 27/28 price increase",
+     "estimate": true
+    },
+    {
+     "date": "2027-09-06",
+     "label": "Labor Day price increase",
+     "estimate": true
+    }
+   ]
   },
   {
    "id": "epic-tahoe-value",
    "family": "Epic",
    "name": "Tahoe Value Pass",
-   "hasBlackouts": true
+   "hasBlackouts": true,
+   "renewBy": [
+    {
+     "date": "2026-12-04",
+     "label": "26/27 passes go off sale",
+     "estimate": true
+    },
+    {
+     "date": "2027-03-02",
+     "label": "27/28 passes on sale at the lowest price",
+     "estimate": true
+    },
+    {
+     "date": "2027-05-25",
+     "label": "First 27/28 price increase",
+     "estimate": true
+    },
+    {
+     "date": "2027-09-06",
+     "label": "Labor Day price increase",
+     "estimate": true
+    }
+   ]
   },
   {
    "id": "epic-keystone-plus",
    "family": "Epic",
    "name": "Keystone Plus Pass",
-   "hasBlackouts": true
+   "hasBlackouts": true,
+   "renewBy": [
+    {
+     "date": "2026-12-04",
+     "label": "26/27 passes go off sale",
+     "estimate": true
+    },
+    {
+     "date": "2027-03-02",
+     "label": "27/28 passes on sale at the lowest price",
+     "estimate": true
+    },
+    {
+     "date": "2027-05-25",
+     "label": "First 27/28 price increase",
+     "estimate": true
+    },
+    {
+     "date": "2027-09-06",
+     "label": "Labor Day price increase",
+     "estimate": true
+    }
+   ]
   },
   {
    "id": "epic-summit-value",
    "family": "Epic",
    "name": "Summit Value Pass",
-   "hasBlackouts": true
+   "hasBlackouts": true,
+   "renewBy": [
+    {
+     "date": "2026-12-04",
+     "label": "26/27 passes go off sale",
+     "estimate": true
+    },
+    {
+     "date": "2027-03-02",
+     "label": "27/28 passes on sale at the lowest price",
+     "estimate": true
+    },
+    {
+     "date": "2027-05-25",
+     "label": "First 27/28 price increase",
+     "estimate": true
+    },
+    {
+     "date": "2027-09-06",
+     "label": "Labor Day price increase",
+     "estimate": true
+    }
+   ]
   },
   {
    "id": "ikon",
    "family": "Ikon",
    "name": "Ikon Pass",
-   "hasBlackouts": false
+   "hasBlackouts": false,
+   "price": 1349,
+   "priceNote": "26/27 launch price, adult",
+   "renewBy": [
+    {
+     "date": "2026-12-03",
+     "label": "26/27 passes go off sale",
+     "estimate": true
+    },
+    {
+     "date": "2027-03-11",
+     "label": "27/28 passes on sale at the lowest price",
+     "estimate": true
+    },
+    {
+     "date": "2027-04-15",
+     "label": "Spring price ends",
+     "estimate": true
+    },
+    {
+     "date": "2027-10-07",
+     "label": "Fall price increase",
+     "estimate": true
+    }
+   ]
   },
   {
    "id": "ikon-base",
    "family": "Ikon",
    "name": "Ikon Base Pass",
-   "hasBlackouts": true
+   "hasBlackouts": true,
+   "price": 924,
+   "priceNote": "26/27 launch price, adult",
+   "renewBy": [
+    {
+     "date": "2026-12-03",
+     "label": "26/27 passes go off sale",
+     "estimate": true
+    },
+    {
+     "date": "2027-03-11",
+     "label": "27/28 passes on sale at the lowest price",
+     "estimate": true
+    },
+    {
+     "date": "2027-04-15",
+     "label": "Spring price ends",
+     "estimate": true
+    },
+    {
+     "date": "2027-10-07",
+     "label": "Fall price increase",
+     "estimate": true
+    }
+   ]
   },
   {
    "id": "mountain-collective",
    "family": "Mountain Collective",
    "name": "Mountain Collective",
-   "hasBlackouts": false
+   "hasBlackouts": false,
+   "price": 729,
+   "priceNote": "26/27 price, adult, before the 17 Nov increase",
+   "renewBy": [
+    {
+     "date": "2026-11-17",
+     "label": "Price goes up",
+     "estimate": false
+    }
+   ]
   },
   {
    "id": "hh-ski-free",
@@ -104,25 +375,33 @@
    "id": "ne-gold",
    "family": "Boyne",
    "name": "New England Gold Pass",
-   "hasBlackouts": false
+   "hasBlackouts": false,
+   "price": 1549,
+   "priceNote": "26/27 launch price, adult"
   },
   {
    "id": "ne-silver",
    "family": "Boyne",
    "name": "New England Silver Pass",
-   "hasBlackouts": true
+   "hasBlackouts": true,
+   "price": 1109,
+   "priceNote": "26/27 launch price, adult"
   },
   {
    "id": "ne-bronze",
    "family": "Boyne",
    "name": "New England Bronze Pass",
-   "hasBlackouts": true
+   "hasBlackouts": true,
+   "price": 769,
+   "priceNote": "26/27 launch price, adult"
   },
   {
    "id": "snow-pass",
    "family": "Snow Pass",
    "name": "Snow Pass",
-   "hasBlackouts": false
+   "hasBlackouts": false,
+   "price": 400,
+   "priceNote": "26/27 price ($339.99 for a limited number)"
   }
  ],
  "resorts": [
