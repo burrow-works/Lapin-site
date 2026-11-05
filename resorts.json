@@ -1,6 +1,6 @@
 {
  "format": 1,
- "version": 19,
+ "version": 20,
  "season": "2026-27",
  "dataAsOf": "2026-10-22",
  "passes": [
@@ -2790,11 +2790,14 @@
     "alpine"
    ],
    "about": {
-    "text": "Skiing just south of Boston, on the west face of Great Blue Hill in Canton inside the Blue Hills Reservation state park. About 309 feet of vertical off a double chair, with carpets for the beginner area; it opened in 1950 and usually runs from December into March.",
+    "text": "Skiing just south of Boston, on the west face of Great Blue Hill in Canton inside the Blue Hills Reservation state park, and among the first areas in New England to make snow, back in the early 1960s. About 309 feet of vertical, lit until 9 pm most weeknights, with tubing lanes, a racing program and lessons for every age. Geoff Homer has run it since 2024 and has been adding lifts, snow guns and a refreshed lodge; the extreme-skiing Egan brothers learned here.",
     "tags": [
-     "Good for beginners"
+     "Night skiing",
+     "Snowmaking",
+     "Good for beginners",
+     "Family friendly"
     ],
-    "source": "https://en.wikipedia.org/wiki/Blue_Hills_Ski_Area",
+    "source": "https://www.bluehillsboston.com/aboutus",
     "checked": "2026-11-05"
    },
    "checkIn": {
@@ -9737,7 +9740,7 @@
     {
      "passId": "snow-pass",
      "daysAllowed": 2,
-     "notes": "2 days, then 30% off more days. No blackouts listed."
+     "notes": "2 days, then 30% off more days. No blackouts listed. HoliMont is a private club that sells day tickets Monday to Friday only, not in Christmas week or on MLK or Presidents Day; check with HoliMont that Snow Pass days follow the same rule."
     }
    ],
    "verticalFt": 670,
@@ -9755,11 +9758,14 @@
     "alpine"
    ],
    "about": {
-    "text": "A members' ski club in Ellicottville, started in 1962 by 13 families and now the largest private ski area by membership. Visitors can buy day tickets only on weekdays that aren't holidays, so check the date before driving out.",
+    "text": "A members' ski club in Ellicottville, started in 1962 by 13 families and now the largest private ski area by membership. It has 56 slopes and trails over about 700 feet of vertical, all covered by snowmaking, and is best known for its steeper pitches and views over the village; there's no night skiing, which leaves the groomers more time. Non-members can buy day tickets Monday to Friday only, and not in Christmas week or on MLK or Presidents Day.",
     "tags": [
+     "Steeps",
+     "Snowmaking",
+     "Views",
      "Local vibe"
     ],
-    "source": "https://en.wikipedia.org/wiki/Private_ski_area_(North_America)",
+    "source": "https://holimont.com/faq",
     "checked": "2026-11-05"
    },
    "checkIn": {
