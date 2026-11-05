@@ -1,6 +1,6 @@
 {
  "format": 1,
- "version": 17,
+ "version": 18,
  "season": "2026-27",
  "dataAsOf": "2026-10-22",
  "passes": [
@@ -32,6 +32,42 @@
    "id": "epic-local",
    "family": "Epic",
    "name": "Epic Local Pass",
+   "hasBlackouts": true
+  },
+  {
+   "id": "epic-northeast-value",
+   "family": "Epic",
+   "name": "Northeast Value Pass",
+   "hasBlackouts": true
+  },
+  {
+   "id": "epic-northeast-midweek",
+   "family": "Epic",
+   "name": "Northeast Midweek Pass",
+   "hasBlackouts": true
+  },
+  {
+   "id": "epic-tahoe-local",
+   "family": "Epic",
+   "name": "Tahoe Local Pass",
+   "hasBlackouts": true
+  },
+  {
+   "id": "epic-tahoe-value",
+   "family": "Epic",
+   "name": "Tahoe Value Pass",
+   "hasBlackouts": true
+  },
+  {
+   "id": "epic-keystone-plus",
+   "family": "Epic",
+   "name": "Keystone Plus Pass",
+   "hasBlackouts": true
+  },
+  {
+   "id": "epic-summit-value",
+   "family": "Epic",
+   "name": "Summit Value Pass",
    "hasBlackouts": true
   },
   {
@@ -426,6 +462,13 @@
     },
     {
      "passId": "epic-local"
+    },
+    {
+     "passId": "epic-northeast-value"
+    },
+    {
+     "passId": "epic-northeast-midweek",
+     "notes": "Monday to Friday only."
     }
    ],
    "verticalFt": 230,
@@ -1321,6 +1364,13 @@
     },
     {
      "passId": "epic-local"
+    },
+    {
+     "passId": "epic-northeast-value"
+    },
+    {
+     "passId": "epic-northeast-midweek",
+     "notes": "Monday to Friday only."
     }
    ],
    "verticalFt": 1660,
@@ -1748,6 +1798,12 @@
      "daysAllowed": 10,
      "poolId": "vbw",
      "notes": "10 days total across Vail, Beaver Creek and Whistler Blackcomb. Holiday blockouts apply."
+    },
+    {
+     "passId": "epic-tahoe-local",
+     "daysAllowed": 5,
+     "poolId": "tahoe5",
+     "notes": "5 days total across Park City, Vail, Beaver Creek, Keystone, Breckenridge and Crested Butte. Restricted peak dates apply."
     }
    ],
    "verticalFt": 4020,
@@ -2081,6 +2137,13 @@
     },
     {
      "passId": "epic-local"
+    },
+    {
+     "passId": "epic-northeast-value"
+    },
+    {
+     "passId": "epic-northeast-midweek",
+     "notes": "Monday to Friday only."
     }
    ],
    "verticalFt": 370,
@@ -2865,6 +2928,13 @@
     },
     {
      "passId": "epic-local"
+    },
+    {
+     "passId": "epic-northeast-value"
+    },
+    {
+     "passId": "epic-northeast-midweek",
+     "notes": "Monday to Friday only."
     }
    ],
    "verticalFt": 200,
@@ -3064,6 +3134,20 @@
     },
     {
      "passId": "epic-local"
+    },
+    {
+     "passId": "epic-tahoe-local",
+     "daysAllowed": 5,
+     "poolId": "tahoe5",
+     "notes": "5 days total across Park City, Vail, Beaver Creek, Keystone, Breckenridge and Crested Butte. Restricted peak dates apply."
+    },
+    {
+     "passId": "epic-keystone-plus",
+     "notes": "From 1 April 2027 only. Restricted peak dates apply."
+    },
+    {
+     "passId": "epic-summit-value",
+     "notes": "Restricted peak dates apply."
     }
    ],
    "verticalFt": 3260,
@@ -5532,6 +5616,17 @@
     },
     {
      "passId": "epic-local"
+    },
+    {
+     "passId": "epic-tahoe-local",
+     "daysAllowed": 5,
+     "poolId": "tahoe5",
+     "notes": "5 days total across Park City, Vail, Beaver Creek, Keystone, Breckenridge and Crested Butte. Restricted peak dates apply."
+    },
+    {
+     "passId": "epic-keystone-plus",
+     "daysAllowed": 5,
+     "notes": "Restricted peak dates apply."
     }
    ],
    "verticalFt": 2320,
@@ -5624,6 +5719,13 @@
     },
     {
      "passId": "epic-local"
+    },
+    {
+     "passId": "epic-northeast-value"
+    },
+    {
+     "passId": "epic-northeast-midweek",
+     "notes": "Monday to Friday only."
     }
    ],
    "verticalFt": 880,
@@ -8722,6 +8824,14 @@
     {
      "passId": "epic-local",
      "notes": "Holiday blockouts apply."
+    },
+    {
+     "passId": "epic-tahoe-local",
+     "notes": "Restricted peak dates apply."
+    },
+    {
+     "passId": "epic-tahoe-value",
+     "notes": "Restricted peak dates apply."
     }
    ],
    "verticalFt": 3320,
@@ -8897,6 +9007,13 @@
     },
     {
      "passId": "epic-local"
+    },
+    {
+     "passId": "epic-northeast-value"
+    },
+    {
+     "passId": "epic-northeast-midweek",
+     "notes": "Monday to Friday only."
     }
    ],
    "verticalFt": 490,
@@ -9881,6 +9998,14 @@
     },
     {
      "passId": "epic-local"
+    },
+    {
+     "passId": "epic-northeast-value",
+     "notes": "Restricted peak dates apply."
+    },
+    {
+     "passId": "epic-northeast-midweek",
+     "notes": "Monday to Friday only. Restricted peak dates apply."
     }
    ],
    "verticalFt": 1530,
@@ -10183,6 +10308,13 @@
     },
     {
      "passId": "epic-local"
+    },
+    {
+     "passId": "epic-northeast-value"
+    },
+    {
+     "passId": "epic-northeast-midweek",
+     "notes": "Monday to Friday only."
     }
    ],
    "verticalFt": 520,
@@ -10860,6 +10992,19 @@
     },
     {
      "passId": "epic-local"
+    },
+    {
+     "passId": "epic-tahoe-local",
+     "daysAllowed": 5,
+     "poolId": "tahoe5",
+     "notes": "5 days total across Park City, Vail, Beaver Creek, Keystone, Breckenridge and Crested Butte. Restricted peak dates apply."
+    },
+    {
+     "passId": "epic-keystone-plus",
+     "notes": "Restricted peak dates apply."
+    },
+    {
+     "passId": "epic-summit-value"
     }
    ],
    "verticalFt": 3000,
@@ -11141,6 +11286,14 @@
     {
      "passId": "epic-local",
      "notes": "Holiday blockouts apply."
+    },
+    {
+     "passId": "epic-tahoe-local",
+     "notes": "Restricted peak dates apply."
+    },
+    {
+     "passId": "epic-tahoe-value",
+     "notes": "Not valid on Saturdays. Restricted peak dates apply."
     }
    ],
    "verticalFt": 1650,
@@ -11703,6 +11856,13 @@
     },
     {
      "passId": "epic-local"
+    },
+    {
+     "passId": "epic-northeast-value"
+    },
+    {
+     "passId": "epic-northeast-midweek",
+     "notes": "Monday to Friday only."
     }
    ],
    "verticalFt": 760,
@@ -12237,6 +12397,13 @@
     },
     {
      "passId": "epic-local"
+    },
+    {
+     "passId": "epic-northeast-value"
+    },
+    {
+     "passId": "epic-northeast-midweek",
+     "notes": "Monday to Friday only."
     }
    ],
    "verticalFt": 580,
@@ -12835,6 +13002,13 @@
     },
     {
      "passId": "epic-local"
+    },
+    {
+     "passId": "epic-northeast-value"
+    },
+    {
+     "passId": "epic-northeast-midweek",
+     "notes": "Monday to Friday only."
     }
    ],
    "verticalFt": 290,
@@ -14909,6 +15083,14 @@
     },
     {
      "passId": "epic-local"
+    },
+    {
+     "passId": "epic-northeast-value",
+     "notes": "Restricted peak dates apply."
+    },
+    {
+     "passId": "epic-northeast-midweek",
+     "notes": "Monday to Friday only. Restricted peak dates apply."
     }
    ],
    "verticalFt": 1650,
@@ -14952,6 +15134,13 @@
     },
     {
      "passId": "epic-local"
+    },
+    {
+     "passId": "epic-northeast-value"
+    },
+    {
+     "passId": "epic-northeast-midweek",
+     "notes": "Monday to Friday only."
     }
    ],
    "verticalFt": 1450,
@@ -15470,6 +15659,13 @@
     },
     {
      "passId": "epic-local"
+    },
+    {
+     "passId": "epic-northeast-value"
+    },
+    {
+     "passId": "epic-northeast-midweek",
+     "notes": "Monday to Friday only."
     }
    ],
    "verticalFt": 180,
@@ -16594,6 +16790,14 @@
     {
      "passId": "epic-local",
      "notes": "Holiday blockouts apply."
+    },
+    {
+     "passId": "epic-tahoe-local",
+     "notes": "Restricted peak dates apply."
+    },
+    {
+     "passId": "epic-tahoe-value",
+     "notes": "Not valid on Saturdays. Restricted peak dates apply."
     }
    ],
    "verticalFt": 2310,
@@ -17041,6 +17245,14 @@
     },
     {
      "passId": "epic-local"
+    },
+    {
+     "passId": "epic-northeast-value",
+     "notes": "Restricted peak dates apply."
+    },
+    {
+     "passId": "epic-northeast-midweek",
+     "notes": "Monday to Friday only. Restricted peak dates apply."
     }
    ],
    "verticalFt": 2170,
@@ -17583,6 +17795,12 @@
     {
      "passId": "epic-local",
      "notes": "Holiday blockouts apply."
+    },
+    {
+     "passId": "epic-tahoe-local",
+     "daysAllowed": 5,
+     "poolId": "tahoe5",
+     "notes": "5 days total across Park City, Vail, Beaver Creek, Keystone, Breckenridge and Crested Butte. Restricted peak dates apply."
     }
    ],
    "verticalFt": 3080,
@@ -19469,6 +19687,13 @@
     },
     {
      "passId": "epic-local"
+    },
+    {
+     "passId": "epic-northeast-value"
+    },
+    {
+     "passId": "epic-northeast-midweek",
+     "notes": "Monday to Friday only."
     }
    ],
    "verticalFt": 580,
@@ -20263,6 +20488,13 @@
     },
     {
      "passId": "epic-local"
+    },
+    {
+     "passId": "epic-northeast-value"
+    },
+    {
+     "passId": "epic-northeast-midweek",
+     "notes": "Monday to Friday only."
     }
    ],
    "verticalFt": 740,
@@ -22795,6 +23027,16 @@
     {
      "passId": "epic-local",
      "notes": "Holiday blockouts apply."
+    },
+    {
+     "passId": "epic-northeast-value",
+     "daysAllowed": 10,
+     "notes": "Restricted peak dates apply."
+    },
+    {
+     "passId": "epic-northeast-midweek",
+     "daysAllowed": 5,
+     "notes": "Monday to Friday only. Restricted peak dates apply."
     }
    ],
    "verticalFt": 2340,
@@ -25239,6 +25481,12 @@
      "daysAllowed": 10,
      "poolId": "vbw",
      "notes": "10 days total across Vail, Beaver Creek and Whistler Blackcomb. Holiday blockouts apply."
+    },
+    {
+     "passId": "epic-tahoe-local",
+     "daysAllowed": 5,
+     "poolId": "tahoe5",
+     "notes": "5 days total across Park City, Vail, Beaver Creek, Keystone, Breckenridge and Crested Butte. Restricted peak dates apply."
     }
    ],
    "verticalFt": 3520,
@@ -26451,6 +26699,13 @@
     },
     {
      "passId": "epic-local"
+    },
+    {
+     "passId": "epic-northeast-value"
+    },
+    {
+     "passId": "epic-northeast-midweek",
+     "notes": "Monday to Friday only."
     }
    ],
    "verticalFt": 930,
@@ -26573,6 +26828,13 @@
     },
     {
      "passId": "epic-local"
+    },
+    {
+     "passId": "epic-northeast-value"
+    },
+    {
+     "passId": "epic-northeast-midweek",
+     "notes": "Monday to Friday only."
     }
    ],
    "verticalFt": 2030,
@@ -29948,6 +30210,5712 @@
    "passId": "ikon",
    "start": "2027-02-13",
    "end": "2027-02-14"
+  },
+  {
+   "resortId": "heavenly",
+   "passId": "epic-tahoe-local",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "heavenly",
+   "passId": "epic-tahoe-local",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "heavenly",
+   "passId": "epic-tahoe-local",
+   "start": "2027-01-16",
+   "end": "2027-01-16"
+  },
+  {
+   "resortId": "heavenly",
+   "passId": "epic-tahoe-local",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-local",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-local",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-local",
+   "start": "2027-01-16",
+   "end": "2027-01-16"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-local",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-local",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-local",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-local",
+   "start": "2027-01-16",
+   "end": "2027-01-16"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-local",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "park-city",
+   "passId": "epic-tahoe-local",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "park-city",
+   "passId": "epic-tahoe-local",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "park-city",
+   "passId": "epic-tahoe-local",
+   "start": "2027-01-16",
+   "end": "2027-01-16"
+  },
+  {
+   "resortId": "park-city",
+   "passId": "epic-tahoe-local",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "vail",
+   "passId": "epic-tahoe-local",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "vail",
+   "passId": "epic-tahoe-local",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "vail",
+   "passId": "epic-tahoe-local",
+   "start": "2027-01-16",
+   "end": "2027-01-16"
+  },
+  {
+   "resortId": "vail",
+   "passId": "epic-tahoe-local",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "beaver-creek",
+   "passId": "epic-tahoe-local",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "beaver-creek",
+   "passId": "epic-tahoe-local",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "beaver-creek",
+   "passId": "epic-tahoe-local",
+   "start": "2027-01-16",
+   "end": "2027-01-16"
+  },
+  {
+   "resortId": "beaver-creek",
+   "passId": "epic-tahoe-local",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "keystone",
+   "passId": "epic-tahoe-local",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "keystone",
+   "passId": "epic-tahoe-local",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "keystone",
+   "passId": "epic-tahoe-local",
+   "start": "2027-01-16",
+   "end": "2027-01-16"
+  },
+  {
+   "resortId": "keystone",
+   "passId": "epic-tahoe-local",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "breckenridge",
+   "passId": "epic-tahoe-local",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "breckenridge",
+   "passId": "epic-tahoe-local",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "breckenridge",
+   "passId": "epic-tahoe-local",
+   "start": "2027-01-16",
+   "end": "2027-01-16"
+  },
+  {
+   "resortId": "breckenridge",
+   "passId": "epic-tahoe-local",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "crested-butte",
+   "passId": "epic-tahoe-local",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "crested-butte",
+   "passId": "epic-tahoe-local",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "crested-butte",
+   "passId": "epic-tahoe-local",
+   "start": "2027-01-16",
+   "end": "2027-01-16"
+  },
+  {
+   "resortId": "crested-butte",
+   "passId": "epic-tahoe-local",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "heavenly",
+   "passId": "epic-tahoe-value",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "heavenly",
+   "passId": "epic-tahoe-value",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "heavenly",
+   "passId": "epic-tahoe-value",
+   "start": "2027-01-16",
+   "end": "2027-01-16"
+  },
+  {
+   "resortId": "heavenly",
+   "passId": "epic-tahoe-value",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-value",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-value",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-value",
+   "start": "2027-01-16",
+   "end": "2027-01-16"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-value",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-value",
+   "start": "2026-10-03",
+   "end": "2026-10-03"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-value",
+   "start": "2026-10-10",
+   "end": "2026-10-10"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-value",
+   "start": "2026-10-17",
+   "end": "2026-10-17"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-value",
+   "start": "2026-10-24",
+   "end": "2026-10-24"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-value",
+   "start": "2026-10-31",
+   "end": "2026-10-31"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-value",
+   "start": "2026-11-07",
+   "end": "2026-11-07"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-value",
+   "start": "2026-11-14",
+   "end": "2026-11-14"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-value",
+   "start": "2026-11-21",
+   "end": "2026-11-21"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-value",
+   "start": "2026-11-28",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-value",
+   "start": "2026-12-05",
+   "end": "2026-12-05"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-value",
+   "start": "2026-12-12",
+   "end": "2026-12-12"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-value",
+   "start": "2026-12-19",
+   "end": "2026-12-19"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-value",
+   "start": "2026-12-26",
+   "end": "2026-12-26"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-value",
+   "start": "2027-01-02",
+   "end": "2027-01-02"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-value",
+   "start": "2027-01-09",
+   "end": "2027-01-09"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-value",
+   "start": "2027-01-16",
+   "end": "2027-01-16"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-value",
+   "start": "2027-01-23",
+   "end": "2027-01-23"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-value",
+   "start": "2027-01-30",
+   "end": "2027-01-30"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-value",
+   "start": "2027-02-06",
+   "end": "2027-02-06"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-value",
+   "start": "2027-02-13",
+   "end": "2027-02-13"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-value",
+   "start": "2027-02-20",
+   "end": "2027-02-20"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-value",
+   "start": "2027-02-27",
+   "end": "2027-02-27"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-value",
+   "start": "2027-03-06",
+   "end": "2027-03-06"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-value",
+   "start": "2027-03-13",
+   "end": "2027-03-13"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-value",
+   "start": "2027-03-20",
+   "end": "2027-03-20"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-value",
+   "start": "2027-03-27",
+   "end": "2027-03-27"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-value",
+   "start": "2027-04-03",
+   "end": "2027-04-03"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-value",
+   "start": "2027-04-10",
+   "end": "2027-04-10"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-value",
+   "start": "2027-04-17",
+   "end": "2027-04-17"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-value",
+   "start": "2027-04-24",
+   "end": "2027-04-24"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-value",
+   "start": "2027-05-01",
+   "end": "2027-05-01"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-value",
+   "start": "2027-05-08",
+   "end": "2027-05-08"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-value",
+   "start": "2027-05-15",
+   "end": "2027-05-15"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-value",
+   "start": "2027-05-22",
+   "end": "2027-05-22"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-value",
+   "start": "2027-05-29",
+   "end": "2027-05-29"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-value",
+   "start": "2027-06-05",
+   "end": "2027-06-05"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-value",
+   "start": "2027-06-12",
+   "end": "2027-06-12"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-value",
+   "start": "2027-06-19",
+   "end": "2027-06-19"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-tahoe-value",
+   "start": "2027-06-26",
+   "end": "2027-06-26"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-value",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-value",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-value",
+   "start": "2027-01-16",
+   "end": "2027-01-16"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-value",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-value",
+   "start": "2026-10-03",
+   "end": "2026-10-03"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-value",
+   "start": "2026-10-10",
+   "end": "2026-10-10"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-value",
+   "start": "2026-10-17",
+   "end": "2026-10-17"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-value",
+   "start": "2026-10-24",
+   "end": "2026-10-24"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-value",
+   "start": "2026-10-31",
+   "end": "2026-10-31"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-value",
+   "start": "2026-11-07",
+   "end": "2026-11-07"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-value",
+   "start": "2026-11-14",
+   "end": "2026-11-14"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-value",
+   "start": "2026-11-21",
+   "end": "2026-11-21"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-value",
+   "start": "2026-11-28",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-value",
+   "start": "2026-12-05",
+   "end": "2026-12-05"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-value",
+   "start": "2026-12-12",
+   "end": "2026-12-12"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-value",
+   "start": "2026-12-19",
+   "end": "2026-12-19"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-value",
+   "start": "2026-12-26",
+   "end": "2026-12-26"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-value",
+   "start": "2027-01-02",
+   "end": "2027-01-02"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-value",
+   "start": "2027-01-09",
+   "end": "2027-01-09"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-value",
+   "start": "2027-01-16",
+   "end": "2027-01-16"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-value",
+   "start": "2027-01-23",
+   "end": "2027-01-23"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-value",
+   "start": "2027-01-30",
+   "end": "2027-01-30"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-value",
+   "start": "2027-02-06",
+   "end": "2027-02-06"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-value",
+   "start": "2027-02-13",
+   "end": "2027-02-13"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-value",
+   "start": "2027-02-20",
+   "end": "2027-02-20"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-value",
+   "start": "2027-02-27",
+   "end": "2027-02-27"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-value",
+   "start": "2027-03-06",
+   "end": "2027-03-06"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-value",
+   "start": "2027-03-13",
+   "end": "2027-03-13"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-value",
+   "start": "2027-03-20",
+   "end": "2027-03-20"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-value",
+   "start": "2027-03-27",
+   "end": "2027-03-27"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-value",
+   "start": "2027-04-03",
+   "end": "2027-04-03"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-value",
+   "start": "2027-04-10",
+   "end": "2027-04-10"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-value",
+   "start": "2027-04-17",
+   "end": "2027-04-17"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-value",
+   "start": "2027-04-24",
+   "end": "2027-04-24"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-value",
+   "start": "2027-05-01",
+   "end": "2027-05-01"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-value",
+   "start": "2027-05-08",
+   "end": "2027-05-08"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-value",
+   "start": "2027-05-15",
+   "end": "2027-05-15"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-value",
+   "start": "2027-05-22",
+   "end": "2027-05-22"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-value",
+   "start": "2027-05-29",
+   "end": "2027-05-29"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-value",
+   "start": "2027-06-05",
+   "end": "2027-06-05"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-value",
+   "start": "2027-06-12",
+   "end": "2027-06-12"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-value",
+   "start": "2027-06-19",
+   "end": "2027-06-19"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-tahoe-value",
+   "start": "2027-06-26",
+   "end": "2027-06-26"
+  },
+  {
+   "resortId": "keystone",
+   "passId": "epic-keystone-plus",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "keystone",
+   "passId": "epic-keystone-plus",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "keystone",
+   "passId": "epic-keystone-plus",
+   "start": "2027-01-16",
+   "end": "2027-01-16"
+  },
+  {
+   "resortId": "keystone",
+   "passId": "epic-keystone-plus",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "breckenridge",
+   "passId": "epic-keystone-plus",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "breckenridge",
+   "passId": "epic-keystone-plus",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "breckenridge",
+   "passId": "epic-keystone-plus",
+   "start": "2027-01-16",
+   "end": "2027-01-16"
+  },
+  {
+   "resortId": "breckenridge",
+   "passId": "epic-keystone-plus",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "breckenridge",
+   "passId": "epic-keystone-plus",
+   "start": "2026-08-01",
+   "end": "2027-03-31"
+  },
+  {
+   "resortId": "crested-butte",
+   "passId": "epic-keystone-plus",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "crested-butte",
+   "passId": "epic-keystone-plus",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "crested-butte",
+   "passId": "epic-keystone-plus",
+   "start": "2027-01-16",
+   "end": "2027-01-16"
+  },
+  {
+   "resortId": "crested-butte",
+   "passId": "epic-keystone-plus",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "breckenridge",
+   "passId": "epic-summit-value",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "breckenridge",
+   "passId": "epic-summit-value",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "breckenridge",
+   "passId": "epic-summit-value",
+   "start": "2027-01-16",
+   "end": "2027-01-16"
+  },
+  {
+   "resortId": "breckenridge",
+   "passId": "epic-summit-value",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-value",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-value",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-value",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-value",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-value",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-value",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-value",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-value",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-value",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-value",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-value",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-value",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-value",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-value",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-value",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-value",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "mount-sunapee",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-03",
+   "end": "2026-10-04"
+  },
+  {
+   "resortId": "mount-sunapee",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-10",
+   "end": "2026-10-11"
+  },
+  {
+   "resortId": "mount-sunapee",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-17",
+   "end": "2026-10-18"
+  },
+  {
+   "resortId": "mount-sunapee",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-24",
+   "end": "2026-10-25"
+  },
+  {
+   "resortId": "mount-sunapee",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-31",
+   "end": "2026-11-01"
+  },
+  {
+   "resortId": "mount-sunapee",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-07",
+   "end": "2026-11-08"
+  },
+  {
+   "resortId": "mount-sunapee",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-14",
+   "end": "2026-11-15"
+  },
+  {
+   "resortId": "mount-sunapee",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-21",
+   "end": "2026-11-22"
+  },
+  {
+   "resortId": "mount-sunapee",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-28",
+   "end": "2026-11-29"
+  },
+  {
+   "resortId": "mount-sunapee",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-05",
+   "end": "2026-12-06"
+  },
+  {
+   "resortId": "mount-sunapee",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-12",
+   "end": "2026-12-13"
+  },
+  {
+   "resortId": "mount-sunapee",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-19",
+   "end": "2026-12-20"
+  },
+  {
+   "resortId": "mount-sunapee",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-26",
+   "end": "2026-12-27"
+  },
+  {
+   "resortId": "mount-sunapee",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-02",
+   "end": "2027-01-03"
+  },
+  {
+   "resortId": "mount-sunapee",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-09",
+   "end": "2027-01-10"
+  },
+  {
+   "resortId": "mount-sunapee",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "mount-sunapee",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-23",
+   "end": "2027-01-24"
+  },
+  {
+   "resortId": "mount-sunapee",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-30",
+   "end": "2027-01-31"
+  },
+  {
+   "resortId": "mount-sunapee",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-06",
+   "end": "2027-02-07"
+  },
+  {
+   "resortId": "mount-sunapee",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "mount-sunapee",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-20",
+   "end": "2027-02-21"
+  },
+  {
+   "resortId": "mount-sunapee",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-27",
+   "end": "2027-02-28"
+  },
+  {
+   "resortId": "mount-sunapee",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-06",
+   "end": "2027-03-07"
+  },
+  {
+   "resortId": "mount-sunapee",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-13",
+   "end": "2027-03-14"
+  },
+  {
+   "resortId": "mount-sunapee",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-20",
+   "end": "2027-03-21"
+  },
+  {
+   "resortId": "mount-sunapee",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-27",
+   "end": "2027-03-28"
+  },
+  {
+   "resortId": "mount-sunapee",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-03",
+   "end": "2027-04-04"
+  },
+  {
+   "resortId": "mount-sunapee",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-10",
+   "end": "2027-04-11"
+  },
+  {
+   "resortId": "mount-sunapee",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-17",
+   "end": "2027-04-18"
+  },
+  {
+   "resortId": "mount-sunapee",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-24",
+   "end": "2027-04-25"
+  },
+  {
+   "resortId": "mount-sunapee",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-01",
+   "end": "2027-05-02"
+  },
+  {
+   "resortId": "mount-sunapee",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-08",
+   "end": "2027-05-09"
+  },
+  {
+   "resortId": "mount-sunapee",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-15",
+   "end": "2027-05-16"
+  },
+  {
+   "resortId": "mount-sunapee",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-22",
+   "end": "2027-05-23"
+  },
+  {
+   "resortId": "mount-sunapee",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-29",
+   "end": "2027-05-30"
+  },
+  {
+   "resortId": "mount-sunapee",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-05",
+   "end": "2027-06-06"
+  },
+  {
+   "resortId": "mount-sunapee",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-12",
+   "end": "2027-06-13"
+  },
+  {
+   "resortId": "mount-sunapee",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-19",
+   "end": "2027-06-20"
+  },
+  {
+   "resortId": "mount-sunapee",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-26",
+   "end": "2027-06-27"
+  },
+  {
+   "resortId": "attitash",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-03",
+   "end": "2026-10-04"
+  },
+  {
+   "resortId": "attitash",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-10",
+   "end": "2026-10-11"
+  },
+  {
+   "resortId": "attitash",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-17",
+   "end": "2026-10-18"
+  },
+  {
+   "resortId": "attitash",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-24",
+   "end": "2026-10-25"
+  },
+  {
+   "resortId": "attitash",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-31",
+   "end": "2026-11-01"
+  },
+  {
+   "resortId": "attitash",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-07",
+   "end": "2026-11-08"
+  },
+  {
+   "resortId": "attitash",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-14",
+   "end": "2026-11-15"
+  },
+  {
+   "resortId": "attitash",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-21",
+   "end": "2026-11-22"
+  },
+  {
+   "resortId": "attitash",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-28",
+   "end": "2026-11-29"
+  },
+  {
+   "resortId": "attitash",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-05",
+   "end": "2026-12-06"
+  },
+  {
+   "resortId": "attitash",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-12",
+   "end": "2026-12-13"
+  },
+  {
+   "resortId": "attitash",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-19",
+   "end": "2026-12-20"
+  },
+  {
+   "resortId": "attitash",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-26",
+   "end": "2026-12-27"
+  },
+  {
+   "resortId": "attitash",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-02",
+   "end": "2027-01-03"
+  },
+  {
+   "resortId": "attitash",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-09",
+   "end": "2027-01-10"
+  },
+  {
+   "resortId": "attitash",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "attitash",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-23",
+   "end": "2027-01-24"
+  },
+  {
+   "resortId": "attitash",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-30",
+   "end": "2027-01-31"
+  },
+  {
+   "resortId": "attitash",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-06",
+   "end": "2027-02-07"
+  },
+  {
+   "resortId": "attitash",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "attitash",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-20",
+   "end": "2027-02-21"
+  },
+  {
+   "resortId": "attitash",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-27",
+   "end": "2027-02-28"
+  },
+  {
+   "resortId": "attitash",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-06",
+   "end": "2027-03-07"
+  },
+  {
+   "resortId": "attitash",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-13",
+   "end": "2027-03-14"
+  },
+  {
+   "resortId": "attitash",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-20",
+   "end": "2027-03-21"
+  },
+  {
+   "resortId": "attitash",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-27",
+   "end": "2027-03-28"
+  },
+  {
+   "resortId": "attitash",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-03",
+   "end": "2027-04-04"
+  },
+  {
+   "resortId": "attitash",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-10",
+   "end": "2027-04-11"
+  },
+  {
+   "resortId": "attitash",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-17",
+   "end": "2027-04-18"
+  },
+  {
+   "resortId": "attitash",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-24",
+   "end": "2027-04-25"
+  },
+  {
+   "resortId": "attitash",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-01",
+   "end": "2027-05-02"
+  },
+  {
+   "resortId": "attitash",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-08",
+   "end": "2027-05-09"
+  },
+  {
+   "resortId": "attitash",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-15",
+   "end": "2027-05-16"
+  },
+  {
+   "resortId": "attitash",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-22",
+   "end": "2027-05-23"
+  },
+  {
+   "resortId": "attitash",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-29",
+   "end": "2027-05-30"
+  },
+  {
+   "resortId": "attitash",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-05",
+   "end": "2027-06-06"
+  },
+  {
+   "resortId": "attitash",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-12",
+   "end": "2027-06-13"
+  },
+  {
+   "resortId": "attitash",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-19",
+   "end": "2027-06-20"
+  },
+  {
+   "resortId": "attitash",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-26",
+   "end": "2027-06-27"
+  },
+  {
+   "resortId": "wildcat",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-03",
+   "end": "2026-10-04"
+  },
+  {
+   "resortId": "wildcat",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-10",
+   "end": "2026-10-11"
+  },
+  {
+   "resortId": "wildcat",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-17",
+   "end": "2026-10-18"
+  },
+  {
+   "resortId": "wildcat",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-24",
+   "end": "2026-10-25"
+  },
+  {
+   "resortId": "wildcat",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-31",
+   "end": "2026-11-01"
+  },
+  {
+   "resortId": "wildcat",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-07",
+   "end": "2026-11-08"
+  },
+  {
+   "resortId": "wildcat",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-14",
+   "end": "2026-11-15"
+  },
+  {
+   "resortId": "wildcat",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-21",
+   "end": "2026-11-22"
+  },
+  {
+   "resortId": "wildcat",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-28",
+   "end": "2026-11-29"
+  },
+  {
+   "resortId": "wildcat",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-05",
+   "end": "2026-12-06"
+  },
+  {
+   "resortId": "wildcat",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-12",
+   "end": "2026-12-13"
+  },
+  {
+   "resortId": "wildcat",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-19",
+   "end": "2026-12-20"
+  },
+  {
+   "resortId": "wildcat",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-26",
+   "end": "2026-12-27"
+  },
+  {
+   "resortId": "wildcat",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-02",
+   "end": "2027-01-03"
+  },
+  {
+   "resortId": "wildcat",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-09",
+   "end": "2027-01-10"
+  },
+  {
+   "resortId": "wildcat",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "wildcat",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-23",
+   "end": "2027-01-24"
+  },
+  {
+   "resortId": "wildcat",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-30",
+   "end": "2027-01-31"
+  },
+  {
+   "resortId": "wildcat",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-06",
+   "end": "2027-02-07"
+  },
+  {
+   "resortId": "wildcat",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "wildcat",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-20",
+   "end": "2027-02-21"
+  },
+  {
+   "resortId": "wildcat",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-27",
+   "end": "2027-02-28"
+  },
+  {
+   "resortId": "wildcat",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-06",
+   "end": "2027-03-07"
+  },
+  {
+   "resortId": "wildcat",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-13",
+   "end": "2027-03-14"
+  },
+  {
+   "resortId": "wildcat",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-20",
+   "end": "2027-03-21"
+  },
+  {
+   "resortId": "wildcat",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-27",
+   "end": "2027-03-28"
+  },
+  {
+   "resortId": "wildcat",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-03",
+   "end": "2027-04-04"
+  },
+  {
+   "resortId": "wildcat",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-10",
+   "end": "2027-04-11"
+  },
+  {
+   "resortId": "wildcat",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-17",
+   "end": "2027-04-18"
+  },
+  {
+   "resortId": "wildcat",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-24",
+   "end": "2027-04-25"
+  },
+  {
+   "resortId": "wildcat",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-01",
+   "end": "2027-05-02"
+  },
+  {
+   "resortId": "wildcat",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-08",
+   "end": "2027-05-09"
+  },
+  {
+   "resortId": "wildcat",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-15",
+   "end": "2027-05-16"
+  },
+  {
+   "resortId": "wildcat",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-22",
+   "end": "2027-05-23"
+  },
+  {
+   "resortId": "wildcat",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-29",
+   "end": "2027-05-30"
+  },
+  {
+   "resortId": "wildcat",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-05",
+   "end": "2027-06-06"
+  },
+  {
+   "resortId": "wildcat",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-12",
+   "end": "2027-06-13"
+  },
+  {
+   "resortId": "wildcat",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-19",
+   "end": "2027-06-20"
+  },
+  {
+   "resortId": "wildcat",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-26",
+   "end": "2027-06-27"
+  },
+  {
+   "resortId": "crotched",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-03",
+   "end": "2026-10-04"
+  },
+  {
+   "resortId": "crotched",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-10",
+   "end": "2026-10-11"
+  },
+  {
+   "resortId": "crotched",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-17",
+   "end": "2026-10-18"
+  },
+  {
+   "resortId": "crotched",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-24",
+   "end": "2026-10-25"
+  },
+  {
+   "resortId": "crotched",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-31",
+   "end": "2026-11-01"
+  },
+  {
+   "resortId": "crotched",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-07",
+   "end": "2026-11-08"
+  },
+  {
+   "resortId": "crotched",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-14",
+   "end": "2026-11-15"
+  },
+  {
+   "resortId": "crotched",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-21",
+   "end": "2026-11-22"
+  },
+  {
+   "resortId": "crotched",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-28",
+   "end": "2026-11-29"
+  },
+  {
+   "resortId": "crotched",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-05",
+   "end": "2026-12-06"
+  },
+  {
+   "resortId": "crotched",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-12",
+   "end": "2026-12-13"
+  },
+  {
+   "resortId": "crotched",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-19",
+   "end": "2026-12-20"
+  },
+  {
+   "resortId": "crotched",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-26",
+   "end": "2026-12-27"
+  },
+  {
+   "resortId": "crotched",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-02",
+   "end": "2027-01-03"
+  },
+  {
+   "resortId": "crotched",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-09",
+   "end": "2027-01-10"
+  },
+  {
+   "resortId": "crotched",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "crotched",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-23",
+   "end": "2027-01-24"
+  },
+  {
+   "resortId": "crotched",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-30",
+   "end": "2027-01-31"
+  },
+  {
+   "resortId": "crotched",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-06",
+   "end": "2027-02-07"
+  },
+  {
+   "resortId": "crotched",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "crotched",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-20",
+   "end": "2027-02-21"
+  },
+  {
+   "resortId": "crotched",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-27",
+   "end": "2027-02-28"
+  },
+  {
+   "resortId": "crotched",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-06",
+   "end": "2027-03-07"
+  },
+  {
+   "resortId": "crotched",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-13",
+   "end": "2027-03-14"
+  },
+  {
+   "resortId": "crotched",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-20",
+   "end": "2027-03-21"
+  },
+  {
+   "resortId": "crotched",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-27",
+   "end": "2027-03-28"
+  },
+  {
+   "resortId": "crotched",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-03",
+   "end": "2027-04-04"
+  },
+  {
+   "resortId": "crotched",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-10",
+   "end": "2027-04-11"
+  },
+  {
+   "resortId": "crotched",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-17",
+   "end": "2027-04-18"
+  },
+  {
+   "resortId": "crotched",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-24",
+   "end": "2027-04-25"
+  },
+  {
+   "resortId": "crotched",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-01",
+   "end": "2027-05-02"
+  },
+  {
+   "resortId": "crotched",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-08",
+   "end": "2027-05-09"
+  },
+  {
+   "resortId": "crotched",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-15",
+   "end": "2027-05-16"
+  },
+  {
+   "resortId": "crotched",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-22",
+   "end": "2027-05-23"
+  },
+  {
+   "resortId": "crotched",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-29",
+   "end": "2027-05-30"
+  },
+  {
+   "resortId": "crotched",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-05",
+   "end": "2027-06-06"
+  },
+  {
+   "resortId": "crotched",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-12",
+   "end": "2027-06-13"
+  },
+  {
+   "resortId": "crotched",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-19",
+   "end": "2027-06-20"
+  },
+  {
+   "resortId": "crotched",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-26",
+   "end": "2027-06-27"
+  },
+  {
+   "resortId": "liberty",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-03",
+   "end": "2026-10-04"
+  },
+  {
+   "resortId": "liberty",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-10",
+   "end": "2026-10-11"
+  },
+  {
+   "resortId": "liberty",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-17",
+   "end": "2026-10-18"
+  },
+  {
+   "resortId": "liberty",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-24",
+   "end": "2026-10-25"
+  },
+  {
+   "resortId": "liberty",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-31",
+   "end": "2026-11-01"
+  },
+  {
+   "resortId": "liberty",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-07",
+   "end": "2026-11-08"
+  },
+  {
+   "resortId": "liberty",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-14",
+   "end": "2026-11-15"
+  },
+  {
+   "resortId": "liberty",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-21",
+   "end": "2026-11-22"
+  },
+  {
+   "resortId": "liberty",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-28",
+   "end": "2026-11-29"
+  },
+  {
+   "resortId": "liberty",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-05",
+   "end": "2026-12-06"
+  },
+  {
+   "resortId": "liberty",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-12",
+   "end": "2026-12-13"
+  },
+  {
+   "resortId": "liberty",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-19",
+   "end": "2026-12-20"
+  },
+  {
+   "resortId": "liberty",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-26",
+   "end": "2026-12-27"
+  },
+  {
+   "resortId": "liberty",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-02",
+   "end": "2027-01-03"
+  },
+  {
+   "resortId": "liberty",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-09",
+   "end": "2027-01-10"
+  },
+  {
+   "resortId": "liberty",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "liberty",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-23",
+   "end": "2027-01-24"
+  },
+  {
+   "resortId": "liberty",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-30",
+   "end": "2027-01-31"
+  },
+  {
+   "resortId": "liberty",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-06",
+   "end": "2027-02-07"
+  },
+  {
+   "resortId": "liberty",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "liberty",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-20",
+   "end": "2027-02-21"
+  },
+  {
+   "resortId": "liberty",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-27",
+   "end": "2027-02-28"
+  },
+  {
+   "resortId": "liberty",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-06",
+   "end": "2027-03-07"
+  },
+  {
+   "resortId": "liberty",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-13",
+   "end": "2027-03-14"
+  },
+  {
+   "resortId": "liberty",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-20",
+   "end": "2027-03-21"
+  },
+  {
+   "resortId": "liberty",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-27",
+   "end": "2027-03-28"
+  },
+  {
+   "resortId": "liberty",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-03",
+   "end": "2027-04-04"
+  },
+  {
+   "resortId": "liberty",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-10",
+   "end": "2027-04-11"
+  },
+  {
+   "resortId": "liberty",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-17",
+   "end": "2027-04-18"
+  },
+  {
+   "resortId": "liberty",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-24",
+   "end": "2027-04-25"
+  },
+  {
+   "resortId": "liberty",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-01",
+   "end": "2027-05-02"
+  },
+  {
+   "resortId": "liberty",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-08",
+   "end": "2027-05-09"
+  },
+  {
+   "resortId": "liberty",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-15",
+   "end": "2027-05-16"
+  },
+  {
+   "resortId": "liberty",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-22",
+   "end": "2027-05-23"
+  },
+  {
+   "resortId": "liberty",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-29",
+   "end": "2027-05-30"
+  },
+  {
+   "resortId": "liberty",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-05",
+   "end": "2027-06-06"
+  },
+  {
+   "resortId": "liberty",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-12",
+   "end": "2027-06-13"
+  },
+  {
+   "resortId": "liberty",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-19",
+   "end": "2027-06-20"
+  },
+  {
+   "resortId": "liberty",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-26",
+   "end": "2027-06-27"
+  },
+  {
+   "resortId": "roundtop",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-03",
+   "end": "2026-10-04"
+  },
+  {
+   "resortId": "roundtop",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-10",
+   "end": "2026-10-11"
+  },
+  {
+   "resortId": "roundtop",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-17",
+   "end": "2026-10-18"
+  },
+  {
+   "resortId": "roundtop",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-24",
+   "end": "2026-10-25"
+  },
+  {
+   "resortId": "roundtop",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-31",
+   "end": "2026-11-01"
+  },
+  {
+   "resortId": "roundtop",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-07",
+   "end": "2026-11-08"
+  },
+  {
+   "resortId": "roundtop",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-14",
+   "end": "2026-11-15"
+  },
+  {
+   "resortId": "roundtop",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-21",
+   "end": "2026-11-22"
+  },
+  {
+   "resortId": "roundtop",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-28",
+   "end": "2026-11-29"
+  },
+  {
+   "resortId": "roundtop",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-05",
+   "end": "2026-12-06"
+  },
+  {
+   "resortId": "roundtop",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-12",
+   "end": "2026-12-13"
+  },
+  {
+   "resortId": "roundtop",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-19",
+   "end": "2026-12-20"
+  },
+  {
+   "resortId": "roundtop",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-26",
+   "end": "2026-12-27"
+  },
+  {
+   "resortId": "roundtop",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-02",
+   "end": "2027-01-03"
+  },
+  {
+   "resortId": "roundtop",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-09",
+   "end": "2027-01-10"
+  },
+  {
+   "resortId": "roundtop",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "roundtop",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-23",
+   "end": "2027-01-24"
+  },
+  {
+   "resortId": "roundtop",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-30",
+   "end": "2027-01-31"
+  },
+  {
+   "resortId": "roundtop",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-06",
+   "end": "2027-02-07"
+  },
+  {
+   "resortId": "roundtop",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "roundtop",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-20",
+   "end": "2027-02-21"
+  },
+  {
+   "resortId": "roundtop",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-27",
+   "end": "2027-02-28"
+  },
+  {
+   "resortId": "roundtop",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-06",
+   "end": "2027-03-07"
+  },
+  {
+   "resortId": "roundtop",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-13",
+   "end": "2027-03-14"
+  },
+  {
+   "resortId": "roundtop",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-20",
+   "end": "2027-03-21"
+  },
+  {
+   "resortId": "roundtop",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-27",
+   "end": "2027-03-28"
+  },
+  {
+   "resortId": "roundtop",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-03",
+   "end": "2027-04-04"
+  },
+  {
+   "resortId": "roundtop",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-10",
+   "end": "2027-04-11"
+  },
+  {
+   "resortId": "roundtop",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-17",
+   "end": "2027-04-18"
+  },
+  {
+   "resortId": "roundtop",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-24",
+   "end": "2027-04-25"
+  },
+  {
+   "resortId": "roundtop",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-01",
+   "end": "2027-05-02"
+  },
+  {
+   "resortId": "roundtop",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-08",
+   "end": "2027-05-09"
+  },
+  {
+   "resortId": "roundtop",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-15",
+   "end": "2027-05-16"
+  },
+  {
+   "resortId": "roundtop",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-22",
+   "end": "2027-05-23"
+  },
+  {
+   "resortId": "roundtop",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-29",
+   "end": "2027-05-30"
+  },
+  {
+   "resortId": "roundtop",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-05",
+   "end": "2027-06-06"
+  },
+  {
+   "resortId": "roundtop",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-12",
+   "end": "2027-06-13"
+  },
+  {
+   "resortId": "roundtop",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-19",
+   "end": "2027-06-20"
+  },
+  {
+   "resortId": "roundtop",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-26",
+   "end": "2027-06-27"
+  },
+  {
+   "resortId": "whitetail",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-03",
+   "end": "2026-10-04"
+  },
+  {
+   "resortId": "whitetail",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-10",
+   "end": "2026-10-11"
+  },
+  {
+   "resortId": "whitetail",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-17",
+   "end": "2026-10-18"
+  },
+  {
+   "resortId": "whitetail",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-24",
+   "end": "2026-10-25"
+  },
+  {
+   "resortId": "whitetail",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-31",
+   "end": "2026-11-01"
+  },
+  {
+   "resortId": "whitetail",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-07",
+   "end": "2026-11-08"
+  },
+  {
+   "resortId": "whitetail",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-14",
+   "end": "2026-11-15"
+  },
+  {
+   "resortId": "whitetail",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-21",
+   "end": "2026-11-22"
+  },
+  {
+   "resortId": "whitetail",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-28",
+   "end": "2026-11-29"
+  },
+  {
+   "resortId": "whitetail",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-05",
+   "end": "2026-12-06"
+  },
+  {
+   "resortId": "whitetail",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-12",
+   "end": "2026-12-13"
+  },
+  {
+   "resortId": "whitetail",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-19",
+   "end": "2026-12-20"
+  },
+  {
+   "resortId": "whitetail",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-26",
+   "end": "2026-12-27"
+  },
+  {
+   "resortId": "whitetail",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-02",
+   "end": "2027-01-03"
+  },
+  {
+   "resortId": "whitetail",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-09",
+   "end": "2027-01-10"
+  },
+  {
+   "resortId": "whitetail",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "whitetail",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-23",
+   "end": "2027-01-24"
+  },
+  {
+   "resortId": "whitetail",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-30",
+   "end": "2027-01-31"
+  },
+  {
+   "resortId": "whitetail",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-06",
+   "end": "2027-02-07"
+  },
+  {
+   "resortId": "whitetail",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "whitetail",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-20",
+   "end": "2027-02-21"
+  },
+  {
+   "resortId": "whitetail",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-27",
+   "end": "2027-02-28"
+  },
+  {
+   "resortId": "whitetail",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-06",
+   "end": "2027-03-07"
+  },
+  {
+   "resortId": "whitetail",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-13",
+   "end": "2027-03-14"
+  },
+  {
+   "resortId": "whitetail",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-20",
+   "end": "2027-03-21"
+  },
+  {
+   "resortId": "whitetail",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-27",
+   "end": "2027-03-28"
+  },
+  {
+   "resortId": "whitetail",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-03",
+   "end": "2027-04-04"
+  },
+  {
+   "resortId": "whitetail",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-10",
+   "end": "2027-04-11"
+  },
+  {
+   "resortId": "whitetail",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-17",
+   "end": "2027-04-18"
+  },
+  {
+   "resortId": "whitetail",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-24",
+   "end": "2027-04-25"
+  },
+  {
+   "resortId": "whitetail",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-01",
+   "end": "2027-05-02"
+  },
+  {
+   "resortId": "whitetail",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-08",
+   "end": "2027-05-09"
+  },
+  {
+   "resortId": "whitetail",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-15",
+   "end": "2027-05-16"
+  },
+  {
+   "resortId": "whitetail",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-22",
+   "end": "2027-05-23"
+  },
+  {
+   "resortId": "whitetail",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-29",
+   "end": "2027-05-30"
+  },
+  {
+   "resortId": "whitetail",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-05",
+   "end": "2027-06-06"
+  },
+  {
+   "resortId": "whitetail",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-12",
+   "end": "2027-06-13"
+  },
+  {
+   "resortId": "whitetail",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-19",
+   "end": "2027-06-20"
+  },
+  {
+   "resortId": "whitetail",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-26",
+   "end": "2027-06-27"
+  },
+  {
+   "resortId": "jack-frost",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-03",
+   "end": "2026-10-04"
+  },
+  {
+   "resortId": "jack-frost",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-10",
+   "end": "2026-10-11"
+  },
+  {
+   "resortId": "jack-frost",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-17",
+   "end": "2026-10-18"
+  },
+  {
+   "resortId": "jack-frost",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-24",
+   "end": "2026-10-25"
+  },
+  {
+   "resortId": "jack-frost",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-31",
+   "end": "2026-11-01"
+  },
+  {
+   "resortId": "jack-frost",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-07",
+   "end": "2026-11-08"
+  },
+  {
+   "resortId": "jack-frost",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-14",
+   "end": "2026-11-15"
+  },
+  {
+   "resortId": "jack-frost",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-21",
+   "end": "2026-11-22"
+  },
+  {
+   "resortId": "jack-frost",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-28",
+   "end": "2026-11-29"
+  },
+  {
+   "resortId": "jack-frost",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-05",
+   "end": "2026-12-06"
+  },
+  {
+   "resortId": "jack-frost",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-12",
+   "end": "2026-12-13"
+  },
+  {
+   "resortId": "jack-frost",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-19",
+   "end": "2026-12-20"
+  },
+  {
+   "resortId": "jack-frost",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-26",
+   "end": "2026-12-27"
+  },
+  {
+   "resortId": "jack-frost",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-02",
+   "end": "2027-01-03"
+  },
+  {
+   "resortId": "jack-frost",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-09",
+   "end": "2027-01-10"
+  },
+  {
+   "resortId": "jack-frost",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "jack-frost",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-23",
+   "end": "2027-01-24"
+  },
+  {
+   "resortId": "jack-frost",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-30",
+   "end": "2027-01-31"
+  },
+  {
+   "resortId": "jack-frost",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-06",
+   "end": "2027-02-07"
+  },
+  {
+   "resortId": "jack-frost",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "jack-frost",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-20",
+   "end": "2027-02-21"
+  },
+  {
+   "resortId": "jack-frost",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-27",
+   "end": "2027-02-28"
+  },
+  {
+   "resortId": "jack-frost",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-06",
+   "end": "2027-03-07"
+  },
+  {
+   "resortId": "jack-frost",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-13",
+   "end": "2027-03-14"
+  },
+  {
+   "resortId": "jack-frost",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-20",
+   "end": "2027-03-21"
+  },
+  {
+   "resortId": "jack-frost",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-27",
+   "end": "2027-03-28"
+  },
+  {
+   "resortId": "jack-frost",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-03",
+   "end": "2027-04-04"
+  },
+  {
+   "resortId": "jack-frost",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-10",
+   "end": "2027-04-11"
+  },
+  {
+   "resortId": "jack-frost",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-17",
+   "end": "2027-04-18"
+  },
+  {
+   "resortId": "jack-frost",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-24",
+   "end": "2027-04-25"
+  },
+  {
+   "resortId": "jack-frost",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-01",
+   "end": "2027-05-02"
+  },
+  {
+   "resortId": "jack-frost",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-08",
+   "end": "2027-05-09"
+  },
+  {
+   "resortId": "jack-frost",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-15",
+   "end": "2027-05-16"
+  },
+  {
+   "resortId": "jack-frost",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-22",
+   "end": "2027-05-23"
+  },
+  {
+   "resortId": "jack-frost",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-29",
+   "end": "2027-05-30"
+  },
+  {
+   "resortId": "jack-frost",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-05",
+   "end": "2027-06-06"
+  },
+  {
+   "resortId": "jack-frost",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-12",
+   "end": "2027-06-13"
+  },
+  {
+   "resortId": "jack-frost",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-19",
+   "end": "2027-06-20"
+  },
+  {
+   "resortId": "jack-frost",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-26",
+   "end": "2027-06-27"
+  },
+  {
+   "resortId": "big-boulder",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-03",
+   "end": "2026-10-04"
+  },
+  {
+   "resortId": "big-boulder",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-10",
+   "end": "2026-10-11"
+  },
+  {
+   "resortId": "big-boulder",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-17",
+   "end": "2026-10-18"
+  },
+  {
+   "resortId": "big-boulder",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-24",
+   "end": "2026-10-25"
+  },
+  {
+   "resortId": "big-boulder",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-31",
+   "end": "2026-11-01"
+  },
+  {
+   "resortId": "big-boulder",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-07",
+   "end": "2026-11-08"
+  },
+  {
+   "resortId": "big-boulder",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-14",
+   "end": "2026-11-15"
+  },
+  {
+   "resortId": "big-boulder",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-21",
+   "end": "2026-11-22"
+  },
+  {
+   "resortId": "big-boulder",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-28",
+   "end": "2026-11-29"
+  },
+  {
+   "resortId": "big-boulder",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-05",
+   "end": "2026-12-06"
+  },
+  {
+   "resortId": "big-boulder",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-12",
+   "end": "2026-12-13"
+  },
+  {
+   "resortId": "big-boulder",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-19",
+   "end": "2026-12-20"
+  },
+  {
+   "resortId": "big-boulder",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-26",
+   "end": "2026-12-27"
+  },
+  {
+   "resortId": "big-boulder",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-02",
+   "end": "2027-01-03"
+  },
+  {
+   "resortId": "big-boulder",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-09",
+   "end": "2027-01-10"
+  },
+  {
+   "resortId": "big-boulder",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "big-boulder",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-23",
+   "end": "2027-01-24"
+  },
+  {
+   "resortId": "big-boulder",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-30",
+   "end": "2027-01-31"
+  },
+  {
+   "resortId": "big-boulder",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-06",
+   "end": "2027-02-07"
+  },
+  {
+   "resortId": "big-boulder",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "big-boulder",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-20",
+   "end": "2027-02-21"
+  },
+  {
+   "resortId": "big-boulder",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-27",
+   "end": "2027-02-28"
+  },
+  {
+   "resortId": "big-boulder",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-06",
+   "end": "2027-03-07"
+  },
+  {
+   "resortId": "big-boulder",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-13",
+   "end": "2027-03-14"
+  },
+  {
+   "resortId": "big-boulder",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-20",
+   "end": "2027-03-21"
+  },
+  {
+   "resortId": "big-boulder",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-27",
+   "end": "2027-03-28"
+  },
+  {
+   "resortId": "big-boulder",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-03",
+   "end": "2027-04-04"
+  },
+  {
+   "resortId": "big-boulder",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-10",
+   "end": "2027-04-11"
+  },
+  {
+   "resortId": "big-boulder",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-17",
+   "end": "2027-04-18"
+  },
+  {
+   "resortId": "big-boulder",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-24",
+   "end": "2027-04-25"
+  },
+  {
+   "resortId": "big-boulder",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-01",
+   "end": "2027-05-02"
+  },
+  {
+   "resortId": "big-boulder",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-08",
+   "end": "2027-05-09"
+  },
+  {
+   "resortId": "big-boulder",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-15",
+   "end": "2027-05-16"
+  },
+  {
+   "resortId": "big-boulder",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-22",
+   "end": "2027-05-23"
+  },
+  {
+   "resortId": "big-boulder",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-29",
+   "end": "2027-05-30"
+  },
+  {
+   "resortId": "big-boulder",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-05",
+   "end": "2027-06-06"
+  },
+  {
+   "resortId": "big-boulder",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-12",
+   "end": "2027-06-13"
+  },
+  {
+   "resortId": "big-boulder",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-19",
+   "end": "2027-06-20"
+  },
+  {
+   "resortId": "big-boulder",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-26",
+   "end": "2027-06-27"
+  },
+  {
+   "resortId": "seven-springs",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-03",
+   "end": "2026-10-04"
+  },
+  {
+   "resortId": "seven-springs",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-10",
+   "end": "2026-10-11"
+  },
+  {
+   "resortId": "seven-springs",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-17",
+   "end": "2026-10-18"
+  },
+  {
+   "resortId": "seven-springs",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-24",
+   "end": "2026-10-25"
+  },
+  {
+   "resortId": "seven-springs",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-31",
+   "end": "2026-11-01"
+  },
+  {
+   "resortId": "seven-springs",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-07",
+   "end": "2026-11-08"
+  },
+  {
+   "resortId": "seven-springs",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-14",
+   "end": "2026-11-15"
+  },
+  {
+   "resortId": "seven-springs",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-21",
+   "end": "2026-11-22"
+  },
+  {
+   "resortId": "seven-springs",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-28",
+   "end": "2026-11-29"
+  },
+  {
+   "resortId": "seven-springs",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-05",
+   "end": "2026-12-06"
+  },
+  {
+   "resortId": "seven-springs",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-12",
+   "end": "2026-12-13"
+  },
+  {
+   "resortId": "seven-springs",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-19",
+   "end": "2026-12-20"
+  },
+  {
+   "resortId": "seven-springs",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-26",
+   "end": "2026-12-27"
+  },
+  {
+   "resortId": "seven-springs",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-02",
+   "end": "2027-01-03"
+  },
+  {
+   "resortId": "seven-springs",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-09",
+   "end": "2027-01-10"
+  },
+  {
+   "resortId": "seven-springs",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "seven-springs",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-23",
+   "end": "2027-01-24"
+  },
+  {
+   "resortId": "seven-springs",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-30",
+   "end": "2027-01-31"
+  },
+  {
+   "resortId": "seven-springs",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-06",
+   "end": "2027-02-07"
+  },
+  {
+   "resortId": "seven-springs",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "seven-springs",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-20",
+   "end": "2027-02-21"
+  },
+  {
+   "resortId": "seven-springs",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-27",
+   "end": "2027-02-28"
+  },
+  {
+   "resortId": "seven-springs",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-06",
+   "end": "2027-03-07"
+  },
+  {
+   "resortId": "seven-springs",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-13",
+   "end": "2027-03-14"
+  },
+  {
+   "resortId": "seven-springs",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-20",
+   "end": "2027-03-21"
+  },
+  {
+   "resortId": "seven-springs",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-27",
+   "end": "2027-03-28"
+  },
+  {
+   "resortId": "seven-springs",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-03",
+   "end": "2027-04-04"
+  },
+  {
+   "resortId": "seven-springs",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-10",
+   "end": "2027-04-11"
+  },
+  {
+   "resortId": "seven-springs",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-17",
+   "end": "2027-04-18"
+  },
+  {
+   "resortId": "seven-springs",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-24",
+   "end": "2027-04-25"
+  },
+  {
+   "resortId": "seven-springs",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-01",
+   "end": "2027-05-02"
+  },
+  {
+   "resortId": "seven-springs",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-08",
+   "end": "2027-05-09"
+  },
+  {
+   "resortId": "seven-springs",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-15",
+   "end": "2027-05-16"
+  },
+  {
+   "resortId": "seven-springs",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-22",
+   "end": "2027-05-23"
+  },
+  {
+   "resortId": "seven-springs",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-29",
+   "end": "2027-05-30"
+  },
+  {
+   "resortId": "seven-springs",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-05",
+   "end": "2027-06-06"
+  },
+  {
+   "resortId": "seven-springs",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-12",
+   "end": "2027-06-13"
+  },
+  {
+   "resortId": "seven-springs",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-19",
+   "end": "2027-06-20"
+  },
+  {
+   "resortId": "seven-springs",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-26",
+   "end": "2027-06-27"
+  },
+  {
+   "resortId": "laurel-mountain",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-03",
+   "end": "2026-10-04"
+  },
+  {
+   "resortId": "laurel-mountain",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-10",
+   "end": "2026-10-11"
+  },
+  {
+   "resortId": "laurel-mountain",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-17",
+   "end": "2026-10-18"
+  },
+  {
+   "resortId": "laurel-mountain",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-24",
+   "end": "2026-10-25"
+  },
+  {
+   "resortId": "laurel-mountain",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-31",
+   "end": "2026-11-01"
+  },
+  {
+   "resortId": "laurel-mountain",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-07",
+   "end": "2026-11-08"
+  },
+  {
+   "resortId": "laurel-mountain",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-14",
+   "end": "2026-11-15"
+  },
+  {
+   "resortId": "laurel-mountain",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-21",
+   "end": "2026-11-22"
+  },
+  {
+   "resortId": "laurel-mountain",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-28",
+   "end": "2026-11-29"
+  },
+  {
+   "resortId": "laurel-mountain",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-05",
+   "end": "2026-12-06"
+  },
+  {
+   "resortId": "laurel-mountain",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-12",
+   "end": "2026-12-13"
+  },
+  {
+   "resortId": "laurel-mountain",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-19",
+   "end": "2026-12-20"
+  },
+  {
+   "resortId": "laurel-mountain",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-26",
+   "end": "2026-12-27"
+  },
+  {
+   "resortId": "laurel-mountain",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-02",
+   "end": "2027-01-03"
+  },
+  {
+   "resortId": "laurel-mountain",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-09",
+   "end": "2027-01-10"
+  },
+  {
+   "resortId": "laurel-mountain",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "laurel-mountain",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-23",
+   "end": "2027-01-24"
+  },
+  {
+   "resortId": "laurel-mountain",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-30",
+   "end": "2027-01-31"
+  },
+  {
+   "resortId": "laurel-mountain",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-06",
+   "end": "2027-02-07"
+  },
+  {
+   "resortId": "laurel-mountain",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "laurel-mountain",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-20",
+   "end": "2027-02-21"
+  },
+  {
+   "resortId": "laurel-mountain",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-27",
+   "end": "2027-02-28"
+  },
+  {
+   "resortId": "laurel-mountain",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-06",
+   "end": "2027-03-07"
+  },
+  {
+   "resortId": "laurel-mountain",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-13",
+   "end": "2027-03-14"
+  },
+  {
+   "resortId": "laurel-mountain",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-20",
+   "end": "2027-03-21"
+  },
+  {
+   "resortId": "laurel-mountain",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-27",
+   "end": "2027-03-28"
+  },
+  {
+   "resortId": "laurel-mountain",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-03",
+   "end": "2027-04-04"
+  },
+  {
+   "resortId": "laurel-mountain",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-10",
+   "end": "2027-04-11"
+  },
+  {
+   "resortId": "laurel-mountain",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-17",
+   "end": "2027-04-18"
+  },
+  {
+   "resortId": "laurel-mountain",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-24",
+   "end": "2027-04-25"
+  },
+  {
+   "resortId": "laurel-mountain",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-01",
+   "end": "2027-05-02"
+  },
+  {
+   "resortId": "laurel-mountain",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-08",
+   "end": "2027-05-09"
+  },
+  {
+   "resortId": "laurel-mountain",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-15",
+   "end": "2027-05-16"
+  },
+  {
+   "resortId": "laurel-mountain",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-22",
+   "end": "2027-05-23"
+  },
+  {
+   "resortId": "laurel-mountain",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-29",
+   "end": "2027-05-30"
+  },
+  {
+   "resortId": "laurel-mountain",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-05",
+   "end": "2027-06-06"
+  },
+  {
+   "resortId": "laurel-mountain",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-12",
+   "end": "2027-06-13"
+  },
+  {
+   "resortId": "laurel-mountain",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-19",
+   "end": "2027-06-20"
+  },
+  {
+   "resortId": "laurel-mountain",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-26",
+   "end": "2027-06-27"
+  },
+  {
+   "resortId": "hidden-valley-pa",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-03",
+   "end": "2026-10-04"
+  },
+  {
+   "resortId": "hidden-valley-pa",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-10",
+   "end": "2026-10-11"
+  },
+  {
+   "resortId": "hidden-valley-pa",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-17",
+   "end": "2026-10-18"
+  },
+  {
+   "resortId": "hidden-valley-pa",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-24",
+   "end": "2026-10-25"
+  },
+  {
+   "resortId": "hidden-valley-pa",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-31",
+   "end": "2026-11-01"
+  },
+  {
+   "resortId": "hidden-valley-pa",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-07",
+   "end": "2026-11-08"
+  },
+  {
+   "resortId": "hidden-valley-pa",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-14",
+   "end": "2026-11-15"
+  },
+  {
+   "resortId": "hidden-valley-pa",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-21",
+   "end": "2026-11-22"
+  },
+  {
+   "resortId": "hidden-valley-pa",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-28",
+   "end": "2026-11-29"
+  },
+  {
+   "resortId": "hidden-valley-pa",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-05",
+   "end": "2026-12-06"
+  },
+  {
+   "resortId": "hidden-valley-pa",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-12",
+   "end": "2026-12-13"
+  },
+  {
+   "resortId": "hidden-valley-pa",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-19",
+   "end": "2026-12-20"
+  },
+  {
+   "resortId": "hidden-valley-pa",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-26",
+   "end": "2026-12-27"
+  },
+  {
+   "resortId": "hidden-valley-pa",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-02",
+   "end": "2027-01-03"
+  },
+  {
+   "resortId": "hidden-valley-pa",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-09",
+   "end": "2027-01-10"
+  },
+  {
+   "resortId": "hidden-valley-pa",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "hidden-valley-pa",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-23",
+   "end": "2027-01-24"
+  },
+  {
+   "resortId": "hidden-valley-pa",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-30",
+   "end": "2027-01-31"
+  },
+  {
+   "resortId": "hidden-valley-pa",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-06",
+   "end": "2027-02-07"
+  },
+  {
+   "resortId": "hidden-valley-pa",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "hidden-valley-pa",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-20",
+   "end": "2027-02-21"
+  },
+  {
+   "resortId": "hidden-valley-pa",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-27",
+   "end": "2027-02-28"
+  },
+  {
+   "resortId": "hidden-valley-pa",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-06",
+   "end": "2027-03-07"
+  },
+  {
+   "resortId": "hidden-valley-pa",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-13",
+   "end": "2027-03-14"
+  },
+  {
+   "resortId": "hidden-valley-pa",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-20",
+   "end": "2027-03-21"
+  },
+  {
+   "resortId": "hidden-valley-pa",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-27",
+   "end": "2027-03-28"
+  },
+  {
+   "resortId": "hidden-valley-pa",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-03",
+   "end": "2027-04-04"
+  },
+  {
+   "resortId": "hidden-valley-pa",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-10",
+   "end": "2027-04-11"
+  },
+  {
+   "resortId": "hidden-valley-pa",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-17",
+   "end": "2027-04-18"
+  },
+  {
+   "resortId": "hidden-valley-pa",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-24",
+   "end": "2027-04-25"
+  },
+  {
+   "resortId": "hidden-valley-pa",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-01",
+   "end": "2027-05-02"
+  },
+  {
+   "resortId": "hidden-valley-pa",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-08",
+   "end": "2027-05-09"
+  },
+  {
+   "resortId": "hidden-valley-pa",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-15",
+   "end": "2027-05-16"
+  },
+  {
+   "resortId": "hidden-valley-pa",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-22",
+   "end": "2027-05-23"
+  },
+  {
+   "resortId": "hidden-valley-pa",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-29",
+   "end": "2027-05-30"
+  },
+  {
+   "resortId": "hidden-valley-pa",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-05",
+   "end": "2027-06-06"
+  },
+  {
+   "resortId": "hidden-valley-pa",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-12",
+   "end": "2027-06-13"
+  },
+  {
+   "resortId": "hidden-valley-pa",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-19",
+   "end": "2027-06-20"
+  },
+  {
+   "resortId": "hidden-valley-pa",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-26",
+   "end": "2027-06-27"
+  },
+  {
+   "resortId": "mt-brighton",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-03",
+   "end": "2026-10-04"
+  },
+  {
+   "resortId": "mt-brighton",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-10",
+   "end": "2026-10-11"
+  },
+  {
+   "resortId": "mt-brighton",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-17",
+   "end": "2026-10-18"
+  },
+  {
+   "resortId": "mt-brighton",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-24",
+   "end": "2026-10-25"
+  },
+  {
+   "resortId": "mt-brighton",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-31",
+   "end": "2026-11-01"
+  },
+  {
+   "resortId": "mt-brighton",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-07",
+   "end": "2026-11-08"
+  },
+  {
+   "resortId": "mt-brighton",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-14",
+   "end": "2026-11-15"
+  },
+  {
+   "resortId": "mt-brighton",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-21",
+   "end": "2026-11-22"
+  },
+  {
+   "resortId": "mt-brighton",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-28",
+   "end": "2026-11-29"
+  },
+  {
+   "resortId": "mt-brighton",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-05",
+   "end": "2026-12-06"
+  },
+  {
+   "resortId": "mt-brighton",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-12",
+   "end": "2026-12-13"
+  },
+  {
+   "resortId": "mt-brighton",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-19",
+   "end": "2026-12-20"
+  },
+  {
+   "resortId": "mt-brighton",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-26",
+   "end": "2026-12-27"
+  },
+  {
+   "resortId": "mt-brighton",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-02",
+   "end": "2027-01-03"
+  },
+  {
+   "resortId": "mt-brighton",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-09",
+   "end": "2027-01-10"
+  },
+  {
+   "resortId": "mt-brighton",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "mt-brighton",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-23",
+   "end": "2027-01-24"
+  },
+  {
+   "resortId": "mt-brighton",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-30",
+   "end": "2027-01-31"
+  },
+  {
+   "resortId": "mt-brighton",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-06",
+   "end": "2027-02-07"
+  },
+  {
+   "resortId": "mt-brighton",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "mt-brighton",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-20",
+   "end": "2027-02-21"
+  },
+  {
+   "resortId": "mt-brighton",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-27",
+   "end": "2027-02-28"
+  },
+  {
+   "resortId": "mt-brighton",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-06",
+   "end": "2027-03-07"
+  },
+  {
+   "resortId": "mt-brighton",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-13",
+   "end": "2027-03-14"
+  },
+  {
+   "resortId": "mt-brighton",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-20",
+   "end": "2027-03-21"
+  },
+  {
+   "resortId": "mt-brighton",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-27",
+   "end": "2027-03-28"
+  },
+  {
+   "resortId": "mt-brighton",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-03",
+   "end": "2027-04-04"
+  },
+  {
+   "resortId": "mt-brighton",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-10",
+   "end": "2027-04-11"
+  },
+  {
+   "resortId": "mt-brighton",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-17",
+   "end": "2027-04-18"
+  },
+  {
+   "resortId": "mt-brighton",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-24",
+   "end": "2027-04-25"
+  },
+  {
+   "resortId": "mt-brighton",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-01",
+   "end": "2027-05-02"
+  },
+  {
+   "resortId": "mt-brighton",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-08",
+   "end": "2027-05-09"
+  },
+  {
+   "resortId": "mt-brighton",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-15",
+   "end": "2027-05-16"
+  },
+  {
+   "resortId": "mt-brighton",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-22",
+   "end": "2027-05-23"
+  },
+  {
+   "resortId": "mt-brighton",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-29",
+   "end": "2027-05-30"
+  },
+  {
+   "resortId": "mt-brighton",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-05",
+   "end": "2027-06-06"
+  },
+  {
+   "resortId": "mt-brighton",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-12",
+   "end": "2027-06-13"
+  },
+  {
+   "resortId": "mt-brighton",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-19",
+   "end": "2027-06-20"
+  },
+  {
+   "resortId": "mt-brighton",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-26",
+   "end": "2027-06-27"
+  },
+  {
+   "resortId": "alpine-valley-oh",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-03",
+   "end": "2026-10-04"
+  },
+  {
+   "resortId": "alpine-valley-oh",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-10",
+   "end": "2026-10-11"
+  },
+  {
+   "resortId": "alpine-valley-oh",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-17",
+   "end": "2026-10-18"
+  },
+  {
+   "resortId": "alpine-valley-oh",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-24",
+   "end": "2026-10-25"
+  },
+  {
+   "resortId": "alpine-valley-oh",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-31",
+   "end": "2026-11-01"
+  },
+  {
+   "resortId": "alpine-valley-oh",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-07",
+   "end": "2026-11-08"
+  },
+  {
+   "resortId": "alpine-valley-oh",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-14",
+   "end": "2026-11-15"
+  },
+  {
+   "resortId": "alpine-valley-oh",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-21",
+   "end": "2026-11-22"
+  },
+  {
+   "resortId": "alpine-valley-oh",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-28",
+   "end": "2026-11-29"
+  },
+  {
+   "resortId": "alpine-valley-oh",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-05",
+   "end": "2026-12-06"
+  },
+  {
+   "resortId": "alpine-valley-oh",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-12",
+   "end": "2026-12-13"
+  },
+  {
+   "resortId": "alpine-valley-oh",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-19",
+   "end": "2026-12-20"
+  },
+  {
+   "resortId": "alpine-valley-oh",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-26",
+   "end": "2026-12-27"
+  },
+  {
+   "resortId": "alpine-valley-oh",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-02",
+   "end": "2027-01-03"
+  },
+  {
+   "resortId": "alpine-valley-oh",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-09",
+   "end": "2027-01-10"
+  },
+  {
+   "resortId": "alpine-valley-oh",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "alpine-valley-oh",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-23",
+   "end": "2027-01-24"
+  },
+  {
+   "resortId": "alpine-valley-oh",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-30",
+   "end": "2027-01-31"
+  },
+  {
+   "resortId": "alpine-valley-oh",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-06",
+   "end": "2027-02-07"
+  },
+  {
+   "resortId": "alpine-valley-oh",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "alpine-valley-oh",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-20",
+   "end": "2027-02-21"
+  },
+  {
+   "resortId": "alpine-valley-oh",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-27",
+   "end": "2027-02-28"
+  },
+  {
+   "resortId": "alpine-valley-oh",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-06",
+   "end": "2027-03-07"
+  },
+  {
+   "resortId": "alpine-valley-oh",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-13",
+   "end": "2027-03-14"
+  },
+  {
+   "resortId": "alpine-valley-oh",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-20",
+   "end": "2027-03-21"
+  },
+  {
+   "resortId": "alpine-valley-oh",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-27",
+   "end": "2027-03-28"
+  },
+  {
+   "resortId": "alpine-valley-oh",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-03",
+   "end": "2027-04-04"
+  },
+  {
+   "resortId": "alpine-valley-oh",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-10",
+   "end": "2027-04-11"
+  },
+  {
+   "resortId": "alpine-valley-oh",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-17",
+   "end": "2027-04-18"
+  },
+  {
+   "resortId": "alpine-valley-oh",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-24",
+   "end": "2027-04-25"
+  },
+  {
+   "resortId": "alpine-valley-oh",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-01",
+   "end": "2027-05-02"
+  },
+  {
+   "resortId": "alpine-valley-oh",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-08",
+   "end": "2027-05-09"
+  },
+  {
+   "resortId": "alpine-valley-oh",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-15",
+   "end": "2027-05-16"
+  },
+  {
+   "resortId": "alpine-valley-oh",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-22",
+   "end": "2027-05-23"
+  },
+  {
+   "resortId": "alpine-valley-oh",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-29",
+   "end": "2027-05-30"
+  },
+  {
+   "resortId": "alpine-valley-oh",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-05",
+   "end": "2027-06-06"
+  },
+  {
+   "resortId": "alpine-valley-oh",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-12",
+   "end": "2027-06-13"
+  },
+  {
+   "resortId": "alpine-valley-oh",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-19",
+   "end": "2027-06-20"
+  },
+  {
+   "resortId": "alpine-valley-oh",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-26",
+   "end": "2027-06-27"
+  },
+  {
+   "resortId": "boston-mills",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-03",
+   "end": "2026-10-04"
+  },
+  {
+   "resortId": "boston-mills",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-10",
+   "end": "2026-10-11"
+  },
+  {
+   "resortId": "boston-mills",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-17",
+   "end": "2026-10-18"
+  },
+  {
+   "resortId": "boston-mills",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-24",
+   "end": "2026-10-25"
+  },
+  {
+   "resortId": "boston-mills",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-31",
+   "end": "2026-11-01"
+  },
+  {
+   "resortId": "boston-mills",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-07",
+   "end": "2026-11-08"
+  },
+  {
+   "resortId": "boston-mills",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-14",
+   "end": "2026-11-15"
+  },
+  {
+   "resortId": "boston-mills",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-21",
+   "end": "2026-11-22"
+  },
+  {
+   "resortId": "boston-mills",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-28",
+   "end": "2026-11-29"
+  },
+  {
+   "resortId": "boston-mills",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-05",
+   "end": "2026-12-06"
+  },
+  {
+   "resortId": "boston-mills",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-12",
+   "end": "2026-12-13"
+  },
+  {
+   "resortId": "boston-mills",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-19",
+   "end": "2026-12-20"
+  },
+  {
+   "resortId": "boston-mills",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-26",
+   "end": "2026-12-27"
+  },
+  {
+   "resortId": "boston-mills",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-02",
+   "end": "2027-01-03"
+  },
+  {
+   "resortId": "boston-mills",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-09",
+   "end": "2027-01-10"
+  },
+  {
+   "resortId": "boston-mills",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "boston-mills",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-23",
+   "end": "2027-01-24"
+  },
+  {
+   "resortId": "boston-mills",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-30",
+   "end": "2027-01-31"
+  },
+  {
+   "resortId": "boston-mills",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-06",
+   "end": "2027-02-07"
+  },
+  {
+   "resortId": "boston-mills",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "boston-mills",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-20",
+   "end": "2027-02-21"
+  },
+  {
+   "resortId": "boston-mills",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-27",
+   "end": "2027-02-28"
+  },
+  {
+   "resortId": "boston-mills",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-06",
+   "end": "2027-03-07"
+  },
+  {
+   "resortId": "boston-mills",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-13",
+   "end": "2027-03-14"
+  },
+  {
+   "resortId": "boston-mills",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-20",
+   "end": "2027-03-21"
+  },
+  {
+   "resortId": "boston-mills",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-27",
+   "end": "2027-03-28"
+  },
+  {
+   "resortId": "boston-mills",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-03",
+   "end": "2027-04-04"
+  },
+  {
+   "resortId": "boston-mills",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-10",
+   "end": "2027-04-11"
+  },
+  {
+   "resortId": "boston-mills",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-17",
+   "end": "2027-04-18"
+  },
+  {
+   "resortId": "boston-mills",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-24",
+   "end": "2027-04-25"
+  },
+  {
+   "resortId": "boston-mills",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-01",
+   "end": "2027-05-02"
+  },
+  {
+   "resortId": "boston-mills",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-08",
+   "end": "2027-05-09"
+  },
+  {
+   "resortId": "boston-mills",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-15",
+   "end": "2027-05-16"
+  },
+  {
+   "resortId": "boston-mills",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-22",
+   "end": "2027-05-23"
+  },
+  {
+   "resortId": "boston-mills",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-29",
+   "end": "2027-05-30"
+  },
+  {
+   "resortId": "boston-mills",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-05",
+   "end": "2027-06-06"
+  },
+  {
+   "resortId": "boston-mills",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-12",
+   "end": "2027-06-13"
+  },
+  {
+   "resortId": "boston-mills",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-19",
+   "end": "2027-06-20"
+  },
+  {
+   "resortId": "boston-mills",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-26",
+   "end": "2027-06-27"
+  },
+  {
+   "resortId": "mad-river",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-03",
+   "end": "2026-10-04"
+  },
+  {
+   "resortId": "mad-river",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-10",
+   "end": "2026-10-11"
+  },
+  {
+   "resortId": "mad-river",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-17",
+   "end": "2026-10-18"
+  },
+  {
+   "resortId": "mad-river",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-24",
+   "end": "2026-10-25"
+  },
+  {
+   "resortId": "mad-river",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-31",
+   "end": "2026-11-01"
+  },
+  {
+   "resortId": "mad-river",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-07",
+   "end": "2026-11-08"
+  },
+  {
+   "resortId": "mad-river",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-14",
+   "end": "2026-11-15"
+  },
+  {
+   "resortId": "mad-river",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-21",
+   "end": "2026-11-22"
+  },
+  {
+   "resortId": "mad-river",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-28",
+   "end": "2026-11-29"
+  },
+  {
+   "resortId": "mad-river",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-05",
+   "end": "2026-12-06"
+  },
+  {
+   "resortId": "mad-river",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-12",
+   "end": "2026-12-13"
+  },
+  {
+   "resortId": "mad-river",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-19",
+   "end": "2026-12-20"
+  },
+  {
+   "resortId": "mad-river",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-26",
+   "end": "2026-12-27"
+  },
+  {
+   "resortId": "mad-river",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-02",
+   "end": "2027-01-03"
+  },
+  {
+   "resortId": "mad-river",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-09",
+   "end": "2027-01-10"
+  },
+  {
+   "resortId": "mad-river",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "mad-river",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-23",
+   "end": "2027-01-24"
+  },
+  {
+   "resortId": "mad-river",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-30",
+   "end": "2027-01-31"
+  },
+  {
+   "resortId": "mad-river",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-06",
+   "end": "2027-02-07"
+  },
+  {
+   "resortId": "mad-river",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "mad-river",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-20",
+   "end": "2027-02-21"
+  },
+  {
+   "resortId": "mad-river",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-27",
+   "end": "2027-02-28"
+  },
+  {
+   "resortId": "mad-river",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-06",
+   "end": "2027-03-07"
+  },
+  {
+   "resortId": "mad-river",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-13",
+   "end": "2027-03-14"
+  },
+  {
+   "resortId": "mad-river",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-20",
+   "end": "2027-03-21"
+  },
+  {
+   "resortId": "mad-river",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-27",
+   "end": "2027-03-28"
+  },
+  {
+   "resortId": "mad-river",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-03",
+   "end": "2027-04-04"
+  },
+  {
+   "resortId": "mad-river",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-10",
+   "end": "2027-04-11"
+  },
+  {
+   "resortId": "mad-river",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-17",
+   "end": "2027-04-18"
+  },
+  {
+   "resortId": "mad-river",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-24",
+   "end": "2027-04-25"
+  },
+  {
+   "resortId": "mad-river",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-01",
+   "end": "2027-05-02"
+  },
+  {
+   "resortId": "mad-river",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-08",
+   "end": "2027-05-09"
+  },
+  {
+   "resortId": "mad-river",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-15",
+   "end": "2027-05-16"
+  },
+  {
+   "resortId": "mad-river",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-22",
+   "end": "2027-05-23"
+  },
+  {
+   "resortId": "mad-river",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-29",
+   "end": "2027-05-30"
+  },
+  {
+   "resortId": "mad-river",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-05",
+   "end": "2027-06-06"
+  },
+  {
+   "resortId": "mad-river",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-12",
+   "end": "2027-06-13"
+  },
+  {
+   "resortId": "mad-river",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-19",
+   "end": "2027-06-20"
+  },
+  {
+   "resortId": "mad-river",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-26",
+   "end": "2027-06-27"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-03",
+   "end": "2026-10-04"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-10",
+   "end": "2026-10-11"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-17",
+   "end": "2026-10-18"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-24",
+   "end": "2026-10-25"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-31",
+   "end": "2026-11-01"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-07",
+   "end": "2026-11-08"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-14",
+   "end": "2026-11-15"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-21",
+   "end": "2026-11-22"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-28",
+   "end": "2026-11-29"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-05",
+   "end": "2026-12-06"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-12",
+   "end": "2026-12-13"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-19",
+   "end": "2026-12-20"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-26",
+   "end": "2026-12-27"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-02",
+   "end": "2027-01-03"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-09",
+   "end": "2027-01-10"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-23",
+   "end": "2027-01-24"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-30",
+   "end": "2027-01-31"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-06",
+   "end": "2027-02-07"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-20",
+   "end": "2027-02-21"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-27",
+   "end": "2027-02-28"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-06",
+   "end": "2027-03-07"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-13",
+   "end": "2027-03-14"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-20",
+   "end": "2027-03-21"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-27",
+   "end": "2027-03-28"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-03",
+   "end": "2027-04-04"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-10",
+   "end": "2027-04-11"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-17",
+   "end": "2027-04-18"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-24",
+   "end": "2027-04-25"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-01",
+   "end": "2027-05-02"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-08",
+   "end": "2027-05-09"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-15",
+   "end": "2027-05-16"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-22",
+   "end": "2027-05-23"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-29",
+   "end": "2027-05-30"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-05",
+   "end": "2027-06-06"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-12",
+   "end": "2027-06-13"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-19",
+   "end": "2027-06-20"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-26",
+   "end": "2027-06-27"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-27",
+   "end": "2026-11-27"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-25",
+   "end": "2026-12-25"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-28",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-03",
+   "end": "2026-10-04"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-10",
+   "end": "2026-10-11"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-17",
+   "end": "2026-10-18"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-24",
+   "end": "2026-10-25"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-31",
+   "end": "2026-11-01"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-07",
+   "end": "2026-11-08"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-14",
+   "end": "2026-11-15"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-21",
+   "end": "2026-11-22"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-28",
+   "end": "2026-11-29"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-05",
+   "end": "2026-12-06"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-12",
+   "end": "2026-12-13"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-19",
+   "end": "2026-12-20"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-26",
+   "end": "2026-12-27"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-02",
+   "end": "2027-01-03"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-09",
+   "end": "2027-01-10"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-23",
+   "end": "2027-01-24"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-30",
+   "end": "2027-01-31"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-06",
+   "end": "2027-02-07"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-20",
+   "end": "2027-02-21"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-27",
+   "end": "2027-02-28"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-06",
+   "end": "2027-03-07"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-13",
+   "end": "2027-03-14"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-20",
+   "end": "2027-03-21"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-27",
+   "end": "2027-03-28"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-03",
+   "end": "2027-04-04"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-10",
+   "end": "2027-04-11"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-17",
+   "end": "2027-04-18"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-24",
+   "end": "2027-04-25"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-01",
+   "end": "2027-05-02"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-08",
+   "end": "2027-05-09"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-15",
+   "end": "2027-05-16"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-22",
+   "end": "2027-05-23"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-29",
+   "end": "2027-05-30"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-05",
+   "end": "2027-06-06"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-12",
+   "end": "2027-06-13"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-19",
+   "end": "2027-06-20"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-26",
+   "end": "2027-06-27"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-27",
+   "end": "2026-11-27"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-25",
+   "end": "2026-12-25"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-28",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-03",
+   "end": "2026-10-04"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-10",
+   "end": "2026-10-11"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-17",
+   "end": "2026-10-18"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-24",
+   "end": "2026-10-25"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-31",
+   "end": "2026-11-01"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-07",
+   "end": "2026-11-08"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-14",
+   "end": "2026-11-15"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-21",
+   "end": "2026-11-22"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-28",
+   "end": "2026-11-29"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-05",
+   "end": "2026-12-06"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-12",
+   "end": "2026-12-13"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-19",
+   "end": "2026-12-20"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-26",
+   "end": "2026-12-27"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-02",
+   "end": "2027-01-03"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-09",
+   "end": "2027-01-10"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-23",
+   "end": "2027-01-24"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-30",
+   "end": "2027-01-31"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-06",
+   "end": "2027-02-07"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-20",
+   "end": "2027-02-21"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-27",
+   "end": "2027-02-28"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-06",
+   "end": "2027-03-07"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-13",
+   "end": "2027-03-14"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-20",
+   "end": "2027-03-21"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-27",
+   "end": "2027-03-28"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-03",
+   "end": "2027-04-04"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-10",
+   "end": "2027-04-11"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-17",
+   "end": "2027-04-18"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-24",
+   "end": "2027-04-25"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-01",
+   "end": "2027-05-02"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-08",
+   "end": "2027-05-09"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-15",
+   "end": "2027-05-16"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-22",
+   "end": "2027-05-23"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-29",
+   "end": "2027-05-30"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-05",
+   "end": "2027-06-06"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-12",
+   "end": "2027-06-13"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-19",
+   "end": "2027-06-20"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-26",
+   "end": "2027-06-27"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-27",
+   "end": "2026-11-27"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-25",
+   "end": "2026-12-25"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-28",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-03",
+   "end": "2026-10-04"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-10",
+   "end": "2026-10-11"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-17",
+   "end": "2026-10-18"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-24",
+   "end": "2026-10-25"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-10-31",
+   "end": "2026-11-01"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-07",
+   "end": "2026-11-08"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-14",
+   "end": "2026-11-15"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-21",
+   "end": "2026-11-22"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-28",
+   "end": "2026-11-29"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-05",
+   "end": "2026-12-06"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-12",
+   "end": "2026-12-13"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-19",
+   "end": "2026-12-20"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-26",
+   "end": "2026-12-27"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-02",
+   "end": "2027-01-03"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-09",
+   "end": "2027-01-10"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-23",
+   "end": "2027-01-24"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-01-30",
+   "end": "2027-01-31"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-06",
+   "end": "2027-02-07"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-20",
+   "end": "2027-02-21"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-02-27",
+   "end": "2027-02-28"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-06",
+   "end": "2027-03-07"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-13",
+   "end": "2027-03-14"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-20",
+   "end": "2027-03-21"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-03-27",
+   "end": "2027-03-28"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-03",
+   "end": "2027-04-04"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-10",
+   "end": "2027-04-11"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-17",
+   "end": "2027-04-18"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-04-24",
+   "end": "2027-04-25"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-01",
+   "end": "2027-05-02"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-08",
+   "end": "2027-05-09"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-15",
+   "end": "2027-05-16"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-22",
+   "end": "2027-05-23"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-05-29",
+   "end": "2027-05-30"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-05",
+   "end": "2027-06-06"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-12",
+   "end": "2027-06-13"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-19",
+   "end": "2027-06-20"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-midweek",
+   "start": "2027-06-26",
+   "end": "2027-06-27"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-11-27",
+   "end": "2026-11-27"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-25",
+   "end": "2026-12-25"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-northeast-midweek",
+   "start": "2026-12-28",
+   "end": "2026-12-31"
   },
   {
    "resortId": "june",
