@@ -1,6 +1,6 @@
 # Lapin privacy policy
 
-Last updated 29 October 2026.
+Last updated 6 November 2026.
 
 Lapin: Ski Pass & Resort Log ("Lapin") is made by Burrow Works LLC. Lapin keeps your ski days on your phone.
 There are no accounts, no ads, no analytics and no tracking. Burrow Works runs no server that receives your data, and nothing you enter is sold or shared.
@@ -15,6 +15,7 @@ There are no accounts, no ads, no analytics and no tracking. Burrow Works runs n
 - Ski days you record in the app: the GPS track (time, position and height every few seconds while recording), its
   stats and the runs and lifts it matched.
 - Stored forecasts, and the resorts you told check-ins to skip.
+- Whether you have Lapin+: the last answer from Google Play (see Lapin+ below).
 
 All of this is deleted when you uninstall the app or clear its storage.
 
@@ -54,11 +55,28 @@ what's listed. As with any internet request, the service also sees your IP addre
   Google Play shows the resort's initials instead and never makes this request.
 - **Your phone's address lookup**: the town or ZIP code you type for your home location. Android's built-in geocoder
   sends it to Google to find it on the map.
+- **Google Play** (through the Play Store app on your phone): with the version from Google Play, the app asks Play
+  whether your Google account has Lapin+ and what it costs where you are. See Lapin+ below.
 - **GitHub** (raw.githubusercontent.com): the list of resorts and pass rules, at most once a day, so changes reach
   you without an app update. Nothing about you is sent with it.
 
 Buttons such as Website, Snow report and Directions open your browser or maps app. Those apps and sites have their own
 privacy policies.
+
+## Lapin+ and Google Play
+
+Lapin is free. Lapin+ is an optional subscription that adds features. It is sold and billed by Google Play:
+
+- You subscribe, pay, change plan and cancel in Google Play. Your payment details go to Google, never to Burrow Works.
+- Google Play tells the app on your phone whether your Google account has Lapin+, and the app keeps that answer on
+  your phone. It isn't part of an export or of Android's backup, so a new phone asks Google Play again.
+- Burrow Works can see the sales reports Google Play gives every developer: for example, how many people subscribed,
+  in which countries, and the order details Google shares with developers. It doesn't receive your ski days, tracks,
+  location or anything else in the app.
+- Google handles the purchase under its own privacy policy and the Google Play terms.
+
+Lapin+ never deletes anything. If it ends, what you made with it (planned days, prices you typed) stays on your phone
+and comes back if you subscribe again.
 
 ## Backups
 
