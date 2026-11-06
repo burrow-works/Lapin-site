@@ -1,6 +1,6 @@
 {
  "format": 1,
- "version": 23,
+ "version": 25,
  "season": "2026-27",
  "dataAsOf": "2026-10-22",
  "passes": [
@@ -410,6 +410,37 @@
    "hasBlackouts": false
   },
   {
+   "id": "superskicard",
+   "family": "SuperSkiCard",
+   "name": "SuperSkiCard Premium",
+   "hasBlackouts": false,
+   "renewBy": [
+    {
+     "date": "2026-12-03",
+     "label": "Presale price ends (EUR 1,049, then 1,190)",
+     "estimate": false
+    }
+   ]
+  },
+  {
+   "id": "magic-pass",
+   "family": "Magic Pass",
+   "name": "Magic Pass",
+   "hasBlackouts": false,
+   "renewBy": [
+    {
+     "date": "2026-12-08",
+     "label": "Current price ends (CHF 786, rising to 944)",
+     "estimate": false
+    },
+    {
+     "date": "2027-03-15",
+     "label": "27/28 passes on sale at the lowest price",
+     "estimate": true
+    }
+   ]
+  },
+  {
    "id": "epic-day",
    "family": "Epic",
    "name": "Epic Day Pass",
@@ -615,6 +646,44 @@
    }
   },
   {
+   "id": "aeschiallmend",
+   "name": "Aeschiallmend",
+   "state": "Bern",
+   "country": "CH",
+   "lat": 46.64625,
+   "lon": 7.73335,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 1530,
+   "lifts": 4,
+   "baseM": 914,
+   "topM": 1381,
+   "website": "https://www.skilift-aeschiried.ch/",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A small area above Aeschi near Lake Thun, about 910 to 1,380 m on four lifts, with views over the lake.",
+    "tags": [
+     "Family friendly",
+     "Views"
+    ],
+    "source": "https://openskimap.org/?obj=cdae8f15a1a4998399e9242698f79fa7feab135b",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.64533,
+    "lon": 7.73353,
+    "radiusM": 1105
+   }
+  },
+  {
    "id": "afton-alps",
    "name": "Afton Alps",
    "state": "MN",
@@ -663,6 +732,50 @@
    }
   },
   {
+   "id": "almenwelt-lofer",
+   "name": "Almenwelt Lofer",
+   "state": "Salzburg",
+   "country": "AT",
+   "lat": 47.60251,
+   "lon": 12.65805,
+   "access": [
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
+    }
+   ],
+   "verticalFt": 3430,
+   "lifts": 11,
+   "baseM": 628,
+   "topM": 1674,
+   "website": "https://www.skialm-lofer.com/",
+   "runMix": [
+    11,
+    10,
+    3,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Above Lofer in Salzburg's Saalachtal, part of the 3 Länder Freizeit Arena, running from about 630 to 1,670 m on 11 lifts with mostly easy and intermediate runs.",
+    "tags": [
+     "Family friendly",
+     "Good for beginners"
+    ],
+    "source": "https://openskimap.org/?obj=2774ee9df926487819e252679b539a79fd2024a0",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 47.60203,
+    "lon": 12.66438,
+    "radiusM": 2241
+   }
+  },
+  {
    "id": "alpe-cimbra",
    "name": "Alpe Cimbra (Folgaria-Lavarone)",
    "state": "Trentino",
@@ -706,6 +819,49 @@
     "lat": 45.91694,
     "lon": 11.23972,
     "radiusM": 7500
+   }
+  },
+  {
+   "id": "devero",
+   "name": "Alpe Devero",
+   "state": "Piedmont",
+   "country": "IT",
+   "lat": 46.30849,
+   "lon": 8.25434,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 1840,
+   "lifts": 5,
+   "baseM": 1640,
+   "topM": 2201,
+   "runMix": [
+    2,
+    2,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Alpe Devero in Piedmont's Ossola, a natural park basin with a few lifts from about 1,640 to 2,200 m.",
+    "tags": [
+     "Uncrowded",
+     "Views"
+    ],
+    "source": "https://openskimap.org/?obj=57efd51e547ce58c39dd45053fd694c74096df90",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.30732,
+    "lon": 8.25202,
+    "radiusM": 1086
    }
   },
   {
@@ -1216,6 +1372,45 @@
    }
   },
   {
+   "id": "ankogel",
+   "name": "Ankogel (Mallnitz)",
+   "state": "Carinthia",
+   "country": "AT",
+   "lat": 47.02838,
+   "lon": 13.19976,
+   "access": [
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
+    }
+   ],
+   "verticalFt": 4460,
+   "lifts": 6,
+   "baseM": 1271,
+   "topM": 2630,
+   "website": "https://www.ankogel-ski.at/",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Above Mallnitz in Carinthia's Hohe Tauern, about 1,270 to 2,630 m with close to 1,400 m of vertical on a handful of lifts: long, quiet runs and freeride terrain.",
+    "tags": [
+     "Uncrowded",
+     "High altitude",
+     "Big mountain"
+    ],
+    "source": "https://openskimap.org/?obj=cdf9fe4555d883edac5cf2896c70ca34ab763f95",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 47.02761,
+    "lon": 13.2004,
+    "radiusM": 2115
+   }
+  },
+  {
    "id": "antelope-butte",
    "name": "Antelope Butte",
    "state": "WY",
@@ -1267,6 +1462,51 @@
     "lat": 44.60668,
     "lon": -107.516,
     "radiusM": 793
+   }
+  },
+  {
+   "id": "anzere",
+   "name": "Anzère",
+   "state": "Valais",
+   "country": "CH",
+   "lat": 46.31361,
+   "lon": 7.40254,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 2940,
+   "lifts": 13,
+   "baseM": 1516,
+   "topM": 2411,
+   "website": "https://www.anzere.ch",
+   "runMix": [
+    35,
+    23,
+    9,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A car-free village resort on a sunny shelf above Sion, about 1,520 to 2,410 m on 13 lifts, with wide views across the Rhône valley.",
+    "tags": [
+     "Family friendly",
+     "Views",
+     "Slopeside lodging"
+    ],
+    "source": "https://openskimap.org/?obj=5715439988a962bab375e89d7fcaa86583215933",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.31396,
+    "lon": 7.40766,
+    "radiusM": 2608
    }
   },
   {
@@ -1629,6 +1869,51 @@
    }
   },
   {
+   "id": "arolla",
+   "name": "Arolla",
+   "state": "Valais",
+   "country": "CH",
+   "lat": 46.02286,
+   "lon": 7.47239,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 2950,
+   "lifts": 6,
+   "baseM": 1982,
+   "topM": 2880,
+   "website": "https://www.arolla.com/",
+   "runMix": [
+    11,
+    3,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "At the head of the Val d'Hérens below Mont Collon, one of Switzerland's highest small resorts, about 1,980 to 2,880 m on six lifts.",
+    "tags": [
+     "High altitude",
+     "Uncrowded",
+     "Views"
+    ],
+    "source": "https://openskimap.org/?obj=0ae05d0db0046278c433fc2f19c026e1431d613e",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.02319,
+    "lon": 7.46433,
+    "radiusM": 1653
+   }
+  },
+  {
    "id": "arosa-lenzerheide",
    "name": "Arosa Lenzerheide",
    "state": "Graubünden",
@@ -1779,6 +2064,50 @@
    }
   },
   {
+   "id": "axalp",
+   "name": "Axalp",
+   "state": "Bern",
+   "country": "CH",
+   "lat": 46.71583,
+   "lon": 8.04147,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 1690,
+   "lifts": 4,
+   "baseM": 1423,
+   "topM": 1937,
+   "website": "https://www.axalpsportbahnen.ch/",
+   "runMix": [
+    5,
+    1,
+    2,
+    1
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Above Brienz and its lake, about 1,420 to 1,940 m on four lifts, quiet and with wide views of the lake.",
+    "tags": [
+     "Views",
+     "Uncrowded"
+    ],
+    "source": "https://openskimap.org/?obj=e0683a5fb859192c48db792baa445ef24b238036",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.7163,
+    "lon": 8.04428,
+    "radiusM": 1189
+   }
+  },
+  {
    "id": "baldy-mountain",
    "name": "Baldy Mountain Resort",
    "state": "BC",
@@ -1831,6 +2160,43 @@
     "lat": 49.15868,
     "lon": -119.24153,
     "radiusM": 1498
+   }
+  },
+  {
+   "id": "balmberg",
+   "name": "Balmberg",
+   "state": "Solothurn",
+   "country": "CH",
+   "lat": 47.26146,
+   "lon": 7.53458,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 670,
+   "lifts": 3,
+   "baseM": 1064,
+   "topM": 1267,
+   "website": "https://www.balmberg.ch/",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "The Solothurn Jura's lifts at the Balmberg, three lifts and about 200 m of vertical.",
+    "tags": [
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=4add9c391fb15cef817112a39974847f8e0a4ba4",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 47.26241,
+    "lon": 7.53718,
+    "radiusM": 846
    }
   },
   {
@@ -2167,6 +2533,44 @@
    }
   },
   {
+   "id": "beatenberg",
+   "name": "Beatenberg-Hohwald",
+   "state": "Bern",
+   "country": "CH",
+   "lat": 46.70916,
+   "lon": 7.82199,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 1030,
+   "lifts": 3,
+   "baseM": 1290,
+   "topM": 1604,
+   "website": "https://www.skilift-hohwald.ch/",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Hohwald above Beatenberg, high over Lake Thun, three lifts and about 300 m of vertical.",
+    "tags": [
+     "Views",
+     "Family friendly"
+    ],
+    "source": "https://openskimap.org/?obj=e875d3c5adf4188fb7bed263f97f1460bff54804",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.70976,
+    "lon": 7.82129,
+    "radiusM": 882
+   }
+  },
+  {
    "id": "beaver-creek",
    "name": "Beaver Creek",
    "state": "CO",
@@ -2468,6 +2872,49 @@
     "lat": 42.6168,
     "lon": -72.87344,
     "radiusM": 990
+   }
+  },
+  {
+   "id": "bernex",
+   "name": "Bernex",
+   "state": "Haute-Savoie",
+   "country": "FR",
+   "lat": 46.35074,
+   "lon": 6.70328,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 2870,
+   "lifts": 10,
+   "baseM": 995,
+   "topM": 1870,
+   "runMix": [
+    13,
+    7,
+    4,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A Chablais village above Lake Geneva below the Dent d'Oche, about 1,000 to 1,870 m on ten lifts.",
+    "tags": [
+     "Views",
+     "Family friendly"
+    ],
+    "source": "https://openskimap.org/?obj=19b6e308caa6766b21cb00e4fb40a82c4ee1f95b",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.34667,
+    "lon": 6.70152,
+    "radiusM": 1513
    }
   },
   {
@@ -3231,6 +3678,51 @@
     "lat": 44.58022,
     "lon": -70.62224,
     "radiusM": 1052
+   }
+  },
+  {
+   "id": "belalp",
+   "name": "Blatten-Belalp",
+   "state": "Valais",
+   "country": "CH",
+   "lat": 46.37808,
+   "lon": 7.97605,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 5800,
+   "lifts": 13,
+   "baseM": 1332,
+   "topM": 3101,
+   "website": "https://www.belalp.ch/",
+   "runMix": [
+    37,
+    10,
+    13,
+    1
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Above Brig, reached by cable car from Blatten, with views over the Aletsch Glacier and nearly 1,800 m of vertical from about 1,330 to 3,100 m.",
+    "tags": [
+     "Big mountain",
+     "Views",
+     "High altitude"
+    ],
+    "source": "https://openskimap.org/?obj=e9c0a197353bef2c6ed47d85c268582cae8ad8ea",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.3828,
+    "lon": 7.97579,
+    "radiusM": 2606
    }
   },
   {
@@ -4268,6 +4760,12 @@
      "validFrom": "2026-10-01",
      "validTo": "2027-05-15",
      "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    },
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
     }
    ],
    "verticalFt": 1960,
@@ -4391,6 +4889,43 @@
     "lat": 42.67695,
     "lon": -78.69593,
     "radiusM": 818
+   }
+  },
+  {
+   "id": "bumbach",
+   "name": "Bumbach (Schangnau)",
+   "state": "Bern",
+   "country": "CH",
+   "lat": 46.80496,
+   "lon": 7.88603,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 1440,
+   "lifts": 2,
+   "baseM": 916,
+   "topM": 1355,
+   "website": "https://bumbach.jimdo.com/",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A small Emmental area at Bumbach in Schangnau, two lifts and about 440 m of vertical.",
+    "tags": [
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=dd96ad5d5d027fdc26aa2a86716dfbb71a813cd1",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.80497,
+    "lon": 7.88616,
+    "radiusM": 1092
    }
   },
   {
@@ -5455,6 +5990,44 @@
     "lat": 45.98835,
     "lon": 6.90769,
     "radiusM": 7399
+   }
+  },
+  {
+   "id": "charmey",
+   "name": "Charmey",
+   "state": "Fribourg",
+   "country": "CH",
+   "lat": 46.62772,
+   "lon": 7.20565,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 2450,
+   "lifts": 4,
+   "baseM": 871,
+   "topM": 1618,
+   "website": "https://www.charmey.ch/",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A Gruyère village area with a gondola to runs from about 870 to 1,620 m, and thermal baths in the village.",
+    "tags": [
+     "Family friendly",
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=a10f881088e5a0f7f638228f6be67fcfa2eec94a",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.62874,
+    "lon": 7.2011,
+    "radiusM": 2251
    }
   },
   {
@@ -6650,6 +7223,44 @@
    }
   },
   {
+   "id": "cret-du-puy",
+   "name": "Crêt-du-Puy",
+   "state": "Neuchâtel",
+   "country": "CH",
+   "lat": 47.09111,
+   "lon": 6.9936,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 1270,
+   "lifts": 2,
+   "baseM": 870,
+   "topM": 1256,
+   "website": "https://www.cretdupuy.com/",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A small Neuchâtel Jura area above Le Pâquier, two lifts and under 400 m of vertical.",
+    "tags": [
+     "Local vibe",
+     "Good for beginners"
+    ],
+    "source": "https://openskimap.org/?obj=2220c1fa41c7444045df8f2d333fca7aca8a3cf7",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 47.09082,
+    "lon": 6.99332,
+    "radiusM": 1062
+   }
+  },
+  {
    "id": "cuchara",
    "name": "Cuchara",
    "state": "CO",
@@ -6816,6 +7427,95 @@
     "lat": 49.39793,
     "lon": -123.202,
     "radiusM": 1502
+   }
+  },
+  {
+   "id": "krippenstein",
+   "name": "Dachstein Krippenstein (Obertraun)",
+   "state": "Upper Austria",
+   "country": "AT",
+   "lat": 47.52689,
+   "lon": 13.69018,
+   "access": [
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
+    }
+   ],
+   "verticalFt": 4830,
+   "lifts": 9,
+   "baseM": 599,
+   "topM": 2072,
+   "website": "https://dachstein-salzkammergut.com/",
+   "runMix": [
+    2,
+    4,
+    2,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Obertraun's mountain above the Hallstätter See, cable cars to about 2,070 m and almost 1,500 m of vertical; known for freeride and a long descent more than for groomers.",
+    "tags": [
+     "Big mountain",
+     "Views"
+    ],
+    "source": "https://openskimap.org/?obj=94a0f07cbc6591aa34fe575a16264667d2821934",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 47.52001,
+    "lon": 13.65461,
+    "radiusM": 4676
+   }
+  },
+  {
+   "id": "dachstein-west",
+   "name": "Dachstein West (Gosau, Russbach, Annaberg)",
+   "state": "Upper Austria",
+   "country": "AT",
+   "lat": 47.54774,
+   "lon": 13.47878,
+   "access": [
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
+    }
+   ],
+   "verticalFt": 2860,
+   "lifts": 25,
+   "baseM": 745,
+   "topM": 1616,
+   "website": "https://www.dachstein.at/",
+   "runMix": [
+    10,
+    23,
+    3,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Gosau, Russbach and Annaberg-Lungötz linked below the Gosaukamm, about 750 to 1,620 m on 25 lifts, mostly intermediate runs with Dachstein views.",
+    "tags": [
+     "Views",
+     "Varied terrain",
+     "Family friendly"
+    ],
+    "source": "https://openskimap.org/?obj=54b7a2ec9a61d19cd3a9431ddc23cc9ad5fc306e",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 47.55019,
+    "lon": 13.47609,
+    "radiusM": 4383
    }
   },
   {
@@ -7210,6 +7910,50 @@
     "lat": 48.58581,
     "lon": -114.61346,
     "radiusM": 1575
+   }
+  },
+  {
+   "id": "domobianca",
+   "name": "Domobianca",
+   "state": "Piedmont",
+   "country": "IT",
+   "lat": 46.09853,
+   "lon": 8.23882,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 2470,
+   "lifts": 10,
+   "baseM": 1090,
+   "topM": 1843,
+   "website": "http://www.domobianca.it/",
+   "runMix": [
+    1,
+    8,
+    4,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Above Domodossola in Piedmont's Ossola valley, about 1,090 to 1,840 m on ten lifts.",
+    "tags": [
+     "Local vibe",
+     "Family friendly"
+    ],
+    "source": "https://openskimap.org/?obj=d9332bf3676666dc7fb5749ff99faf2f6edc0d59",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.09818,
+    "lon": 8.23859,
+    "radiusM": 1304
    }
   },
   {
@@ -8015,6 +8759,50 @@
    }
   },
   {
+   "id": "eriz",
+   "name": "Eriz",
+   "state": "Bern",
+   "country": "CH",
+   "lat": 46.77693,
+   "lon": 7.82555,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 1060,
+   "lifts": 4,
+   "baseM": 1056,
+   "topM": 1379,
+   "website": "https://www.snowparkeriz.ch/",
+   "runMix": [
+    1,
+    1,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A small area in the Eriz valley above Lake Thun, about 1,060 to 1,380 m on four lifts.",
+    "tags": [
+     "Family friendly",
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=7608d7db48ec93b3b0d08898a19cc6d573273f92",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.77591,
+    "lon": 7.82923,
+    "radiusM": 1009
+   }
+  },
+  {
    "id": "la-thuile",
    "name": "Espace San Bernardo (La Thuile)",
    "state": "Aosta Valley",
@@ -8068,6 +8856,50 @@
     "lat": 45.69357,
     "lon": 6.91907,
     "radiusM": 3012
+   }
+  },
+  {
+   "id": "evolene",
+   "name": "Evolène",
+   "state": "Valais",
+   "country": "CH",
+   "lat": 46.115,
+   "lon": 7.45618,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 4070,
+   "lifts": 5,
+   "baseM": 1385,
+   "topM": 2625,
+   "website": "https://www.evolene-region.ch/",
+   "runMix": [
+    7,
+    7,
+    6,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "The Val d'Hérens village known for its old wooden chalets, with a small area from about 1,390 to 2,630 m and over 1,200 m of vertical.",
+    "tags": [
+     "Local vibe",
+     "Uncrowded"
+    ],
+    "source": "https://openskimap.org/?obj=da74e2b80c8a6a2a6ecfb6190149a23002b3868b",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.11561,
+    "lon": 7.45815,
+    "radiusM": 2210
    }
   },
   {
@@ -8173,6 +9005,87 @@
    }
   },
   {
+   "id": "faltschen",
+   "name": "Faltschen",
+   "state": "Bern",
+   "country": "CH",
+   "lat": 46.62769,
+   "lon": 7.72508,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 1010,
+   "lifts": 2,
+   "baseM": 1030,
+   "topM": 1339,
+   "website": "https://www.skilift-faltschen.ch/",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A small hill above Reichenbach in the Kandertal, two lifts and about 300 m of vertical.",
+    "tags": [
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=acf498aaae3fcc01d9d302f0053ce7804361abde",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.62765,
+    "lon": 7.72489,
+    "radiusM": 741
+   }
+  },
+  {
+   "id": "fanningberg",
+   "name": "Fanningberg",
+   "state": "Salzburg",
+   "country": "AT",
+   "lat": 47.16116,
+   "lon": 13.67532,
+   "access": [
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
+    }
+   ],
+   "verticalFt": 1960,
+   "lifts": 5,
+   "baseM": 1494,
+   "topM": 2090,
+   "website": "https://www.fanningberg.info/",
+   "runMix": [
+    7,
+    3,
+    4,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A small Lungau area above Mariapfarr, about 1,490 to 2,090 m on five lifts, popular with families.",
+    "tags": [
+     "Family friendly",
+     "Uncrowded"
+    ],
+    "source": "https://openskimap.org/?obj=e76c1a9500f5a340efbbf72368114f1d13939676",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 47.16341,
+    "lon": 13.67774,
+    "radiusM": 1936
+   }
+  },
+  {
    "id": "fendels",
    "name": "Fendels-Ried-Prutz",
    "state": "Tyrol",
@@ -8262,6 +9175,95 @@
     "lat": 49.45649,
     "lon": -115.10501,
     "radiusM": 2321
+   }
+  },
+  {
+   "id": "feuerkogel",
+   "name": "Feuerkogel (Ebensee)",
+   "state": "Upper Austria",
+   "country": "AT",
+   "lat": 47.81137,
+   "lon": 13.73178,
+   "access": [
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
+    }
+   ],
+   "verticalFt": 2050,
+   "lifts": 9,
+   "baseM": 1050,
+   "topM": 1676,
+   "website": "https://feuerkogel.info/",
+   "runMix": [
+    7,
+    3,
+    2,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Above Ebensee and the Traunsee, reached by cable car to a plateau at about 1,600 m with nine lifts.",
+    "tags": [
+     "Views",
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=359fe484adda3faa6e97dabffe5c7aa90364e48e",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 47.81105,
+    "lon": 13.72643,
+    "radiusM": 1296
+   }
+  },
+  {
+   "id": "filzmoos",
+   "name": "Filzmoos",
+   "state": "Salzburg",
+   "country": "AT",
+   "lat": 47.43344,
+   "lon": 13.50522,
+   "access": [
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
+    }
+   ],
+   "verticalFt": 2020,
+   "lifts": 7,
+   "baseM": 968,
+   "topM": 1585,
+   "website": "https://www.filzmoos.at/",
+   "runMix": [
+    7,
+    3,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A quiet village area below the Bischofsmütze in the Dachstein range, about 970 to 1,590 m on seven lifts with mostly easy runs.",
+    "tags": [
+     "Family friendly",
+     "Good for beginners",
+     "Views"
+    ],
+    "source": "https://openskimap.org/?obj=f9f0996b409d5b929c4bf2ecb6ea1915037b700f",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 47.43288,
+    "lon": 13.49951,
+    "radiusM": 2610
    }
   },
   {
@@ -8551,6 +9553,49 @@
    }
   },
   {
+   "id": "gurnigel",
+   "name": "Gantrisch Gurnigel",
+   "state": "Bern",
+   "country": "CH",
+   "lat": 46.72413,
+   "lon": 7.45276,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 770,
+   "lifts": 2,
+   "baseM": 1339,
+   "topM": 1575,
+   "runMix": [
+    4,
+    2,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "The Gurnigel pass in the Gantrisch nature park south of Bern, two lifts at about 1,340 to 1,580 m.",
+    "tags": [
+     "Local vibe",
+     "Nordic trails"
+    ],
+    "source": "https://openskimap.org/?obj=d011cfc746e834321d4c8f8fd4ffdb21ce106805",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.72496,
+    "lon": 7.45261,
+    "radiusM": 806
+   }
+  },
+  {
    "id": "garnet-hill-xc",
    "name": "Garnet Hill XC",
    "state": "NY",
@@ -8743,6 +9788,51 @@
    }
   },
   {
+   "id": "glacier-3000",
+   "name": "Glacier 3000",
+   "state": "Vaud",
+   "country": "CH",
+   "lat": 46.33738,
+   "lon": 7.22561,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-11-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited from 1 November to 30 April; Glacier 3000 is on the Magic Pass in winter only."
+    }
+   ],
+   "verticalFt": 4550,
+   "lifts": 17,
+   "baseM": 1545,
+   "topM": 2931,
+   "website": "https://www.glacier3000.ch/",
+   "runMix": [
+    6,
+    3,
+    6,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A glacier above the Col du Pillon, up to about 2,930 m by cable car, with the Peak Walk suspension bridge and a long run down to Reusch. On the Magic Pass in winter only.",
+    "tags": [
+     "Glacier",
+     "High altitude",
+     "Views"
+    ],
+    "source": "https://openskimap.org/?obj=de62da63231c90907f454ddbd3d8f4a280e219d4",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.33374,
+    "lon": 7.22565,
+    "radiusM": 2821
+   }
+  },
+  {
    "id": "glencoe",
    "name": "Glencoe Mountain",
    "state": "Scotland",
@@ -8847,6 +9937,50 @@
     "lat": 56.88755,
     "lon": -3.39979,
     "radiusM": 2163
+   }
+  },
+  {
+   "id": "goldegg",
+   "name": "Goldegg Buchberg",
+   "state": "Salzburg",
+   "country": "AT",
+   "lat": 47.31227,
+   "lon": 13.07591,
+   "access": [
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
+    }
+   ],
+   "verticalFt": 1280,
+   "lifts": 3,
+   "baseM": 828,
+   "topM": 1217,
+   "website": "https://www.goldeggamsee.at/familie-erlebnis/skifahren/",
+   "runMix": [
+    4,
+    0,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Goldegg's small hill above its lake in the Pongau, three lifts and easy runs for children and beginners.",
+    "tags": [
+     "Family friendly",
+     "Good for beginners"
+    ],
+    "source": "https://openskimap.org/?obj=4a2b84d3e0c4468786b72003f35098e98b0cef7d",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 47.31204,
+    "lon": 13.07333,
+    "radiusM": 1155
    }
   },
   {
@@ -9313,6 +10447,131 @@
    }
   },
   {
+   "id": "grenchenberg",
+   "name": "Grenchenberg",
+   "state": "Solothurn",
+   "country": "CH",
+   "lat": 47.22409,
+   "lon": 7.38276,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 400,
+   "lifts": 2,
+   "baseM": 1241,
+   "topM": 1363,
+   "website": "https://grenchentourismus.ch/skilift/",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Two small lifts on the Grenchenberg in the Solothurn Jura, at about 1,240 to 1,360 m.",
+    "tags": [
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=d5e325660c2f2b3075b253f460170d38b500d0e4",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 47.22369,
+    "lon": 7.38346,
+    "radiusM": 467
+   }
+  },
+  {
+   "id": "grimentz-zinal",
+   "name": "Grimentz-Zinal",
+   "state": "Valais",
+   "country": "CH",
+   "lat": 46.16488,
+   "lon": 7.57055,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 4330,
+   "lifts": 23,
+   "baseM": 1552,
+   "topM": 2873,
+   "website": "https://www.valdanniviers.ch/fr/grimentz-zinal-134.html",
+   "runMix": [
+    17,
+    20,
+    17,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Two villages in the Val d'Anniviers joined by a cable car, about 1,550 to 2,870 m on 23 lifts, with off-piste below the Corne de Sorebois.",
+    "tags": [
+     "Big mountain",
+     "Varied terrain",
+     "Views"
+    ],
+    "source": "https://openskimap.org/?obj=7fda1758b582daf60bb505e31bc3b7d5e4ce009b",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.15942,
+    "lon": 7.57455,
+    "radiusM": 5158
+   }
+  },
+  {
+   "id": "grimmialp",
+   "name": "Grimmialp",
+   "state": "Bern",
+   "country": "CH",
+   "lat": 46.55773,
+   "lon": 7.48431,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 1970,
+   "lifts": 4,
+   "baseM": 1229,
+   "topM": 1828,
+   "runMix": [
+    3,
+    1,
+    2,
+    1
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "At the head of the Diemtigtal in the Bernese Oberland, about 1,230 to 1,830 m on four lifts.",
+    "tags": [
+     "Uncrowded",
+     "Family friendly"
+    ],
+    "source": "https://openskimap.org/?obj=e9db6a1814c7a0ef68420aad334a2a5f6f2de862",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.5601,
+    "lon": 7.4842,
+    "radiusM": 1153
+   }
+  },
+  {
    "id": "grindelwald-wengen",
    "name": "Grindelwald-Wengen",
    "state": "Bern",
@@ -9389,6 +10648,94 @@
     "lat": 49.38021,
     "lon": -123.07541,
     "radiusM": 1000
+   }
+  },
+  {
+   "id": "grossarl-dorfgastein",
+   "name": "Großarltal-Dorfgastein",
+   "state": "Salzburg",
+   "country": "AT",
+   "lat": 47.24235,
+   "lon": 13.16344,
+   "access": [
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
+    }
+   ],
+   "verticalFt": 3870,
+   "lifts": 20,
+   "baseM": 847,
+   "topM": 2027,
+   "website": "https://www.grossarltal.info/",
+   "runMix": [
+    15,
+    25,
+    2,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Links the Großarl valley and Dorfgastein over the ridge between them, about 850 to 2,030 m on 20 lifts, with many long blue and red runs.",
+    "tags": [
+     "Varied terrain",
+     "Groomers"
+    ],
+    "source": "https://openskimap.org/?obj=fc89413ef26e4479473070112eb1e72e15b3d23f",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 47.23723,
+    "lon": 13.15976,
+    "radiusM": 2972
+   }
+  },
+  {
+   "id": "grosseck-speiereck",
+   "name": "Großeck-Speiereck (Lungau)",
+   "state": "Salzburg",
+   "country": "AT",
+   "lat": 47.12317,
+   "lon": 13.6525,
+   "access": [
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
+    }
+   ],
+   "verticalFt": 4130,
+   "lifts": 11,
+   "baseM": 1080,
+   "topM": 2338,
+   "website": "https://www.grosseck-speiereck.at/",
+   "runMix": [
+    3,
+    1,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "The Lungau's largest connected area, above Mauterndorf and St. Michael, from about 1,080 to 2,340 m on 11 lifts.",
+    "tags": [
+     "Varied terrain",
+     "Uncrowded"
+    ],
+    "source": "https://openskimap.org/?obj=96682590bffa8f01f852eac06bca6fa6dcea0945",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 47.12342,
+    "lon": 13.65185,
+    "radiusM": 2364
    }
   },
   {
@@ -9480,6 +10827,89 @@
    }
   },
   {
+   "id": "gspon",
+   "name": "Gspon",
+   "state": "Valais",
+   "country": "CH",
+   "lat": 46.22616,
+   "lon": 7.90794,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station. The cable car up from the valley isn't included."
+    }
+   ],
+   "verticalFt": 1070,
+   "lifts": 4,
+   "baseM": 1866,
+   "topM": 2192,
+   "website": "https://www.staldenried.ch/",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A car-free hamlet above Stalden, with a few lifts from about 1,870 to 2,190 m. The access cable car isn't on the Magic Pass.",
+    "tags": [
+     "Uncrowded",
+     "Local vibe",
+     "Views"
+    ],
+    "source": "https://openskimap.org/?obj=b609f3d86efe3e3420439e1e1298a4fd0faaf8d7",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.22539,
+    "lon": 7.90739,
+    "radiusM": 800
+   }
+  },
+  {
+   "id": "gstaad",
+   "name": "Gstaad (Bergbahnen Gstaad)",
+   "state": "Bern",
+   "country": "CH",
+   "lat": 46.4752,
+   "lon": 7.2858,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 3960,
+   "lifts": 31,
+   "baseM": 944,
+   "topM": 2152,
+   "website": "https://www.gstaad.ch/bergbahnen/",
+   "runMix": [
+    11,
+    12,
+    7,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Bergbahnen Gstaad's areas around Gstaad, Saanen, Rougemont, Schönried, Saanenmöser and Zweisimmen, about 940 to 2,150 m on about 30 lifts.",
+    "tags": [
+     "Varied terrain",
+     "Views"
+    ],
+    "source": "https://openskimap.org/?obj=6706227f52c321acb67f28aea019d52a65fdbeb0",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.48694,
+    "lon": 7.29112,
+    "radiusM": 7657
+   }
+  },
+  {
    "id": "gunstock",
    "name": "Gunstock Mountain Resort",
    "state": "NH",
@@ -9516,6 +10946,86 @@
     "lat": 43.53451,
     "lon": -71.37081,
     "radiusM": 1262
+   }
+  },
+  {
+   "id": "gurnigelbad",
+   "name": "Gurnigelbad",
+   "state": "Bern",
+   "country": "CH",
+   "lat": 46.757,
+   "lon": 7.44915,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 310,
+   "lifts": 1,
+   "baseM": 1199,
+   "topM": 1295,
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A single lift at Gurnigelbad in the Gantrisch area, under 100 m of vertical, for beginners.",
+    "tags": [
+     "Good for beginners"
+    ],
+    "source": "https://openskimap.org/?obj=29763f0996578d2d703b41341d6d9a7266918901",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.75695,
+    "lon": 7.44954,
+    "radiusM": 526
+   }
+  },
+  {
+   "id": "habkern",
+   "name": "Habkern",
+   "state": "Bern",
+   "country": "CH",
+   "lat": 46.73152,
+   "lon": 7.8537,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 1110,
+   "lifts": 1,
+   "baseM": 1133,
+   "topM": 1472,
+   "website": "https://www.skilifthabkern.ch/",
+   "runMix": [
+    1,
+    2,
+    2,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A single lift in the village of Habkern above Interlaken, with about 340 m of vertical and a local feel.",
+    "tags": [
+     "Local vibe",
+     "Uncrowded"
+    ],
+    "source": "https://openskimap.org/?obj=a9c334332416f4de546acbe9bd29444aea3abfbd",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.73161,
+    "lon": 7.8535,
+    "radiusM": 841
    }
   },
   {
@@ -10221,6 +11731,43 @@
    }
   },
   {
+   "id": "heimenschwand",
+   "name": "Heimenschwand",
+   "state": "Bern",
+   "country": "CH",
+   "lat": 46.82799,
+   "lon": 7.67894,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 570,
+   "lifts": 1,
+   "baseM": 1002,
+   "topM": 1176,
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A single lift in Heimenschwand above Thun, under 200 m of vertical, for families and beginners.",
+    "tags": [
+     "Good for beginners",
+     "Family friendly"
+    ],
+    "source": "https://openskimap.org/?obj=8c8a9c4d39a5fd71db816b5498b2f1b1f4bd56f1",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.82755,
+    "lon": 7.67747,
+    "radiusM": 593
+   }
+  },
+  {
    "id": "hemsedal",
    "name": "Hemsedal",
    "state": "Buskerud",
@@ -10255,6 +11802,45 @@
     "lat": 60.85173,
     "lon": 8.51086,
     "radiusM": 2271
+   }
+  },
+  {
+   "id": "heutal",
+   "name": "Heutal (Unken)",
+   "state": "Salzburg",
+   "country": "AT",
+   "lat": 47.66411,
+   "lon": 12.63115,
+   "access": [
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
+    }
+   ],
+   "verticalFt": 1870,
+   "lifts": 4,
+   "baseM": 961,
+   "topM": 1531,
+   "website": "https://www.natursport-heutal.at/",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A high valley above Unken near the Bavarian border, about 960 to 1,530 m on four lifts, known locally for its cross-country trails as much as its downhill runs.",
+    "tags": [
+     "Local vibe",
+     "Nordic trails",
+     "Uncrowded"
+    ],
+    "source": "https://openskimap.org/?obj=cd80ac0e9cbf0f08d1fa13538210ed1cb82e6d19",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 47.6641,
+    "lon": 12.63114,
+    "radiusM": 1592
    }
   },
   {
@@ -10466,6 +12052,50 @@
    }
   },
   {
+   "id": "hinterstoder",
+   "name": "Hinterstoder (Höss)",
+   "state": "Upper Austria",
+   "country": "AT",
+   "lat": 47.67719,
+   "lon": 14.16781,
+   "access": [
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
+    }
+   ],
+   "verticalFt": 4590,
+   "lifts": 19,
+   "baseM": 589,
+   "topM": 1987,
+   "website": "https://skisport.com/hinterstoder/",
+   "runMix": [
+    8,
+    10,
+    4,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Upper Austria's biggest area, on the Höss above Hinterstoder, about 590 to 1,990 m on 19 lifts; it has hosted World Cup races.",
+    "tags": [
+     "Racing heritage",
+     "Varied terrain"
+    ],
+    "source": "https://openskimap.org/?obj=b0bddc47ef4ca3986252ef0f2a22daa242427f15",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 47.68048,
+    "lon": 14.16765,
+    "radiusM": 2417
+   }
+  },
+  {
    "id": "hintertux",
    "name": "Hintertux Glacier",
    "state": "Tyrol",
@@ -10515,6 +12145,50 @@
     "lat": 47.08394,
     "lon": 11.66448,
     "radiusM": 3471
+   }
+  },
+  {
+   "id": "hirmentaz-haberes",
+   "name": "Hirmentaz-Les Habères",
+   "state": "Haute-Savoie",
+   "country": "FR",
+   "lat": 46.24105,
+   "lon": 6.50914,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 2180,
+   "lifts": 19,
+   "baseM": 940,
+   "topM": 1604,
+   "website": "https://hirmentaz-bellevaux.com/",
+   "runMix": [
+    19,
+    9,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Hirmentaz and Les Habères in the Vallée Verte, Haute-Savoie, about 940 to 1,600 m on 19 lifts, under an hour from Geneva.",
+    "tags": [
+     "Family friendly",
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=28bc6b32b26b2c57edacb1c31e4ebdc1ec6e518f",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.23875,
+    "lon": 6.49004,
+    "radiusM": 1793
    }
   },
   {
@@ -10610,6 +12284,138 @@
     "lat": 47.24921,
     "lon": 10.69954,
     "radiusM": 2053
+   }
+  },
+  {
+   "id": "hochficht",
+   "name": "Hochficht",
+   "state": "Upper Austria",
+   "country": "AT",
+   "lat": 48.73781,
+   "lon": 13.88505,
+   "access": [
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
+    }
+   ],
+   "verticalFt": 1560,
+   "lifts": 9,
+   "baseM": 856,
+   "topM": 1332,
+   "website": "https://www.hochficht.at/",
+   "runMix": [
+    8,
+    12,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Upper Austria's Bohemian Forest area on the Czech border, about 860 to 1,330 m on nine lifts, with cross-country trails nearby.",
+    "tags": [
+     "Family friendly",
+     "Nordic trails"
+    ],
+    "source": "https://openskimap.org/?obj=076ac97cbe83353dbe1443b863343a1c5baf1f2b",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 48.7403,
+    "lon": 13.8923,
+    "radiusM": 2330
+   }
+  },
+  {
+   "id": "hochkeil",
+   "name": "Hochkeil-Arthurhaus (Mühlbach)",
+   "state": "Salzburg",
+   "country": "AT",
+   "lat": 47.4072,
+   "lon": 13.1458,
+   "access": [
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
+    }
+   ],
+   "verticalFt": 3750,
+   "lifts": 7,
+   "baseM": 606,
+   "topM": 1748,
+   "runMix": [
+    6,
+    4,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Mühlbach's other side, from the valley up to the Arthurhaus and the Hochkeil, about 610 to 1,750 m on seven lifts.",
+    "tags": [
+     "Uncrowded",
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=f5d90b41611cc3be054334192fd94b69ae2cf280",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 47.40556,
+    "lon": 13.16495,
+    "radiusM": 3470
+   }
+  },
+  {
+   "id": "hochkonig",
+   "name": "Hochkönig (Maria Alm, Dienten, Mühlbach)",
+   "state": "Salzburg",
+   "country": "AT",
+   "lat": 47.38817,
+   "lon": 12.97103,
+   "access": [
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
+    }
+   ],
+   "verticalFt": 3570,
+   "lifts": 28,
+   "baseM": 801,
+   "topM": 1890,
+   "website": "https://www.hochkoenig.at",
+   "runMix": [
+    34,
+    21,
+    6,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Joins Maria Alm, Dienten and Mühlbach below the Hochkönig massif, about 800 to 1,890 m on 28 lifts; the Königstour circuit crosses all three villages.",
+    "tags": [
+     "Varied terrain",
+     "Views",
+     "Family friendly"
+    ],
+    "source": "https://openskimap.org/?obj=31ba9e7c28dd9574c86fa6e4c0ead48553e45ba7",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 47.38618,
+    "lon": 13.00579,
+    "radiusM": 7749
    }
   },
   {
@@ -11004,6 +12810,44 @@
    }
   },
   {
+   "id": "hohe-winde",
+   "name": "Hohe Winde",
+   "state": "Solothurn",
+   "country": "CH",
+   "lat": 47.34792,
+   "lon": 7.59366,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 970,
+   "lifts": 1,
+   "baseM": 766,
+   "topM": 1062,
+   "website": "https://www.hohe-winde.ch/",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A single lift at the Hohe Winde above Beinwil in the Solothurn Jura, with about 300 m of vertical; open Wednesday afternoons, weekends and in school holidays.",
+    "tags": [
+     "Local vibe",
+     "Uncrowded"
+    ],
+    "source": "https://openskimap.org/?obj=d007ecfc82d38110b74f5dc8015df97eefb8fa6b",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 47.34839,
+    "lon": 7.59386,
+    "radiusM": 856
+   }
+  },
+  {
    "id": "hohsaas",
    "name": "Hohsaas",
    "state": "Valais",
@@ -11138,6 +12982,43 @@
     "lat": 42.25793,
     "lon": -78.67571,
     "radiusM": 1592
+   }
+  },
+  {
+   "id": "homberg",
+   "name": "Homberg",
+   "state": "Bern",
+   "country": "CH",
+   "lat": 46.77005,
+   "lon": 7.6777,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 500,
+   "lifts": 1,
+   "baseM": 952,
+   "topM": 1103,
+   "website": "https://skilift-homberg.ch/",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A single lift at Homberg above Goldiwil near Thun, about 150 m of vertical, for beginners and families.",
+    "tags": [
+     "Good for beginners"
+    ],
+    "source": "https://openskimap.org/?obj=420cb003b9f612520eb8abda212a52c282a49523",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.76992,
+    "lon": 7.67721,
+    "radiusM": 588
    }
   },
   {
@@ -12047,6 +13928,88 @@
    }
   },
   {
+   "id": "jaun",
+   "name": "Jaun",
+   "state": "Fribourg",
+   "country": "CH",
+   "lat": 46.60224,
+   "lon": 7.28728,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 1800,
+   "lifts": 4,
+   "baseM": 1021,
+   "topM": 1570,
+   "website": "https://www.jaun.ch/",
+   "runMix": [
+    9,
+    5,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "The Jaun valley's area below the Gastlosen, about 1,020 to 1,570 m on four lifts.",
+    "tags": [
+     "Local vibe",
+     "Views"
+    ],
+    "source": "https://openskimap.org/?obj=4e5142c99424c78912f24890c8a3b827ade3c82b",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.60245,
+    "lon": 7.2872,
+    "radiusM": 1111
+   }
+  },
+  {
+   "id": "jaunpass",
+   "name": "Jaunpass",
+   "state": "Bern",
+   "country": "CH",
+   "lat": 46.59663,
+   "lon": 7.34181,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 660,
+   "lifts": 2,
+   "baseM": 1405,
+   "topM": 1606,
+   "website": "https://www.sportbahnen-jaunpass.ch/",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Two lifts on the Jaun Pass between the Simmental and Fribourg, at about 1,400 to 1,600 m.",
+    "tags": [
+     "Local vibe",
+     "Nordic trails"
+    ],
+    "source": "https://openskimap.org/?obj=37c497392c43bcd2ddd57b50c81eac60ee83385e",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.59574,
+    "lon": 7.34329,
+    "radiusM": 768
+   }
+  },
+  {
    "id": "jay-peak",
    "name": "Jay Peak",
    "state": "VT",
@@ -12112,6 +14075,51 @@
     "lat": 44.92929,
     "lon": -72.51609,
     "radiusM": 1493
+   }
+  },
+  {
+   "id": "jeizinen",
+   "name": "Jeizinen",
+   "state": "Valais",
+   "country": "CH",
+   "lat": 46.33609,
+   "lon": 7.72556,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station. The cable car up from the valley isn't included."
+    }
+   ],
+   "verticalFt": 2080,
+   "lifts": 6,
+   "baseM": 1554,
+   "topM": 2189,
+   "website": "https://www.gampel-bratsch-tourismus.ch/",
+   "runMix": [
+    2,
+    1,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A small area on a terrace above Gampel, about 1,550 to 2,190 m on six lifts. The access cable car isn't on the Magic Pass.",
+    "tags": [
+     "Local vibe",
+     "Uncrowded",
+     "Views"
+    ],
+    "source": "https://openskimap.org/?obj=83e87ebe8a1f1de9592841d5a224edcb53916952",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.33651,
+    "lon": 7.72728,
+    "radiusM": 1088
    }
   },
   {
@@ -12265,6 +14273,51 @@
    }
   },
   {
+   "id": "jura-sur-leman",
+   "name": "Jura sur Léman (La Dôle, Les Tuffes, La Serra)",
+   "state": "Jura",
+   "country": "FR",
+   "lat": 46.49541,
+   "lon": 6.0804,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 1980,
+   "lifts": 25,
+   "baseM": 1060,
+   "topM": 1663,
+   "website": "https://www.lesrousses.com/",
+   "runMix": [
+    35,
+    6,
+    3,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "The cross-border area of La Dôle and Les Tuffes above Les Rousses, with La Serra, about 1,060 to 1,660 m.",
+    "tags": [
+     "Views",
+     "Family friendly",
+     "Nordic trails"
+    ],
+    "source": "https://openskimap.org/?obj=c4b221a54713b4e084b5bae02668c68dfaf6c1e3",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.4319,
+    "lon": 6.0525,
+    "radiusM": 4713
+   }
+  },
+  {
    "id": "jochelspitze",
    "name": "Jöchelspitze (Bach, Lechtal)",
    "state": "Tyrol",
@@ -12299,6 +14352,50 @@
     "lat": 47.27124,
     "lon": 10.37473,
     "radiusM": 971
+   }
+  },
+  {
+   "id": "kaiserau",
+   "name": "Kaiserau (Admont)",
+   "state": "Styria",
+   "country": "AT",
+   "lat": 47.5278,
+   "lon": 14.48468,
+   "access": [
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
+    }
+   ],
+   "verticalFt": 770,
+   "lifts": 5,
+   "baseM": 1133,
+   "topM": 1369,
+   "website": "https://www.kaiserau.at/",
+   "runMix": [
+    4,
+    1,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A small family area on Admont's Kaiserau plateau by the Gesäuse, five lifts and easy runs.",
+    "tags": [
+     "Family friendly",
+     "Good for beginners"
+    ],
+    "source": "https://openskimap.org/?obj=46cacae41a6e0b24500b3190dfbfb8a0ab83a079",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 47.52666,
+    "lon": 14.49024,
+    "radiusM": 693
    }
   },
   {
@@ -12452,6 +14549,44 @@
    }
   },
   {
+   "id": "abtenau",
+   "name": "Karkogel (Abtenau)",
+   "state": "Salzburg",
+   "country": "AT",
+   "lat": 47.55565,
+   "lon": 13.34891,
+   "access": [
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
+    }
+   ],
+   "verticalFt": 1570,
+   "lifts": 5,
+   "baseM": 713,
+   "topM": 1191,
+   "website": "https://www.abtenau-info.at/",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Abtenau's Karkogel in the Lammertal, five lifts and under 500 m of vertical, close to the village.",
+    "tags": [
+     "Local vibe",
+     "Family friendly"
+    ],
+    "source": "https://openskimap.org/?obj=c7acae6ebc2262c0bf920b83428398b5e1826b05",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 47.55455,
+    "lon": 13.35581,
+    "radiusM": 1696
+   }
+  },
+  {
    "id": "karwendel-pertisau",
    "name": "Karwendel Bergbahn (Pertisau)",
    "state": "Tyrol",
@@ -12544,6 +14679,51 @@
     "lat": 36.59962,
     "lon": 137.82979,
     "radiusM": 1160
+   }
+  },
+  {
+   "id": "katschberg",
+   "name": "Katschberg-Aineck",
+   "state": "Salzburg",
+   "country": "AT",
+   "lat": 47.065,
+   "lon": 13.6277,
+   "access": [
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
+    }
+   ],
+   "verticalFt": 3800,
+   "lifts": 18,
+   "baseM": 1054,
+   "topM": 2211,
+   "website": "https://www.katschi.at/",
+   "runMix": [
+    10,
+    21,
+    6,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "On the pass between Salzburg's Lungau and Carinthia, with the Aineck above St. Margarethen: about 1,050 to 2,210 m on 18 lifts, and hotels right on the slopes at the top of the pass.",
+    "tags": [
+     "Family friendly",
+     "Slopeside lodging",
+     "Varied terrain"
+    ],
+    "source": "https://openskimap.org/?obj=723611e5c6bd7d52526c22a4eb1040eb82a0b759",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 47.06556,
+    "lon": 13.64083,
+    "radiusM": 3928
    }
   },
   {
@@ -12900,6 +15080,50 @@
    }
   },
   {
+   "id": "kiental",
+   "name": "Kiental",
+   "state": "Bern",
+   "country": "CH",
+   "lat": 46.58243,
+   "lon": 7.7117,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 1750,
+   "lifts": 2,
+   "baseM": 925,
+   "topM": 1457,
+   "website": "https://www.kiental-sesselbahn.ch/",
+   "runMix": [
+    4,
+    3,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Kiental's two lifts in a quiet side valley of the Kandertal, from about 930 to 1,460 m.",
+    "tags": [
+     "Uncrowded",
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=8ba639921edb07a13271bc563475506a4e5e3d9f",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.58306,
+    "lon": 7.71345,
+    "radiusM": 1100
+   }
+  },
+  {
    "id": "killington-pico",
    "name": "Killington-Pico",
    "state": "VT",
@@ -13225,6 +15449,12 @@
      "validFrom": "2026-10-01",
      "validTo": "2027-05-15",
      "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    },
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
     }
    ],
    "verticalFt": 4040,
@@ -13272,6 +15502,12 @@
      "daysAllowed": 5,
      "poolId": "salzburg",
      "notes": "5 days total across Skicircus Saalbach Hinterglemm Leogang Fieberbrunn, Schmittenhöhe (Zell am See) and Kitzsteinhorn (Kaprun) (Saalbach, Zell am See and Kaprun). Epic says the mobile pass can't be used for lift access here; bring the physical pass card."
+    },
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
     }
    ],
    "verticalFt": 7410,
@@ -13303,6 +15539,50 @@
     "lat": 47.22949,
     "lon": 12.70409,
     "radiusM": 4926
+   }
+  },
+  {
+   "id": "klewenalp",
+   "name": "Klewenalp-Stockhütte",
+   "state": "Nidwalden",
+   "country": "CH",
+   "lat": 46.93143,
+   "lon": 8.48458,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 2410,
+   "lifts": 20,
+   "baseM": 1199,
+   "topM": 1934,
+   "website": "https://www.klewenalp.ch/",
+   "runMix": [
+    12,
+    4,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Above Beckenried on Lake Lucerne, joined with the Stockhütte above Emmetten, about 1,200 to 1,930 m, with views over the lake.",
+    "tags": [
+     "Views",
+     "Family friendly"
+    ],
+    "source": "https://openskimap.org/?obj=cc230857c5e1b30400e87df6ecaaf2c47e02aebe",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.93162,
+    "lon": 8.48893,
+    "radiusM": 2152
    }
   },
   {
@@ -13582,6 +15862,89 @@
    }
   },
   {
+   "id": "la-berra",
+   "name": "La Berra",
+   "state": "Fribourg",
+   "country": "CH",
+   "lat": 46.67833,
+   "lon": 7.16662,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 1950,
+   "lifts": 5,
+   "baseM": 1038,
+   "topM": 1633,
+   "website": "https://www.laberra.ch/",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A Fribourg Prealps summit above Cerniat, about 1,040 to 1,630 m on five lifts, with views to Lake Neuchâtel and the Alps.",
+    "tags": [
+     "Views",
+     "Family friendly"
+    ],
+    "source": "https://openskimap.org/?obj=06d3de5fdf75d4c67dc8555d73c2238ea97d4a5a",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.67821,
+    "lon": 7.16722,
+    "radiusM": 1466
+   }
+  },
+  {
+   "id": "la-forclaz-vs",
+   "name": "La Forclaz (Evolène)",
+   "state": "Valais",
+   "country": "CH",
+   "lat": 46.09073,
+   "lon": 7.52471,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 1660,
+   "lifts": 3,
+   "baseM": 1697,
+   "topM": 2202,
+   "website": "https://www.valdherens.ch/fr/espace-dent-blanche-secteur-la-forclaz-fp42184",
+   "runMix": [
+    4,
+    3,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A small area above La Forclaz and La Sage in the Val d'Hérens, about 1,700 to 2,200 m on three lifts.",
+    "tags": [
+     "Local vibe",
+     "Uncrowded",
+     "Views"
+    ],
+    "source": "https://openskimap.org/?obj=7764bdb01f8f2597020eabfe93298922a87544f1",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.08964,
+    "lon": 7.52511,
+    "radiusM": 891
+   }
+  },
+  {
    "id": "la-plagne",
    "name": "La Plagne",
    "state": "Savoie",
@@ -13771,6 +16134,51 @@
    }
   },
   {
+   "id": "lauchernalp",
+   "name": "Lauchernalp (Lötschental)",
+   "state": "Valais",
+   "country": "CH",
+   "lat": 46.42114,
+   "lon": 7.76297,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 5380,
+   "lifts": 7,
+   "baseM": 1445,
+   "topM": 3084,
+   "website": "https://www.loetschental.ch/",
+   "runMix": [
+    8,
+    6,
+    4,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "The Lötschental's area above Wiler, a cable car to the Lauchernalp and runs up to about 3,080 m, with long descents and freeride terrain.",
+    "tags": [
+     "Big mountain",
+     "High altitude",
+     "Uncrowded"
+    ],
+    "source": "https://openskimap.org/?obj=76fbc6ed10135d6683a91a5b89dbf01fa757b80b",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.41915,
+    "lon": 7.77061,
+    "radiusM": 2046
+   }
+  },
+  {
    "id": "laurel-mountain",
    "name": "Laurel Mountain",
    "state": "PA",
@@ -13861,6 +16269,51 @@
     "lat": 46.02923,
     "lon": 6.69915,
     "radiusM": 5330
+   }
+  },
+  {
+   "id": "grand-bornand",
+   "name": "Le Grand-Bornand",
+   "state": "Haute-Savoie",
+   "country": "FR",
+   "lat": 45.96441,
+   "lon": 6.47135,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 3600,
+   "lifts": 26,
+   "baseM": 931,
+   "topM": 2027,
+   "website": "https://www.legrandbornand.com/",
+   "runMix": [
+    37,
+    12,
+    3,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "An Aravis village with farms still in the valley, about 930 to 2,030 m on 26 lifts, and a biathlon World Cup stop.",
+    "tags": [
+     "Varied terrain",
+     "Family friendly",
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=8af93a64c41b59fca4705d30c106ef29fb24e042",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 45.96188,
+    "lon": 6.47868,
+    "radiusM": 2714
    }
   },
   {
@@ -14204,6 +16657,44 @@
    }
   },
   {
+   "id": "bugnenets",
+   "name": "Les Bugnenets-Savagnières",
+   "state": "Neuchâtel",
+   "country": "CH",
+   "lat": 47.12263,
+   "lon": 7.0168,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 1210,
+   "lifts": 10,
+   "baseM": 1079,
+   "topM": 1448,
+   "website": "https://www.chasseral-snow.ch/",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "The Neuchâtel Jura's largest area, Les Bugnenets and Les Savagnières, about 1,080 to 1,450 m on ten lifts.",
+    "tags": [
+     "Family friendly",
+     "Good for beginners"
+    ],
+    "source": "https://openskimap.org/?obj=06b6a1bf1760e0705bf964f0a5d4e410de20f279",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 47.12422,
+    "lon": 7.01696,
+    "radiusM": 1480
+   }
+  },
+  {
    "id": "les-contamines",
    "name": "Les Contamines",
    "state": "Haute-Savoie",
@@ -14258,6 +16749,221 @@
    }
   },
   {
+   "id": "les-marecottes",
+   "name": "Les Marécottes",
+   "state": "Valais",
+   "country": "CH",
+   "lat": 46.11793,
+   "lon": 6.99646,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 3520,
+   "lifts": 4,
+   "baseM": 1122,
+   "topM": 2195,
+   "website": "https://www.verticalp-lesmarecottes.ch/",
+   "runMix": [
+    6,
+    4,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Above Salvan near Martigny, a cable car and a handful of lifts from about 1,120 to 2,200 m, known for freeride on the Creusaz.",
+    "tags": [
+     "Steeps",
+     "Uncrowded"
+    ],
+    "source": "https://openskimap.org/?obj=ca6edf6b8029a5937ebdf4eac9107cae9cea16da",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.11847,
+    "lon": 6.99379,
+    "radiusM": 1369
+   }
+  },
+  {
+   "id": "les-mosses",
+   "name": "Les Mosses-La Lécherette",
+   "state": "Vaud",
+   "country": "CH",
+   "lat": 46.40394,
+   "lon": 7.09916,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 1610,
+   "lifts": 14,
+   "baseM": 1379,
+   "topM": 1871,
+   "website": "https://www.leysin.ch/",
+   "runMix": [
+    9,
+    10,
+    4,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A wide, gentle pass area between the Ormonts and the Pays-d'Enhaut, about 1,380 to 1,870 m on 14 lifts, with cross-country trails.",
+    "tags": [
+     "Good for beginners",
+     "Nordic trails",
+     "Family friendly"
+    ],
+    "source": "https://openskimap.org/?obj=a0ff12f1c7e58784375a6532825f9383cdf75715",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.40584,
+    "lon": 7.10047,
+    "radiusM": 2439
+   }
+  },
+  {
+   "id": "les-paccots",
+   "name": "Les Paccots",
+   "state": "Fribourg",
+   "country": "CH",
+   "lat": 46.51343,
+   "lon": 6.9485,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 1390,
+   "lifts": 9,
+   "baseM": 1064,
+   "topM": 1487,
+   "website": "https://www.les-paccots.ch/",
+   "runMix": [
+    4,
+    2,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A family area above Châtel-Saint-Denis, about 1,060 to 1,490 m on nine lifts, an easy trip from Lausanne.",
+    "tags": [
+     "Family friendly",
+     "Good for beginners"
+    ],
+    "source": "https://openskimap.org/?obj=294f61ad7fdee39ceb26c78317c2606ecea844d0",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.51433,
+    "lon": 6.9462,
+    "radiusM": 1548
+   }
+  },
+  {
+   "id": "les-pleiades",
+   "name": "Les Pléiades",
+   "state": "Vaud",
+   "country": "CH",
+   "lat": 46.49258,
+   "lon": 6.91486,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 780,
+   "lifts": 6,
+   "baseM": 1159,
+   "topM": 1396,
+   "website": "https://www.lespleiades.ch/",
+   "runMix": [
+    4,
+    4,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Above Vevey, reached by cog railway, with a few gentle lifts at about 1,160 to 1,400 m and views over Lake Geneva.",
+    "tags": [
+     "Views",
+     "Good for beginners"
+    ],
+    "source": "https://openskimap.org/?obj=eb95f5e3fc5020f839667d5f228a0468841c3ea0",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.49247,
+    "lon": 6.91563,
+    "radiusM": 1069
+   }
+  },
+  {
+   "id": "pres-dorvin",
+   "name": "Les Prés-d'Orvin",
+   "state": "Bern",
+   "country": "CH",
+   "lat": 47.1465,
+   "lon": 7.17137,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 660,
+   "lifts": 5,
+   "baseM": 1025,
+   "topM": 1227,
+   "website": "https://www.presdorvin-ski.ch/",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A small Jura area above Orvin near Biel, about 1,030 to 1,230 m on five lifts, with cross-country trails.",
+    "tags": [
+     "Family friendly",
+     "Nordic trails"
+    ],
+    "source": "https://openskimap.org/?obj=303fa1bee41d54b4efd2f4699b3f7fcd31819e5d",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 47.14603,
+    "lon": 7.17191,
+    "radiusM": 708
+   }
+  },
+  {
    "id": "leukerbad",
    "name": "Leukerbad Torrent & Gemmi",
    "state": "Valais",
@@ -14276,6 +16982,12 @@
      "daysAllowed": 2,
      "thirdDayDiscount": false,
      "notes": "Indy's discounted third day isn't offered here."
+    },
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
     }
    ],
    "verticalFt": 3937,
@@ -14368,6 +17080,45 @@
    }
   },
   {
+   "id": "leysin",
+   "name": "Leysin",
+   "state": "Vaud",
+   "country": "CH",
+   "lat": 46.36659,
+   "lon": 7.02424,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 3130,
+   "lifts": 13,
+   "baseM": 1237,
+   "topM": 2192,
+   "website": "https://leysin.ch/",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A sunny Vaud Alps town above Aigle, about 1,240 to 2,190 m on 13 lifts, with the revolving restaurant on the Berneuse and a terrain park.",
+    "tags": [
+     "Terrain parks",
+     "Views",
+     "Family friendly"
+    ],
+    "source": "https://openskimap.org/?obj=9d79e5920594df28c0b7622a17041a3c9bad89aa",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.36422,
+    "lon": 7.02408,
+    "radiusM": 2429
+   }
+  },
+  {
    "id": "liberty",
    "name": "Liberty Mountain Resort",
    "state": "PA",
@@ -14420,6 +17171,43 @@
     "lat": 39.75969,
     "lon": -77.36857,
     "radiusM": 843
+   }
+  },
+  {
+   "id": "linden",
+   "name": "Linden",
+   "state": "Bern",
+   "country": "CH",
+   "lat": 46.8401,
+   "lon": 7.67807,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 550,
+   "lifts": 2,
+   "baseM": 920,
+   "topM": 1088,
+   "website": "https://www.skilift-linden.ch",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "The Schindelberg lifts at Linden in the Emmental hills, two lifts and under 200 m of vertical.",
+    "tags": [
+     "Good for beginners"
+    ],
+    "source": "https://openskimap.org/?obj=9623bdf4344f0c21c58de78e38eb14b60bc3405c",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.83956,
+    "lon": 7.67806,
+    "radiusM": 689
    }
   },
   {
@@ -14688,6 +17476,50 @@
     "lat": 44.04555,
     "lon": -71.63842,
     "radiusM": 1874
+   }
+  },
+  {
+   "id": "loser",
+   "name": "Loser (Altaussee)",
+   "state": "Styria",
+   "country": "AT",
+   "lat": 47.65825,
+   "lon": 13.76622,
+   "access": [
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
+    }
+   ],
+   "verticalFt": 2990,
+   "lifts": 10,
+   "baseM": 854,
+   "topM": 1765,
+   "website": "https://www.loser.at/",
+   "runMix": [
+    8,
+    6,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Altaussee's mountain in the Ausseerland, about 850 to 1,770 m on ten lifts, with views over the lakes and the Totes Gebirge.",
+    "tags": [
+     "Views",
+     "Family friendly"
+    ],
+    "source": "https://openskimap.org/?obj=cfbb98a11ce32418f403f52e0b12e1cbd81b1e17",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 47.65869,
+    "lon": 13.76064,
+    "radiusM": 2555
    }
   },
   {
@@ -14988,6 +17820,12 @@
      "validFrom": "2026-10-01",
      "validTo": "2027-05-15",
      "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    },
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
     }
    ],
    "verticalFt": 450,
@@ -15701,6 +18539,44 @@
    }
   },
   {
+   "id": "marbachegg",
+   "name": "Marbachegg",
+   "state": "Lucerne",
+   "country": "CH",
+   "lat": 46.83977,
+   "lon": 7.90542,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 1950,
+   "lifts": 4,
+   "baseM": 879,
+   "topM": 1472,
+   "website": "https://www.marbachegg.ch/",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Above Marbach in the Entlebuch, a gondola and a few lifts from about 880 to 1,470 m.",
+    "tags": [
+     "Family friendly",
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=1a0552c150a12e05420e272e4a600cb4e34044ae",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.84152,
+    "lon": 7.90626,
+    "radiusM": 1480
+   }
+  },
+  {
    "id": "marble-mountain",
    "name": "Marble Mountain",
    "state": "NL",
@@ -15914,6 +18790,50 @@
    }
   },
   {
+   "id": "massif-des-brasses",
+   "name": "Massif des Brasses",
+   "state": "Haute-Savoie",
+   "country": "FR",
+   "lat": 46.19631,
+   "lon": 6.46794,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 1290,
+   "lifts": 10,
+   "baseM": 1099,
+   "topM": 1491,
+   "website": "https://lesbrasses.com/",
+   "runMix": [
+    11,
+    8,
+    2,
+    1
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Small linked villages in Haute-Savoie east of Geneva, about 1,100 to 1,490 m on ten lifts.",
+    "tags": [
+     "Family friendly",
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=45a940355cca76e598e2a54c273e06cd0916e04f",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.17077,
+    "lon": 6.4478,
+    "radiusM": 1344
+   }
+  },
+  {
    "id": "massif-du-sud",
    "name": "Massif du Sud",
    "state": "QC",
@@ -15968,6 +18888,44 @@
     "lat": 46.61359,
     "lon": -70.48583,
     "radiusM": 1184
+   }
+  },
+  {
+   "id": "mayens-de-conthey",
+   "name": "Mayens de Conthey",
+   "state": "Valais",
+   "country": "CH",
+   "lat": 46.25316,
+   "lon": 7.28086,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 490,
+   "lifts": 1,
+   "baseM": 1281,
+   "topM": 1429,
+   "website": "https://www.teleconthey.ch/",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A one-lift family hill at the Mayens de Conthey above Sion, with under 150 m of vertical, for children and beginners.",
+    "tags": [
+     "Family friendly",
+     "Good for beginners"
+    ],
+    "source": "https://openskimap.org/?obj=5a2c897a676522a6ab44d7679c213deac097dd64",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.25321,
+    "lon": 7.28143,
+    "radiusM": 503
    }
   },
   {
@@ -16130,6 +19088,96 @@
     "lat": 45.84341,
     "lon": 6.66302,
     "radiusM": 5381
+   }
+  },
+  {
+   "id": "meiringen-hasliberg",
+   "name": "Meiringen-Hasliberg",
+   "state": "Bern",
+   "country": "CH",
+   "lat": 46.75173,
+   "lon": 8.22943,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 4530,
+   "lifts": 16,
+   "baseM": 1052,
+   "topM": 2433,
+   "website": "https://www.meiringen-hasliberg.ch/",
+   "runMix": [
+    2,
+    3,
+    2,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Above Meiringen, the Hasliberg terraces and the Käserstatt, about 1,050 to 2,430 m on 16 lifts, with a long run back to the valley.",
+    "tags": [
+     "Varied terrain",
+     "Family friendly",
+     "Views"
+    ],
+    "source": "https://openskimap.org/?obj=73a929fdb6f99344480b7fc4e7f2e457e444b217",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.74999,
+    "lon": 8.22107,
+    "radiusM": 3263
+   }
+  },
+  {
+   "id": "melchsee-frutt",
+   "name": "Melchsee-Frutt",
+   "state": "Obwalden",
+   "country": "CH",
+   "lat": 46.77865,
+   "lon": 8.27796,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 3780,
+   "lifts": 14,
+   "baseM": 1080,
+   "topM": 2232,
+   "website": "https://www.melchsee-frutt.ch/",
+   "runMix": [
+    8,
+    7,
+    5,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A car-free high plateau above Stöckalp in Obwalden, about 1,080 to 2,230 m on 14 lifts, with snow often good into spring.",
+    "tags": [
+     "Family friendly",
+     "Big snow",
+     "Slopeside lodging"
+    ],
+    "source": "https://openskimap.org/?obj=f04f5c36668c9ba4e5256ccbd611698f3df75688",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.77703,
+    "lon": 8.27795,
+    "radiusM": 2607
    }
   },
   {
@@ -16329,6 +19377,50 @@
     "lat": 41.83479,
     "lon": -73.30989,
     "radiusM": 691
+   }
+  },
+  {
+   "id": "moleson",
+   "name": "Moléson",
+   "state": "Fribourg",
+   "country": "CH",
+   "lat": 46.55685,
+   "lon": 7.02621,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 2840,
+   "lifts": 10,
+   "baseM": 1109,
+   "topM": 1975,
+   "website": "https://www.moleson.ch/",
+   "runMix": [
+    4,
+    1,
+    1,
+    1
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Gruyère's signature mountain, about 1,110 to 1,980 m by funicular and cable car, with views from the summit over the lakes.",
+    "tags": [
+     "Views",
+     "Family friendly"
+    ],
+    "source": "https://openskimap.org/?obj=29034ce295ebfee69385df760fb334123e724fe0",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.555,
+    "lon": 7.02198,
+    "radiusM": 1650
    }
   },
   {
@@ -16891,6 +19983,50 @@
    }
   },
   {
+   "id": "monte-popolo",
+   "name": "Monte Popolo (Eben im Pongau)",
+   "state": "Salzburg",
+   "country": "AT",
+   "lat": 47.40396,
+   "lon": 13.41393,
+   "access": [
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
+    }
+   ],
+   "verticalFt": 1260,
+   "lifts": 2,
+   "baseM": 1218,
+   "topM": 1601,
+   "website": "https://montepopolo.at/",
+   "runMix": [
+    3,
+    2,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Eben im Pongau's family hill beside the Tauern motorway, two lifts and under 400 m of vertical.",
+    "tags": [
+     "Family friendly",
+     "Good for beginners"
+    ],
+    "source": "https://openskimap.org/?obj=a3732bc29837141bb37dc12687d80539d0469f27",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 47.40371,
+    "lon": 13.41573,
+    "radiusM": 1309
+   }
+  },
+  {
    "id": "monterosa-ski",
    "name": "Monterosa Ski",
    "state": "Aosta Valley",
@@ -16945,6 +20081,93 @@
     "lat": 45.85337,
     "lon": 7.83206,
     "radiusM": 7496
+   }
+  },
+  {
+   "id": "monts-jura",
+   "name": "Monts Jura",
+   "state": "Ain",
+   "country": "FR",
+   "lat": 46.29931,
+   "lon": 5.94841,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 2600,
+   "lifts": 10,
+   "baseM": 866,
+   "topM": 1659,
+   "website": "https://www.monts-jura.com/",
+   "runMix": [
+    19,
+    4,
+    2,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Crozet, Lélex and Mijoux above the Pays de Gex near Geneva, about 870 to 1,660 m on ten lifts, with views of Mont Blanc.",
+    "tags": [
+     "Views",
+     "Family friendly"
+    ],
+    "source": "https://openskimap.org/?obj=1215669125c5549bd831eb34bca2741e86721ba1",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.29495,
+    "lon": 5.96374,
+    "radiusM": 1978
+   }
+  },
+  {
+   "id": "moosalp",
+   "name": "Moosalp (Bürchen-Törbel)",
+   "state": "Valais",
+   "country": "CH",
+   "lat": 46.25409,
+   "lon": 7.82418,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 3380,
+   "lifts": 7,
+   "baseM": 1478,
+   "topM": 2508,
+   "runMix": [
+    16,
+    9,
+    8,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "The Moosalp above Bürchen and Törbel, about 1,480 to 2,510 m on seven lifts, a quiet area facing the Bernese Alps.",
+    "tags": [
+     "Uncrowded",
+     "Views"
+    ],
+    "source": "https://openskimap.org/?obj=e876d1a921e6e04fed57331a03f9f5298a20e069",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.258,
+    "lon": 7.82377,
+    "radiusM": 2045
    }
   },
   {
@@ -18502,6 +21725,137 @@
    }
   },
   {
+   "id": "metabief",
+   "name": "Métabief",
+   "state": "Doubs",
+   "country": "FR",
+   "lat": 46.73863,
+   "lon": 6.34329,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 1330,
+   "lifts": 12,
+   "baseM": 1013,
+   "topM": 1418,
+   "runMix": [
+    28,
+    8,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "The French Jura's biggest downhill area, at Mont d'Or above Métabief, about 1,010 to 1,420 m on 12 lifts.",
+    "tags": [
+     "Family friendly",
+     "Nordic trails"
+    ],
+    "source": "https://openskimap.org/?obj=f8a135103929215d692c27c3b10670b5b8ff1e7b",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.75308,
+    "lon": 6.35486,
+    "radiusM": 2012
+   }
+  },
+  {
+   "id": "molltal-glacier",
+   "name": "Mölltaler Gletscher",
+   "state": "Carinthia",
+   "country": "AT",
+   "lat": 47.02882,
+   "lon": 13.01111,
+   "access": [
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
+    }
+   ],
+   "verticalFt": 3220,
+   "lifts": 9,
+   "baseM": 2103,
+   "topM": 3084,
+   "website": "https://www.moelltaler-gletscher.at/",
+   "runMix": [
+    4,
+    16,
+    5,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Carinthia's glacier area above Flattach, reached by an underground funicular, with runs from about 2,100 to 3,100 m on nine lifts and one of Austria's longest seasons.",
+    "tags": [
+     "Glacier",
+     "High altitude"
+    ],
+    "source": "https://openskimap.org/?obj=39daafb4d6541b404e54e01331568e80f40481a7",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 47.0255,
+    "lon": 13.00613,
+    "radiusM": 2063
+   }
+  },
+  {
+   "id": "morlialp",
+   "name": "Mörlialp (Giswil)",
+   "state": "Obwalden",
+   "country": "CH",
+   "lat": 46.82081,
+   "lon": 8.10542,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 1580,
+   "lifts": 5,
+   "baseM": 1356,
+   "topM": 1837,
+   "website": "https://www.moerlialp.ch/",
+   "runMix": [
+    1,
+    3,
+    2,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "The Mörlialp above Giswil in Obwalden, about 1,360 to 1,840 m on five lifts, popular with families.",
+    "tags": [
+     "Family friendly",
+     "Uncrowded"
+    ],
+    "source": "https://openskimap.org/?obj=3bb19df73ba6222a3b117dd6a20a92bfb851b5ab",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.82132,
+    "lon": 8.10532,
+    "radiusM": 1051
+   }
+  },
+  {
    "id": "nekoma",
    "name": "NEKOMA Mountain",
    "state": "Fukushima",
@@ -18547,6 +21901,43 @@
     "lat": 37.60548,
     "lon": 140.03452,
     "radiusM": 2611
+   }
+  },
+  {
+   "id": "naglkopfl",
+   "name": "Naglköpfl (Piesendorf)",
+   "state": "Salzburg",
+   "country": "AT",
+   "lat": 47.29105,
+   "lon": 12.67867,
+   "access": [
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
+    }
+   ],
+   "verticalFt": 750,
+   "lifts": 3,
+   "baseM": 846,
+   "topM": 1076,
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Piesendorf's village hill in the Pinzgau, three lifts and about 230 m of vertical.",
+    "tags": [
+     "Good for beginners",
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=9dabacfaad26eadc92afa95e33be54a3189fcd11",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 47.29103,
+    "lon": 12.67591,
+    "radiusM": 792
    }
   },
   {
@@ -18686,6 +22077,50 @@
     "lat": 46.86812,
     "lon": 10.54337,
     "radiusM": 2972
+   }
+  },
+  {
+   "id": "nax",
+   "name": "Nax Mont-Noble",
+   "state": "Valais",
+   "country": "CH",
+   "lat": 46.21591,
+   "lon": 7.46849,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 3710,
+   "lifts": 5,
+   "baseM": 1508,
+   "topM": 2638,
+   "website": "https://www.mont-noble-tourisme.ch/",
+   "runMix": [
+    3,
+    6,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Nax and Mont-Noble on a balcony above Sion, about 1,510 to 2,640 m on five lifts, quiet and known for its views.",
+    "tags": [
+     "Views",
+     "Uncrowded"
+    ],
+    "source": "https://openskimap.org/?obj=2443e6d5755d0c52af63db1476e83f4f6dee52ac",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.21421,
+    "lon": 7.4719,
+    "radiusM": 2044
    }
   },
   {
@@ -18839,6 +22274,44 @@
     "lat": 49.37304,
     "lon": -119.95646,
     "radiusM": 2088
+   }
+  },
+  {
+   "id": "niederhorn",
+   "name": "Niederhorn",
+   "state": "Bern",
+   "country": "CH",
+   "lat": 46.70437,
+   "lon": 7.77563,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 2540,
+   "lifts": 8,
+   "baseM": 1164,
+   "topM": 1938,
+   "website": "https://www.niederhorn.ch/",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Above Beatenberg and Lake Thun, a gondola and funicular to the Niederhorn and runs from about 1,160 to 1,940 m.",
+    "tags": [
+     "Views",
+     "Family friendly"
+    ],
+    "source": "https://openskimap.org/?obj=6dd4003a0a39fd53c0390b203617c60845f92d6a",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.69821,
+    "lon": 7.77154,
+    "radiusM": 2015
    }
   },
   {
@@ -19571,6 +23044,12 @@
      "passId": "indy-plus",
      "daysAllowed": 2,
      "thirdDayDiscount": true
+    },
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
     }
    ],
    "verticalFt": 2241,
@@ -19872,6 +23351,86 @@
     "lat": 43.49944,
     "lon": -75.70158,
     "radiusM": 1066
+   }
+  },
+  {
+   "id": "ottenleue",
+   "name": "Ottenleue",
+   "state": "Bern",
+   "country": "CH",
+   "lat": 46.73503,
+   "lon": 7.36395,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 580,
+   "lifts": 1,
+   "baseM": 1451,
+   "topM": 1628,
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A single lift at the Ottenleue in the Gantrisch nature park, with under 200 m of vertical.",
+    "tags": [
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=7277bf74f039a04436b31319dea2f6d3ee519172",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.73478,
+    "lon": 7.3635,
+    "radiusM": 611
+   }
+  },
+  {
+   "id": "ovronnaz",
+   "name": "Ovronnaz",
+   "state": "Valais",
+   "country": "CH",
+   "lat": 46.20254,
+   "lon": 7.13818,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 3660,
+   "lifts": 7,
+   "baseM": 1340,
+   "topM": 2456,
+   "website": "https://www.ovronnaz.ch/",
+   "runMix": [
+    4,
+    12,
+    2,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A spa village above Leytron with thermal baths, and runs from about 1,340 to 2,460 m on seven lifts.",
+    "tags": [
+     "Family friendly",
+     "Views"
+    ],
+    "source": "https://openskimap.org/?obj=a2b33899f2bfeab7e6f73d80520d0bfd5b27a514",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.20351,
+    "lon": 7.13413,
+    "radiusM": 1850
    }
   },
   {
@@ -20607,6 +24166,42 @@
    }
   },
   {
+   "id": "petersbrundl",
+   "name": "Petersbründllift (St. Michael)",
+   "state": "Salzburg",
+   "country": "AT",
+   "lat": 47.08755,
+   "lon": 13.62547,
+   "access": [
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
+    }
+   ],
+   "verticalFt": 580,
+   "lifts": 1,
+   "baseM": 1048,
+   "topM": 1226,
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A single lift in St. Michael im Lungau with under 200 m of vertical, a short walk from the village centre.",
+    "tags": [
+     "Good for beginners"
+    ],
+    "source": "https://openskimap.org/?obj=afd6b8f003591c36f6202d4bac387cfb3ccc0df4",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 47.08732,
+    "lon": 13.62563,
+    "radiusM": 542
+   }
+  },
+  {
    "id": "petzen",
    "name": "Petzen",
    "state": "Carinthia",
@@ -21053,6 +24648,51 @@
    }
   },
   {
+   "id": "planneralm",
+   "name": "Planneralm",
+   "state": "Styria",
+   "country": "AT",
+   "lat": 47.40194,
+   "lon": 14.2054,
+   "access": [
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
+    }
+   ],
+   "verticalFt": 1210,
+   "lifts": 7,
+   "baseM": 1589,
+   "topM": 1957,
+   "website": "https://www.planneralm.at/",
+   "runMix": [
+    3,
+    7,
+    4,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A high hamlet of huts in Styria's Wölz Tauern, about 1,590 to 1,960 m on seven lifts, and a ski-touring favourite.",
+    "tags": [
+     "Big snow",
+     "Slopeside lodging",
+     "Uncrowded"
+    ],
+    "source": "https://openskimap.org/?obj=1c5028787ae841b7a205c7331328ad0851b40fd3",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 47.40071,
+    "lon": 14.20699,
+    "radiusM": 1175
+   }
+  },
+  {
    "id": "pleasant-mountain",
    "name": "Pleasant Mountain",
    "state": "ME",
@@ -21305,6 +24945,45 @@
    }
   },
   {
+   "id": "postalm",
+   "name": "Postalm",
+   "state": "Salzburg",
+   "country": "AT",
+   "lat": 47.66187,
+   "lon": 13.42605,
+   "access": [
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
+    }
+   ],
+   "verticalFt": 960,
+   "lifts": 6,
+   "baseM": 1162,
+   "topM": 1454,
+   "website": "https://www.postalm.at/",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A wide high pasture between Strobl and Abtenau with gentle runs from about 1,160 to 1,450 m on six lifts, and cross-country trails.",
+    "tags": [
+     "Good for beginners",
+     "Nordic trails",
+     "Family friendly"
+    ],
+    "source": "https://openskimap.org/?obj=41a61af9eb6193fe3536bd83f2351cce286cd294",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 47.6509,
+    "lon": 13.42781,
+    "radiusM": 1657
+   }
+  },
+  {
    "id": "powder-mountain",
    "name": "Powder Mountain",
    "state": "UT",
@@ -21510,6 +25189,50 @@
     "lat": 39.06116,
     "lon": -108.15305,
     "radiusM": 1634
+   }
+  },
+  {
+   "id": "praz-de-lys",
+   "name": "Praz de Lys-Sommand",
+   "state": "Haute-Savoie",
+   "country": "FR",
+   "lat": 46.15221,
+   "lon": 6.57146,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 2340,
+   "lifts": 23,
+   "baseM": 1246,
+   "topM": 1960,
+   "website": "https://www.prazdelys-sommand.com/",
+   "runMix": [
+    42,
+    15,
+    6,
+    2
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A high plateau between Taninges and Mieussy in Haute-Savoie, about 1,250 to 1,960 m on 23 lifts.",
+    "tags": [
+     "Family friendly",
+     "Snowmaking"
+    ],
+    "source": "https://openskimap.org/?obj=17a2aed27cfa6b593c5df9770900555623db6adf",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.14857,
+    "lon": 6.57317,
+    "radiusM": 2487
    }
   },
   {
@@ -21749,6 +25472,50 @@
    }
   },
   {
+   "id": "radstadt-altenmarkt",
+   "name": "Radstadt-Altenmarkt",
+   "state": "Salzburg",
+   "country": "AT",
+   "lat": 47.36276,
+   "lon": 13.45392,
+   "access": [
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
+    }
+   ],
+   "verticalFt": 2330,
+   "lifts": 7,
+   "baseM": 854,
+   "topM": 1565,
+   "website": "https://www.altenmarkt-zauchensee.at/",
+   "runMix": [
+    5,
+    4,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Two small hills above Radstadt and Altenmarkt in the Pongau, about 850 to 1,570 m on seven lifts.",
+    "tags": [
+     "Local vibe",
+     "Good for beginners"
+    ],
+    "source": "https://openskimap.org/?obj=6d993fe595f830217b5c7abac769ea432a6cc300",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 47.36239,
+    "lon": 13.44701,
+    "radiusM": 2056
+   }
+  },
+  {
    "id": "ragged",
    "name": "Ragged Mountain",
    "state": "NH",
@@ -21899,6 +25666,44 @@
    }
   },
   {
+   "id": "rathvel",
+   "name": "Rathvel",
+   "state": "Fribourg",
+   "country": "CH",
+   "lat": 46.54296,
+   "lon": 6.97313,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 980,
+   "lifts": 3,
+   "baseM": 1190,
+   "topM": 1488,
+   "website": "https://www.rathvel.ch/hiver/index",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A small area above Châtel-Saint-Denis in the Fribourg Prealps, three lifts and about 300 m of vertical.",
+    "tags": [
+     "Family friendly",
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=78f4bcb9d9f709618fa42afb442c8ff72668e6d5",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.54241,
+    "lon": 6.97154,
+    "radiusM": 884
+   }
+  },
+  {
    "id": "rauris",
    "name": "Rauris Hochalmbahnen",
    "state": "Salzburg",
@@ -21915,6 +25720,12 @@
      "passId": "indy-plus",
      "daysAllowed": 2,
      "thirdDayDiscount": true
+    },
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
     }
    ],
    "verticalFt": 4019,
@@ -22071,6 +25882,50 @@
     "lat": 50.96654,
     "lon": -118.12392,
     "radiusM": 2749
+   }
+  },
+  {
+   "id": "riesneralm",
+   "name": "Riesneralm (Donnersbachwald)",
+   "state": "Styria",
+   "country": "AT",
+   "lat": 47.37528,
+   "lon": 14.10243,
+   "access": [
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
+    }
+   ],
+   "verticalFt": 2800,
+   "lifts": 8,
+   "baseM": 966,
+   "topM": 1819,
+   "website": "https://www.riesneralm.at/",
+   "runMix": [
+    7,
+    9,
+    2,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A quiet area at the head of the valley at Donnersbachwald in Styria, about 970 to 1,820 m on eight lifts.",
+    "tags": [
+     "Uncrowded",
+     "Family friendly"
+    ],
+    "source": "https://openskimap.org/?obj=ee070941610cfcdbc6adb124393336ff279be690",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 47.37624,
+    "lon": 14.10549,
+    "radiusM": 1545
    }
   },
   {
@@ -22278,6 +26133,93 @@
    }
   },
   {
+   "id": "robella",
+   "name": "Robella (Val-de-Travers)",
+   "state": "Neuchâtel",
+   "country": "CH",
+   "lat": 46.87042,
+   "lon": 6.54808,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 2140,
+   "lifts": 4,
+   "baseM": 778,
+   "topM": 1429,
+   "website": "https://www.robella.ch/",
+   "runMix": [
+    6,
+    3,
+    3,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Val-de-Travers' area above Buttes, reached by chairlift, about 780 to 1,430 m on four lifts.",
+    "tags": [
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=df6e1e712f83ac6851095e4d138acbc5e8512129",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.86861,
+    "lon": 6.54958,
+    "radiusM": 1858
+   }
+  },
+  {
+   "id": "rochers-de-naye",
+   "name": "Rochers-de-Naye",
+   "state": "Vaud",
+   "country": "CH",
+   "lat": 46.43847,
+   "lon": 6.96746,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 2160,
+   "lifts": 5,
+   "baseM": 1357,
+   "topM": 2015,
+   "website": "https://www.goldenpass.ch/",
+   "runMix": [
+    1,
+    1,
+    2,
+    2
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Above Montreux by cog railway, small runs from about 1,360 to 2,020 m with views over Lake Geneva.",
+    "tags": [
+     "Views",
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=abe78a3dbf0434ee19dc6857b1ad64c114652010",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.44098,
+    "lon": 6.9642,
+    "radiusM": 2042
+   }
+  },
+  {
    "id": "rofan",
    "name": "Rofan (Maurach)",
    "state": "Tyrol",
@@ -22318,6 +26260,43 @@
     "lat": 47.43442,
     "lon": 11.76094,
     "radiusM": 1279
+   }
+  },
+  {
+   "id": "rossberg",
+   "name": "Rossberg (Oberwil im Simmental)",
+   "state": "Bern",
+   "country": "CH",
+   "lat": 46.63791,
+   "lon": 7.4434,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 1050,
+   "lifts": 1,
+   "baseM": 1148,
+   "topM": 1467,
+   "website": "https://www.rossbergoberwil.ch/",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A single lift at the Rossberg above Oberwil im Simmental, with about 320 m of vertical.",
+    "tags": [
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=43e1ed5dd83021e09ce0acebf02eb2365118c39c",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.63258,
+    "lon": 7.43947,
+    "radiusM": 923
    }
   },
   {
@@ -22362,6 +26341,50 @@
     "lat": 47.33376,
     "lon": 11.21754,
     "radiusM": 1613
+   }
+  },
+  {
+   "id": "rosswald",
+   "name": "Rosswald",
+   "state": "Valais",
+   "country": "CH",
+   "lat": 46.30996,
+   "lon": 8.05782,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 2230,
+   "lifts": 5,
+   "baseM": 1835,
+   "topM": 2514,
+   "website": "https://www.rosswald-bahnen.ch/",
+   "runMix": [
+    1,
+    1,
+    2,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A small car-free area above Ried-Brig, reached by gondola, about 1,840 to 2,510 m on five lifts.",
+    "tags": [
+     "Uncrowded",
+     "Family friendly"
+    ],
+    "source": "https://openskimap.org/?obj=0ea9d5ed4b60480e75ece5c35ec3086c8d502076",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.3093,
+    "lon": 8.05343,
+    "radiusM": 1291
    }
   },
   {
@@ -22518,13 +26541,100 @@
    }
   },
   {
+   "id": "ruschegg",
+   "name": "Rüschegg",
+   "state": "Bern",
+   "country": "CH",
+   "lat": 46.74748,
+   "lon": 7.42642,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 1650,
+   "lifts": 2,
+   "baseM": 1051,
+   "topM": 1554,
+   "website": "https://www.gantrisch.ch/",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "The Gantrisch lifts at Rüschegg-Heubach south of Bern, about 1,050 to 1,550 m on two lifts.",
+    "tags": [
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=a75ba724521506bc66cf2665ccd6cce9cb07c627",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.74976,
+    "lon": 7.42797,
+    "radiusM": 1580
+   }
+  },
+  {
+   "id": "saas-almagell",
+   "name": "Saas-Almagell",
+   "state": "Valais",
+   "country": "CH",
+   "lat": 46.08736,
+   "lon": 7.96602,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 2200,
+   "lifts": 6,
+   "baseM": 1673,
+   "topM": 2344,
+   "runMix": [
+    4,
+    4,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "The quietest of the Saas valley's areas, Furggstalden and Heidbodme above Saas-Almagell, about 1,670 to 2,340 m on six lifts.",
+    "tags": [
+     "Family friendly",
+     "Uncrowded"
+    ],
+    "source": "https://openskimap.org/?obj=3a47b82d85b0253cfe4ee7f14743d03076a7c32a",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.08738,
+    "lon": 7.96545,
+    "radiusM": 989
+   }
+  },
+  {
    "id": "saas-fee",
    "name": "Saas-Fee",
    "state": "Valais",
    "country": "CH",
    "lat": 46.08765,
    "lon": 7.92079,
-   "access": [],
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station. Saas-Grund and Saas-Balen aren't included."
+    }
+   ],
    "verticalFt": 5830,
    "lifts": 30,
    "baseM": 1780,
@@ -22615,6 +26725,92 @@
    }
   },
   {
+   "id": "saint-cergue",
+   "name": "Saint-Cergue",
+   "state": "Vaud",
+   "country": "CH",
+   "lat": 46.44428,
+   "lon": 6.1527,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 490,
+   "lifts": 5,
+   "baseM": 1036,
+   "topM": 1185,
+   "runMix": [
+    3,
+    1,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Small Jura lifts above Nyon, about 1,040 to 1,190 m, popular for an hour of skiing near Geneva.",
+    "tags": [
+     "Good for beginners",
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=782ff266d7645a719f98204a3d02f44b4a5c7489",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.44669,
+    "lon": 6.15146,
+    "radiusM": 771
+   }
+  },
+  {
+   "id": "sainte-croix",
+   "name": "Sainte-Croix / Les Rasses",
+   "state": "Vaud",
+   "country": "CH",
+   "lat": 46.83461,
+   "lon": 6.53115,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 1180,
+   "lifts": 6,
+   "baseM": 1198,
+   "topM": 1558,
+   "runMix": [
+    1,
+    1,
+    2,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A Jura area above Sainte-Croix and Les Rasses, about 1,200 to 1,560 m on six lifts, with cross-country trails.",
+    "tags": [
+     "Family friendly",
+     "Nordic trails"
+    ],
+    "source": "https://openskimap.org/?obj=59d4e1dfdffd83d31578d19a47f3af38fb7f1e3e",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.83691,
+    "lon": 6.53114,
+    "radiusM": 1278
+   }
+  },
+  {
    "id": "salla",
    "name": "Salla",
    "state": "Lapland",
@@ -22658,6 +26854,50 @@
     "lat": 66.76499,
     "lon": 28.78323,
     "radiusM": 1087
+   }
+  },
+  {
+   "id": "san-domenico",
+   "name": "San Domenico",
+   "state": "Piedmont",
+   "country": "IT",
+   "lat": 46.26038,
+   "lon": 8.20769,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 3660,
+   "lifts": 7,
+   "baseM": 1374,
+   "topM": 2490,
+   "website": "https://www.san-domenico.com/",
+   "runMix": [
+    7,
+    7,
+    7,
+    1
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Above Varzo near the Simplon, about 1,370 to 2,490 m on seven lifts, and known for freeride.",
+    "tags": [
+     "Uncrowded",
+     "Steeps"
+    ],
+    "source": "https://openskimap.org/?obj=85720b1495a8fdf4dd29a0e6d7eacb42fb241c29",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.26088,
+    "lon": 8.20435,
+    "radiusM": 1765
    }
   },
   {
@@ -22825,13 +27065,64 @@
    }
   },
   {
+   "id": "sattel-hochstuckli",
+   "name": "Sattel-Hochstuckli",
+   "state": "Schwyz",
+   "country": "CH",
+   "lat": 47.06444,
+   "lon": 8.65598,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 1500,
+   "lifts": 6,
+   "baseM": 775,
+   "topM": 1231,
+   "website": "https://www.sattel-hochstuckli.ch/",
+   "runMix": [
+    5,
+    3,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A small Schwyz area above Sattel, about 780 to 1,230 m, with a long suspension bridge nearby.",
+    "tags": [
+     "Family friendly",
+     "Good for beginners"
+    ],
+    "source": "https://openskimap.org/?obj=04363b99935eba601ebcb4260527765fd732ebd6",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 47.06912,
+    "lon": 8.65225,
+    "radiusM": 1721
+   }
+  },
+  {
    "id": "schladming",
    "name": "Schladming-Dachstein",
    "state": "Styria",
    "country": "AT",
    "lat": 47.38596,
    "lon": 13.69917,
-   "access": [],
+   "access": [
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
+    }
+   ],
    "verticalFt": 4200,
    "lifts": 73,
    "baseM": 724,
@@ -22875,6 +27166,12 @@
      "daysAllowed": 5,
      "poolId": "salzburg",
      "notes": "5 days total across Skicircus Saalbach Hinterglemm Leogang Fieberbrunn, Schmittenhöhe (Zell am See) and Kitzsteinhorn (Kaprun) (Saalbach, Zell am See and Kaprun). Epic says the mobile pass can't be used for lift access here; bring the physical pass card."
+    },
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
     }
    ],
    "verticalFt": 3950,
@@ -22997,6 +27294,88 @@
     "lat": 44.94355,
     "lon": -85.13652,
     "radiusM": 676
+   }
+  },
+  {
+   "id": "schwanden",
+   "name": "Schwanden (Sigriswil)",
+   "state": "Bern",
+   "country": "CH",
+   "lat": 46.72941,
+   "lon": 7.7419,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 1260,
+   "lifts": 3,
+   "baseM": 1075,
+   "topM": 1460,
+   "website": "https://ski-schwanden-sigriswil.ch/",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Sigriswil-Schwanden above Lake Thun, three lifts and about 390 m of vertical, with views of the lake.",
+    "tags": [
+     "Family friendly",
+     "Views"
+    ],
+    "source": "https://openskimap.org/?obj=e410120f5240ca332675de666e3f19f08bdc04a5",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.72969,
+    "lon": 7.74169,
+    "radiusM": 1183
+   }
+  },
+  {
+   "id": "schwarzsee",
+   "name": "Schwarzsee",
+   "state": "Fribourg",
+   "country": "CH",
+   "lat": 46.66066,
+   "lon": 7.29873,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 2290,
+   "lifts": 5,
+   "baseM": 1049,
+   "topM": 1748,
+   "website": "https://www.kaisereggbahnen-schwarzsee.ch/",
+   "runMix": [
+    5,
+    5,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Fribourg's lake resort (Lac Noir), about 1,050 to 1,750 m on five lifts, with cross-country trails around the lake.",
+    "tags": [
+     "Family friendly",
+     "Nordic trails"
+    ],
+    "source": "https://openskimap.org/?obj=e5f2ecffbec19f6ada9be3680c33c156b3795b68",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.65937,
+    "lon": 7.30087,
+    "radiusM": 1578
    }
   },
   {
@@ -23142,6 +27521,42 @@
     "lat": 47.06963,
     "lon": 10.48293,
     "radiusM": 2256
+   }
+  },
+  {
+   "id": "selital",
+   "name": "Selital",
+   "state": "Bern",
+   "country": "CH",
+   "lat": 46.74426,
+   "lon": 7.39234,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 990,
+   "lifts": 2,
+   "baseM": 1292,
+   "topM": 1593,
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "The Selital lifts in the Gantrisch nature park south of Bern, about 1,290 to 1,590 m on two lifts.",
+    "tags": [
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=d134dedf981a206dc73049f1efbaa71d98b35cf7",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.74417,
+    "lon": 7.39412,
+    "radiusM": 887
    }
   },
   {
@@ -24230,6 +28645,12 @@
      "validFrom": "2026-10-01",
      "validTo": "2027-05-15",
      "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    },
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
     }
    ],
    "verticalFt": 3960,
@@ -24585,6 +29006,12 @@
      "validFrom": "2026-10-01",
      "validTo": "2027-05-15",
      "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    },
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
     }
    ],
    "verticalFt": 4098,
@@ -24635,6 +29062,12 @@
      "daysAllowed": 5,
      "poolId": "salzburg",
      "notes": "5 days total across Skicircus Saalbach Hinterglemm Leogang Fieberbrunn, Schmittenhöhe (Zell am See) and Kitzsteinhorn (Kaprun) (Saalbach, Zell am See and Kaprun). Epic says the mobile pass can't be used for lift access here; bring the physical pass card."
+    },
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
     }
    ],
    "verticalFt": 4250,
@@ -24682,6 +29115,12 @@
      "daysAllowed": 0,
      "poolId": "vouchers",
      "notes": "Free day of skiing for one voucher. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 12 Oct 2026; partners can change."
+    },
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
     }
    ],
    "verticalFt": 5900,
@@ -25042,6 +29481,52 @@
     "lat": 43.64002,
     "lon": -75.42476,
     "radiusM": 824
+   }
+  },
+  {
+   "id": "snow-space-salzburg",
+   "name": "Snow Space Salzburg (Flachau, Wagrain, St. Johann-Alpendorf)",
+   "state": "Salzburg",
+   "country": "AT",
+   "lat": 47.33439,
+   "lon": 13.28153,
+   "access": [
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
+    }
+   ],
+   "verticalFt": 4300,
+   "lifts": 47,
+   "baseM": 667,
+   "topM": 1977,
+   "website": "https://www.snow-space.com/",
+   "runMix": [
+    57,
+    33,
+    8,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Ski amadé's biggest connected circuit, linking Flachau, Wagrain and St. Johann-Alpendorf, with close to 1,300 m of vertical on 47 lifts. Flachau's floodlit World Cup slalom slope is here.",
+    "tags": [
+     "Varied terrain",
+     "Family friendly",
+     "Night skiing",
+     "Racing heritage"
+    ],
+    "source": "https://openskimap.org/?obj=ebc3833ff7fe9a3a6978c81bac56683ecae63cd2",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 47.32823,
+    "lon": 13.29519,
+    "radiusM": 7160
    }
   },
   {
@@ -25759,6 +30244,94 @@
    }
   },
   {
+   "id": "springenboden",
+   "name": "Springenboden",
+   "state": "Bern",
+   "country": "CH",
+   "lat": 46.61641,
+   "lon": 7.5772,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 990,
+   "lifts": 1,
+   "baseM": 1207,
+   "topM": 1510,
+   "runMix": [
+    2,
+    1,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A single lift at Springenboden in the Diemtigtal, with about 300 m of vertical and few crowds.",
+    "tags": [
+     "Local vibe",
+     "Uncrowded"
+    ],
+    "source": "https://openskimap.org/?obj=03afb38e0ea197ad18a15fb38a24df3725d8f0ad",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.61562,
+    "lon": 7.57685,
+    "radiusM": 799
+   }
+  },
+  {
+   "id": "st-luc-chandolin",
+   "name": "St-Luc / Chandolin",
+   "state": "Valais",
+   "country": "CH",
+   "lat": 46.23742,
+   "lon": 7.61753,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 4240,
+   "lifts": 18,
+   "baseM": 1682,
+   "topM": 2973,
+   "website": "https://www.anniviers.ch/",
+   "runMix": [
+    24,
+    17,
+    8,
+    1
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "In the Val d'Anniviers, linking St-Luc and Chandolin, one of Europe's highest year-round villages, from about 1,680 to 2,970 m on 18 lifts.",
+    "tags": [
+     "High altitude",
+     "Views",
+     "Varied terrain"
+    ],
+    "source": "https://openskimap.org/?obj=170c8c0d276b50ceeb50658829c7dcd487fcd18c",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.23753,
+    "lon": 7.62372,
+    "radiusM": 2888
+   }
+  },
+  {
    "id": "st-jakob-defereggen",
    "name": "St. Jakob im Defereggental (Brunnalm)",
    "state": "Tyrol",
@@ -25819,6 +30392,12 @@
      "validFrom": "2026-10-01",
      "validTo": "2027-05-15",
      "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    },
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
     }
    ],
    "verticalFt": 3100,
@@ -25977,6 +30556,12 @@
      "validFrom": "2026-10-01",
      "validTo": "2027-05-15",
      "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    },
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
     }
    ],
    "verticalFt": 3674,
@@ -27062,6 +31647,50 @@
    }
   },
   {
+   "id": "sorenberg",
+   "name": "Sörenberg",
+   "state": "Lucerne",
+   "country": "CH",
+   "lat": 46.80758,
+   "lon": 8.02531,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 3730,
+   "lifts": 17,
+   "baseM": 1119,
+   "topM": 2257,
+   "website": "https://www.soerenberg.ch",
+   "runMix": [
+    3,
+    8,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Central Switzerland's family resort in the Entlebuch biosphere, about 1,120 to 2,260 m on 17 lifts up to the Brienzer Rothorn.",
+    "tags": [
+     "Family friendly",
+     "Varied terrain"
+    ],
+    "source": "https://openskimap.org/?obj=6fc2b7bd9404c7cf68e49ca9fd83600e3de149d4",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.80699,
+    "lon": 8.04088,
+    "radiusM": 2937
+   }
+  },
+  {
    "id": "takasu-snow-park",
    "name": "Takasu Snow Park",
    "state": "Gifu",
@@ -27274,6 +31903,51 @@
     "lat": 36.58136,
     "lon": -105.44988,
     "radiusM": 1808
+   }
+  },
+  {
+   "id": "tauplitz",
+   "name": "Tauplitz",
+   "state": "Styria",
+   "country": "AT",
+   "lat": 47.58104,
+   "lon": 13.97948,
+   "access": [
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
+    }
+   ],
+   "verticalFt": 3420,
+   "lifts": 18,
+   "baseM": 921,
+   "topM": 1964,
+   "website": "https://www.dietauplitz.com/",
+   "runMix": [
+    12,
+    10,
+    3,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A high plateau of small lakes above Bad Mitterndorf in Styria, about 920 to 1,960 m on 18 lifts, with huts and hotels up on the plateau.",
+    "tags": [
+     "Big snow",
+     "Varied terrain",
+     "Slopeside lodging"
+    ],
+    "source": "https://openskimap.org/?obj=98392622932b17cf8ecfbcdb9ccfef413473fc77",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 47.58111,
+    "lon": 13.98363,
+    "radiusM": 2841
    }
   },
   {
@@ -27854,6 +32528,49 @@
    }
   },
   {
+   "id": "thollon",
+   "name": "Thollon-les-Mémises",
+   "state": "Haute-Savoie",
+   "country": "FR",
+   "lat": 46.38006,
+   "lon": 6.72225,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 2610,
+   "lifts": 16,
+   "baseM": 1078,
+   "topM": 1873,
+   "runMix": [
+    19,
+    12,
+    2,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Above Évian on Lake Geneva, about 1,080 to 1,870 m on 16 lifts, with views over the lake.",
+    "tags": [
+     "Views",
+     "Family friendly"
+    ],
+    "source": "https://openskimap.org/?obj=d3c7b897d3dac0b590961eb352677d3070e52fe1",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.3775,
+    "lon": 6.73926,
+    "radiusM": 1626
+   }
+  },
+  {
    "id": "thredbo",
    "name": "Thredbo",
    "state": "New South Wales",
@@ -28229,6 +32946,50 @@
     "lat": 36.94155,
     "lon": 138.37971,
     "radiusM": 1339
+   }
+  },
+  {
+   "id": "tramelan",
+   "name": "Tramelan",
+   "state": "Bern",
+   "country": "CH",
+   "lat": 47.20666,
+   "lon": 7.08574,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 930,
+   "lifts": 3,
+   "baseM": 925,
+   "topM": 1209,
+   "website": "https://www.teleski-tramelan.ch/",
+   "runMix": [
+    2,
+    1,
+    2,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "The Bernese Jura's lifts around Tramelan and Mont-Crosin, three lifts at about 930 to 1,210 m, with cross-country trails.",
+    "tags": [
+     "Nordic trails",
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=729325c8f4c2fc43ce10e54f63a079089116196b",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 47.20793,
+    "lon": 7.08469,
+    "radiusM": 1000
    }
   },
   {
@@ -28804,6 +33565,49 @@
    }
   },
   {
+   "id": "unterbach-eischoll",
+   "name": "Unterbäch-Eischoll",
+   "state": "Valais",
+   "country": "CH",
+   "lat": 46.27055,
+   "lon": 7.77869,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station. The cable car up from the valley isn't included."
+    }
+   ],
+   "verticalFt": 3940,
+   "lifts": 11,
+   "baseM": 1232,
+   "topM": 2432,
+   "runMix": [
+    22,
+    6,
+    7,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Unterbäch and Eischoll on the sunny side of the Rhône valley, linked runs from about 1,230 to 2,430 m on 11 lifts. The valley cable cars aren't on the Magic Pass.",
+    "tags": [
+     "Family friendly",
+     "Views"
+    ],
+    "source": "https://openskimap.org/?obj=0ed67f04f2e5d0f8e1b8be3507c577fcfcb60215",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.26456,
+    "lon": 7.78165,
+    "radiusM": 3221
+   }
+  },
+  {
    "id": "vail",
    "name": "Vail",
    "state": "CO",
@@ -29086,6 +33890,43 @@
    }
   },
   {
+   "id": "valbirse",
+   "name": "Valbirse (Les Orvalles)",
+   "state": "Bern",
+   "country": "CH",
+   "lat": 47.22856,
+   "lon": 7.27025,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 200,
+   "lifts": 1,
+   "baseM": 781,
+   "topM": 842,
+   "website": "https://www.bikeparkvalbirse.ch/",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A single lift at Les Orvalles above Malleray in the Bernese Jura, for beginners.",
+    "tags": [
+     "Good for beginners"
+    ],
+    "source": "https://openskimap.org/?obj=84b542cdb25becc8e7e7704caa796625915ca227",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 47.22852,
+    "lon": 7.27036,
+    "radiusM": 400
+   }
+  },
+  {
    "id": "valle-nevado",
    "name": "Valle Nevado",
    "state": "Santiago",
@@ -29155,6 +33996,43 @@
     "lat": -33.33738,
     "lon": -70.24837,
     "radiusM": 2364
+   }
+  },
+  {
+   "id": "vallee-de-joux",
+   "name": "Vallée de Joux (Le Brassus)",
+   "state": "Vaud",
+   "country": "CH",
+   "lat": 46.57426,
+   "lon": 6.21909,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 1000,
+   "lifts": 2,
+   "baseM": 1062,
+   "topM": 1366,
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Lifts at Le Brassus in the Vallée de Joux, best known for its cross-country trails and the frozen lake.",
+    "tags": [
+     "Nordic trails",
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=4284b8c91f35f6378fa013f4e91b41693510922b",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.57508,
+    "lon": 6.22011,
+    "radiusM": 899
    }
   },
   {
@@ -29302,6 +34180,49 @@
    }
   },
   {
+   "id": "vercorin",
+   "name": "Vercorin",
+   "state": "Valais",
+   "country": "CH",
+   "lat": 46.23832,
+   "lon": 7.52801,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 3440,
+   "lifts": 12,
+   "baseM": 1320,
+   "topM": 2369,
+   "runMix": [
+    5,
+    8,
+    2,
+    1
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Above the Rhône valley at the mouth of the Val d'Anniviers, with a cable car from Chalais and runs from about 1,320 to 2,370 m.",
+    "tags": [
+     "Family friendly",
+     "Views"
+    ],
+    "source": "https://openskimap.org/?obj=d6582b43907eabfba13b7f54f9c96dc569d64e62",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.23893,
+    "lon": 7.52835,
+    "radiusM": 2111
+   }
+  },
+  {
    "id": "veterans-memorial",
    "name": "Veterans Memorial Recreation Area",
    "state": "NH",
@@ -29353,6 +34274,89 @@
     "lat": 43.44321,
     "lon": -71.69123,
     "radiusM": 418
+   }
+  },
+  {
+   "id": "villars-diablerets",
+   "name": "Villars-Gryon-Les Diablerets",
+   "state": "Vaud",
+   "country": "CH",
+   "lat": 46.32829,
+   "lon": 7.13015,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 3180,
+   "lifts": 30,
+   "baseM": 1127,
+   "topM": 2097,
+   "website": "https://www.tvgd.ch/",
+   "runMix": [
+    36,
+    32,
+    3,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Villars, Gryon and Les Diablerets linked above the Rhône valley, about 1,130 to 2,100 m on 30 lifts, with a train up from Bex included on the Magic Pass.",
+    "tags": [
+     "Varied terrain",
+     "Family friendly",
+     "Views"
+    ],
+    "source": "https://openskimap.org/?obj=b63d5d59b7283cde4430ef60dc439bd31b07214d",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.31356,
+    "lon": 7.09552,
+    "radiusM": 4038
+   }
+  },
+  {
+   "id": "visperterminen",
+   "name": "Visperterminen",
+   "state": "Valais",
+   "country": "CH",
+   "lat": 46.25244,
+   "lon": 7.92856,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 3030,
+   "lifts": 4,
+   "baseM": 1379,
+   "topM": 2302,
+   "website": "http://www.visperterminen.ch",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Above Visp and its vineyards, a chairlift and three more lifts from about 1,380 to 2,300 m.",
+    "tags": [
+     "Local vibe",
+     "Views"
+    ],
+    "source": "https://openskimap.org/?obj=0c827a420edfb4e2372113eea954115ebd9f0af4",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.25292,
+    "lon": 7.9208,
+    "radiusM": 1521
    }
   },
   {
@@ -29545,6 +34549,89 @@
     "lat": 43.96076,
     "lon": -71.54051,
     "radiusM": 1329
+   }
+  },
+  {
+   "id": "weissee",
+   "name": "Weißsee Gletscherwelt (Uttendorf)",
+   "state": "Salzburg",
+   "country": "AT",
+   "lat": 47.13964,
+   "lon": 12.62602,
+   "access": [
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
+    }
+   ],
+   "verticalFt": 3520,
+   "lifts": 9,
+   "baseM": 1483,
+   "topM": 2555,
+   "website": "https://www.gletscherwelt-weissee.at/",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "At the head of the Stubach valley above Uttendorf in the Hohe Tauern, from about 1,480 to 2,550 m on nine lifts; the high runs around the Weißsee hold snow late into spring.",
+    "tags": [
+     "High altitude",
+     "Uncrowded",
+     "Views"
+    ],
+    "source": "https://openskimap.org/?obj=ce27bffab42bb84f428aa6a5f1e3b3889536dc6b",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 47.14495,
+    "lon": 12.62766,
+    "radiusM": 2550
+   }
+  },
+  {
+   "id": "werfenweng",
+   "name": "Werfenweng",
+   "state": "Salzburg",
+   "country": "AT",
+   "lat": 47.46022,
+   "lon": 13.28215,
+   "access": [
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
+    }
+   ],
+   "verticalFt": 3050,
+   "lifts": 9,
+   "baseM": 898,
+   "topM": 1828,
+   "website": "https://www.bergbahnen-werfenweng.com/",
+   "runMix": [
+    9,
+    6,
+    2,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A small resort village in the Tennengebirge, known for its car-free holiday scheme, about 900 to 1,830 m on nine lifts.",
+    "tags": [
+     "Family friendly",
+     "Uncrowded"
+    ],
+    "source": "https://openskimap.org/?obj=2fede7b59c44a1e3b56e9de3001562b9da83b757",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 47.46342,
+    "lon": 13.28246,
+    "radiusM": 2523
    }
   },
   {
@@ -30376,6 +35463,12 @@
      "validFrom": "2026-10-01",
      "validTo": "2027-05-15",
      "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    },
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
     }
    ],
    "verticalFt": 4300,
@@ -30715,6 +35808,50 @@
    }
   },
   {
+   "id": "wiriehorn",
+   "name": "Wiriehorn",
+   "state": "Bern",
+   "country": "CH",
+   "lat": 46.59857,
+   "lon": 7.53791,
+   "access": [
+    {
+     "passId": "magic-pass",
+     "validFrom": "2026-05-01",
+     "validTo": "2027-04-30",
+     "notes": "Unlimited until 30 April, at every Magic Pass station."
+    }
+   ],
+   "verticalFt": 2390,
+   "lifts": 5,
+   "baseM": 998,
+   "topM": 1725,
+   "website": "https://www.wiriehorn.ch/",
+   "runMix": [
+    6,
+    5,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "The Diemtigtal's biggest area, about 1,000 to 1,730 m on five lifts, with night skiing on Fridays.",
+    "tags": [
+     "Night skiing",
+     "Family friendly"
+    ],
+    "source": "https://openskimap.org/?obj=143bc287b54d322b788c8099bfb0b664cfa2678a",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 46.5999,
+    "lon": 7.53844,
+    "radiusM": 1387
+   }
+  },
+  {
    "id": "wisp",
    "name": "Wisp",
    "state": "MD",
@@ -30859,6 +35996,50 @@
     "lat": 43.61841,
     "lon": -72.5274,
     "radiusM": 2757
+   }
+  },
+  {
+   "id": "wurzeralm",
+   "name": "Wurzeralm (Spital am Pyhrn)",
+   "state": "Upper Austria",
+   "country": "AT",
+   "lat": 47.63672,
+   "lon": 14.29498,
+   "access": [
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
+    }
+   ],
+   "verticalFt": 3450,
+   "lifts": 19,
+   "baseM": 807,
+   "topM": 1859,
+   "website": "https://www.hiwu.at/",
+   "runMix": [
+    8,
+    10,
+    3,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Above Spital am Pyhrn, reached by funicular to a high plateau, about 810 to 1,860 m on 19 lifts.",
+    "tags": [
+     "Family friendly",
+     "Varied terrain"
+    ],
+    "source": "https://openskimap.org/?obj=c59eb5ea73c7ee28d4d4bc11ff9701156f9ee17d",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 47.63772,
+    "lon": 14.28369,
+    "radiusM": 2456
    }
   },
   {
@@ -31094,6 +36275,51 @@
    }
   },
   {
+   "id": "zauchensee",
+   "name": "Zauchensee-Flachauwinkl-Kleinarl",
+   "state": "Salzburg",
+   "country": "AT",
+   "lat": 47.28876,
+   "lon": 13.43713,
+   "access": [
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
+    }
+   ],
+   "verticalFt": 3670,
+   "lifts": 23,
+   "baseM": 989,
+   "topM": 2109,
+   "website": "https://www.zauchensee.at/",
+   "runMix": [
+    39,
+    20,
+    2,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Zauchensee's high bowl, a women's World Cup venue, linked to Flachauwinkl and the Shuttleberg above Kleinarl: about 990 to 2,110 m on 23 lifts.",
+    "tags": [
+     "Racing heritage",
+     "Varied terrain",
+     "Slopeside lodging"
+    ],
+    "source": "https://openskimap.org/?obj=c1bb41346278aa404c3e62769608553e1d22d149",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 47.2917,
+    "lon": 13.39297,
+    "radiusM": 5814
+   }
+  },
+  {
    "id": "zermatt",
    "name": "Zermatt Matterhorn",
    "state": "Valais",
@@ -31209,6 +36435,12 @@
      "validFrom": "2026-10-01",
      "validTo": "2027-05-15",
      "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    },
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
     }
    ],
    "verticalFt": 6330,
@@ -31240,6 +36472,49 @@
     "lat": 47.24358,
     "lon": 12.03752,
     "radiusM": 8610
+   }
+  },
+  {
+   "id": "zinkenlifte",
+   "name": "Zinkenlifte (Hallein-Bad Dürrnberg)",
+   "state": "Salzburg",
+   "country": "AT",
+   "lat": 47.65635,
+   "lon": 13.09276,
+   "access": [
+    {
+     "passId": "superskicard",
+     "validFrom": "2026-10-10",
+     "validTo": "2027-05-02",
+     "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
+    }
+   ],
+   "verticalFt": 1580,
+   "lifts": 3,
+   "baseM": 833,
+   "topM": 1315,
+   "website": "https://www.duerrnberg.at",
+   "runMix": [
+    3,
+    1,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Hallein's hill at Bad Dürrnberg on the Bavarian border, three lifts and about 480 m of vertical, half an hour from Salzburg.",
+    "tags": [
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=ae3cd8edec4919c6e3888b22332b75c4c3092cc1",
+    "checked": "2026-11-06"
+   },
+   "checkIn": {
+    "lat": 47.65336,
+    "lon": 13.09203,
+    "radiusM": 911
    }
   },
   {
