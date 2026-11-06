@@ -1,6 +1,6 @@
 {
  "format": 1,
- "version": 21,
+ "version": 22,
  "season": "2026-27",
  "dataAsOf": "2026-10-22",
  "passes": [
@@ -402,6 +402,39 @@
    "hasBlackouts": false,
    "price": 400,
    "priceNote": "26/27 price ($339.99 for a limited number)"
+  },
+  {
+   "id": "epic-day",
+   "family": "Epic",
+   "name": "Epic Day Pass",
+   "hasBlackouts": true,
+   "dayCount": [
+    1,
+    7
+   ],
+   "peakOption": true
+  },
+  {
+   "id": "ikon-session",
+   "family": "Ikon",
+   "name": "Ikon Session Pass",
+   "hasBlackouts": true,
+   "dayCount": [
+    2,
+    4
+   ],
+   "price": 369,
+   "priceNote": "26/27 price from, 2 days, adult"
+  },
+  {
+   "id": "boyne-freestyle",
+   "family": "Boyne",
+   "name": "Boyne Freestyle Pass",
+   "hasBlackouts": true,
+   "dayCount": [
+    3,
+    7
+   ]
   }
  ],
  "resorts": [
@@ -588,6 +621,12 @@
     },
     {
      "passId": "epic-local"
+    },
+    {
+     "passId": "epic-day",
+     "daysAllowed": 1,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across Epic's resorts. The app counts the all-resorts pass; the 32- and 22-resort passes leave some resorts out. Partner resorts need 4 days or more."
     }
    ],
    "verticalFt": 320,
@@ -778,6 +817,12 @@
     {
      "passId": "epic-northeast-midweek",
      "notes": "Monday to Friday only."
+    },
+    {
+     "passId": "epic-day",
+     "daysAllowed": 1,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across Epic's resorts. The app counts the all-resorts pass; the 32- and 22-resort passes leave some resorts out. Partner resorts need 4 days or more."
     }
    ],
    "verticalFt": 230,
@@ -930,6 +975,12 @@
      "passId": "ikon-base",
      "daysAllowed": 5,
      "reservationRequired": false
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
     }
    ],
    "verticalFt": 2480,
@@ -1442,6 +1493,12 @@
     {
      "passId": "ikon-base",
      "reservationRequired": false
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
     }
    ],
    "verticalFt": 1690,
@@ -1680,6 +1737,12 @@
     {
      "passId": "epic-northeast-midweek",
      "notes": "Monday to Friday only."
+    },
+    {
+     "passId": "epic-day",
+     "daysAllowed": 1,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across Epic's resorts. The app counts the all-resorts pass; the 32- and 22-resort passes leave some resorts out. Partner resorts need 4 days or more."
     }
    ],
    "verticalFt": 1660,
@@ -1792,6 +1855,12 @@
      "allExtraDaysDiscounted": true,
      "reservationRequired": false,
      "notes": "2 free days here, then 50% off any additional day. No blackouts. Some destinations need advance reservations."
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
     }
    ],
    "verticalFt": 3360,
@@ -2113,6 +2182,12 @@
      "daysAllowed": 5,
      "poolId": "tahoe5",
      "notes": "5 days total across Park City, Vail, Beaver Creek, Keystone, Breckenridge and Crested Butte. Restricted peak dates apply."
+    },
+    {
+     "passId": "epic-day",
+     "daysAllowed": 1,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across Epic's resorts. The app counts the all-resorts pass; the 32- and 22-resort passes leave some resorts out. Partner resorts need 4 days or more."
     }
    ],
    "verticalFt": 4020,
@@ -2410,6 +2485,12 @@
     {
      "passId": "ikon-base",
      "reservationRequired": false
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
     }
    ],
    "verticalFt": 1650,
@@ -2459,6 +2540,12 @@
     {
      "passId": "epic-northeast-midweek",
      "notes": "Monday to Friday only."
+    },
+    {
+     "passId": "epic-day",
+     "daysAllowed": 1,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across Epic's resorts. The app counts the all-resorts pass; the 32- and 22-resort passes leave some resorts out. Partner resorts need 4 days or more."
     }
    ],
    "verticalFt": 370,
@@ -2729,6 +2816,18 @@
      "passId": "ne-gold",
      "daysAllowed": 3,
      "notes": "3 free days, then 50% off more Boyne days."
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
+    },
+    {
+     "passId": "boyne-freestyle",
+     "daysAllowed": 3,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across all 10 Boyne resorts."
     }
    ],
    "verticalFt": 4350,
@@ -3155,6 +3254,12 @@
     {
      "passId": "ikon-base",
      "reservationRequired": false
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
     }
    ],
    "verticalFt": 720,
@@ -3201,6 +3306,12 @@
      "passId": "ikon-base",
      "daysAllowed": 5,
      "reservationRequired": false
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
     }
    ],
    "verticalFt": 1080,
@@ -3346,6 +3457,12 @@
     {
      "passId": "epic-northeast-midweek",
      "notes": "Monday to Friday only."
+    },
+    {
+     "passId": "epic-day",
+     "daysAllowed": 1,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across Epic's resorts. The app counts the all-resorts pass; the 32- and 22-resort passes leave some resorts out. Partner resorts need 4 days or more."
     }
    ],
    "verticalFt": 200,
@@ -3511,6 +3628,18 @@
      "passId": "ne-gold",
      "daysAllowed": 3,
      "notes": "3 free days, then 50% off more Boyne days."
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
+    },
+    {
+     "passId": "boyne-freestyle",
+     "daysAllowed": 3,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across all 10 Boyne resorts."
     }
    ],
    "verticalFt": 440,
@@ -3568,6 +3697,12 @@
     {
      "passId": "epic-summit-value",
      "notes": "Restricted peak dates apply."
+    },
+    {
+     "passId": "epic-day",
+     "daysAllowed": 1,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across Epic's resorts. The app counts the all-resorts pass; the 32- and 22-resort passes leave some resorts out. Partner resorts need 4 days or more."
     }
    ],
    "verticalFt": 3260,
@@ -3739,6 +3874,18 @@
      "passId": "ne-gold",
      "daysAllowed": 3,
      "notes": "3 free days, then 50% off more Boyne days."
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
+    },
+    {
+     "passId": "boyne-freestyle",
+     "daysAllowed": 3,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across all 10 Boyne resorts."
     }
    ],
    "verticalFt": 1700,
@@ -4383,6 +4530,12 @@
      "passId": "ikon-base",
      "daysAllowed": 5,
      "reservationRequired": false
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
     }
    ],
    "verticalFt": 800,
@@ -5568,6 +5721,12 @@
     {
      "passId": "ikon-base",
      "reservationRequired": false
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
     }
    ],
    "verticalFt": 2610,
@@ -5631,6 +5790,14 @@
      "notes": "2 free days shared across Coronet Peak and The Remarkables, then 50% off any additional day. No blackouts. Valid in the 2027 southern winter (roughly June to October 2027) on a 26/27 pass.",
      "allExtraDaysDiscounted": true,
      "reservationRequired": false
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "validFrom": "2027-05-01",
+     "validTo": "2027-11-30",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
     }
    ],
    "verticalFt": 1460,
@@ -6056,6 +6223,12 @@
      "passId": "epic-keystone-plus",
      "daysAllowed": 5,
      "notes": "Restricted peak dates apply."
+    },
+    {
+     "passId": "epic-day",
+     "daysAllowed": 1,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across Epic's resorts. The app counts the all-resorts pass; the 32- and 22-resort passes leave some resorts out. Partner resorts need 4 days or more."
     }
    ],
    "verticalFt": 2320,
@@ -6155,6 +6328,12 @@
     {
      "passId": "epic-northeast-midweek",
      "notes": "Monday to Friday only."
+    },
+    {
+     "passId": "epic-day",
+     "daysAllowed": 1,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across Epic's resorts. The app counts the all-resorts pass; the 32- and 22-resort passes leave some resorts out. Partner resorts need 4 days or more."
     }
    ],
    "verticalFt": 880,
@@ -6254,6 +6433,12 @@
      "passId": "ikon-base",
      "daysAllowed": 5,
      "reservationRequired": false
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
     }
    ],
    "verticalFt": 2390,
@@ -6411,6 +6596,18 @@
      "passId": "ne-gold",
      "daysAllowed": 3,
      "notes": "3 free days, then 50% off more Boyne days."
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
+    },
+    {
+     "passId": "boyne-freestyle",
+     "daysAllowed": 3,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across all 10 Boyne resorts. Plus one bonus day at Pleasant Mountain or Cypress, the first time you ski either."
     }
    ],
    "verticalFt": 1980,
@@ -7232,6 +7429,12 @@
     {
      "passId": "ikon-base",
      "reservationRequired": false
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
     }
    ],
    "verticalFt": 1350,
@@ -7634,6 +7837,12 @@
      "daysAllowed": 7,
      "poolId": "rcr",
      "notes": "7 days total across Fernie Alpine Resort, Kicking Horse, Kimberley Alpine Resort, Nakiska, Mont-Sainte-Anne and Stoneham (Resorts of the Canadian Rockies)."
+    },
+    {
+     "passId": "epic-day",
+     "daysAllowed": 1,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across Epic's resorts. The app counts the all-resorts pass; the 32- and 22-resort passes leave some resorts out. Partner resorts need 4 days or more."
     }
    ],
    "verticalFt": 3410,
@@ -8388,6 +8597,12 @@
      "passId": "ikon-base",
      "daysAllowed": 5,
      "reservationRequired": false
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
     }
    ],
    "verticalFt": 660,
@@ -9276,6 +9491,12 @@
     {
      "passId": "epic-tahoe-value",
      "notes": "Restricted peak dates apply."
+    },
+    {
+     "passId": "epic-day",
+     "daysAllowed": 1,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across Epic's resorts. The app counts the all-resorts pass; the 32- and 22-resort passes leave some resorts out. Partner resorts need 4 days or more."
     }
    ],
    "verticalFt": 3320,
@@ -9409,6 +9630,12 @@
     },
     {
      "passId": "epic-local"
+    },
+    {
+     "passId": "epic-day",
+     "daysAllowed": 1,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across Epic's resorts. The app counts the all-resorts pass; the 32- and 22-resort passes leave some resorts out. Partner resorts need 4 days or more."
     }
    ],
    "verticalFt": 290,
@@ -9458,6 +9685,12 @@
     {
      "passId": "epic-northeast-midweek",
      "notes": "Monday to Friday only."
+    },
+    {
+     "passId": "epic-day",
+     "daysAllowed": 1,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across Epic's resorts. The app counts the all-resorts pass; the 32- and 22-resort passes leave some resorts out. Partner resorts need 4 days or more."
     }
    ],
    "verticalFt": 490,
@@ -10495,6 +10728,12 @@
     {
      "passId": "epic-northeast-midweek",
      "notes": "Monday to Friday only. Restricted peak dates apply."
+    },
+    {
+     "passId": "epic-day",
+     "daysAllowed": 1,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across Epic's resorts. The app counts the all-resorts pass; the 32- and 22-resort passes leave some resorts out. Partner resorts need 4 days or more."
     }
    ],
    "verticalFt": 1530,
@@ -10804,6 +11043,12 @@
     {
      "passId": "epic-northeast-midweek",
      "notes": "Monday to Friday only."
+    },
+    {
+     "passId": "epic-day",
+     "daysAllowed": 1,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across Epic's resorts. The app counts the all-resorts pass; the 32- and 22-resort passes leave some resorts out. Partner resorts need 4 days or more."
     }
    ],
    "verticalFt": 520,
@@ -11117,6 +11362,12 @@
      "daysAllowed": 0,
      "poolId": "vouchers",
      "notes": "Buy one day, get the next day free (one person, consecutive days). Uses one voucher; it must be used on that visit. Helly Hansen's list as of 12 Oct 2026; partners can change."
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
     }
    ],
    "verticalFt": 2560,
@@ -11494,6 +11745,12 @@
     },
     {
      "passId": "epic-summit-value"
+    },
+    {
+     "passId": "epic-day",
+     "daysAllowed": 1,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across Epic's resorts. The app counts the all-resorts pass; the 32- and 22-resort passes leave some resorts out. Partner resorts need 4 days or more."
     }
    ],
    "verticalFt": 3000,
@@ -11537,6 +11794,12 @@
      "daysAllowed": 7,
      "poolId": "rcr",
      "notes": "7 days total across Fernie Alpine Resort, Kicking Horse, Kimberley Alpine Resort, Nakiska, Mont-Sainte-Anne and Stoneham (Resorts of the Canadian Rockies)."
+    },
+    {
+     "passId": "epic-day",
+     "daysAllowed": 1,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across Epic's resorts. The app counts the all-resorts pass; the 32- and 22-resort passes leave some resorts out. Partner resorts need 4 days or more."
     }
    ],
    "verticalFt": 3810,
@@ -11583,6 +11846,12 @@
      "passId": "ikon-base",
      "daysAllowed": 5,
      "reservationRequired": false
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
     }
    ],
    "verticalFt": 2980,
@@ -11627,6 +11896,12 @@
      "daysAllowed": 7,
      "poolId": "rcr",
      "notes": "7 days total across Fernie Alpine Resort, Kicking Horse, Kimberley Alpine Resort, Nakiska, Mont-Sainte-Anne and Stoneham (Resorts of the Canadian Rockies)."
+    },
+    {
+     "passId": "epic-day",
+     "daysAllowed": 1,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across Epic's resorts. The app counts the all-resorts pass; the 32- and 22-resort passes leave some resorts out. Partner resorts need 4 days or more."
     }
    ],
    "verticalFt": 2200,
@@ -11783,6 +12058,12 @@
     {
      "passId": "epic-tahoe-value",
      "notes": "Not valid on Saturdays. Restricted peak dates apply."
+    },
+    {
+     "passId": "epic-day",
+     "daysAllowed": 1,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across Epic's resorts. The app counts the all-resorts pass; the 32- and 22-resort passes leave some resorts out. Partner resorts need 4 days or more."
     }
    ],
    "verticalFt": 1650,
@@ -12254,6 +12535,12 @@
      "allExtraDaysDiscounted": true,
      "reservationRequired": false,
      "notes": "2 free days here, then 50% off any additional day. No blackouts. Some destinations need advance reservations."
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
     }
    ],
    "verticalFt": 3260,
@@ -12352,6 +12639,12 @@
     {
      "passId": "epic-northeast-midweek",
      "notes": "Monday to Friday only."
+    },
+    {
+     "passId": "epic-day",
+     "daysAllowed": 1,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across Epic's resorts. The app counts the all-resorts pass; the 32- and 22-resort passes leave some resorts out. Partner resorts need 4 days or more."
     }
    ],
    "verticalFt": 760,
@@ -12443,6 +12736,12 @@
      "allExtraDaysDiscounted": true,
      "reservationRequired": false,
      "notes": "2 free days here, then 50% off any additional day. No blackouts. Some destinations need advance reservations."
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
     }
    ],
    "verticalFt": 2470,
@@ -12893,6 +13192,12 @@
     {
      "passId": "epic-northeast-midweek",
      "notes": "Monday to Friday only."
+    },
+    {
+     "passId": "epic-day",
+     "daysAllowed": 1,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across Epic's resorts. The app counts the all-resorts pass; the 32- and 22-resort passes leave some resorts out. Partner resorts need 4 days or more."
     }
    ],
    "verticalFt": 580,
@@ -13148,6 +13453,18 @@
     {
      "passId": "ne-bronze",
      "notes": "Monday to Friday, except holiday blackouts."
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
+    },
+    {
+     "passId": "boyne-freestyle",
+     "daysAllowed": 3,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across all 10 Boyne resorts."
     }
    ],
    "verticalFt": 2190,
@@ -13427,6 +13744,12 @@
      "passId": "ikon-base",
      "daysAllowed": 5,
      "reservationRequired": false
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
     }
    ],
    "verticalFt": 770,
@@ -13514,6 +13837,12 @@
     {
      "passId": "epic-northeast-midweek",
      "notes": "Monday to Friday only."
+    },
+    {
+     "passId": "epic-day",
+     "daysAllowed": 1,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across Epic's resorts. The app counts the all-resorts pass; the 32- and 22-resort passes leave some resorts out. Partner resorts need 4 days or more."
     }
    ],
    "verticalFt": 290,
@@ -13874,6 +14203,12 @@
      "daysAllowed": 0,
      "poolId": "vouchers",
      "notes": "Buy one day, get the next day free (one person, consecutive days). Uses one voucher; it must be used on that visit. Helly Hansen's list as of 12 Oct 2026; partners can change."
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
     }
    ],
    "verticalFt": 2960,
@@ -15128,6 +15463,12 @@
      "daysAllowed": 7,
      "poolId": "rcr",
      "notes": "7 days total across Fernie Alpine Resort, Kicking Horse, Kimberley Alpine Resort, Nakiska, Mont-Sainte-Anne and Stoneham (Resorts of the Canadian Rockies)."
+    },
+    {
+     "passId": "epic-day",
+     "daysAllowed": 1,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across Epic's resorts. The app counts the all-resorts pass; the 32- and 22-resort passes leave some resorts out. Partner resorts need 4 days or more."
     }
    ],
    "verticalFt": 2050,
@@ -15602,6 +15943,12 @@
     {
      "passId": "epic-northeast-midweek",
      "notes": "Monday to Friday only. Restricted peak dates apply."
+    },
+    {
+     "passId": "epic-day",
+     "daysAllowed": 1,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across Epic's resorts. The app counts the all-resorts pass; the 32- and 22-resort passes leave some resorts out. Partner resorts need 4 days or more."
     }
    ],
    "verticalFt": 1650,
@@ -15697,6 +16044,12 @@
     {
      "passId": "epic-northeast-midweek",
      "notes": "Monday to Friday only."
+    },
+    {
+     "passId": "epic-day",
+     "daysAllowed": 1,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across Epic's resorts. The app counts the all-resorts pass; the 32- and 22-resort passes leave some resorts out. Partner resorts need 4 days or more."
     }
    ],
    "verticalFt": 1450,
@@ -15854,6 +16207,14 @@
      "notes": "2 free days here, then 50% off any additional day. No blackouts. Some destinations need advance reservations. Valid in the 2027 southern winter (roughly June to October 2027) on a 26/27 pass.",
      "allExtraDaysDiscounted": true,
      "reservationRequired": false
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "validFrom": "2027-05-01",
+     "validTo": "2027-11-30",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
     }
    ],
    "verticalFt": 1280,
@@ -15965,6 +16326,14 @@
      "validFrom": "2027-05-01",
      "validTo": "2027-11-30",
      "notes": "5 days total across Coronet Peak, The Remarkables and Mt Hutt (NZSki). Valid in the 2027 southern winter (roughly June to October 2027) on a 26/27 pass."
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "validFrom": "2027-05-01",
+     "validTo": "2027-11-30",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
     }
    ],
    "verticalFt": 2120,
@@ -16074,6 +16443,12 @@
      "poolId": "skibig3",
      "reservationRequired": false,
      "notes": "5 days total across Banff Sunshine, Lake Louise and Mt Norquay (SkiBig3)."
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
     }
    ],
    "verticalFt": 1510,
@@ -16178,6 +16553,12 @@
      "passId": "ikon-base",
      "daysAllowed": 5,
      "reservationRequired": false
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
     }
    ],
    "verticalFt": 3240,
@@ -16266,6 +16647,12 @@
     {
      "passId": "epic-northeast-midweek",
      "notes": "Monday to Friday only."
+    },
+    {
+     "passId": "epic-day",
+     "daysAllowed": 1,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across Epic's resorts. The app counts the all-resorts pass; the 32- and 22-resort passes leave some resorts out. Partner resorts need 4 days or more."
     }
    ],
    "verticalFt": 180,
@@ -16938,6 +17325,12 @@
      "daysAllowed": 7,
      "poolId": "rcr",
      "notes": "7 days total across Fernie Alpine Resort, Kicking Horse, Kimberley Alpine Resort, Nakiska, Mont-Sainte-Anne and Stoneham (Resorts of the Canadian Rockies)."
+    },
+    {
+     "passId": "epic-day",
+     "daysAllowed": 1,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across Epic's resorts. The app counts the all-resorts pass; the 32- and 22-resort passes leave some resorts out. Partner resorts need 4 days or more."
     }
    ],
    "verticalFt": 2510,
@@ -17235,6 +17628,12 @@
      "allExtraDaysDiscounted": true,
      "reservationRequired": false,
      "notes": "2 free days here, then 50% off any additional day. No blackouts. Some destinations need advance reservations."
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
     }
    ],
    "verticalFt": 3020,
@@ -17398,6 +17797,12 @@
     {
      "passId": "epic-tahoe-value",
      "notes": "Not valid on Saturdays. Restricted peak dates apply."
+    },
+    {
+     "passId": "epic-day",
+     "daysAllowed": 1,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across Epic's resorts. The app counts the all-resorts pass; the 32- and 22-resort passes leave some resorts out. Partner resorts need 4 days or more."
     }
    ],
    "verticalFt": 2310,
@@ -17897,6 +18302,12 @@
     {
      "passId": "epic-northeast-midweek",
      "notes": "Monday to Friday only. Restricted peak dates apply."
+    },
+    {
+     "passId": "epic-day",
+     "daysAllowed": 1,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across Epic's resorts. The app counts the all-resorts pass; the 32- and 22-resort passes leave some resorts out. Partner resorts need 4 days or more."
     }
    ],
    "verticalFt": 2170,
@@ -18299,6 +18710,12 @@
     {
      "passId": "ikon-base",
      "reservationRequired": false
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
     }
    ],
    "verticalFt": 2540,
@@ -18353,6 +18770,12 @@
      "allExtraDaysDiscounted": true,
      "reservationRequired": false,
      "notes": "2 free days here, then 50% off any additional day. No blackouts. Some destinations need advance reservations."
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
     }
    ],
    "verticalFt": 3990,
@@ -18396,6 +18819,12 @@
     },
     {
      "passId": "epic-local"
+    },
+    {
+     "passId": "epic-day",
+     "daysAllowed": 1,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across Epic's resorts. The app counts the all-resorts pass; the 32- and 22-resort passes leave some resorts out. Partner resorts need 4 days or more."
     }
    ],
    "verticalFt": 280,
@@ -18445,6 +18874,12 @@
      "daysAllowed": 5,
      "poolId": "tahoe5",
      "notes": "5 days total across Park City, Vail, Beaver Creek, Keystone, Breckenridge and Crested Butte. Restricted peak dates apply."
+    },
+    {
+     "passId": "epic-day",
+     "daysAllowed": 1,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across Epic's resorts. The app counts the all-resorts pass; the 32- and 22-resort passes leave some resorts out. Partner resorts need 4 days or more."
     }
    ],
    "verticalFt": 3080,
@@ -19304,6 +19739,12 @@
      "passId": "snow-pass",
      "daysAllowed": 2,
      "notes": "2 days, then 30% off more days. No blackouts listed."
+    },
+    {
+     "passId": "boyne-freestyle",
+     "daysAllowed": 3,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across all 10 Boyne resorts. Plus one bonus day at Pleasant Mountain or Cypress, the first time you ski either."
     }
    ],
    "verticalFt": 1240,
@@ -19901,6 +20342,12 @@
      "passId": "ikon-base",
      "daysAllowed": 5,
      "reservationRequired": false
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
     }
    ],
    "verticalFt": 2890,
@@ -20177,6 +20624,12 @@
      "allExtraDaysDiscounted": true,
      "reservationRequired": false,
      "notes": "2 free days here, then 50% off any additional day. No blackouts. Some destinations need advance reservations."
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
     }
    ],
    "verticalFt": 5610,
@@ -20388,6 +20841,12 @@
     {
      "passId": "epic-northeast-midweek",
      "notes": "Monday to Friday only."
+    },
+    {
+     "passId": "epic-day",
+     "daysAllowed": 1,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across Epic's resorts. The app counts the all-resorts pass; the 32- and 22-resort passes leave some resorts out. Partner resorts need 4 days or more."
     }
    ],
    "verticalFt": 580,
@@ -20976,6 +21435,12 @@
      "passId": "ikon-base",
      "daysAllowed": 5,
      "reservationRequired": false
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
     }
    ],
    "verticalFt": 2390,
@@ -21189,6 +21654,12 @@
     {
      "passId": "epic-northeast-midweek",
      "notes": "Monday to Friday only."
+    },
+    {
+     "passId": "epic-day",
+     "daysAllowed": 1,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across Epic's resorts. The app counts the all-resorts pass; the 32- and 22-resort passes leave some resorts out. Partner resorts need 4 days or more."
     }
    ],
    "verticalFt": 740,
@@ -21497,6 +21968,12 @@
      "passId": "ikon-base",
      "daysAllowed": 5,
      "reservationRequired": false
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
     }
    ],
    "verticalFt": 2180,
@@ -21597,6 +22074,12 @@
      "passId": "ikon-base",
      "daysAllowed": 5,
      "reservationRequired": false
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
     }
    ],
    "verticalFt": 2430,
@@ -22651,6 +23134,12 @@
     },
     {
      "passId": "epic-local"
+    },
+    {
+     "passId": "epic-day",
+     "daysAllowed": 1,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across Epic's resorts. The app counts the all-resorts pass; the 32- and 22-resort passes leave some resorts out. Partner resorts need 4 days or more."
     }
    ],
    "verticalFt": 260,
@@ -22809,6 +23298,12 @@
     {
      "passId": "ikon-base",
      "reservationRequired": false
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
     }
    ],
    "verticalFt": 1110,
@@ -22958,6 +23453,12 @@
      "passId": "ikon-base",
      "daysAllowed": 5,
      "reservationRequired": false
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
     }
    ],
    "verticalFt": 530,
@@ -23003,6 +23504,12 @@
     {
      "passId": "ikon-base",
      "reservationRequired": false
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
     }
    ],
    "verticalFt": 1560,
@@ -23192,6 +23699,12 @@
     {
      "passId": "ikon-base",
      "reservationRequired": false
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
     }
    ],
    "verticalFt": 2010,
@@ -23547,6 +24060,12 @@
      "passId": "ikon-base",
      "daysAllowed": 5,
      "reservationRequired": false
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
     }
    ],
    "verticalFt": 3650,
@@ -23689,6 +24208,12 @@
     },
     {
      "passId": "epic-local"
+    },
+    {
+     "passId": "epic-day",
+     "daysAllowed": 1,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across Epic's resorts. The app counts the all-resorts pass; the 32- and 22-resort passes leave some resorts out. Partner resorts need 4 days or more."
     }
    ],
    "verticalFt": 1840,
@@ -23732,6 +24257,12 @@
      "daysAllowed": 7,
      "poolId": "rcr",
      "notes": "7 days total across Fernie Alpine Resort, Kicking Horse, Kimberley Alpine Resort, Nakiska, Mont-Sainte-Anne and Stoneham (Resorts of the Canadian Rockies)."
+    },
+    {
+     "passId": "epic-day",
+     "daysAllowed": 1,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across Epic's resorts. The app counts the all-resorts pass; the 32- and 22-resort passes leave some resorts out. Partner resorts need 4 days or more."
     }
    ],
    "verticalFt": 1130,
@@ -23785,6 +24316,12 @@
      "passId": "epic-northeast-midweek",
      "daysAllowed": 5,
      "notes": "Monday to Friday only. Restricted peak dates apply."
+    },
+    {
+     "passId": "epic-day",
+     "daysAllowed": 1,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across Epic's resorts. The app counts the all-resorts pass; the 32- and 22-resort passes leave some resorts out. Partner resorts need 4 days or more."
     }
    ],
    "verticalFt": 2340,
@@ -23880,6 +24417,12 @@
     {
      "passId": "ikon-base",
      "reservationRequired": false
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
     }
    ],
    "verticalFt": 1890,
@@ -24068,6 +24611,12 @@
     {
      "passId": "ikon-base",
      "reservationRequired": false
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
     }
    ],
    "verticalFt": 2550,
@@ -24139,6 +24688,18 @@
     {
      "passId": "ne-bronze",
      "notes": "Monday to Friday, except holiday blackouts."
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
+    },
+    {
+     "passId": "boyne-freestyle",
+     "daysAllowed": 3,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across all 10 Boyne resorts."
     }
    ],
    "verticalFt": 2770,
@@ -24195,6 +24756,12 @@
      "allExtraDaysDiscounted": true,
      "reservationRequired": false,
      "notes": "2 free days here, then 50% off any additional day. No blackouts. Some destinations need advance reservations."
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
     }
    ],
    "verticalFt": 2910,
@@ -24406,6 +24973,18 @@
     {
      "passId": "ne-bronze",
      "notes": "Monday to Friday, except holiday blackouts."
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
+    },
+    {
+     "passId": "boyne-freestyle",
+     "daysAllowed": 3,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across all 10 Boyne resorts."
     }
    ],
    "verticalFt": 2320,
@@ -24788,6 +25367,12 @@
      "allExtraDaysDiscounted": true,
      "reservationRequired": false,
      "notes": "2 free days here, then 50% off any additional day. No blackouts. Some destinations need advance reservations."
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
     }
    ],
    "verticalFt": 2470,
@@ -24934,6 +25519,12 @@
     {
      "passId": "epic",
      "daysAllowed": 7
+    },
+    {
+     "passId": "epic-day",
+     "daysAllowed": 1,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across Epic's resorts. The app counts the all-resorts pass; the 32- and 22-resort passes leave some resorts out. Partner resorts need 4 days or more."
     }
    ],
    "verticalFt": 3770,
@@ -25153,6 +25744,18 @@
      "passId": "ne-gold",
      "daysAllowed": 3,
      "notes": "3 free days, then 50% off more Boyne days."
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
+    },
+    {
+     "passId": "boyne-freestyle",
+     "daysAllowed": 3,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across all 10 Boyne resorts."
     }
    ],
    "verticalFt": 520,
@@ -25268,6 +25871,14 @@
      "notes": "2 free days shared across Coronet Peak and The Remarkables, then 50% off any additional day. No blackouts. Valid in the 2027 southern winter (roughly June to October 2027) on a 26/27 pass.",
      "allExtraDaysDiscounted": true,
      "reservationRequired": false
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "validFrom": "2027-05-01",
+     "validTo": "2027-11-30",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
     }
    ],
    "verticalFt": 1240,
@@ -25328,6 +25939,18 @@
      "passId": "ne-gold",
      "daysAllowed": 3,
      "notes": "3 free days, then 50% off more Boyne days."
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
+    },
+    {
+     "passId": "boyne-freestyle",
+     "daysAllowed": 3,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across all 10 Boyne resorts."
     }
    ],
    "verticalFt": 760,
@@ -25830,6 +26453,12 @@
     {
      "passId": "ikon-base",
      "reservationRequired": false
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
     }
    ],
    "verticalFt": 2020,
@@ -26285,6 +26914,12 @@
      "daysAllowed": 5,
      "poolId": "tahoe5",
      "notes": "5 days total across Park City, Vail, Beaver Creek, Keystone, Breckenridge and Crested Butte. Restricted peak dates apply."
+    },
+    {
+     "passId": "epic-day",
+     "daysAllowed": 1,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across Epic's resorts. The app counts the all-resorts pass; the 32- and 22-resort passes leave some resorts out. Partner resorts need 4 days or more."
     }
    ],
    "verticalFt": 3520,
@@ -26569,6 +27204,14 @@
      "notes": "2 free days here, then 50% off any additional day. No blackouts. Some destinations need advance reservations. Valid in the 2027 southern winter (roughly June to October 2027) on a 26/27 pass.",
      "allExtraDaysDiscounted": true,
      "reservationRequired": false
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "validFrom": "2027-05-01",
+     "validTo": "2027-11-30",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
     }
    ],
    "verticalFt": 2680,
@@ -26994,6 +27637,12 @@
      "daysAllowed": 10,
      "poolId": "vbw",
      "notes": "10 days total across Vail, Beaver Creek and Whistler Blackcomb. Holiday blockouts apply."
+    },
+    {
+     "passId": "epic-day",
+     "daysAllowed": 1,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across Epic's resorts. The app counts the all-resorts pass; the 32- and 22-resort passes leave some resorts out. Partner resorts need 4 days or more."
     }
    ],
    "verticalFt": 5270,
@@ -27509,6 +28158,12 @@
     {
      "passId": "epic-northeast-midweek",
      "notes": "Monday to Friday only."
+    },
+    {
+     "passId": "epic-day",
+     "daysAllowed": 1,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across Epic's resorts. The app counts the all-resorts pass; the 32- and 22-resort passes leave some resorts out. Partner resorts need 4 days or more."
     }
    ],
    "verticalFt": 930,
@@ -27638,6 +28293,12 @@
     {
      "passId": "epic-northeast-midweek",
      "notes": "Monday to Friday only."
+    },
+    {
+     "passId": "epic-day",
+     "daysAllowed": 1,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across Epic's resorts. The app counts the all-resorts pass; the 32- and 22-resort passes leave some resorts out. Partner resorts need 4 days or more."
     }
    ],
    "verticalFt": 2030,
@@ -27731,6 +28392,12 @@
     },
     {
      "passId": "epic-local"
+    },
+    {
+     "passId": "epic-day",
+     "daysAllowed": 1,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across Epic's resorts. The app counts the all-resorts pass; the 32- and 22-resort passes leave some resorts out. Partner resorts need 4 days or more."
     }
    ],
    "verticalFt": 190,
@@ -27775,6 +28442,12 @@
     {
      "passId": "ikon-base",
      "reservationRequired": false
+    },
+    {
+     "passId": "ikon-session",
+     "daysAllowed": 2,
+     "poolId": "bought",
+     "notes": "Shares the days you bought across every Session destination. Reservations required; limited blackouts."
     }
    ],
    "verticalFt": 2900,
@@ -37661,6 +38334,1092 @@
    "passId": "ne-bronze",
    "start": "2027-01-18",
    "end": "2027-01-18"
+  },
+  {
+   "resortId": "revelstoke",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "revelstoke",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "revelstoke",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "june",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "june",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "june",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "blue-mountain-on",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "blue-mountain-on",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "blue-mountain-on",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "summit-snoqualmie",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "summit-snoqualmie",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "summit-snoqualmie",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "niseko-united",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "niseko-united",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "niseko-united",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "crystal-mountain-wa",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "crystal-mountain-wa",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "crystal-mountain-wa",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "banff-sunshine",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "banff-sunshine",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "banff-sunshine",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "lake-louise",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "lake-louise",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "lake-louise",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "norquay",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "norquay",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "norquay",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "winter-park",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "winter-park",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "winter-park",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "lutsen",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "lutsen",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "lutsen",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "sunday-river",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "snowriver",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "snowriver",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "snowriver",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "taos",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "taos",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "taos",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "steamboat",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "steamboat",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "steamboat",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "sun-peaks",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "sun-peaks",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "sun-peaks",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "snowshoe",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "snowshoe",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "snowshoe",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "the-highlands",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "the-highlands",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "the-highlands",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "coronet-peak",
+   "passId": "ikon-session",
+   "start": "2027-07-03",
+   "end": "2027-07-18"
+  },
+  {
+   "resortId": "the-remarkables",
+   "passId": "ikon-session",
+   "start": "2027-07-03",
+   "end": "2027-07-18"
+  },
+  {
+   "resortId": "mt-hutt",
+   "passId": "ikon-session",
+   "start": "2027-07-03",
+   "end": "2027-07-18"
+  },
+  {
+   "resortId": "killington-pico",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "killington-pico",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "killington-pico",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "stratton",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "stratton",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "stratton",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "schweitzer",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "schweitzer",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "schweitzer",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "copper",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "copper",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "copper",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "sierra-at-tahoe",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "sierra-at-tahoe",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "sierra-at-tahoe",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "eldora",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "eldora",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "eldora",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "alyeska",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "alyeska",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "alyeska",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "cypress",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "cypress",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "cypress",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "blue-mountain-pa",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "blue-mountain-pa",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "blue-mountain-pa",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "loon",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "le-massif",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "le-massif",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "le-massif",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "solitude",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "solitude",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "solitude",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "red-mountain",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "red-mountain",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "red-mountain",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "big-bear-ca",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "big-bear-ca",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "big-bear-ca",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "boyne-mountain",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "boyne-mountain",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "boyne-mountain",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "big-sky",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "big-sky",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "big-sky",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "silverstar",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "silverstar",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "silverstar",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "palisades",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "palisades",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "palisades",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "sugarloaf",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "camelback",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "camelback",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "camelback",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "sugarbush",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "sugarbush",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "sugarbush",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "snow-valley",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "snow-valley",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "snow-valley",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "tremblant",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "tremblant",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "tremblant",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "panorama",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "panorama",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "panorama",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "brighton",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "brighton",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "brighton",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "granite-peak",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "granite-peak",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "granite-peak",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "arapahoe-basin",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "arapahoe-basin",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "arapahoe-basin",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "mammoth",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "mammoth",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "mammoth",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "mt-buller",
+   "passId": "ikon-session",
+   "start": "2027-07-03",
+   "end": "2027-07-18"
+  },
+  {
+   "resortId": "valle-nevado",
+   "passId": "ikon-session",
+   "start": "2027-07-03",
+   "end": "2027-07-18"
+  },
+  {
+   "resortId": "mt-bachelor",
+   "passId": "ikon-session",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "mt-bachelor",
+   "passId": "ikon-session",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "mt-bachelor",
+   "passId": "ikon-session",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "big-sky",
+   "passId": "boyne-freestyle",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "big-sky",
+   "passId": "boyne-freestyle",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "big-sky",
+   "passId": "boyne-freestyle",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "beaver-creek",
+   "passId": "epic-day",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "beaver-creek",
+   "passId": "epic-day",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "beaver-creek",
+   "passId": "epic-day",
+   "start": "2027-01-16",
+   "end": "2027-01-16"
+  },
+  {
+   "resortId": "beaver-creek",
+   "passId": "epic-day",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "heavenly",
+   "passId": "epic-day",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "heavenly",
+   "passId": "epic-day",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "heavenly",
+   "passId": "epic-day",
+   "start": "2027-01-16",
+   "end": "2027-01-16"
+  },
+  {
+   "resortId": "heavenly",
+   "passId": "epic-day",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-day",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-day",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-day",
+   "start": "2027-01-16",
+   "end": "2027-01-16"
+  },
+  {
+   "resortId": "kirkwood",
+   "passId": "epic-day",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-day",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-day",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-day",
+   "start": "2027-01-16",
+   "end": "2027-01-16"
+  },
+  {
+   "resortId": "northstar",
+   "passId": "epic-day",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "park-city",
+   "passId": "epic-day",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "park-city",
+   "passId": "epic-day",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "park-city",
+   "passId": "epic-day",
+   "start": "2027-01-16",
+   "end": "2027-01-16"
+  },
+  {
+   "resortId": "park-city",
+   "passId": "epic-day",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-day",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-day",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-day",
+   "start": "2027-01-16",
+   "end": "2027-01-16"
+  },
+  {
+   "resortId": "stowe",
+   "passId": "epic-day",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "vail",
+   "passId": "epic-day",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "vail",
+   "passId": "epic-day",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "vail",
+   "passId": "epic-day",
+   "start": "2027-01-16",
+   "end": "2027-01-16"
+  },
+  {
+   "resortId": "vail",
+   "passId": "epic-day",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "whistler",
+   "passId": "epic-day",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "whistler",
+   "passId": "epic-day",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "whistler",
+   "passId": "epic-day",
+   "start": "2027-01-16",
+   "end": "2027-01-16"
+  },
+  {
+   "resortId": "whistler",
+   "passId": "epic-day",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
   }
  ]
 }
