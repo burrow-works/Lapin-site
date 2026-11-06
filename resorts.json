@@ -1,6 +1,6 @@
 {
  "format": 1,
- "version": 22,
+ "version": 23,
  "season": "2026-27",
  "dataAsOf": "2026-10-22",
  "passes": [
@@ -402,6 +402,12 @@
    "hasBlackouts": false,
    "price": 400,
    "priceNote": "26/27 price ($339.99 for a limited number)"
+  },
+  {
+   "id": "snow-card-tirol",
+   "family": "Snow Card Tirol",
+   "name": "Snow Card Tirol",
+   "hasBlackouts": false
   },
   {
    "id": "epic-day",
@@ -2365,6 +2371,49 @@
    }
   },
   {
+   "id": "bergeralm",
+   "name": "Bergeralm (Steinach am Brenner)",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 47.0751,
+   "lon": 11.45701,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 3640,
+   "lifts": 7,
+   "baseM": 1066,
+   "topM": 2175,
+   "website": "https://www.bergeralm.net/",
+   "runMix": [
+    5,
+    7,
+    2,
+    1
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Above Steinach am Brenner in the Wipptal, half an hour south of Innsbruck, with about 1,100 m of vertical and 7 lifts.",
+    "tags": [
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=e5aebd95738452e2967b4b9cce0a50b1822a6dde",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 47.07176,
+    "lon": 11.45338,
+    "radiusM": 1852
+   }
+  },
+  {
    "id": "berkshire-east",
    "name": "Berkshire East",
    "state": "MA",
@@ -2419,6 +2468,51 @@
     "lat": 42.6168,
     "lon": -72.87344,
     "radiusM": 990
+   }
+  },
+  {
+   "id": "berwang",
+   "name": "Berwang/Bichlbach/Rinnen",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 47.41853,
+   "lon": 10.74516,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 2270,
+   "lifts": 15,
+   "baseM": 1046,
+   "topM": 1739,
+   "website": "https://www.berwang.tirol",
+   "runMix": [
+    25,
+    9,
+    3,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A family area at about 1,340 m above Berwang, Bichlbach, Heiterwang and Rinnen, with 34 km of mostly easy runs, some of them down to the village. Beginners get a free carpet at the valley station, and snowmaking covers about 90% of the slopes.",
+    "tags": [
+     "Family friendly",
+     "Good for beginners",
+     "Snowmaking"
+    ],
+    "source": "https://www.tyrol.tl/en/leisure-activities/winter-sports/skiing-areas-in-tyrol/berwang-bichlbach-zugspitz-arena/",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 47.4133,
+    "lon": 10.75374,
+    "radiusM": 2813
    }
   },
   {
@@ -4162,6 +4256,49 @@
    }
   },
   {
+   "id": "buchensteinwand",
+   "name": "Buchensteinwand (Pillersee)",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 47.48577,
+   "lon": 12.58861,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 1960,
+   "lifts": 8,
+   "baseM": 854,
+   "topM": 1452,
+   "website": "https://www.bergbahn-pillersee.com/",
+   "runMix": [
+    6,
+    9,
+    3,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "The Pillersee valley's ski area, above St. Ulrich, St. Jakob in Haus and Hochfilzen, with about 600 m of vertical and 8 lifts. A family-sized hill between the bigger Kitzbühel Alps resorts.",
+    "tags": [
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=22b11fcce2846372ccbaafebb23f9038e105b3e5",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 47.48874,
+    "lon": 12.5914,
+    "radiusM": 2167
+   }
+  },
+  {
    "id": "buck-hill",
    "name": "Buck Hill",
    "state": "MN",
@@ -5540,6 +5677,49 @@
     "lat": 45.50674,
     "lon": -91.38405,
     "radiusM": 569
+   }
+  },
+  {
+   "id": "christlum",
+   "name": "Christlum (Achenkirch)",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 47.50748,
+   "lon": 11.67909,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 2640,
+   "lifts": 9,
+   "baseM": 942,
+   "topM": 1746,
+   "website": "https://www.christlum.at/",
+   "runMix": [
+    3,
+    7,
+    2,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Achenkirch's ski area at the north end of the Achensee, with about 800 m of vertical and nine lifts.",
+    "tags": [
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=daeda6699aff32076cc90fd43fc0eaf0156ce7cd",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 47.508,
+    "lon": 11.67848,
+    "radiusM": 1548
    }
   },
   {
@@ -7087,6 +7267,43 @@
    }
   },
   {
+   "id": "kartitsch",
+   "name": "Dorfberg Kartitsch",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 46.73611,
+   "lon": 12.4943,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 1490,
+   "lifts": 2,
+   "baseM": 1373,
+   "topM": 1826,
+   "website": "https://kartitscher-liftgesellschaft.jimdofree.com/",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Kartitsch's village hill in East Tyrol's upper Gailtal, with two lifts and about 450 m of vertical.",
+    "tags": [
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=d8d6de9e96822f6601610759fe3ec65e1aa3935e",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 46.73595,
+    "lon": 12.49399,
+    "radiusM": 1131
+   }
+  },
+  {
    "id": "dry-hill",
    "name": "Dry Hill Ski Area",
    "state": "NY",
@@ -7415,6 +7632,94 @@
    }
   },
   {
+   "id": "ehrwalder-alm",
+   "name": "Ehrwalder Alm",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 47.38401,
+   "lon": 10.9752,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 2650,
+   "lifts": 6,
+   "baseM": 1112,
+   "topM": 1920,
+   "website": "https://www.almbahn.at/",
+   "runMix": [
+    11,
+    9,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A family area at nearly 2,000 m between the Wetterstein and Mieming ranges, close to the Zugspitze, with about 27 km of mostly easy runs and snowmaking on nearly all of them. Children get a family park, a fun slope and a ski kindergarten at the top.",
+    "tags": [
+     "Family friendly",
+     "Good for beginners",
+     "Views"
+    ],
+    "source": "https://www.tyrol.tl/en/leisure-activities/winter-sports/skiing-areas-in-tyrol/ehrwalder-alm-zugspitz-arena",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 47.3845,
+    "lon": 10.97201,
+    "radiusM": 1795
+   }
+  },
+  {
+   "id": "wettersteinbahnen",
+   "name": "Ehrwalder Wettersteinbahnen",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 47.40519,
+   "lon": 10.93722,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 1580,
+   "lifts": 3,
+   "baseM": 1003,
+   "topM": 1486,
+   "website": "https://www.wetterstein-bahnen.at/",
+   "runMix": [
+    10,
+    2,
+    2,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Ehrwald's smaller ski area, below the Wetterstein range, with about 480 m of vertical and three lifts.",
+    "tags": [
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=f0287cd7d10f61a4bdce90120aa9055593b0f55f",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 47.40509,
+    "lon": 10.93609,
+    "radiusM": 1343
+   }
+  },
+  {
    "id": "eldora",
    "name": "Eldora",
    "state": "CO",
@@ -7462,6 +7767,49 @@
     "lat": 39.94041,
     "lon": -105.59386,
     "radiusM": 1474
+   }
+  },
+  {
+   "id": "elfer-neustift",
+   "name": "Elfer (Neustift im Stubaital)",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 47.10115,
+   "lon": 11.32533,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 2720,
+   "lifts": 5,
+   "baseM": 980,
+   "topM": 1808,
+   "website": "https://www.stubai.at/skigebiete/elferlifte/",
+   "runMix": [
+    0,
+    7,
+    0,
+    3
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Neustift's own mountain in the Stubai valley, under the Elferspitze, with about 830 m of vertical on five lifts. A smaller day out than the Stubai Glacier up the valley.",
+    "tags": [
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=14e44f003d9b6e9b2b4b0558cb95b247b4008b3c",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 47.10444,
+    "lon": 11.32408,
+    "radiusM": 1598
    }
   },
   {
@@ -7825,6 +8173,49 @@
    }
   },
   {
+   "id": "fendels",
+   "name": "Fendels-Ried-Prutz",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 47.04742,
+   "lon": 10.68672,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 2980,
+   "lifts": 6,
+   "baseM": 1340,
+   "topM": 2248,
+   "website": "https://www.kaunertaler-gletscher.at/en/fendels-mountains/winter-mountain/fendels-ski-area.html",
+   "runMix": [
+    3,
+    2,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Above Fendels, Ried and Prutz where the Kaunertal meets the Inn valley, from about 1,340 to 2,250 m on six lifts.",
+    "tags": [
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=93f78af003dfe7aa2efa72fb091e67828d5ff77c",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 47.04527,
+    "lon": 10.69229,
+    "radiusM": 1583
+   }
+  },
+  {
    "id": "fernie",
    "name": "Fernie Alpine Resort",
    "state": "BC",
@@ -8076,6 +8467,87 @@
     "lat": 43.3332,
     "lon": 142.34164,
     "radiusM": 1953
+   }
+  },
+  {
+   "id": "fussener-jochle",
+   "name": "Füssener Jöchle (Grän)",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 47.50852,
+   "lon": 10.58103,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 2340,
+   "lifts": 5,
+   "baseM": 1155,
+   "topM": 1869,
+   "website": "https://www.lifte-graen.com/",
+   "runMix": [
+    0,
+    2,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Grän's area in the Tannheimer Tal, with a gondola up to the Füssener Jöchle at about 1,870 m and some 700 m of vertical.",
+    "tags": [
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=fc58eb887a217a23762a87748b44f8fea3e6455d",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 47.50852,
+    "lon": 10.57957,
+    "radiusM": 1970
+   }
+  },
+  {
+   "id": "galtur",
+   "name": "Galtür Silvapark",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 46.96515,
+   "lon": 10.13523,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 2190,
+   "lifts": 9,
+   "baseM": 1628,
+   "topM": 2295,
+   "website": "https://www.galtuer.com/",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "The highest ski area in the Paznaun, from about 1,580 to 2,300 m at the head of the valley, with 43 km of runs and snowmaking on about three quarters of them. Snow-sure and built around families, with a children's zone of its own.",
+    "tags": [
+     "Family friendly",
+     "Snowmaking"
+    ],
+    "source": "https://www.tyrol.tl/en/leisure-activities/winter-sports/skiing-areas-in-tyrol/silvapark-paznauntal/",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 46.96368,
+    "lon": 10.13926,
+    "radiusM": 2014
    }
   },
   {
@@ -8375,6 +8847,49 @@
     "lat": 56.88755,
     "lon": -3.39979,
     "radiusM": 2163
+   }
+  },
+  {
+   "id": "obertilliach",
+   "name": "Golzentipp (Obertilliach)",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 46.71748,
+   "lon": 12.62052,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 2610,
+   "lifts": 5,
+   "baseM": 1431,
+   "topM": 2225,
+   "website": "https://obertilliacher-bergbahnen.com/",
+   "runMix": [
+    9,
+    5,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Obertilliach's Golzentipp in East Tyrol's Lesachtal, with about 800 m of vertical on five lifts.",
+    "tags": [
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=d4cb3282136b8577609eab37f579b5fdff4480a7",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 46.72008,
+    "lon": 12.61994,
+    "radiusM": 1554
    }
   },
   {
@@ -8877,6 +9392,94 @@
    }
   },
   {
+   "id": "kals-matrei",
+   "name": "Großglockner Resort Kals-Matrei",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 47.00285,
+   "lon": 12.60159,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 4900,
+   "lifts": 15,
+   "baseM": 928,
+   "topM": 2422,
+   "website": "https://www.gg-resort.at/",
+   "runMix": [
+    1,
+    3,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "East Tyrol's biggest ski area, with lifts up from both Kals am Großglockner and Matrei, about 47 km of mostly blue and red runs, and snowmaking on all of them. The Adlerhorst platform near the Goldried top station looks out over some 60 peaks above 3,000 m.",
+    "tags": [
+     "Views",
+     "Snowmaking"
+    ],
+    "source": "https://www.tyrol.tl/en/leisure-activities/winter-sports/skiing-areas-in-tyrol/grossglockner-resort-east-tyrol",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 47.00122,
+    "lon": 12.59966,
+    "radiusM": 3326
+   }
+  },
+  {
+   "id": "gschwandtkopf",
+   "name": "Gschwandtkopf (Seefeld)",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 47.31935,
+   "lon": 11.17417,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 1040,
+   "lifts": 13,
+   "baseM": 1181,
+   "topM": 1497,
+   "website": "https://skigebiet-seefeld.at/",
+   "runMix": [
+    8,
+    0,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Seefeld's small hill right by the village, with about 320 m of vertical, used for learning and family days.",
+    "tags": [
+     "Good for beginners",
+     "Family friendly"
+    ],
+    "source": "https://openskimap.org/?obj=1caa477a95a593e2b7107850d97993064cdf0f50",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 47.31722,
+    "lon": 11.17196,
+    "radiusM": 1313
+   }
+  },
+  {
    "id": "gunstock",
    "name": "Gunstock Mountain Resort",
    "state": "NH",
@@ -8959,6 +9562,43 @@
     "lat": 61.23738,
     "lon": 10.48385,
     "radiusM": 1992
+   }
+  },
+  {
+   "id": "hahnenkamm-reutte",
+   "name": "Hahnenkamm (Höfen/Reutte)",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 47.47507,
+   "lon": 10.65371,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 3160,
+   "lifts": 2,
+   "baseM": 915,
+   "topM": 1879,
+   "website": "https://bergwelt-hahnenkamm.at/",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Reutte's mountain, above Höfen and Lechaschau, with about 960 m of vertical on two lifts. Not the Kitzbühel Hahnenkamm.",
+    "tags": [
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=7bf9fd707a69cba7cf6dd9355bd4fa9d731d8376",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 47.47498,
+    "lon": 10.65782,
+    "radiusM": 1432
    }
   },
   {
@@ -9838,6 +10478,12 @@
      "daysAllowed": 5,
      "poolId": "zillertal",
      "notes": "5 days total across the 5 Zillertal areas. Epic says the mobile pass can't be used for lift access here; bring the physical pass card."
+    },
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
     }
    ],
    "verticalFt": 5730,
@@ -9925,6 +10571,165 @@
    }
   },
   {
+   "id": "hoch-imst",
+   "name": "Hoch-Imst",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 47.25064,
+   "lon": 10.69436,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 3200,
+   "lifts": 4,
+   "baseM": 1047,
+   "topM": 2022,
+   "runMix": [
+    3,
+    2,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Imst's own mountain in the upper Inn valley, with about 975 m of vertical on four lifts.",
+    "tags": [
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=106ff779bed3c65a2564741a2aedaba3689390d0",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 47.24921,
+    "lon": 10.69954,
+    "radiusM": 2053
+   }
+  },
+  {
+   "id": "hochkossen",
+   "name": "Hochkössen (Kössen)",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 47.63665,
+   "lon": 12.43006,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 3510,
+   "lifts": 9,
+   "baseM": 613,
+   "topM": 1684,
+   "website": "https://skisport.com/Hochkoessen",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Kössen's mountain in the Kaiserwinkl, the Unterberghorn, with about 1,070 m of vertical and nine lifts.",
+    "tags": [
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=39d7d65463d79bff2f3267daa678c3cce9a0e1d7",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 47.63877,
+    "lon": 12.42824,
+    "radiusM": 1776
+   }
+  },
+  {
+   "id": "hochoetz",
+   "name": "Hochoetz (Oetz)",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 47.21086,
+   "lon": 10.92627,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 2820,
+   "lifts": 13,
+   "baseM": 1408,
+   "topM": 2268,
+   "website": "https://www.oetz.com/winter/ski-area-hochoetz/ski-area-information.html",
+   "runMix": [
+    6,
+    6,
+    2,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "At the front of the Ötztal, reached from Oetz or from Ochsengarten on the Kühtai road, with about 41 km of runs, mostly north-facing below the Acherkogel. Children get a kindergarten, a fun park and a snow village.",
+    "tags": [
+     "Family friendly"
+    ],
+    "source": "https://tyrol.tl/en/leisure-activities/winter-sports/skiing-areas-in-tyrol/hochoetz-oetztal",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 47.21761,
+    "lon": 10.9336,
+    "radiusM": 1744
+   }
+  },
+  {
+   "id": "hochstein",
+   "name": "Hochstein (Lienz)",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 46.82264,
+   "lon": 12.7341,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 2720,
+   "lifts": 3,
+   "baseM": 681,
+   "topM": 1510,
+   "website": "https://www.lienzer-bergbahnen.at/",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Lienz's other ski mountain, rising from the edge of town to about 1,510 m on three lifts.",
+    "tags": [
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=8fc7149b57dbce341c2829b605c70ffd1633bab0",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 46.82339,
+    "lon": 12.73918,
+    "radiusM": 1350
+   }
+  },
+  {
    "id": "hochzeiger",
    "name": "Hochzeiger",
    "state": "Tyrol",
@@ -9941,6 +10746,12 @@
      "passId": "indy-plus",
      "daysAllowed": 2,
      "thirdDayDiscount": true
+    },
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
     }
    ],
    "verticalFt": 3330,
@@ -9989,6 +10800,12 @@
      "daysAllowed": 5,
      "poolId": "zillertal",
      "notes": "5 days total across the 5 Zillertal areas. Epic says the mobile pass can't be used for lift access here; bring the physical pass card."
+    },
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
     }
    ],
    "verticalFt": 5970,
@@ -10874,6 +11691,43 @@
    }
   },
   {
+   "id": "weerberg",
+   "name": "Hütegglift Weerberg",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 47.28961,
+   "lon": 11.68285,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 850,
+   "lifts": 1,
+   "baseM": 1253,
+   "topM": 1511,
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A single lift above Weerberg, on the south side of the Inn valley near Schwaz, with about 260 m of vertical.",
+    "tags": [
+     "Good for beginners",
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=3a0d559c6a32e948d816796f02ed3d92133beeab",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 47.28977,
+    "lon": 11.68388,
+    "radiusM": 873
+   }
+  },
+  {
    "id": "idre-himmelfjall",
    "name": "Idre Himmelfjäll",
    "state": "Dalarna",
@@ -10938,6 +11792,12 @@
      "daysAllowed": 2,
      "thirdDayDiscount": false,
      "notes": "Indy's discounted third day isn't offered here. Indy's 2 days are issued together as back-to-back days, usable at any of the 12 SKI plus CITY areas. Redeem at the Innsbruck Tourist Office (Burggraben 3) or any area's ticket window except Nordkette."
+    },
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
     }
    ],
    "verticalFt": 5282,
@@ -10989,6 +11849,12 @@
     {
      "passId": "ikon-base",
      "daysAllowed": 5
+    },
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
     }
    ],
    "verticalFt": 4970,
@@ -11399,6 +12265,43 @@
    }
   },
   {
+   "id": "jochelspitze",
+   "name": "Jöchelspitze (Bach, Lechtal)",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 47.27054,
+   "lon": 10.37373,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 1810,
+   "lifts": 2,
+   "baseM": 1211,
+   "topM": 1762,
+   "website": "https://www.lechtaler-bergbahnen.at/",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "The Lechtal's ski hill above Bach, with a gondola and about 550 m of vertical on quiet slopes.",
+    "tags": [
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=2b4fadd6be75f8080532d7f06ce1620ea4ad8187",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 47.27124,
+    "lon": 10.37473,
+    "radiusM": 971
+   }
+  },
+  {
    "id": "kamui-ski-links",
    "name": "Kamui Ski Links",
    "state": "Hokkaido",
@@ -11505,6 +12408,93 @@
    }
   },
   {
+   "id": "kappl",
+   "name": "Kappl",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 47.07046,
+   "lon": 10.357,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 4810,
+   "lifts": 12,
+   "baseM": 1173,
+   "topM": 2639,
+   "website": "https://www.kappl.com/",
+   "runMix": [
+    17,
+    17,
+    4,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Kappl's sunny mountain in the Paznaun has about 45 km of runs, including the 8 km Latten run with 1,000 m of vertical. Most of the off-piste is reached straight from the top stations, and the children's park has its own ski carousel.",
+    "tags": [
+     "Family friendly",
+     "Varied terrain"
+    ],
+    "source": "https://tyrol.tl/en/leisure-activities/winter-sports/skiing-areas-in-tyrol/kappl-sunny-mountain-paznauntal",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 47.0734,
+    "lon": 10.3545,
+    "radiusM": 1924
+   }
+  },
+  {
+   "id": "karwendel-pertisau",
+   "name": "Karwendel Bergbahn (Pertisau)",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 47.42931,
+   "lon": 11.697,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 1800,
+   "lifts": 6,
+   "baseM": 942,
+   "topM": 1491,
+   "website": "https://www.karwendel-bergbahn.at",
+   "runMix": [
+    7,
+    4,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Pertisau's area on the Achensee, below the Zwölferkopf, with about 550 m of vertical and six lifts.",
+    "tags": [
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=6457561181eb8db69380de8d4dbe2ad2362d612f",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 47.42858,
+    "lon": 11.69677,
+    "radiusM": 1232
+   }
+  },
+  {
    "id": "kashimayari",
    "name": "Kashimayari",
    "state": "Nagano",
@@ -11557,6 +12547,43 @@
    }
   },
   {
+   "id": "katzenkopf",
+   "name": "Katzenkopf (Leutasch)",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 47.36277,
+   "lon": 11.16374,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 750,
+   "lifts": 1,
+   "baseM": 1130,
+   "topM": 1360,
+   "website": "https://www.katzenkopf-leutasch.at",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A single lift at Leutasch, near Seefeld, with about 230 m of vertical: a hill to learn on.",
+    "tags": [
+     "Good for beginners"
+    ],
+    "source": "https://openskimap.org/?obj=ab78d8539bbf4fe2e7deef0464ef2f21054c1306",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 47.36108,
+    "lon": 11.16358,
+    "radiusM": 546
+   }
+  },
+  {
    "id": "kaunertal-glacier",
    "name": "Kaunertal Glacier",
    "state": "Tyrol",
@@ -11573,6 +12600,12 @@
      "passId": "indy-plus",
      "daysAllowed": 2,
      "thirdDayDiscount": true
+    },
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
     }
    ],
    "verticalFt": 3160,
@@ -11607,6 +12640,43 @@
     "lat": 46.86872,
     "lon": 10.70664,
     "radiusM": 2100
+   }
+  },
+  {
+   "id": "kellerjoch",
+   "name": "Kellerjoch (Schwaz)",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 47.32953,
+   "lon": 11.72269,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 1750,
+   "lifts": 5,
+   "baseM": 1346,
+   "topM": 1880,
+   "website": "https://www.kellerjochbahn.at/",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Schwaz's mountain above the Inn valley, with about 530 m of vertical on five lifts.",
+    "tags": [
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=f70e7fad2a792d191089b68b845b690bb4439b1e",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 47.3229,
+    "lon": 11.73103,
+    "radiusM": 1098
    }
   },
   {
@@ -12149,6 +13219,12 @@
     {
      "passId": "ikon-base",
      "daysAllowed": 5
+    },
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
     }
    ],
    "verticalFt": 4040,
@@ -12273,6 +13349,81 @@
     "lat": 61.02937,
     "lon": 13.35776,
     "radiusM": 1245
+   }
+  },
+  {
+   "id": "knittel",
+   "name": "Knittellifte",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 47.28536,
+   "lon": 10.4237,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 570,
+   "lifts": 3,
+   "baseM": 1054,
+   "topM": 1227,
+   "website": "https://knitteltirol.com/",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Three lifts at Elbigenalp in the Lechtal, with about 170 m of vertical: a village hill for families.",
+    "tags": [
+     "Good for beginners",
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=f01494c6deb4f19779e7ca4594f6d15fced3bd3a",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 47.28422,
+    "lon": 10.42006,
+    "radiusM": 558
+   }
+  },
+  {
+   "id": "kolsassberg",
+   "name": "Kolsassberg",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 47.28875,
+   "lon": 11.64546,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 300,
+   "lifts": 1,
+   "baseM": 754,
+   "topM": 846,
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A small village lift at Kolsassberg above the Inn valley, with under 100 m of vertical.",
+    "tags": [
+     "Good for beginners",
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=6e1f78191ff843c168957080f7b5eb3ca32857b2",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 47.28849,
+    "lon": 11.64515,
+    "radiusM": 473
    }
   },
   {
@@ -12827,6 +13978,50 @@
     "lat": 47.61425,
     "lon": -120.66954,
     "radiusM": 425
+   }
+  },
+  {
+   "id": "grubigstein",
+   "name": "Lermoos Grubigstein",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 47.38827,
+   "lon": 10.86213,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 3500,
+   "lifts": 10,
+   "baseM": 987,
+   "topM": 2055,
+   "website": "https://www.bergbahnen-langes.at/",
+   "runMix": [
+    7,
+    8,
+    3,
+    2
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Lermoos's mountain, with sunny, varied slopes facing the Zugspitze, Germany's highest peak. The Zugspitz Arena reckons it may have the longest blue run in Austria.",
+    "tags": [
+     "Views",
+     "Varied terrain"
+    ],
+    "source": "https://www.zugspitzarena.com/en/activities/ski-board/ski-resorts/grubigstein",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 47.39003,
+    "lon": 10.86502,
+    "radiusM": 1814
    }
   },
   {
@@ -13778,6 +14973,42 @@
     "lat": 47.65722,
     "lon": -90.72077,
     "radiusM": 1542
+   }
+  },
+  {
+   "id": "larchenhof",
+   "name": "Lärchenhof (Erpfendorf)",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 47.57909,
+   "lon": 12.50398,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 450,
+   "lifts": 2,
+   "baseM": 687,
+   "topM": 824,
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Two lifts at the Lärchenhof in Erpfendorf, near St. Johann in Tirol, with about 140 m of vertical.",
+    "tags": [
+     "Good for beginners"
+    ],
+    "source": "https://openskimap.org/?obj=b7e4306ead8b3ef060c28802ca40494804734e5c",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 47.57874,
+    "lon": 12.50386,
+    "radiusM": 493
    }
   },
   {
@@ -14752,6 +15983,12 @@
      "daysAllowed": 5,
      "poolId": "zillertal",
      "notes": "5 days total across the 5 Zillertal areas. Epic says the mobile pass can't be used for lift access here; bring the physical pass card."
+    },
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
     }
    ],
    "verticalFt": 6080,
@@ -17407,6 +18644,51 @@
    }
   },
   {
+   "id": "nauders",
+   "name": "Nauders Bergkastel",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 46.86709,
+   "lon": 10.53164,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 4570,
+   "lifts": 21,
+   "baseM": 1342,
+   "topM": 2735,
+   "website": "https://www.nauders.com/",
+   "runMix": [
+    16,
+    28,
+    6,
+    5
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "On the Reschen Pass, where Austria meets Italy and Switzerland, with a cable car from Nauders up to 2,750 m and about 75 km of runs, mostly reds. It belongs to the Two Countries Ski Arena, which adds the areas across the border in South Tyrol for 159 km in all.",
+    "tags": [
+     "High altitude",
+     "Varied terrain",
+     "Snowmaking"
+    ],
+    "source": "https://www.tyrol.tl/en/leisure-activities/winter-sports/skiing-areas-in-tyrol/bergkastel-nauders/",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 46.86812,
+    "lon": 10.54337,
+    "radiusM": 2972
+   }
+  },
+  {
    "id": "nayoro-piyashiri",
    "name": "Nayoro Piyashiri",
    "state": "Hokkaido",
@@ -17557,6 +18839,44 @@
     "lat": 49.37304,
     "lon": -119.95646,
     "radiusM": 2088
+   }
+  },
+  {
+   "id": "niederthai",
+   "name": "Niederthai",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 47.12531,
+   "lon": 10.96718,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 460,
+   "lifts": 2,
+   "baseM": 1528,
+   "topM": 1667,
+   "website": "https://fr.tyrol.com/activites/sport/ski/domaines-skiables/umhausen-niederthai",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Two small lifts at Niederthai, a hamlet in a side valley of the Ötztal above Umhausen.",
+    "tags": [
+     "Good for beginners",
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=1089db19143902726b1dae91204f1909f684ba98",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 47.12429,
+    "lon": 10.96233,
+    "radiusM": 674
    }
   },
   {
@@ -18143,7 +19463,14 @@
    "country": "AT",
    "lat": 46.87828,
    "lon": 11.04634,
-   "access": [],
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
    "verticalFt": 4070,
    "lifts": 25,
    "baseM": 1784,
@@ -19581,6 +20908,12 @@
      "passId": "indy-plus",
      "daysAllowed": 2,
      "thirdDayDiscount": true
+    },
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
     }
    ],
    "verticalFt": 5560,
@@ -20180,6 +21513,43 @@
    }
   },
   {
+   "id": "pragraten",
+   "name": "Prägraten am Großvenediger",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 47.01782,
+   "lon": 12.36738,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 540,
+   "lifts": 2,
+   "baseM": 1316,
+   "topM": 1481,
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Two lifts at Prägraten am Großvenediger, high in East Tyrol's Virgental, on a gentle slope of about 165 m.",
+    "tags": [
+     "Good for beginners",
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=a06bf754527b97dc982543f00fff3219c4475e9b",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 47.01833,
+    "lon": 12.3668,
+    "radiusM": 566
+   }
+  },
+  {
    "id": "purgatory",
    "name": "Purgatory Resort",
    "state": "CO",
@@ -20486,6 +21856,49 @@
    }
   },
   {
+   "id": "rangger-kopfl",
+   "name": "Rangger Köpfl (Oberperfuss)",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 47.24182,
+   "lon": 11.21179,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 2240,
+   "lifts": 5,
+   "baseM": 1243,
+   "topM": 1925,
+   "website": "https://www.rangger-koepfl.at/",
+   "runMix": [
+    3,
+    3,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Oberperfuss's mountain in the Sellraintal, just west of Innsbruck, with about 680 m of vertical on five lifts.",
+    "tags": [
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=46d0076014305c7df44c33a71384aea5eaac5cd5",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 47.24038,
+    "lon": 11.20486,
+    "radiusM": 1907
+   }
+  },
+  {
    "id": "rauris",
    "name": "Rauris Hochalmbahnen",
    "state": "Salzburg",
@@ -20661,6 +22074,49 @@
    }
   },
   {
+   "id": "rifflsee",
+   "name": "Rifflsee (Pitztal)",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 46.96151,
+   "lon": 10.86183,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 3710,
+   "lifts": 6,
+   "baseM": 1674,
+   "topM": 2804,
+   "website": "https://www.pitztaler-gletscher.at/",
+   "runMix": [
+    4,
+    5,
+    7,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Beside the Pitztal Glacier at the head of the Pitztal, around the Rifflsee lake, from about 1,670 to 2,800 m on six lifts.",
+    "tags": [
+     "High altitude"
+    ],
+    "source": "https://openskimap.org/?obj=a710407367bee5d3a51e5dec4c2c6acc0ea5e432",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 46.96211,
+    "lon": 10.8551,
+    "radiusM": 1648
+   }
+  },
+  {
    "id": "rikert-nordic",
    "name": "Rikert Nordic Center",
    "state": "VT",
@@ -20819,6 +22275,93 @@
     "lat": 46.83503,
     "lon": 11.63997,
     "radiusM": 4210
+   }
+  },
+  {
+   "id": "rofan",
+   "name": "Rofan (Maurach)",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 47.43439,
+   "lon": 11.75722,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 2910,
+   "lifts": 3,
+   "baseM": 976,
+   "topM": 1864,
+   "website": "https://www.rofanseilbahn.at/",
+   "runMix": [
+    1,
+    3,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "The Rofan cable car from Maurach on the Achensee, with about 890 m of vertical and a couple of lifts at the top.",
+    "tags": [
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=79a3446aa18ba16b3f691badac19307485a71056",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 47.43442,
+    "lon": 11.76094,
+    "radiusM": 1279
+   }
+  },
+  {
+   "id": "rosshutte",
+   "name": "Rosshütte (Seefeld)",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 47.33501,
+   "lon": 11.22078,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 2720,
+   "lifts": 24,
+   "baseM": 1233,
+   "topM": 2062,
+   "website": "https://www.seefeld.com/en/rosshuette-winter.html",
+   "runMix": [
+    4,
+    5,
+    2,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Seefeld's main ski area, reached by funicular, with lifts up to about 2,060 m on the Härmelekopf, some 20 km of runs and snowmaking on all of them. Families who like gentle slopes come for the large children's area, and a free ski bus runs from Seefeld.",
+    "tags": [
+     "Family friendly",
+     "Snowmaking"
+    ],
+    "source": "https://tyrol.tl/en/leisure-activities/winter-sports/skiing-areas-in-tyrol/rosshuette-seefeld/",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 47.33376,
+    "lon": 11.21754,
+    "radiusM": 1613
    }
   },
   {
@@ -21366,6 +22909,43 @@
    }
   },
   {
+   "id": "schneeberg-thiersee",
+   "name": "Schneeberglifte Thiersee",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 47.58378,
+   "lon": 12.09268,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 210,
+   "lifts": 2,
+   "baseM": 794,
+   "topM": 858,
+   "website": "https://www.schneeberglifte.at/",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Two small lifts at Thiersee near Kufstein, with about 60 m of vertical: a beginners' and kids' hill.",
+    "tags": [
+     "Good for beginners"
+    ],
+    "source": "https://openskimap.org/?obj=016865724e85f65e6827febfc59b564629bd617d",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 47.58561,
+    "lon": 12.0926,
+    "radiusM": 429
+   }
+  },
+  {
    "id": "schuss-mountain",
    "name": "Schuss Mountain at Shanty Creek",
    "state": "MI",
@@ -21521,13 +23101,64 @@
    }
   },
   {
+   "id": "see-paznaun",
+   "name": "See im Paznaun",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 47.07236,
+   "lon": 10.47922,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 5020,
+   "lifts": 9,
+   "baseM": 1037,
+   "topM": 2567,
+   "website": "https://www.bergbahn.com/",
+   "runMix": [
+    14,
+    21,
+    4,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A smaller Paznaun area, from about 1,000 to 2,450 m, with wide slopes that suit families and a daycare from age two. The Versing cable car opens off-piste terrain under the Rotpleiskopf, including the steep Adrenalin ski route.",
+    "tags": [
+     "Family friendly",
+     "Steeps"
+    ],
+    "source": "https://tyrol.tl/en/leisure-activities/winter-sports/skiing-areas-in-tyrol/see-paznauntal",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 47.06963,
+    "lon": 10.48293,
+    "radiusM": 2256
+   }
+  },
+  {
    "id": "serfaus-fiss-ladis",
    "name": "Serfaus-Fiss-Ladis",
    "state": "Tyrol",
    "country": "AT",
    "lat": 47.05018,
    "lon": 10.56728,
-   "access": [],
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
    "verticalFt": 5230,
    "lifts": 48,
    "baseM": 1222,
@@ -21555,6 +23186,49 @@
     "lat": 47.05016,
     "lon": 10.55683,
     "radiusM": 6481
+   }
+  },
+  {
+   "id": "serlesbahnen",
+   "name": "Serlesbahnen (Mieders)",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 47.1472,
+   "lon": 11.40354,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 2370,
+   "lifts": 4,
+   "baseM": 959,
+   "topM": 1680,
+   "website": "https://www.stubai.at/skigebiete/serlesbahnen/",
+   "runMix": [
+    5,
+    3,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Mieders's area at the mouth of the Stubai valley, below the Serles, with about 720 m of vertical on four lifts.",
+    "tags": [
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=fea767bea99cf55ec9f8d38639d9f916bab9c9cd",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 47.15534,
+    "lon": 11.3914,
+    "radiusM": 1523
    }
   },
   {
@@ -22001,6 +23675,43 @@
     "lat": 38.79648,
     "lon": -120.08012,
     "radiusM": 2029
+   }
+  },
+  {
+   "id": "sillian",
+   "name": "Sillian Hochpustertal",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 46.76708,
+   "lon": 12.41236,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 4330,
+   "lifts": 7,
+   "baseM": 1080,
+   "topM": 2399,
+   "website": "https://www.hochpustertal-ski.at/",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Sillian's Thurntaler in East Tyrol's Hochpustertal, near the Italian border, with about 1,320 m of vertical on seven lifts.",
+    "tags": [
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=87ac1b90bf35c1cd881dce0db26cad761aa90d13",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 46.76888,
+    "lon": 12.40544,
+    "radiusM": 2292
    }
   },
   {
@@ -22507,6 +24218,50 @@
    }
   },
   {
+   "id": "ski-juwel",
+   "name": "Ski Juwel Alpbachtal Wildschönau",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 47.37934,
+   "lon": 11.95778,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 3960,
+   "lifts": 37,
+   "baseM": 820,
+   "topM": 2026,
+   "website": "https://skijuwel.com",
+   "runMix": [
+    7,
+    25,
+    6,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Joins the Alpbachtal and the Wildschönau high valley over the Schatzberg, with about 113 km of runs and 45 lifts. Families get the Juppi Do children's area at the Reither Kogel and the gentle slopes at the Brandach lift.",
+    "tags": [
+     "Family friendly",
+     "Varied terrain"
+    ],
+    "source": "https://www.tyrol.tl/en/leisure-activities/winter-sports/skiing-areas-in-tyrol/alpbachtal-wildschoenau-ski-jewel/",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 47.40287,
+    "lon": 12.01473,
+    "radiusM": 8456
+   }
+  },
+  {
    "id": "ski-land",
    "name": "Ski Land",
    "state": "AK",
@@ -22824,6 +24579,12 @@
      "daysAllowed": 2,
      "thirdDayDiscount": false,
      "notes": "Indy's discounted third day isn't offered here."
+    },
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
     }
    ],
    "verticalFt": 4098,
@@ -23839,6 +25600,12 @@
      "daysAllowed": 5,
      "poolId": "zillertal",
      "notes": "5 days total across the 5 Zillertal areas. Epic says the mobile pass can't be used for lift access here; bring the physical pass card."
+    },
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
     }
    ],
    "verticalFt": 4620,
@@ -23992,6 +25759,44 @@
    }
   },
   {
+   "id": "st-jakob-defereggen",
+   "name": "St. Jakob im Defereggental (Brunnalm)",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 46.89848,
+   "lon": 12.36049,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 4250,
+   "lifts": 7,
+   "baseM": 1387,
+   "topM": 2682,
+   "website": "https://www.stjakob-ski.at/",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "The Brunnalm above St. Jakob in East Tyrol's Defereggental, from about 1,390 to 2,680 m on seven lifts.",
+    "tags": [
+     "High altitude",
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=78c523bfc8c41db99cb070416332fef8a2fe777e",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 46.8984,
+    "lon": 12.36279,
+    "radiusM": 1927
+   }
+  },
+  {
    "id": "st-johann-tirol",
    "name": "St. Johann in Tirol",
    "state": "Tyrol",
@@ -24008,6 +25813,12 @@
      "passId": "indy-plus",
      "daysAllowed": 2,
      "thirdDayDiscount": true
+    },
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
     }
    ],
    "verticalFt": 3100,
@@ -24160,6 +25971,12 @@
      "passId": "indy-plus",
      "daysAllowed": 2,
      "thirdDayDiscount": true
+    },
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
     }
    ],
    "verticalFt": 3674,
@@ -24461,7 +26278,14 @@
    "country": "AT",
    "lat": 46.99161,
    "lon": 11.12463,
-   "access": [],
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
    "verticalFt": 4970,
    "lifts": 22,
    "baseM": 1692,
@@ -25197,6 +27021,12 @@
      "passId": "epic",
      "daysAllowed": 5,
      "notes": "Epic says the mobile pass can't be used for lift access here; bring the physical pass card."
+    },
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
     }
    ],
    "verticalFt": 6230,
@@ -25341,6 +27171,49 @@
     "lat": 44.68534,
     "lon": -116.14372,
     "radiusM": 2255
+   }
+  },
+  {
+   "id": "tannheim",
+   "name": "Tannheim-Zöblen-Schattwald",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 47.49812,
+   "lon": 10.4879,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 2390,
+   "lifts": 10,
+   "baseM": 1075,
+   "topM": 1803,
+   "website": "https://www.tannheimer-bergbahnen.at/",
+   "runMix": [
+    2,
+    3,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "The Tannheimer Tal's lifts at Tannheim, Zöblen and Schattwald, with about 730 m of vertical on ten lifts.",
+    "tags": [
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=a76df1cc194e862cc612d10879d6433000ecd765",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 47.49661,
+    "lon": 10.49746,
+    "radiusM": 4322
    }
   },
   {
@@ -26160,6 +28033,44 @@
     "lat": 45.33075,
     "lon": -121.72353,
     "radiusM": 3117
+   }
+  },
+  {
+   "id": "tirolina",
+   "name": "Tirolina (Hinterthiersee)",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 47.58094,
+   "lon": 12.06542,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 730,
+   "lifts": 2,
+   "baseM": 852,
+   "topM": 1075,
+   "website": "https://www.tirolina.at/",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Hinterthiersee's family hill near Kufstein, with two lifts and about 220 m of vertical.",
+    "tags": [
+     "Good for beginners",
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=6cf06dd44411dacb87d18fda0fcfef18f38dc2aa",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 47.58066,
+    "lon": 12.06582,
+    "radiusM": 595
    }
   },
   {
@@ -27247,6 +29158,93 @@
    }
   },
   {
+   "id": "venet",
+   "name": "Venet (Landeck/Zams/Fliess)",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 47.1493,
+   "lon": 10.61332,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 4690,
+   "lifts": 7,
+   "baseM": 776,
+   "topM": 2205,
+   "website": "https://www.venet.at/",
+   "runMix": [
+    4,
+    3,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "The Venet above Landeck, Zams and Fliess, with a gondola from Zams and about 1,430 m of vertical.",
+    "tags": [
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=923cbc11a5682a2722026757ae291a64c7774928",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 47.14695,
+    "lon": 10.61777,
+    "radiusM": 2213
+   }
+  },
+  {
+   "id": "vent",
+   "name": "Vent",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 46.86257,
+   "lon": 10.90955,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 2500,
+   "lifts": 4,
+   "baseM": 1883,
+   "topM": 2644,
+   "website": "https://www.vent.at",
+   "runMix": [
+    4,
+    0,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Vent, the highest village in the Ötztal at about 1,900 m, has its own small area reaching some 2,640 m on four lifts.",
+    "tags": [
+     "High altitude",
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=6cfae7091be2a4d5e189e19aff8b4db5c8d0036b",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 46.86056,
+    "lon": 10.90469,
+    "radiusM": 1357
+   }
+  },
+  {
    "id": "verbier-4-vallees",
    "name": "Verbier 4 Vallées",
    "state": "Valais",
@@ -27355,6 +29353,42 @@
     "lat": 43.44321,
     "lon": -71.69123,
     "radiusM": 418
+   }
+  },
+  {
+   "id": "vogelsberg",
+   "name": "Vögelsberg (Wattens)",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 47.27487,
+   "lon": 11.5915,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 340,
+   "lifts": 1,
+   "baseM": 867,
+   "topM": 970,
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A small lift on the Vögelsberg above Wattens, with about 100 m of vertical: a local beginners' hill.",
+    "tags": [
+     "Good for beginners"
+    ],
+    "source": "https://openskimap.org/?obj=d72042aaa28205941f77ba967c9fe8421c715401",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 47.27447,
+    "lon": 11.59128,
+    "radiusM": 400
    }
   },
   {
@@ -28330,6 +30364,50 @@
    }
   },
   {
+   "id": "wildkogel",
+   "name": "Wildkogel (Neukirchen/Bramberg)",
+   "state": "Salzburg",
+   "country": "AT",
+   "lat": 47.27657,
+   "lon": 12.2986,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 4300,
+   "lifts": 21,
+   "baseM": 814,
+   "topM": 2125,
+   "website": "https://www.wildkogel-arena.at/de/bergbahnen-wildkogel/oeffnungszeiten-tarife-sommer.html",
+   "runMix": [
+    31,
+    12,
+    5,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Above Neukirchen and Bramberg in Salzburg's Pinzgau, at about 2,100 m, where most runs are blues and reds that suit beginners and relaxed skiers. Its toboggan run drops 1,300 m over about 14 km to Bramberg and is lit until 10 pm.",
+    "tags": [
+     "Good for beginners",
+     "Family friendly"
+    ],
+    "source": "https://urlaub.salzburgerland.com/en/skiholiday-wildkogel-arena",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 47.27539,
+    "lon": 12.29584,
+    "radiusM": 3258
+   }
+  },
+  {
    "id": "williams-lake-xc",
    "name": "Williams Lake Cross Country Ski Club",
    "state": "BC",
@@ -28931,6 +31009,43 @@
    }
   },
   {
+   "id": "zahmer-kaiser",
+   "name": "Zahmer Kaiser (Walchsee)",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 47.63333,
+   "lon": 12.28216,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 320,
+   "lifts": 1,
+   "baseM": 692,
+   "topM": 789,
+   "website": "https://www.zahmerkaiser.com/",
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A single lift at Walchsee below the Zahmer Kaiser, with under 100 m of vertical.",
+    "tags": [
+     "Good for beginners"
+    ],
+    "source": "https://openskimap.org/?obj=f4779ca3a5a0b0cabd11d4a5a18367d378c539cb",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 47.6378,
+    "lon": 12.29507,
+    "radiusM": 686
+   }
+  },
+  {
    "id": "zao-onsen",
    "name": "Zao Onsen",
    "state": "Yamagata",
@@ -29033,6 +31148,49 @@
    }
   },
   {
+   "id": "zettersfeld",
+   "name": "Zettersfeld (Lienz)",
+   "state": "Tyrol",
+   "country": "AT",
+   "lat": 46.86939,
+   "lon": 12.79159,
+   "access": [
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    }
+   ],
+   "verticalFt": 1970,
+   "lifts": 6,
+   "baseM": 1672,
+   "topM": 2272,
+   "website": "https://www.lienzer-bergbahnen.at/",
+   "runMix": [
+    5,
+    10,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "One of Lienz's two ski mountains, from about 1,670 to 2,270 m above the town, on six lifts.",
+    "tags": [
+     "Local vibe"
+    ],
+    "source": "https://openskimap.org/?obj=8ca1fa8f24002982eab793a7b85318feef1d1ac6",
+    "checked": "2026-11-05"
+   },
+   "checkIn": {
+    "lat": 46.86974,
+    "lon": 12.7933,
+    "radiusM": 1482
+   }
+  },
+  {
    "id": "zillertal-arena",
    "name": "Zillertal Arena",
    "state": "Tyrol",
@@ -29045,6 +31203,12 @@
      "daysAllowed": 5,
      "poolId": "zillertal",
      "notes": "5 days total across the 5 Zillertal areas. Epic says the mobile pass can't be used for lift access here; bring the physical pass card."
+    },
+    {
+     "passId": "snow-card-tirol",
+     "validFrom": "2026-10-01",
+     "validTo": "2027-05-15",
+     "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
     }
    ],
    "verticalFt": 6330,
