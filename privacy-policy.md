@@ -1,6 +1,6 @@
 # Lapin privacy policy
 
-Last updated 6 November 2026.
+Last updated 9 November 2026.
 
 Lapin: Ski Pass & Resort Log ("Lapin") is made by Burrow Works LLC. Lapin keeps your ski days on your phone.
 There are no accounts, no ads, no analytics and no tracking. Burrow Works runs no server that receives your data, and nothing you enter is sold or shared.
@@ -60,7 +60,7 @@ what's listed. As with any internet request, the service also sees your IP addre
 - **GitHub** (raw.githubusercontent.com): the list of resorts and pass rules, at most once a day, so changes reach
   you without an app update. Nothing about you is sent with it.
 
-Buttons such as Website, Snow report and Directions open your browser or maps app. Those apps and sites have their own
+Buttons such as Website, Snow report, Niehues painting and Directions open your browser or maps app. Those apps and sites have their own
 privacy policies.
 
 ## Lapin+ and Google Play
