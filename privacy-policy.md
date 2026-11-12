@@ -1,6 +1,6 @@
 # Lapin privacy policy
 
-Last updated 9 November 2026.
+Last updated 12 November 2026.
 
 Lapin: Ski Pass & Resort Log ("Lapin") is made by Burrow Works LLC. Lapin keeps your ski days on your phone.
 There are no accounts, no ads, no analytics and no tracking. Burrow Works runs no server that receives your data, and nothing you enter is sold or shared.
@@ -15,6 +15,7 @@ There are no accounts, no ads, no analytics and no tracking. Burrow Works runs n
 - Ski days you record in the app: the GPS track (time, position and height every few seconds while recording), its
   stats and the runs and lifts it matched.
 - Stored forecasts, and the resorts you told check-ins to skip.
+- Map backgrounds of the resorts whose maps you've opened, or saved over Wi-Fi (terrain, woods, roads, place names).
 - Whether you have Lapin+: the last answer from Google Play (see Lapin+ below).
 
 All of this is deleted when you uninstall the app or clear its storage.
@@ -43,8 +44,8 @@ Android's settings, at any time.
 
 ## What the app sends over the internet
 
-The app downloads forecasts and alerts. Each request goes straight to the service named below and carries only
-what's listed. As with any internet request, the service also sees your IP address.
+The app downloads forecasts, alerts and map backgrounds. Each request goes straight to the service named below and
+carries only what's listed. As with any internet request, the service also sees your IP address.
 
 - **Open-Meteo** (api.open-meteo.com): the map position and height of resorts on your passes, to get their forecasts.
   The list of resorts can show which passes you hold. Your own location is never sent. With powder alerts on, this
@@ -58,7 +59,14 @@ what's listed. As with any internet request, the service also sees your IP addre
 - **Google Play** (through the Play Store app on your phone): with the version from Google Play, the app asks Play
   whether your Google account has Lapin+ and what it costs where you are. See Lapin+ below.
 - **GitHub** (raw.githubusercontent.com): the list of resorts and pass rules, at most once a day, so changes reach
-  you without an app update. Nothing about you is sent with it.
+  you without an app update. Nothing about you is sent with it. Also the map background of a resort (its woods,
+  roads, car parks and place names): see Amazon below.
+- **Amazon Web Services** (elevation-tiles-prod.s3.amazonaws.com): terrain tiles for the area around a resort, for
+  the shaded relief under its trail map. They're requested the first time you open a map of that resort, then kept on
+  the phone. With map backgrounds on (Settings → Map backgrounds), the app also saves them, together with the GitHub
+  file above, for the resorts on your passes within 200 miles of home, over Wi-Fi only. The requests carry only which
+  map tiles or which resort; the resorts chosen can show which passes you hold and roughly where you ski. Your own
+  location is never sent. Turning map backgrounds off stops these requests and deletes what was saved.
 
 Buttons such as Website, Snow report, Niehues painting and Directions open your browser or maps app. Those apps and sites have their own
 privacy policies.
