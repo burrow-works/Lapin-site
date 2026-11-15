@@ -1,6 +1,6 @@
 {
  "format": 1,
- "version": 27,
+ "version": 28,
  "season": "2026-27",
  "dataAsOf": "2026-10-22",
  "passes": [
@@ -423,6 +423,14 @@
    ]
   },
   {
+   "id": "indy-destination",
+   "family": "Indy",
+   "name": "Indy Destination Upgrade",
+   "hasBlackouts": false,
+   "price": 199,
+   "priceNote": "26/27, adult, added to Indy+ ($249 on Indy Base)"
+  },
+  {
    "id": "magic-pass",
    "family": "Magic Pass",
    "name": "Magic Pass",
@@ -560,6 +568,12 @@
      "daysAllowed": 2,
      "thirdDayDiscount": true,
      "notes": "Cross-country trails only. 2 free trail pass days, then a third day at 25% off rack."
+    },
+    {
+     "passId": "indy-destination",
+     "daysAllowed": 3,
+     "poolId": "indy-destination",
+     "notes": "3 more days on top of your Indy days, shared across the 13 Destination Upgrade resorts (all 3 here, or split). No blackouts. An add-on to an Indy pass."
     }
    ],
    "verticalFt": 1851,
@@ -3602,6 +3616,12 @@
      "daysAllowed": 2,
      "thirdDayDiscount": true,
      "reservationRequired": false
+    },
+    {
+     "passId": "indy-destination",
+     "daysAllowed": 3,
+     "poolId": "indy-destination",
+     "notes": "3 more days on top of your Indy days, shared across the 13 Destination Upgrade resorts (all 3 here, or split). No blackouts. An add-on to an Indy pass."
     }
    ],
    "verticalFt": 2550,
@@ -4872,6 +4892,12 @@
      "daysAllowed": 2,
      "thirdDayDiscount": true,
      "reservationRequired": true
+    },
+    {
+     "passId": "indy-destination",
+     "daysAllowed": 3,
+     "poolId": "indy-destination",
+     "notes": "3 more days on top of your Indy days, shared across the 13 Destination Upgrade resorts (all 3 here, or split). No blackouts. An add-on to an Indy pass."
     }
    ],
    "verticalFt": 1921,
@@ -5812,6 +5838,12 @@
      "daysAllowed": 2,
      "thirdDayDiscount": true,
      "reservationRequired": false
+    },
+    {
+     "passId": "indy-destination",
+     "daysAllowed": 3,
+     "poolId": "indy-destination",
+     "notes": "3 more days on top of your Indy days, shared across the 13 Destination Upgrade resorts (all 3 here, or split). No blackouts. An add-on to an Indy pass."
     }
    ],
    "verticalFt": 2845,
@@ -7903,7 +7935,14 @@
     {
      "passId": "ikon",
      "daysAllowed": 7,
-     "reservationRequired": true
+     "reservationRequired": true,
+     "notes": "7 days, no blackouts. Reserve each day ahead at deervalley.com; cancel by 11 am on the day."
+    },
+    {
+     "passId": "ikon-base",
+     "daysAllowed": 3,
+     "reservationRequired": true,
+     "notes": "New for 26/27 (added 9 Nov 2026): 3 days with Ikon Base's holiday blackouts. Reserve each day ahead at deervalley.com; cancel by 11 am on the day."
     }
    ],
    "verticalFt": 3100,
@@ -14183,6 +14222,12 @@
      "validFrom": "2026-10-01",
      "validTo": "2027-05-15",
      "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    },
+    {
+     "passId": "indy-destination",
+     "daysAllowed": 3,
+     "poolId": "indy-destination",
+     "notes": "3 more days on top of your Indy days, shared across the 13 Destination Upgrade resorts (all 3 here, or split). No blackouts. An add-on to an Indy pass."
     }
    ],
    "verticalFt": 5282,
@@ -15315,6 +15360,12 @@
      "validFrom": "2026-10-01",
      "validTo": "2027-05-15",
      "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    },
+    {
+     "passId": "indy-destination",
+     "daysAllowed": 3,
+     "poolId": "indy-destination",
+     "notes": "3 more days on top of your Indy days, shared across the 13 Destination Upgrade resorts (all 3 here, or split). No blackouts. An add-on to an Indy pass."
     }
    ],
    "verticalFt": 3160,
@@ -17635,6 +17686,12 @@
      "validFrom": "2026-05-01",
      "validTo": "2027-04-30",
      "notes": "Unlimited until 30 April, at every Magic Pass station."
+    },
+    {
+     "passId": "indy-destination",
+     "daysAllowed": 3,
+     "poolId": "indy-destination",
+     "notes": "3 more days on top of your Indy days, shared across the 13 Destination Upgrade resorts (all 3 here, or split). No blackouts. An add-on to an Indy pass."
     }
    ],
    "verticalFt": 3937,
@@ -25645,6 +25702,12 @@
      "validFrom": "2026-10-01",
      "validTo": "2027-05-15",
      "notes": "Unlimited from 1 October to 15 May, at every Snow Card area in Tyrol."
+    },
+    {
+     "passId": "indy-destination",
+     "daysAllowed": 3,
+     "poolId": "indy-destination",
+     "notes": "3 more days on top of your Indy days, shared across the 13 Destination Upgrade resorts (all 3 here, or split). No blackouts. An add-on to an Indy pass."
     }
    ],
    "verticalFt": 5560,
@@ -26306,6 +26369,12 @@
      "daysAllowed": 0,
      "poolId": "vouchers",
      "notes": "Two tickets for one voucher, same day only. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 12 Oct 2026; partners can change."
+    },
+    {
+     "passId": "indy-destination",
+     "daysAllowed": 3,
+     "poolId": "indy-destination",
+     "notes": "3 more days on top of your Indy days, shared across the 13 Destination Upgrade resorts (all 3 here, or split). No blackouts. An add-on to an Indy pass."
     }
    ],
    "verticalFt": 1697,
@@ -26954,6 +27023,12 @@
      "daysAllowed": 0,
      "poolId": "vouchers",
      "notes": "Two tickets for one voucher, same day only. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 12 Oct 2026; partners can change."
+    },
+    {
+     "passId": "indy-destination",
+     "daysAllowed": 3,
+     "poolId": "indy-destination",
+     "notes": "3 more days on top of your Indy days, shared across the 13 Destination Upgrade resorts (all 3 here, or split). No blackouts. An add-on to an Indy pass."
     }
    ],
    "verticalFt": 2400,
@@ -29367,6 +29442,12 @@
      "daysAllowed": 2,
      "thirdDayDiscount": true,
      "reservationRequired": false
+    },
+    {
+     "passId": "indy-destination",
+     "daysAllowed": 3,
+     "poolId": "indy-destination",
+     "notes": "3 more days on top of your Indy days, shared across the 13 Destination Upgrade resorts (all 3 here, or split). No blackouts. An add-on to an Indy pass."
     }
    ],
    "verticalFt": 2200,
@@ -30307,6 +30388,12 @@
      "validFrom": "2026-10-10",
      "validTo": "2027-05-02",
      "notes": "Unlimited from 10 October to 2 May with the Premium card, at every SuperSkiCard area."
+    },
+    {
+     "passId": "indy-destination",
+     "daysAllowed": 3,
+     "poolId": "indy-destination",
+     "notes": "3 more days on top of your Indy days, shared across the 13 Destination Upgrade resorts (all 3 here, or split). No blackouts. An add-on to an Indy pass."
     }
    ],
    "verticalFt": 4098,
@@ -33129,6 +33216,12 @@
      "passId": "ikon",
      "daysAllowed": 2,
      "notes": "Bonus mountain. Ikon lists blackout dates for some bonus mountains without naming them, so they are shown here."
+    },
+    {
+     "passId": "indy-destination",
+     "daysAllowed": 3,
+     "poolId": "indy-destination",
+     "notes": "3 more days on top of your Indy days, shared across the 13 Destination Upgrade resorts (all 3 here, or split). No blackouts. An add-on to an Indy pass."
     }
    ],
    "verticalFt": 2800,
@@ -39930,6 +40023,24 @@
   },
   {
    "resortId": "brighton",
+   "passId": "ikon-base",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "deer-valley",
+   "passId": "ikon-base",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "deer-valley",
+   "passId": "ikon-base",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "deer-valley",
    "passId": "ikon-base",
    "start": "2027-02-13",
    "end": "2027-02-14"
