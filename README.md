@@ -12,3 +12,10 @@ Corduroy), served by GitHub Pages from `main`.
   repo. Apps install it only when its `version` is higher than theirs, its `format` is one they read, and it passes
   their checks (`RosterFile.replaces`); otherwise they keep what they have. Bump `VERSION` in `build_roster.py` for
   every change.
+- `slopes/<id>.geojson` (0.99): every resort's trail map, its runs and lifts from OpenSkiData (ODbL), one small file each.
+  They used to ship inside the app; with every lift-served hill in the US and Canada (backlog #45) there are too many, so
+  the app downloads one from `https://raw.githubusercontent.com/burrow-works/lapin-site/main/slopes/<id>.geojson` the
+  first time a resort's map, page or a day there opens, and keeps it. Copies of `tools/slopes/` in the app repo, written by
+  `tools/build_slopes.py`; the roster's `trailMap` says which resorts have one. Push changed files here with the roster.
+- `context/<id>.json.gz` (0.89): each mapped resort's map-background pack (woods, roads, contours, base areas, the town),
+  from `tools/build_context.py`.

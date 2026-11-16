@@ -1,0 +1,1 @@
+{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"kind":"lift","liftType":"platter","name":"Platter"},"geometry":{"type":"LineString","coordinates":[[-87.10831,48.78823],[-87.10624,48.78701]]}}]}

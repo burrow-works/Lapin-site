@@ -1,0 +1,1 @@
+{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"kind":"lift","liftType":"magic_carpet"},"geometry":{"type":"LineString","coordinates":[[-106.68631,52.09716],[-106.68634,52.09599]]}},{"type":"Feature","properties":{"kind":"lift","liftType":"magic_carpet"},"geometry":{"type":"LineString","coordinates":[[-106.68767,52.09674],[-106.68653,52.09594]]}}]}

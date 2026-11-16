@@ -1,0 +1,1 @@
+{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"kind":"lift","liftType":"chair_lift","name":"Macomber Ski Lift"},"geometry":{"type":"LineString","coordinates":[[-72.59534,42.53977],[-72.59094,42.53689]]}}]}

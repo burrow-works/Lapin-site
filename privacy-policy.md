@@ -1,6 +1,6 @@
 # Lapin privacy policy
 
-Last updated 12 November 2026.
+Last updated 16 November 2026.
 
 Lapin: Ski Pass & Resort Log ("Lapin") is made by Burrow Works LLC. Lapin keeps your ski days on your phone.
 There are no accounts, no ads, no analytics and no tracking. Burrow Works runs no server that receives your data, and nothing you enter is sold or shared.
@@ -15,6 +15,7 @@ There are no accounts, no ads, no analytics and no tracking. Burrow Works runs n
 - Ski days you record in the app: the GPS track (time, position and height every few seconds while recording), its
   stats and the runs and lifts it matched.
 - Stored forecasts, and the resorts you told check-ins to skip.
+- Trail maps of the resorts whose maps, pages or days you've opened, or saved over Wi-Fi.
 - Map backgrounds of the resorts whose maps you've opened, or saved over Wi-Fi (terrain, woods, roads, place names).
 - Whether you have Lapin+: the last answer from Google Play (see Lapin+ below).
 
@@ -59,8 +60,11 @@ carries only what's listed. As with any internet request, the service also sees 
 - **Google Play** (through the Play Store app on your phone): with the version from Google Play, the app asks Play
   whether your Google account has Lapin+ and what it costs where you are. See Lapin+ below.
 - **GitHub** (raw.githubusercontent.com): the list of resorts and pass rules, at most once a day, so changes reach
-  you without an app update. Nothing about you is sent with it. Also the map background of a resort (its woods,
-  roads, car parks and place names): see Amazon below.
+  you without an app update. Nothing about you is sent with it. Also a resort's trail map (its runs and lifts), the
+  first time you open its map, its page or a day there, then kept on the phone; and, over Wi-Fi, the trail maps of the
+  resorts on your passes within 200 miles of home, so they work with no signal. The requests carry only which resort;
+  the resorts chosen can show which passes you hold and roughly where you ski. Also the map background of a resort
+  (its woods, roads, car parks and place names): see Amazon below.
 - **Amazon Web Services** (elevation-tiles-prod.s3.amazonaws.com): terrain tiles for the area around a resort, for
   the shaded relief under its trail map. They're requested the first time you open a map of that resort, then kept on
   the phone. With map backgrounds on (Settings → Map backgrounds), the app also saves them, together with the GitHub
