@@ -1,6 +1,6 @@
 {
  "format": 1,
- "version": 28,
+ "version": 29,
  "season": "2026-27",
  "dataAsOf": "2026-10-22",
  "passes": [
@@ -717,6 +717,12 @@
      "passId": "epic-local"
     },
     {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Two tickets for one voucher, same day only. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
+    },
+    {
      "passId": "epic-day",
      "daysAllowed": 1,
      "poolId": "bought",
@@ -1004,6 +1010,12 @@
     {
      "passId": "epic-northeast-midweek",
      "notes": "Monday to Friday only."
+    },
+    {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Two tickets for one voucher, same day only. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     },
     {
      "passId": "epic-day",
@@ -1968,7 +1980,14 @@
    "country": "CH",
    "lat": 46.75133,
    "lon": 9.57011,
-   "access": [],
+   "access": [
+    {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Free day of skiing for one voucher. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
+    }
+   ],
    "verticalFt": 5300,
    "lifts": 49,
    "baseM": 1240,
@@ -2078,6 +2097,12 @@
     {
      "passId": "epic-northeast-midweek",
      "notes": "Monday to Friday only."
+    },
+    {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Two tickets for one voucher, same day only. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     },
     {
      "passId": "epic-day",
@@ -3219,6 +3244,12 @@
      "reservationRequired": false
     },
     {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Two tickets for one voucher, same day only. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
+    },
+    {
      "passId": "ikon-session",
      "daysAllowed": 2,
      "poolId": "bought",
@@ -3273,6 +3304,12 @@
     {
      "passId": "epic-northeast-midweek",
      "notes": "Monday to Friday only."
+    },
+    {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Two tickets for one voucher, same day only. One offer for Jack Frost and Big Boulder. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     },
     {
      "passId": "epic-day",
@@ -3616,6 +3653,12 @@
      "daysAllowed": 2,
      "thirdDayDiscount": true,
      "reservationRequired": false
+    },
+    {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Two tickets for one voucher, same day only. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     },
     {
      "passId": "indy-destination",
@@ -4262,6 +4305,12 @@
      "notes": "Monday to Friday only."
     },
     {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Two tickets for one voucher, same day only. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
+    },
+    {
      "passId": "epic-day",
      "daysAllowed": 1,
      "poolId": "bought",
@@ -4787,6 +4836,12 @@
      "allExtraDaysDiscounted": true,
      "reservationRequired": false,
      "notes": "2 free days here, then 50% off any additional day. No blackouts. Some destinations need advance reservations."
+    },
+    {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Two tickets for one voucher, same day only. The 2-for-1 is on 8-hour tickets. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     }
    ],
    "verticalFt": 1190,
@@ -7017,7 +7072,7 @@
      "passId": "hh-ski-free",
      "daysAllowed": 0,
      "poolId": "vouchers",
-     "notes": "Free day of skiing for one voucher. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 12 Oct 2026; partners can change."
+     "notes": "Free day of skiing for one voucher. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     }
    ],
    "verticalFt": 4910,
@@ -7381,6 +7436,12 @@
     {
      "passId": "epic-northeast-midweek",
      "notes": "Monday to Friday only."
+    },
+    {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Two tickets for one voucher, same day only. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     },
     {
      "passId": "epic-day",
@@ -8150,7 +8211,7 @@
      "passId": "hh-ski-free",
      "daysAllowed": 0,
      "poolId": "vouchers",
-     "notes": "Free day of skiing for one voucher. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 12 Oct 2026; partners can change."
+     "notes": "Free day of skiing for one voucher. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     }
    ],
    "verticalFt": 3020,
@@ -9552,6 +9613,12 @@
      "notes": "7 days total across Fernie Alpine Resort, Kicking Horse, Kimberley Alpine Resort, Nakiska, Mont-Sainte-Anne and Stoneham (Resorts of the Canadian Rockies)."
     },
     {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Two tickets for one voucher, same day only. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
+    },
+    {
      "passId": "epic-day",
      "daysAllowed": 1,
      "poolId": "bought",
@@ -10077,7 +10144,7 @@
      "passId": "hh-ski-free",
      "daysAllowed": 0,
      "poolId": "vouchers",
-     "notes": "Free day of skiing for one voucher. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 12 Oct 2026; partners can change."
+     "notes": "Free day of skiing for one voucher. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     }
    ],
    "verticalFt": 1260,
@@ -11343,6 +11410,12 @@
    "lon": 7.2858,
    "access": [
     {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Free day of skiing for one voucher. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
+    },
+    {
      "passId": "magic-pass",
      "validFrom": "2026-05-01",
      "validTo": "2027-04-30",
@@ -11386,7 +11459,14 @@
    "country": "US",
    "lat": 43.53211,
    "lon": -71.36309,
-   "access": [],
+   "access": [
+    {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Free day of skiing for one voucher. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
+    }
+   ],
    "verticalFt": 1300,
    "lifts": 6,
    "baseM": 287,
@@ -11524,7 +11604,7 @@
      "passId": "hh-ski-free",
      "daysAllowed": 0,
      "poolId": "vouchers",
-     "notes": "Free day of skiing for one voucher. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 12 Oct 2026; partners can change."
+     "notes": "Free day of skiing for one voucher. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     }
    ],
    "verticalFt": 2740,
@@ -12141,6 +12221,12 @@
      "notes": "Restricted peak dates apply."
     },
     {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Two tickets for one voucher, same day only. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
+    },
+    {
      "passId": "epic-day",
      "daysAllowed": 1,
      "poolId": "bought",
@@ -12362,6 +12448,12 @@
      "passId": "epic-local"
     },
     {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Two tickets for one voucher, same day only. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
+    },
+    {
      "passId": "epic-day",
      "daysAllowed": 1,
      "poolId": "bought",
@@ -12556,6 +12648,53 @@
     "lat": 61.14087,
     "lon": -149.73761,
     "radiusM": 524
+   }
+  },
+  {
+   "id": "himos",
+   "name": "Himos",
+   "state": "Central Finland",
+   "country": "FI",
+   "lat": 61.88785,
+   "lon": 25.32264,
+   "access": [
+    {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "A 3-day lift ticket for the price of 2. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
+    }
+   ],
+   "verticalFt": 480,
+   "lifts": 17,
+   "baseM": 83,
+   "topM": 230,
+   "website": "https://himos.fi/",
+   "runMix": [
+    3,
+    3,
+    5,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Southern Finland's biggest ski area, near Jämsä about 45 minutes from Jyväskylä and two and a half hours from Helsinki, with 26 lit slopes, 16 lifts, two snow parks and the Lumila family area with tubing and sledding. Helly Hansen's offer here is a 3-day ticket for the price of 2.",
+    "tags": [
+     "Night skiing",
+     "Family friendly",
+     "Terrain parks",
+     "Good for beginners"
+    ],
+    "source": "https://www.hellyhansen.com/en_us/skifree/resorts",
+    "checked": "2026-11-15"
+   },
+   "mapBearing": 144,
+   "checkIn": {
+    "lat": 61.88325,
+    "lon": 25.31188,
+    "radiusM": 1362
    }
   },
   {
@@ -13965,6 +14104,12 @@
      "notes": "Monday to Friday only. Restricted peak dates apply."
     },
     {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Two tickets for one voucher, same day only. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
+    },
+    {
      "passId": "epic-day",
      "daysAllowed": 1,
      "poolId": "bought",
@@ -14162,7 +14307,7 @@
      "passId": "hh-ski-free",
      "daysAllowed": 0,
      "poolId": "vouchers",
-     "notes": "Free day of skiing for one voucher. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 12 Oct 2026; partners can change."
+     "notes": "Free day of skiing for one voucher. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     }
    ],
    "verticalFt": 920,
@@ -14216,6 +14361,12 @@
      "daysAllowed": 2,
      "thirdDayDiscount": false,
      "notes": "Indy's discounted third day isn't offered here. Indy's 2 days are issued together as back-to-back days, usable at any of the 12 SKI plus CITY areas. Redeem at the Innsbruck Tourist Office (Burggraben 3) or any area's ticket window except Nordkette."
+    },
+    {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Two tickets for one voucher, same day only. At the Nordkette only, not Innsbruck's other areas. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     },
     {
      "passId": "snow-card-tirol",
@@ -14341,6 +14492,12 @@
     {
      "passId": "epic-northeast-midweek",
      "notes": "Monday to Friday only."
+    },
+    {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Two tickets for one voucher, same day only. One offer for Jack Frost and Big Boulder. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     },
     {
      "passId": "epic-day",
@@ -14797,7 +14954,7 @@
      "passId": "hh-ski-free",
      "daysAllowed": 0,
      "poolId": "vouchers",
-     "notes": "Buy one day, get the next day free (one person, consecutive days). Uses one voucher; it must be used on that visit. Helly Hansen's list as of 12 Oct 2026; partners can change."
+     "notes": "Buy one day, get the next day free (one person, consecutive days). Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     },
     {
      "passId": "ikon-session",
@@ -15632,6 +15789,12 @@
      "notes": "7 days total across Fernie Alpine Resort, Kicking Horse, Kimberley Alpine Resort, Nakiska, Mont-Sainte-Anne and Stoneham (Resorts of the Canadian Rockies)."
     },
     {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Two tickets for one voucher, same day only. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
+    },
+    {
      "passId": "epic-day",
      "daysAllowed": 1,
      "poolId": "bought",
@@ -15780,6 +15943,12 @@
      "daysAllowed": 7,
      "poolId": "rcr",
      "notes": "7 days total across Fernie Alpine Resort, Kicking Horse, Kimberley Alpine Resort, Nakiska, Mont-Sainte-Anne and Stoneham (Resorts of the Canadian Rockies)."
+    },
+    {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Two tickets for one voucher, same day only. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     },
     {
      "passId": "epic-day",
@@ -16196,7 +16365,7 @@
      "passId": "hh-ski-free",
      "daysAllowed": 0,
      "poolId": "vouchers",
-     "notes": "Free day of skiing for one voucher. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 12 Oct 2026; partners can change."
+     "notes": "Free day of skiing for one voucher. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     }
    ],
    "verticalFt": 1020,
@@ -16440,7 +16609,7 @@
      "passId": "hh-ski-free",
      "daysAllowed": 0,
      "poolId": "vouchers",
-     "notes": "Free day of skiing for one voucher. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 12 Oct 2026; partners can change."
+     "notes": "Free day of skiing for one voucher. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     }
    ],
    "verticalFt": 2802,
@@ -16671,6 +16840,12 @@
      "allExtraDaysDiscounted": true,
      "reservationRequired": false,
      "notes": "2 free days here, then 50% off any additional day. No blackouts. Some destinations need advance reservations."
+    },
+    {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Two tickets for one voucher, same day only. Only while full-price tickets are sold, once the resort is fully open (it aims for 1 December). Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     },
     {
      "passId": "ikon-session",
@@ -17847,6 +18022,12 @@
      "notes": "Monday to Friday only."
     },
     {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Two tickets for one voucher, same day only. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
+    },
+    {
      "passId": "epic-day",
      "daysAllowed": 1,
      "poolId": "bought",
@@ -18082,7 +18263,7 @@
      "passId": "hh-ski-free",
      "daysAllowed": 0,
      "poolId": "vouchers",
-     "notes": "Free day of skiing for one voucher. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 12 Oct 2026; partners can change."
+     "notes": "Free day of skiing for one voucher. Pick the pass up at reception or the Guest center. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     }
    ],
    "verticalFt": 1570,
@@ -18634,6 +18815,12 @@
      "notes": "Monday to Friday only."
     },
     {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Two tickets for one voucher, same day only. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
+    },
+    {
      "passId": "epic-day",
      "daysAllowed": 1,
      "poolId": "bought",
@@ -19004,7 +19191,7 @@
      "passId": "hh-ski-free",
      "daysAllowed": 0,
      "poolId": "vouchers",
-     "notes": "Buy one day, get the next day free (one person, consecutive days). Uses one voucher; it must be used on that visit. Helly Hansen's list as of 12 Oct 2026; partners can change."
+     "notes": "Buy one day, get the next day free (one person, consecutive days). Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     },
     {
      "passId": "ikon-session",
@@ -19387,6 +19574,12 @@
      "allExtraDaysDiscounted": true,
      "reservationRequired": false,
      "notes": "2 free days here, then 50% off any additional day. No blackouts. Some destinations need advance reservations."
+    },
+    {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "A 3-day lift ticket for the price of 2. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     }
    ],
    "verticalFt": 2560,
@@ -19934,6 +20127,52 @@
    }
   },
   {
+   "id": "messila",
+   "name": "Messilä",
+   "state": "Päijät-Häme",
+   "country": "FI",
+   "lat": 61.01636,
+   "lon": 25.55361,
+   "access": [
+    {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Two tickets for one voucher, same day only. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
+    }
+   ],
+   "verticalFt": 360,
+   "lifts": 9,
+   "baseM": 84,
+   "topM": 195,
+   "website": "https://messila.fi/",
+   "runMix": [
+    2,
+    7,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A slope-side resort outside Lahti in southern Finland, with slopes for every level, ski school and daily ski patrol, restaurants by the runs and lodging from hotel rooms to log cabins.",
+    "tags": [
+     "Family friendly",
+     "Slopeside lodging",
+     "Good for beginners"
+    ],
+    "source": "https://www.hellyhansen.com/en_us/skifree/resorts",
+    "checked": "2026-11-15"
+   },
+   "mapBearing": 208,
+   "checkIn": {
+    "lat": 61.01739,
+    "lon": 25.55325,
+    "radiusM": 811
+   }
+  },
+  {
    "id": "middlebury-snowbowl",
    "name": "Middlebury Snowbowl",
    "state": "VT",
@@ -20290,7 +20529,7 @@
      "passId": "hh-ski-free",
      "daysAllowed": 0,
      "poolId": "vouchers",
-     "notes": "Free day of skiing for one voucher. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 12 Oct 2026; partners can change."
+     "notes": "Free day of skiing for one voucher. Chamonix Valley areas only: Brévent-Flégère, Les Grands Montets and La Balme. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     }
    ],
    "verticalFt": 2980,
@@ -20612,6 +20851,12 @@
      "daysAllowed": 7,
      "poolId": "rcr",
      "notes": "7 days total across Fernie Alpine Resort, Kicking Horse, Kimberley Alpine Resort, Nakiska, Mont-Sainte-Anne and Stoneham (Resorts of the Canadian Rockies)."
+    },
+    {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Two tickets for one voucher, same day only. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     },
     {
      "passId": "epic-day",
@@ -21292,6 +21537,12 @@
     {
      "passId": "epic-northeast-midweek",
      "notes": "Monday to Friday only. Restricted peak dates apply."
+    },
+    {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Two tickets for one voucher, same day only. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     },
     {
      "passId": "epic-day",
@@ -22071,6 +22322,12 @@
      "notes": "Monday to Friday only."
     },
     {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Two tickets for one voucher, same day only. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
+    },
+    {
      "passId": "epic-day",
      "daysAllowed": 1,
      "poolId": "bought",
@@ -22416,6 +22673,12 @@
      "daysAllowed": 2,
      "thirdDayDiscount": true,
      "notes": "Cross-country trails only. 2 free trail pass days, then a third day at 25% off rack."
+    },
+    {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Free day of skiing for one voucher. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     }
    ],
    "verticalFt": 1657,
@@ -22664,7 +22927,7 @@
      "passId": "hh-ski-free",
      "daysAllowed": 0,
      "poolId": "vouchers",
-     "notes": "Free day of skiing for one voucher. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 12 Oct 2026; partners can change."
+     "notes": "Free day of skiing for one voucher. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     }
    ],
    "verticalFt": 2040,
@@ -22936,6 +23199,12 @@
      "notes": "7 days total across Fernie Alpine Resort, Kicking Horse, Kimberley Alpine Resort, Nakiska, Mont-Sainte-Anne and Stoneham (Resorts of the Canadian Rockies)."
     },
     {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Two tickets for one voucher, same day only. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
+    },
+    {
      "passId": "epic-day",
      "daysAllowed": 1,
      "poolId": "bought",
@@ -22982,7 +23251,7 @@
      "passId": "hh-ski-free",
      "daysAllowed": 0,
      "poolId": "vouchers",
-     "notes": "Free day of skiing for one voucher. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 12 Oct 2026; partners can change."
+     "notes": "Free day of skiing for one voucher. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     }
    ],
    "verticalFt": 2880,
@@ -23475,7 +23744,7 @@
      "passId": "hh-ski-free",
      "daysAllowed": 0,
      "poolId": "vouchers",
-     "notes": "Free day of skiing for one voucher. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 12 Oct 2026; partners can change."
+     "notes": "Free day of skiing for one voucher. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     }
    ],
    "verticalFt": 3313,
@@ -24167,6 +24436,12 @@
      "notes": "Monday to Friday only. Restricted peak dates apply."
     },
     {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Two tickets for one voucher, same day only. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
+    },
+    {
      "passId": "epic-day",
      "daysAllowed": 1,
      "poolId": "bought",
@@ -24325,6 +24600,12 @@
      "passId": "indy-plus",
      "daysAllowed": 2,
      "thirdDayDiscount": true
+    },
+    {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Free day of skiing for one voucher. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     }
    ],
    "verticalFt": 2444,
@@ -24828,6 +25109,12 @@
     },
     {
      "passId": "epic-local"
+    },
+    {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Two tickets for one voucher, same day only. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     },
     {
      "passId": "epic-day",
@@ -26368,7 +26655,7 @@
      "passId": "hh-ski-free",
      "daysAllowed": 0,
      "poolId": "vouchers",
-     "notes": "Two tickets for one voucher, same day only. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 12 Oct 2026; partners can change."
+     "notes": "Two tickets for one voucher, same day only. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     },
     {
      "passId": "indy-destination",
@@ -27022,7 +27309,7 @@
      "passId": "hh-ski-free",
      "daysAllowed": 0,
      "poolId": "vouchers",
-     "notes": "Two tickets for one voucher, same day only. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 12 Oct 2026; partners can change."
+     "notes": "Two tickets for one voucher, same day only. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     },
     {
      "passId": "indy-destination",
@@ -27664,6 +27951,12 @@
      "notes": "Monday to Friday only."
     },
     {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Two tickets for one voucher, same day only. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
+    },
+    {
      "passId": "epic-day",
      "daysAllowed": 1,
      "poolId": "bought",
@@ -27834,6 +28127,50 @@
     "lat": 46.74976,
     "lon": 7.42797,
     "radiusM": 1580
+   }
+  },
+  {
+   "id": "saariselka",
+   "name": "Saariselkä",
+   "state": "Lapland",
+   "country": "FI",
+   "lat": 68.42766,
+   "lon": 27.45508,
+   "access": [
+    {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Free day of skiing for one voucher. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
+    }
+   ],
+   "verticalFt": 560,
+   "lifts": 5,
+   "baseM": 267,
+   "topM": 439,
+   "website": "https://skisaariselka.com/",
+   "runMix": [
+    8,
+    2,
+    3,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "Billed as Europe's northernmost ski resort, on the Iisakkipää and Kaunispää fells in Finnish Lapland beside Urho Kekkonen National Park, with runs for every level and a chance of northern lights.",
+    "tags": [
+     "Views"
+    ],
+    "source": "https://www.hellyhansen.com/en_us/skifree/resorts",
+    "checked": "2026-11-15"
+   },
+   "mapBearing": 344,
+   "checkIn": {
+    "lat": 68.42796,
+    "lon": 27.45374,
+    "radiusM": 1126
    }
   },
   {
@@ -28087,7 +28424,7 @@
      "passId": "hh-ski-free",
      "daysAllowed": 0,
      "poolId": "vouchers",
-     "notes": "Two tickets for one voucher, same day only. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 12 Oct 2026; partners can change."
+     "notes": "Two tickets for one voucher, same day only. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     }
    ],
    "verticalFt": 690,
@@ -29030,6 +29367,12 @@
      "notes": "Monday to Friday only."
     },
     {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Two tickets for one voucher, same day only. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
+    },
+    {
      "passId": "epic-day",
      "daysAllowed": 1,
      "poolId": "bought",
@@ -29350,6 +29693,12 @@
      "reservationRequired": false
     },
     {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Two tickets for one voucher, same day only. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
+    },
+    {
      "passId": "ikon-session",
      "daysAllowed": 2,
      "poolId": "bought",
@@ -29552,6 +29901,12 @@
      "passId": "epic",
      "daysAllowed": 5,
      "notes": "Epic says the mobile pass can't be used for lift access here; bring the physical pass card."
+    },
+    {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Free day of skiing for one voucher. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     }
    ],
    "verticalFt": 5680,
@@ -30498,7 +30853,7 @@
      "passId": "hh-ski-free",
      "daysAllowed": 0,
      "poolId": "vouchers",
-     "notes": "Free day of skiing for one voucher. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 12 Oct 2026; partners can change."
+     "notes": "Free day of skiing for one voucher. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     },
     {
      "passId": "superskicard",
@@ -30723,6 +31078,12 @@
     },
     {
      "passId": "epic-local"
+    },
+    {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Two tickets for one voucher, same day only. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     },
     {
      "passId": "epic-day",
@@ -30973,6 +31334,49 @@
     "lat": 34.21379,
     "lon": -117.03673,
     "radiusM": 1371
+   }
+  },
+  {
+   "id": "snow-valley-on",
+   "name": "Snow Valley",
+   "state": "ON",
+   "country": "CA",
+   "lat": 44.40839,
+   "lon": -79.79159,
+   "access": [
+    {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Two tickets for one voucher, same day only. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
+    }
+   ],
+   "verticalFt": 290,
+   "lifts": 8,
+   "baseM": 236,
+   "topM": 323,
+   "website": "https://www.skisnowvalley.com",
+   "runMix": [
+    6,
+    5,
+    5,
+    1
+   ],
+   "about": {
+    "text": "A family hill just north of Toronto, near Barrie, with 20 runs, 3 chairlifts and 5 surface lifts, a terrain park, tubing, snowshoeing and the Summit Soar zipline.",
+    "tags": [
+     "Family friendly",
+     "Good for beginners",
+     "Terrain parks"
+    ],
+    "source": "https://www.hellyhansen.com/en_us/skifree/resorts",
+    "checked": "2026-11-15"
+   },
+   "mapBearing": 141,
+   "checkIn": {
+    "lat": 44.41017,
+    "lon": -79.78916,
+    "radiusM": 626
    }
   },
   {
@@ -32082,6 +32486,12 @@
      "notes": "7 days total across Fernie Alpine Resort, Kicking Horse, Kimberley Alpine Resort, Nakiska, Mont-Sainte-Anne and Stoneham (Resorts of the Canadian Rockies)."
     },
     {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Two tickets for one voucher, same day only. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
+    },
+    {
      "passId": "epic-day",
      "daysAllowed": 1,
      "poolId": "bought",
@@ -32352,7 +32762,7 @@
      "passId": "hh-ski-free",
      "daysAllowed": 0,
      "poolId": "vouchers",
-     "notes": "Free day of skiing for one voucher. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 12 Oct 2026; partners can change."
+     "notes": "Free day of skiing for one voucher. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     }
    ],
    "verticalFt": 1329,
@@ -32600,6 +33010,12 @@
      "allExtraDaysDiscounted": true,
      "reservationRequired": false,
      "notes": "2 free days here, then 50% off any additional day. No blackouts. Some destinations need advance reservations."
+    },
+    {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Two tickets for one voucher, same day only. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     },
     {
      "passId": "ikon-session",
@@ -33039,6 +33455,52 @@
     "lat": 42.47282,
     "lon": -77.85486,
     "radiusM": 794
+   }
+  },
+  {
+   "id": "safsen",
+   "name": "Säfsen",
+   "state": "Dalarna",
+   "country": "SE",
+   "lat": 60.12307,
+   "lon": 14.43103,
+   "access": [
+    {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Free day of skiing for one voucher. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
+    }
+   ],
+   "verticalFt": 500,
+   "lifts": 7,
+   "baseM": 317,
+   "topM": 469,
+   "website": "https://www.safsen.se/",
+   "runMix": [
+    10,
+    2,
+    2,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "A relaxed family resort in southern Dalarna, Sweden, with 19 slopes on 7 lifts aimed at beginners and intermediates, a ski school and about 340 places to stay.",
+    "tags": [
+     "Family friendly",
+     "Good for beginners",
+     "Slopeside lodging"
+    ],
+    "source": "https://www.hellyhansen.com/en_us/skifree/resorts",
+    "checked": "2026-11-15"
+   },
+   "mapBearing": 226,
+   "checkIn": {
+    "lat": 60.1195,
+    "lon": 14.425,
+    "radiusM": 715
    }
   },
   {
@@ -35025,7 +35487,7 @@
      "passId": "hh-ski-free",
      "daysAllowed": 0,
      "poolId": "vouchers",
-     "notes": "Free day of skiing for one voucher. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 12 Oct 2026; partners can change."
+     "notes": "Free day of skiing for one voucher. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     }
    ],
    "verticalFt": 860,
@@ -35654,7 +36116,7 @@
      "passId": "hh-ski-free",
      "daysAllowed": 0,
      "poolId": "vouchers",
-     "notes": "Two tickets for one voucher, same day only. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 12 Oct 2026; partners can change."
+     "notes": "Two tickets for one voucher, same day only. Across the 4Vallées: Verbier (La Tzoumaz, Bruson), Thyon, Veysonnaz and Nendaz. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     }
    ],
    "verticalFt": 7860,
@@ -36835,6 +37297,12 @@
      "notes": "Monday to Friday only."
     },
     {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Two tickets for one voucher, same day only. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
+    },
+    {
      "passId": "epic-day",
      "daysAllowed": 1,
      "poolId": "bought",
@@ -36972,6 +37440,12 @@
     {
      "passId": "epic-northeast-midweek",
      "notes": "Monday to Friday only."
+    },
+    {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Two tickets for one voucher, same day only. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     },
     {
      "passId": "epic-day",
@@ -37112,6 +37586,52 @@
    }
   },
   {
+   "id": "willingen",
+   "name": "Willingen",
+   "state": "Hesse",
+   "country": "DE",
+   "lat": 51.28735,
+   "lon": 8.59612,
+   "access": [
+    {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Two tickets for one voucher, same day only. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
+    }
+   ],
+   "verticalFt": 860,
+   "lifts": 15,
+   "baseM": 577,
+   "topM": 838,
+   "website": "https://www.skigebiet-willingen.de/",
+   "runMix": [
+    4,
+    0,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "about": {
+    "text": "The Sauerland's main ski area, in Hesse, with runs up to about 2 km long (the region's longest), floodlit slopes, sledding runs with conveyor belts, ski schools and rental shops; an easy day trip.",
+    "tags": [
+     "Night skiing",
+     "Family friendly",
+     "Good for beginners"
+    ],
+    "source": "https://www.hellyhansen.com/en_us/skifree/resorts",
+    "checked": "2026-11-15"
+   },
+   "mapBearing": 205,
+   "checkIn": {
+    "lat": 51.28793,
+    "lon": 8.59577,
+    "radiusM": 1347
+   }
+  },
+  {
    "id": "wilmot",
    "name": "Wilmot Mountain",
    "state": "WI",
@@ -37124,6 +37644,12 @@
     },
     {
      "passId": "epic-local"
+    },
+    {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Two tickets for one voucher, same day only. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     },
     {
      "passId": "epic-day",
@@ -37280,6 +37806,12 @@
      "daysAllowed": 2,
      "thirdDayDiscount": true,
      "reservationRequired": false
+    },
+    {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "Free day of skiing for one voucher. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     }
    ],
    "verticalFt": 1003,
@@ -37628,7 +38160,7 @@
      "passId": "hh-ski-free",
      "daysAllowed": 0,
      "poolId": "vouchers",
-     "notes": "Free day of skiing for one voucher. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 12 Oct 2026; partners can change."
+     "notes": "Free day of skiing for one voucher. From the Äkäslompolo side and the Y1 Service center only. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     }
    ],
    "verticalFt": 1460,
@@ -46436,6 +46968,294 @@
    "end": "2026-12-31"
   },
   {
+   "resortId": "afton-alps",
+   "passId": "hh-ski-free",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "afton-alps",
+   "passId": "hh-ski-free",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "afton-alps",
+   "passId": "hh-ski-free",
+   "start": "2027-01-16",
+   "end": "2027-01-16"
+  },
+  {
+   "resortId": "afton-alps",
+   "passId": "hh-ski-free",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "alpine-valley-oh",
+   "passId": "hh-ski-free",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "alpine-valley-oh",
+   "passId": "hh-ski-free",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "alpine-valley-oh",
+   "passId": "hh-ski-free",
+   "start": "2027-01-16",
+   "end": "2027-01-16"
+  },
+  {
+   "resortId": "alpine-valley-oh",
+   "passId": "hh-ski-free",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "attitash",
+   "passId": "hh-ski-free",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "attitash",
+   "passId": "hh-ski-free",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "attitash",
+   "passId": "hh-ski-free",
+   "start": "2027-01-16",
+   "end": "2027-01-16"
+  },
+  {
+   "resortId": "attitash",
+   "passId": "hh-ski-free",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "big-bear-ca",
+   "passId": "hh-ski-free",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "big-bear-ca",
+   "passId": "hh-ski-free",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "big-bear-ca",
+   "passId": "hh-ski-free",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "big-boulder",
+   "passId": "hh-ski-free",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "big-boulder",
+   "passId": "hh-ski-free",
+   "start": "2026-12-25",
+   "end": "2027-01-02"
+  },
+  {
+   "resortId": "big-boulder",
+   "passId": "hh-ski-free",
+   "start": "2027-01-15",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "big-boulder",
+   "passId": "hh-ski-free",
+   "start": "2027-02-12",
+   "end": "2027-02-15"
+  },
+  {
+   "resortId": "big-white",
+   "passId": "hh-ski-free",
+   "start": "2026-12-20",
+   "end": "2027-01-04"
+  },
+  {
+   "resortId": "big-white",
+   "passId": "hh-ski-free",
+   "start": "2027-02-13",
+   "end": "2027-02-21"
+  },
+  {
+   "resortId": "boston-mills",
+   "passId": "hh-ski-free",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "boston-mills",
+   "passId": "hh-ski-free",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "boston-mills",
+   "passId": "hh-ski-free",
+   "start": "2027-01-16",
+   "end": "2027-01-16"
+  },
+  {
+   "resortId": "boston-mills",
+   "passId": "hh-ski-free",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "bromont",
+   "passId": "hh-ski-free",
+   "start": "2026-12-19",
+   "end": "2027-01-04"
+  },
+  {
+   "resortId": "crotched",
+   "passId": "hh-ski-free",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "crotched",
+   "passId": "hh-ski-free",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "crotched",
+   "passId": "hh-ski-free",
+   "start": "2027-01-16",
+   "end": "2027-01-16"
+  },
+  {
+   "resortId": "crotched",
+   "passId": "hh-ski-free",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "fernie",
+   "passId": "hh-ski-free",
+   "start": "2026-12-18",
+   "end": "2027-01-03"
+  },
+  {
+   "resortId": "fernie",
+   "passId": "hh-ski-free",
+   "start": "2027-02-11",
+   "end": "2027-02-21"
+  },
+  {
+   "resortId": "heavenly",
+   "passId": "hh-ski-free",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "heavenly",
+   "passId": "hh-ski-free",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "heavenly",
+   "passId": "hh-ski-free",
+   "start": "2027-01-16",
+   "end": "2027-01-16"
+  },
+  {
+   "resortId": "heavenly",
+   "passId": "hh-ski-free",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "hidden-valley-mo",
+   "passId": "hh-ski-free",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "hidden-valley-mo",
+   "passId": "hh-ski-free",
+   "start": "2026-11-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "hidden-valley-mo",
+   "passId": "hh-ski-free",
+   "start": "2027-01-16",
+   "end": "2027-01-16"
+  },
+  {
+   "resortId": "hidden-valley-mo",
+   "passId": "hh-ski-free",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "hh-ski-free",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "hh-ski-free",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "hh-ski-free",
+   "start": "2027-01-16",
+   "end": "2027-01-16"
+  },
+  {
+   "resortId": "hunter",
+   "passId": "hh-ski-free",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "jack-frost",
+   "passId": "hh-ski-free",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "jack-frost",
+   "passId": "hh-ski-free",
+   "start": "2026-12-25",
+   "end": "2027-01-02"
+  },
+  {
+   "resortId": "jack-frost",
+   "passId": "hh-ski-free",
+   "start": "2027-01-15",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "jack-frost",
+   "passId": "hh-ski-free",
+   "start": "2027-02-12",
+   "end": "2027-02-15"
+  },
+  {
    "resortId": "june",
    "passId": "hh-ski-free",
    "start": "2026-12-26",
@@ -46454,6 +47274,96 @@
    "end": "2027-02-14"
   },
   {
+   "resortId": "kicking-horse",
+   "passId": "hh-ski-free",
+   "start": "2026-12-18",
+   "end": "2027-01-03"
+  },
+  {
+   "resortId": "kicking-horse",
+   "passId": "hh-ski-free",
+   "start": "2027-02-11",
+   "end": "2027-02-21"
+  },
+  {
+   "resortId": "kimberley",
+   "passId": "hh-ski-free",
+   "start": "2026-12-18",
+   "end": "2027-01-03"
+  },
+  {
+   "resortId": "kimberley",
+   "passId": "hh-ski-free",
+   "start": "2027-02-11",
+   "end": "2027-02-21"
+  },
+  {
+   "resortId": "lake-louise",
+   "passId": "hh-ski-free",
+   "start": "2026-12-18",
+   "end": "2027-01-03"
+  },
+  {
+   "resortId": "lake-louise",
+   "passId": "hh-ski-free",
+   "start": "2027-02-12",
+   "end": "2027-02-15"
+  },
+  {
+   "resortId": "lake-louise",
+   "passId": "hh-ski-free",
+   "start": "2027-03-26",
+   "end": "2027-03-28"
+  },
+  {
+   "resortId": "liberty",
+   "passId": "hh-ski-free",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "liberty",
+   "passId": "hh-ski-free",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "liberty",
+   "passId": "hh-ski-free",
+   "start": "2027-01-16",
+   "end": "2027-01-16"
+  },
+  {
+   "resortId": "liberty",
+   "passId": "hh-ski-free",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "mad-river",
+   "passId": "hh-ski-free",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "mad-river",
+   "passId": "hh-ski-free",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "mad-river",
+   "passId": "hh-ski-free",
+   "start": "2027-01-16",
+   "end": "2027-01-16"
+  },
+  {
+   "resortId": "mad-river",
+   "passId": "hh-ski-free",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
    "resortId": "mammoth",
    "passId": "hh-ski-free",
    "start": "2026-12-26",
@@ -46467,6 +47377,144 @@
   },
   {
    "resortId": "mammoth",
+   "passId": "hh-ski-free",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "mont-sainte-anne",
+   "passId": "hh-ski-free",
+   "start": "2026-12-18",
+   "end": "2027-01-03"
+  },
+  {
+   "resortId": "mont-sainte-anne",
+   "passId": "hh-ski-free",
+   "start": "2027-02-11",
+   "end": "2027-02-21"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "hh-ski-free",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "hh-ski-free",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "hh-ski-free",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "mount-snow",
+   "passId": "hh-ski-free",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "mt-brighton",
+   "passId": "hh-ski-free",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "mt-brighton",
+   "passId": "hh-ski-free",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "mt-brighton",
+   "passId": "hh-ski-free",
+   "start": "2027-01-16",
+   "end": "2027-01-16"
+  },
+  {
+   "resortId": "mt-brighton",
+   "passId": "hh-ski-free",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "mt-washington",
+   "passId": "hh-ski-free",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "mt-washington",
+   "passId": "hh-ski-free",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "mt-washington",
+   "passId": "hh-ski-free",
+   "start": "2027-02-13",
+   "end": "2027-02-15"
+  },
+  {
+   "resortId": "nakiska",
+   "passId": "hh-ski-free",
+   "start": "2026-12-18",
+   "end": "2027-01-03"
+  },
+  {
+   "resortId": "nakiska",
+   "passId": "hh-ski-free",
+   "start": "2027-02-11",
+   "end": "2027-02-21"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "hh-ski-free",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "hh-ski-free",
+   "start": "2027-01-01",
+   "end": "2027-01-04"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "hh-ski-free",
+   "start": "2027-01-16",
+   "end": "2027-01-18"
+  },
+  {
+   "resortId": "okemo",
+   "passId": "hh-ski-free",
+   "start": "2027-02-13",
+   "end": "2027-02-21"
+  },
+  {
+   "resortId": "paoli-peaks",
+   "passId": "hh-ski-free",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "paoli-peaks",
+   "passId": "hh-ski-free",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "paoli-peaks",
+   "passId": "hh-ski-free",
+   "start": "2027-01-16",
+   "end": "2027-01-16"
+  },
+  {
+   "resortId": "paoli-peaks",
    "passId": "hh-ski-free",
    "start": "2027-02-13",
    "end": "2027-02-14"
@@ -46488,6 +47536,210 @@
    "passId": "hh-ski-free",
    "start": "2027-02-13",
    "end": "2027-02-15"
+  },
+  {
+   "resortId": "roundtop",
+   "passId": "hh-ski-free",
+   "start": "2026-11-26",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "roundtop",
+   "passId": "hh-ski-free",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "roundtop",
+   "passId": "hh-ski-free",
+   "start": "2027-01-16",
+   "end": "2027-01-16"
+  },
+  {
+   "resortId": "roundtop",
+   "passId": "hh-ski-free",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "seven-springs",
+   "passId": "hh-ski-free",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "seven-springs",
+   "passId": "hh-ski-free",
+   "start": "2026-12-25",
+   "end": "2027-01-02"
+  },
+  {
+   "resortId": "seven-springs",
+   "passId": "hh-ski-free",
+   "start": "2027-01-15",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "seven-springs",
+   "passId": "hh-ski-free",
+   "start": "2027-02-12",
+   "end": "2027-02-15"
+  },
+  {
+   "resortId": "sierra-at-tahoe",
+   "passId": "hh-ski-free",
+   "start": "2026-12-26",
+   "end": "2026-12-30"
+  },
+  {
+   "resortId": "sierra-at-tahoe",
+   "passId": "hh-ski-free",
+   "start": "2027-01-16",
+   "end": "2027-01-17"
+  },
+  {
+   "resortId": "sierra-at-tahoe",
+   "passId": "hh-ski-free",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "snow-creek",
+   "passId": "hh-ski-free",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "snow-creek",
+   "passId": "hh-ski-free",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "snow-creek",
+   "passId": "hh-ski-free",
+   "start": "2027-01-16",
+   "end": "2027-01-16"
+  },
+  {
+   "resortId": "snow-creek",
+   "passId": "hh-ski-free",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "stoneham",
+   "passId": "hh-ski-free",
+   "start": "2026-12-18",
+   "end": "2027-01-03"
+  },
+  {
+   "resortId": "stoneham",
+   "passId": "hh-ski-free",
+   "start": "2027-02-11",
+   "end": "2027-02-21"
+  },
+  {
+   "resortId": "sun-peaks",
+   "passId": "hh-ski-free",
+   "start": "2026-12-26",
+   "end": "2027-01-03"
+  },
+  {
+   "resortId": "sun-peaks",
+   "passId": "hh-ski-free",
+   "start": "2027-02-12",
+   "end": "2027-02-17"
+  },
+  {
+   "resortId": "whitetail",
+   "passId": "hh-ski-free",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "whitetail",
+   "passId": "hh-ski-free",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "whitetail",
+   "passId": "hh-ski-free",
+   "start": "2027-01-16",
+   "end": "2027-01-16"
+  },
+  {
+   "resortId": "whitetail",
+   "passId": "hh-ski-free",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "wildcat",
+   "passId": "hh-ski-free",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "wildcat",
+   "passId": "hh-ski-free",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "wildcat",
+   "passId": "hh-ski-free",
+   "start": "2027-01-16",
+   "end": "2027-01-16"
+  },
+  {
+   "resortId": "wildcat",
+   "passId": "hh-ski-free",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "wilmot",
+   "passId": "hh-ski-free",
+   "start": "2026-11-27",
+   "end": "2026-11-28"
+  },
+  {
+   "resortId": "wilmot",
+   "passId": "hh-ski-free",
+   "start": "2026-12-26",
+   "end": "2026-12-31"
+  },
+  {
+   "resortId": "wilmot",
+   "passId": "hh-ski-free",
+   "start": "2027-01-16",
+   "end": "2027-01-16"
+  },
+  {
+   "resortId": "wilmot",
+   "passId": "hh-ski-free",
+   "start": "2027-02-13",
+   "end": "2027-02-14"
+  },
+  {
+   "resortId": "wintergreen",
+   "passId": "hh-ski-free",
+   "start": "2026-12-26",
+   "end": "2027-01-02"
+  },
+  {
+   "resortId": "wintergreen",
+   "passId": "hh-ski-free",
+   "start": "2027-01-16",
+   "end": "2027-01-16"
+  },
+  {
+   "resortId": "wintergreen",
+   "passId": "hh-ski-free",
+   "start": "2027-02-13",
+   "end": "2027-02-13"
   },
   {
    "resortId": "verbier-4-vallees",
@@ -46566,6 +47818,30 @@
    "passId": "hh-ski-free",
    "start": "2027-03-10",
    "end": "2027-03-15"
+  },
+  {
+   "resortId": "gunstock",
+   "passId": "hh-ski-free",
+   "start": "2026-12-28",
+   "end": "2027-01-01"
+  },
+  {
+   "resortId": "gunstock",
+   "passId": "hh-ski-free",
+   "start": "2027-01-18",
+   "end": "2027-01-18"
+  },
+  {
+   "resortId": "gunstock",
+   "passId": "hh-ski-free",
+   "start": "2027-02-15",
+   "end": "2027-02-19"
+  },
+  {
+   "resortId": "messila",
+   "passId": "hh-ski-free",
+   "start": "2027-02-19",
+   "end": "2027-02-28"
   },
   {
    "resortId": "sunday-river",
