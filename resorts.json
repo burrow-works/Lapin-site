@@ -1,6 +1,6 @@
 {
  "format": 1,
- "version": 29,
+ "version": 30,
  "season": "2026-27",
  "dataAsOf": "2026-10-22",
  "passes": [
@@ -12451,7 +12451,7 @@
      "passId": "hh-ski-free",
      "daysAllowed": 0,
      "poolId": "vouchers",
-     "notes": "Two tickets for one voucher, same day only. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
+     "notes": "Two tickets for one voucher, same day only. Helly Hansen's page also lists 26 Nov-31 Dec 2026, which looks like a typo for 26-31 Dec; check with the resort before using it in early December. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
     },
     {
      "passId": "epic-day",
@@ -29092,6 +29092,39 @@
    "checkIn": {
     "lat": 44.24549,
     "lon": -73.93473,
+    "radiusM": 800
+   }
+  },
+  {
+   "id": "sea-to-sky-gondola",
+   "name": "Sea to Sky Gondola",
+   "state": "BC",
+   "country": "CA",
+   "lat": 49.67136,
+   "lon": -123.13011,
+   "access": [
+    {
+     "passId": "hh-ski-free",
+     "daysAllowed": 0,
+     "poolId": "vouchers",
+     "notes": "A free gondola ticket for one voucher. A sightseeing gondola with summit trails, not a ski area. Uses one voucher; it must be used on that visit. Helly Hansen's list as of 15 Nov 2026; partners can change."
+    }
+   ],
+   "website": "https://www.seatoskygondola.com/",
+   "tags": [
+    "sightseeing"
+   ],
+   "about": {
+    "text": "A sightseeing gondola 2 km south of Squamish on the Sea to Sky Highway: a 10-minute ride to 885 m above Howe Sound, with summit hiking trails, the Sky Pilot Suspension Bridge, viewing platforms and the Summit Lodge. No ski runs; Helly Hansen's voucher here is a gondola ticket.",
+    "tags": [
+     "Views"
+    ],
+    "source": "https://www.hellyhansen.com/en_us/skifree/resorts",
+    "checked": "2026-11-15"
+   },
+   "checkIn": {
+    "lat": 49.67136,
+    "lon": -123.13011,
     "radiusM": 800
    }
   },
@@ -47192,7 +47225,7 @@
   {
    "resortId": "hidden-valley-mo",
    "passId": "hh-ski-free",
-   "start": "2026-11-26",
+   "start": "2026-12-26",
    "end": "2026-12-31"
   },
   {
