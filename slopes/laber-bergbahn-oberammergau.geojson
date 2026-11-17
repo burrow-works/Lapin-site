@@ -1,0 +1,1 @@
+{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"kind":"lift","liftType":"cable_car","name":"Laber-Bergbahn"},"geometry":{"type":"LineString","coordinates":[[11.08535,47.59798],[11.09028,47.59466],[11.09443,47.59197],[11.10299,47.58613]]}}]}

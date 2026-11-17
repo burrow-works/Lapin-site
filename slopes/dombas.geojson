@@ -1,0 +1,1 @@
+{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"kind":"lift","liftType":"drag_lift"},"geometry":{"type":"LineString","coordinates":[[9.14538,62.07647],[9.16069,62.06932]]}},{"type":"Feature","properties":{"kind":"lift","liftType":"drag_lift"},"geometry":{"type":"LineString","coordinates":[[9.14542,62.07656],[9.16709,62.06672]]}}]}

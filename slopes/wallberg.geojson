@@ -1,0 +1,1 @@
+{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"kind":"lift","liftType":"gondola","name":"Wallbergbahn"},"geometry":{"type":"LineString","coordinates":[[11.77674,47.67501],[11.79379,47.66141]]}}]}
