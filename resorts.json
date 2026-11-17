@@ -1,6 +1,6 @@
 {
  "format": 1,
- "version": 32,
+ "version": 33,
  "season": "2026-27",
  "dataAsOf": "2026-11-17",
  "passes": [
@@ -927,6 +927,30 @@
    "trailMap": true
   },
   {
+   "id": "afriski",
+   "name": "Afriski",
+   "state": "Butha-Buthe",
+   "country": "LS",
+   "lat": -28.81909,
+   "lon": 28.72209,
+   "access": [],
+   "verticalFt": 630,
+   "lifts": 2,
+   "baseM": 3031,
+   "topM": 3223,
+   "website": "https://www.afriski.net",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 0,
+   "checkIn": {
+    "lat": -28.81948,
+    "lon": 28.72322,
+    "radiusM": 665
+   },
+   "trailMap": true
+  },
+  {
    "id": "afton-alps",
    "name": "Afton Alps",
    "state": "MN",
@@ -1038,6 +1062,179 @@
     "lat": 46.5114,
     "lon": 8.61116,
     "radiusM": 1680
+   },
+   "trailMap": true
+  },
+  {
+   "id": "aizu-kogen-daikura",
+   "name": "Aizu Kogen Daikura",
+   "state": "Fukushima",
+   "country": "JP",
+   "lat": 37.17884,
+   "lon": 139.63005,
+   "access": [],
+   "verticalFt": 1260,
+   "lifts": 6,
+   "baseM": 836,
+   "topM": 1219,
+   "website": "https://daikura.net/",
+   "runMix": [
+    5,
+    5,
+    3,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 249,
+   "checkIn": {
+    "lat": 37.17837,
+    "lon": 139.63113,
+    "radiusM": 845
+   },
+   "trailMap": true
+  },
+  {
+   "id": "aizu-kogen-takahata",
+   "name": "Aizu Kogen Takahata",
+   "state": "Fukushima",
+   "country": "JP",
+   "lat": 37.09374,
+   "lon": 139.45541,
+   "access": [],
+   "verticalFt": 1720,
+   "lifts": 4,
+   "baseM": 725,
+   "topM": 1249,
+   "website": "https://www.takahata-ski.net/",
+   "runMix": [
+    7,
+    3,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 138,
+   "checkIn": {
+    "lat": 37.09188,
+    "lon": 139.4555,
+    "radiusM": 1271
+   },
+   "trailMap": true
+  },
+  {
+   "id": "aizu-kogen-takatsue",
+   "name": "Aizu Kogen Takatsue",
+   "state": "Fukushima",
+   "country": "JP",
+   "lat": 37.11631,
+   "lon": 139.6336,
+   "access": [],
+   "verticalFt": 2190,
+   "lifts": 10,
+   "baseM": 960,
+   "topM": 1628,
+   "website": "https://www.takatsue.jp/",
+   "runMix": [
+    11,
+    4,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 84,
+   "checkIn": {
+    "lat": 37.11494,
+    "lon": 139.63241,
+    "radiusM": 1714
+   },
+   "trailMap": true
+  },
+  {
+   "id": "aizukogen-nango",
+   "name": "Aizukogen Nango",
+   "state": "Fukushima",
+   "country": "JP",
+   "lat": 37.26024,
+   "lon": 139.55718,
+   "access": [],
+   "verticalFt": 1570,
+   "lifts": 3,
+   "baseM": 519,
+   "topM": 997,
+   "website": "https://www.nango-ski.com/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 114,
+   "checkIn": {
+    "lat": 37.25933,
+    "lon": 139.55797,
+    "radiusM": 1399
+   },
+   "trailMap": true
+  },
+  {
+   "id": "akakura-kanko",
+   "name": "Akakura Kanko",
+   "state": "Niigata",
+   "country": "JP",
+   "lat": 36.89171,
+   "lon": 138.15683,
+   "access": [],
+   "verticalFt": 2500,
+   "lifts": 8,
+   "baseM": 728,
+   "topM": 1490,
+   "website": "https://www.akr-ski.com/",
+   "runMix": [
+    1,
+    5,
+    2,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 286,
+   "checkIn": {
+    "lat": 36.89135,
+    "lon": 138.15913,
+    "radiusM": 1790
+   },
+   "trailMap": true
+  },
+  {
+   "id": "akakura-onsen",
+   "name": "Akakura Onsen",
+   "state": "Niigata",
+   "country": "JP",
+   "lat": 36.89686,
+   "lon": 138.16897,
+   "access": [],
+   "verticalFt": 1520,
+   "lifts": 14,
+   "baseM": 685,
+   "topM": 1149,
+   "runMix": [
+    8,
+    6,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 279,
+   "checkIn": {
+    "lat": 36.8974,
+    "lon": 138.16881,
+    "radiusM": 1197
    },
    "trailMap": true
   },
@@ -2115,6 +2312,36 @@
    "trailMap": true
   },
   {
+   "id": "ani",
+   "name": "Ani",
+   "state": "Akita",
+   "country": "JP",
+   "lat": 39.96437,
+   "lon": 140.50539,
+   "access": [],
+   "verticalFt": 2170,
+   "lifts": 4,
+   "baseM": 542,
+   "topM": 1202,
+   "website": "https://www.aniski.jp/ski/",
+   "runMix": [
+    3,
+    1,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 62,
+   "checkIn": {
+    "lat": 39.96525,
+    "lon": 140.50705,
+    "radiusM": 1980
+   },
+   "trailMap": true
+  },
+  {
    "id": "ankogel",
    "name": "Ankogel (Mallnitz)",
    "state": "Carinthia",
@@ -2327,6 +2554,36 @@
    "trailMap": true
   },
   {
+   "id": "antillanca",
+   "name": "Antillanca",
+   "state": "Los Lagos",
+   "country": "CL",
+   "lat": -40.7668,
+   "lon": -72.19893,
+   "access": [],
+   "verticalFt": 1560,
+   "lifts": 5,
+   "baseM": 1052,
+   "topM": 1528,
+   "website": "https://antillanca.cl/",
+   "runMix": [
+    6,
+    6,
+    2,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 17,
+   "checkIn": {
+    "lat": -40.76705,
+    "lon": -72.19616,
+    "radiusM": 1339
+   },
+   "trailMap": true
+  },
+  {
    "id": "antoine-mountain",
    "name": "Antoine Mountain",
    "state": "ON",
@@ -2353,6 +2610,36 @@
     "lat": 46.36394,
     "lon": -78.73896,
     "radiusM": 670
+   },
+   "trailMap": true
+  },
+  {
+   "id": "antuco",
+   "name": "Antuco",
+   "state": "Biobío",
+   "country": "CL",
+   "lat": -37.38553,
+   "lon": -71.3774,
+   "access": [],
+   "verticalFt": 1650,
+   "lifts": 3,
+   "baseM": 1394,
+   "topM": 1898,
+   "website": "https://www.instagram.com/skiantuco/?hl=es",
+   "runMix": [
+    3,
+    4,
+    2,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 145,
+   "checkIn": {
+    "lat": -37.39084,
+    "lon": -71.37223,
+    "radiusM": 1081
    },
    "trailMap": true
   },
@@ -3093,6 +3380,66 @@
    "trailMap": true
   },
   {
+   "id": "asahidake",
+   "name": "Asahidake",
+   "state": "Hokkaido",
+   "country": "JP",
+   "lat": 43.65586,
+   "lon": 142.81598,
+   "access": [],
+   "verticalFt": 1590,
+   "lifts": 1,
+   "baseM": 1105,
+   "topM": 1589,
+   "website": "https://asahidake.hokkaido.jp/",
+   "runMix": [
+    0,
+    2,
+    2,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 57,
+   "checkIn": {
+    "lat": 43.65681,
+    "lon": 142.81275,
+    "radiusM": 1471
+   },
+   "trailMap": true
+  },
+  {
+   "id": "asarigawa-onsen",
+   "name": "Asarigawa Onsen",
+   "state": "Hokkaido",
+   "country": "JP",
+   "lat": 43.14054,
+   "lon": 141.02935,
+   "access": [],
+   "verticalFt": 1540,
+   "lifts": 4,
+   "baseM": 153,
+   "topM": 623,
+   "website": "https://asari-ski.com/",
+   "runMix": [
+    2,
+    4,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 233,
+   "checkIn": {
+    "lat": 43.14066,
+    "lon": 141.02961,
+    "radiusM": 925
+   },
+   "trailMap": true
+  },
+  {
    "id": "ascou",
    "name": "Ascou",
    "state": "Ariège",
@@ -3579,6 +3926,29 @@
     "lat": 46.44621,
     "lon": 9.5484,
     "radiusM": 1235
+   },
+   "trailMap": true
+  },
+  {
+   "id": "awakino",
+   "name": "Awakino",
+   "state": "Canterbury",
+   "country": "NZ",
+   "lat": -44.77975,
+   "lon": 170.31432,
+   "access": [],
+   "verticalFt": 1530,
+   "lifts": 3,
+   "baseM": 1229,
+   "topM": 1694,
+   "website": "https://skiawakino.com",
+   "tags": [
+    "alpine"
+   ],
+   "checkIn": {
+    "lat": -44.78123,
+    "lon": 170.31944,
+    "radiusM": 838
    },
    "trailMap": true
   },
@@ -5056,6 +5426,29 @@
    "trailMap": true
   },
   {
+   "id": "ben-lomond",
+   "name": "Ben Lomond",
+   "state": "Tasmania",
+   "country": "AU",
+   "lat": -41.53353,
+   "lon": 147.66272,
+   "access": [],
+   "verticalFt": 330,
+   "lifts": 6,
+   "baseM": 1464,
+   "topM": 1566,
+   "website": "https://benlomondalpineresort.com.au/",
+   "tags": [
+    "alpine"
+   ],
+   "checkIn": {
+    "lat": -41.5344,
+    "lon": 147.66093,
+    "radiusM": 605
+   },
+   "trailMap": true
+  },
+  {
    "id": "bergeralm",
    "name": "Bergeralm (Steinach am Brenner)",
    "state": "Tyrol",
@@ -6119,6 +6512,36 @@
    "trailMap": true
   },
   {
+   "id": "biwako-valley",
+   "name": "Biwako Valley",
+   "state": "Shiga",
+   "country": "JP",
+   "lat": 35.214,
+   "lon": 135.89011,
+   "access": [],
+   "verticalFt": 760,
+   "lifts": 8,
+   "baseM": 941,
+   "topM": 1172,
+   "website": "https://www.biwako-valley.com/",
+   "runMix": [
+    2,
+    5,
+    2,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 174,
+   "checkIn": {
+    "lat": 35.21372,
+    "lon": 135.89002,
+    "radiusM": 807
+   },
+   "trailMap": true
+  },
+  {
    "id": "bjorli",
    "name": "Bjorli",
    "state": "Innlandet",
@@ -6465,6 +6888,36 @@
    "trailMap": true
   },
   {
+   "id": "blanche-takayama",
+   "name": "Blanche Takayama",
+   "state": "Nagano",
+   "country": "JP",
+   "lat": 36.13459,
+   "lon": 138.19813,
+   "access": [],
+   "verticalFt": 1400,
+   "lifts": 6,
+   "baseM": 1372,
+   "topM": 1799,
+   "website": "https://www.blanche-ski.com/",
+   "runMix": [
+    3,
+    3,
+    3,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 188,
+   "checkIn": {
+    "lat": 36.13388,
+    "lon": 138.19599,
+    "radiusM": 1191
+   },
+   "trailMap": true
+  },
+  {
    "id": "belalp",
    "name": "Blatten-Belalp",
    "state": "Valais",
@@ -6801,6 +7254,30 @@
     "lat": 40.81493,
     "lon": -75.51305,
     "radiusM": 1005
+   },
+   "trailMap": true
+  },
+  {
+   "id": "blue-resort-norikura",
+   "name": "Blue Resort Norikura",
+   "state": "Nagano",
+   "country": "JP",
+   "lat": 36.11702,
+   "lon": 137.60447,
+   "access": [],
+   "verticalFt": 1630,
+   "lifts": 8,
+   "baseM": 1477,
+   "topM": 1973,
+   "website": "https://www.norikura.co.jp/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 246,
+   "checkIn": {
+    "lat": 36.11726,
+    "lon": 137.60636,
+    "radiusM": 1483
    },
    "trailMap": true
   },
@@ -8107,6 +8584,30 @@
    "trailMap": true
   },
   {
+   "id": "broken-river",
+   "name": "Broken River",
+   "state": "Canterbury",
+   "country": "NZ",
+   "lat": -43.12286,
+   "lon": 171.68324,
+   "access": [],
+   "verticalFt": 1310,
+   "lifts": 10,
+   "baseM": 1417,
+   "topM": 1815,
+   "website": "https://www.brokenriver.co.nz/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 309,
+   "checkIn": {
+    "lat": -43.12337,
+    "lon": 171.68189,
+    "radiusM": 835
+   },
+   "trailMap": true
+  },
+  {
    "id": "bromley",
    "name": "Bromley Mountain",
    "state": "VT",
@@ -8663,6 +9164,30 @@
     "lat": 40.47896,
     "lon": -109.43154,
     "radiusM": 400
+   },
+   "trailMap": true
+  },
+  {
+   "id": "budoh",
+   "name": "Budoh",
+   "state": "Niigata",
+   "country": "JP",
+   "lat": 38.39151,
+   "lon": 139.54734,
+   "access": [],
+   "verticalFt": 1650,
+   "lifts": 2,
+   "baseM": 153,
+   "topM": 657,
+   "website": "http://www.city.murakami.niigata.jp/asahi/budoh/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 296,
+   "checkIn": {
+    "lat": 38.39159,
+    "lon": 139.54654,
+    "radiusM": 942
    },
    "trailMap": true
   },
@@ -10012,6 +10537,36 @@
    "trailMap": true
   },
   {
+   "id": "cardrona",
+   "name": "Cardrona",
+   "state": "Otago",
+   "country": "NZ",
+   "lat": -44.86827,
+   "lon": 168.95111,
+   "access": [],
+   "verticalFt": 1970,
+   "lifts": 10,
+   "baseM": 1266,
+   "topM": 1865,
+   "website": "https://www.cardrona.com/",
+   "runMix": [
+    9,
+    35,
+    13,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 336,
+   "checkIn": {
+    "lat": -44.86688,
+    "lon": 168.94884,
+    "radiusM": 1640
+   },
+   "trailMap": true
+  },
+  {
    "id": "cari",
    "name": "Cari",
    "state": "Ticino",
@@ -10384,6 +10939,36 @@
    "trailMap": true
   },
   {
+   "id": "caviahue",
+   "name": "Caviahue",
+   "state": "Neuquén",
+   "country": "AR",
+   "lat": -37.85661,
+   "lon": -71.09404,
+   "access": [],
+   "verticalFt": 1400,
+   "lifts": 11,
+   "baseM": 1683,
+   "topM": 2111,
+   "website": "https://www.caviahue.com/invierno",
+   "runMix": [
+    5,
+    8,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 295,
+   "checkIn": {
+    "lat": -37.85529,
+    "lon": -71.09367,
+    "radiusM": 2024
+   },
+   "trailMap": true
+  },
+  {
    "id": "cazenovia",
    "name": "Cazenovia Ski Club",
    "state": "NY",
@@ -10726,6 +11311,149 @@
    "trailMap": true
   },
   {
+   "id": "cerro-bayo",
+   "name": "Cerro Bayo",
+   "state": "Neuquén",
+   "country": "AR",
+   "lat": -40.75151,
+   "lon": -71.6031,
+   "access": [],
+   "verticalFt": 2410,
+   "lifts": 13,
+   "baseM": 1045,
+   "topM": 1779,
+   "website": "https://www.cerrobayo.com.ar/",
+   "runMix": [
+    6,
+    18,
+    2,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 297,
+   "checkIn": {
+    "lat": -40.74841,
+    "lon": -71.60449,
+    "radiusM": 1240
+   },
+   "trailMap": true
+  },
+  {
+   "id": "cerro-castor",
+   "name": "Cerro Castor",
+   "state": "Tierra del Fuego",
+   "country": "AR",
+   "lat": -54.71706,
+   "lon": -67.99968,
+   "access": [],
+   "verticalFt": 2470,
+   "lifts": 11,
+   "baseM": 189,
+   "topM": 943,
+   "website": "https://www.cerrocastor.com/",
+   "runMix": [
+    12,
+    8,
+    5,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 26,
+   "checkIn": {
+    "lat": -54.71514,
+    "lon": -67.99757,
+    "radiusM": 1775
+   },
+   "trailMap": true
+  },
+  {
+   "id": "cerro-catedral",
+   "name": "Cerro Catedral",
+   "state": "Río Negro",
+   "country": "AR",
+   "lat": -41.16451,
+   "lon": -71.46022,
+   "access": [],
+   "verticalFt": 3460,
+   "lifts": 33,
+   "baseM": 1038,
+   "topM": 2092,
+   "website": "https://www.catedralaltapatagonia.com/",
+   "runMix": [
+    14,
+    27,
+    13,
+    1
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 263,
+   "checkIn": {
+    "lat": -41.16761,
+    "lon": -71.46313,
+    "radiusM": 2028
+   },
+   "trailMap": true
+  },
+  {
+   "id": "cerro-otto",
+   "name": "Cerro Otto",
+   "state": "Río Negro",
+   "country": "AR",
+   "lat": -41.1448,
+   "lon": -71.37579,
+   "access": [],
+   "verticalFt": 1910,
+   "lifts": 4,
+   "baseM": 826,
+   "topM": 1407,
+   "website": "https://www.telefericobariloche.com.ar/",
+   "tags": [
+    "alpine"
+   ],
+   "checkIn": {
+    "lat": -41.13692,
+    "lon": -71.37258,
+    "radiusM": 1111
+   },
+   "trailMap": true
+  },
+  {
+   "id": "cerro-perito-moreno",
+   "name": "Cerro Perito Moreno",
+   "state": "Río Negro",
+   "country": "AR",
+   "lat": -41.78693,
+   "lon": -71.58284,
+   "access": [],
+   "verticalFt": 2450,
+   "lifts": 6,
+   "baseM": 987,
+   "topM": 1733,
+   "website": "https://www.laderas.com.ar/",
+   "runMix": [
+    4,
+    12,
+    2,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 320,
+   "checkIn": {
+    "lat": -41.78643,
+    "lon": -71.58906,
+    "radiusM": 2126
+   },
+   "trailMap": true
+  },
+  {
    "id": "cervinia",
    "name": "Cervino Ski Paradise (Breuil-Cervinia)",
    "state": "Aosta Valley",
@@ -11052,6 +11780,66 @@
    "trailMap": true
   },
   {
+   "id": "chapa-verde",
+   "name": "Chapa Verde",
+   "state": "O'Higgins",
+   "country": "CL",
+   "lat": -34.048,
+   "lon": -70.41256,
+   "access": [],
+   "verticalFt": 2840,
+   "lifts": 6,
+   "baseM": 2243,
+   "topM": 3109,
+   "website": "https://www.instagram.com/chapaverdeski/?hl=es",
+   "runMix": [
+    10,
+    6,
+    6,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 58,
+   "checkIn": {
+    "lat": -34.04635,
+    "lon": -70.41237,
+    "radiusM": 2075
+   },
+   "trailMap": true
+  },
+  {
+   "id": "chapelco",
+   "name": "Chapelco",
+   "state": "Neuquén",
+   "country": "AR",
+   "lat": -40.21033,
+   "lon": -71.30324,
+   "access": [],
+   "verticalFt": 2340,
+   "lifts": 16,
+   "baseM": 1259,
+   "topM": 1971,
+   "website": "https://laspendientesski.com/",
+   "runMix": [
+    3,
+    17,
+    4,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 150,
+   "checkIn": {
+    "lat": -40.21004,
+    "lon": -71.3025,
+    "radiusM": 1850
+   },
+   "trailMap": true
+  },
+  {
    "id": "chapman-hill-recreation-area",
    "name": "Chapman Hill Recreation Area",
    "state": "CO",
@@ -11078,6 +11866,60 @@
     "lat": 37.28185,
     "lon": -107.86815,
     "radiusM": 400
+   },
+   "trailMap": true
+  },
+  {
+   "id": "charlotte-pass",
+   "name": "Charlotte Pass",
+   "state": "New South Wales",
+   "country": "AU",
+   "lat": -36.43454,
+   "lon": 148.33018,
+   "access": [],
+   "verticalFt": 580,
+   "lifts": 5,
+   "baseM": 1750,
+   "topM": 1928,
+   "website": "https://www.charlottepass.com.au/",
+   "runMix": [
+    8,
+    7,
+    8,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 275,
+   "checkIn": {
+    "lat": -36.43313,
+    "lon": 148.33028,
+    "radiusM": 896
+   },
+   "trailMap": true
+  },
+  {
+   "id": "charmant-hiuchi",
+   "name": "Charmant Hiuchi",
+   "state": "Niigata",
+   "country": "JP",
+   "lat": 36.99965,
+   "lon": 138.07351,
+   "access": [],
+   "verticalFt": 1610,
+   "lifts": 3,
+   "baseM": 518,
+   "topM": 1009,
+   "website": "https://charmant-hiuchi.jp/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 206,
+   "checkIn": {
+    "lat": 36.99714,
+    "lon": 138.06868,
+    "radiusM": 899
    },
    "trailMap": true
   },
@@ -11147,6 +11989,54 @@
     "lat": 45.53036,
     "lon": 2.78557,
     "radiusM": 1062
+   },
+   "trailMap": true
+  },
+  {
+   "id": "chateau-shiozawa-yoshizato",
+   "name": "Chateau Shiozawa Yoshizato",
+   "state": "Niigata",
+   "country": "JP",
+   "lat": 37.05322,
+   "lon": 138.8294,
+   "access": [],
+   "verticalFt": 1000,
+   "lifts": 4,
+   "baseM": 267,
+   "topM": 573,
+   "website": "https://chateau-shiozawa.jp/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 300,
+   "checkIn": {
+    "lat": 37.0542,
+    "lon": 138.82799,
+    "radiusM": 1169
+   },
+   "trailMap": true
+  },
+  {
+   "id": "chateraise-ski-valley-koumi",
+   "name": "Chateraise Ski Valley Koumi",
+   "state": "Nagano",
+   "country": "JP",
+   "lat": 36.05329,
+   "lon": 138.40688,
+   "access": [],
+   "verticalFt": 1190,
+   "lifts": 5,
+   "baseM": 1408,
+   "topM": 1770,
+   "website": "https://koumi.chateraiseski.jp/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 234,
+   "checkIn": {
+    "lat": 36.05416,
+    "lon": 138.40504,
+    "radiusM": 990
    },
    "trailMap": true
   },
@@ -11785,6 +12675,30 @@
    "trailMap": true
   },
   {
+   "id": "cobungra-slope",
+   "name": "Cobungra Slope",
+   "state": "Victoria",
+   "country": "AU",
+   "lat": -37.02372,
+   "lon": 147.24423,
+   "access": [],
+   "verticalFt": 70,
+   "lifts": 1,
+   "baseM": 1561,
+   "topM": 1582,
+   "website": "https://www.visitdinnerplain.com.au/crosscountry/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 0,
+   "checkIn": {
+    "lat": -37.02374,
+    "lon": 147.24424,
+    "radiusM": 400
+   },
+   "trailMap": true
+  },
+  {
    "id": "cochrans-ski-area",
    "name": "Cochran's Ski Area",
    "state": "VT",
@@ -12197,6 +13111,29 @@
     "lat": 40.34316,
     "lon": -120.90359,
     "radiusM": 529
+   },
+   "trailMap": true
+  },
+  {
+   "id": "corin-forest",
+   "name": "Corin Forest",
+   "state": "Australian Capital Territory",
+   "country": "AU",
+   "lat": -35.51574,
+   "lon": 148.92279,
+   "access": [],
+   "verticalFt": 50,
+   "lifts": 2,
+   "baseM": 1198,
+   "topM": 1213,
+   "website": "https://www.corin.com.au/",
+   "tags": [
+    "alpine"
+   ],
+   "checkIn": {
+    "lat": -35.51417,
+    "lon": 148.92193,
+    "radiusM": 400
    },
    "trailMap": true
   },
@@ -12722,6 +13659,35 @@
     "lat": 46.12346,
     "lon": -67.10703,
     "radiusM": 854
+   },
+   "trailMap": true
+  },
+  {
+   "id": "craigieburn-valley",
+   "name": "Craigieburn Valley",
+   "state": "Canterbury",
+   "country": "NZ",
+   "lat": -43.11107,
+   "lon": 171.69908,
+   "access": [],
+   "verticalFt": 1690,
+   "lifts": 3,
+   "baseM": 1294,
+   "topM": 1810,
+   "runMix": [
+    1,
+    2,
+    4,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 307,
+   "checkIn": {
+    "lat": -43.11028,
+    "lon": 171.6986,
+    "radiusM": 977
    },
    "trailMap": true
   },
@@ -13682,6 +14648,30 @@
    "trailMap": true
   },
   {
+   "id": "daisen-white-resort",
+   "name": "Daisen White Resort",
+   "state": "Tottori",
+   "country": "JP",
+   "lat": 35.39728,
+   "lon": 133.54051,
+   "access": [],
+   "verticalFt": 240,
+   "lifts": 13,
+   "baseM": 742,
+   "topM": 815,
+   "website": "https://www.daisen-resort.jp/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 0,
+   "checkIn": {
+    "lat": 35.39616,
+    "lon": 133.54067,
+    "radiusM": 1068
+   },
+   "trailMap": true
+  },
+  {
    "id": "dammkar-mittenwald",
    "name": "Dammkar (Mittenwald)",
    "state": "Bavaria",
@@ -14277,6 +15267,36 @@
    "trailMap": true
   },
   {
+   "id": "divisadero",
+   "name": "Divisadero",
+   "state": "Aysén",
+   "country": "CL",
+   "lat": -45.6351,
+   "lon": -71.99841,
+   "access": [],
+   "verticalFt": 1040,
+   "lifts": 2,
+   "baseM": 978,
+   "topM": 1296,
+   "website": "https://www.instagram.com/cerroelfraile/?hl=es",
+   "runMix": [
+    5,
+    3,
+    4,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 309,
+   "checkIn": {
+    "lat": -45.62991,
+    "lon": -72.00567,
+    "radiusM": 934
+   },
+   "trailMap": true
+  },
+  {
    "id": "dixie-summit",
    "name": "Dixie Summit",
    "state": "OR",
@@ -14437,6 +15457,30 @@
     "lat": 48.58581,
     "lon": -114.61346,
     "radiusM": 1575
+   },
+   "trailMap": true
+  },
+  {
+   "id": "dogoyama-kougen",
+   "name": "Dogoyama-Kougen",
+   "state": "Hiroshima",
+   "country": "JP",
+   "lat": 35.06092,
+   "lon": 133.20781,
+   "access": [],
+   "verticalFt": 1130,
+   "lifts": 2,
+   "baseM": 732,
+   "topM": 1077,
+   "website": "https://www.dogoyamakogen.com/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 42,
+   "checkIn": {
+    "lat": 35.06117,
+    "lon": 133.20712,
+    "radiusM": 1055
    },
    "trailMap": true
   },
@@ -15274,6 +16318,30 @@
    "trailMap": true
   },
   {
+   "id": "echo-valley",
+   "name": "Echo Valley",
+   "state": "Nagano",
+   "country": "JP",
+   "lat": 36.11829,
+   "lon": 138.20093,
+   "access": [],
+   "verticalFt": 1090,
+   "lifts": 7,
+   "baseM": 1458,
+   "topM": 1789,
+   "website": "https://www.echovalley.co.jp/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 226,
+   "checkIn": {
+    "lat": 36.11817,
+    "lon": 138.20043,
+    "radiusM": 1099
+   },
+   "trailMap": true
+  },
+  {
    "id": "echo-valley-ski-area",
    "name": "Echo Valley Ski Area",
    "state": "WA",
@@ -15330,6 +16398,36 @@
     "lat": 47.47432,
     "lon": 11.12682,
     "radiusM": 1278
+   },
+   "trailMap": true
+  },
+  {
+   "id": "edelweiss",
+   "name": "Edelweiss",
+   "state": "Tochigi",
+   "country": "JP",
+   "lat": 36.91863,
+   "lon": 139.7529,
+   "access": [],
+   "verticalFt": 750,
+   "lifts": 5,
+   "baseM": 1247,
+   "topM": 1476,
+   "website": "https://edelsnow.com/",
+   "runMix": [
+    2,
+    3,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 139,
+   "checkIn": {
+    "lat": 36.91898,
+    "lon": 139.75256,
+    "radiusM": 882
    },
    "trailMap": true
   },
@@ -15811,6 +16909,36 @@
     "lat": 46.51936,
     "lon": 7.62553,
     "radiusM": 1833
+   },
+   "trailMap": true
+  },
+  {
+   "id": "elysian-gangchon",
+   "name": "Elysian Gangchon",
+   "state": "Gangwon",
+   "country": "KR",
+   "lat": 37.81639,
+   "lon": 127.58752,
+   "access": [],
+   "verticalFt": 550,
+   "lifts": 6,
+   "baseM": 90,
+   "topM": 258,
+   "website": "https://www.elysian.co.kr/",
+   "runMix": [
+    2,
+    6,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 240,
+   "checkIn": {
+    "lat": 37.81738,
+    "lon": 127.58714,
+    "radiusM": 704
    },
    "trailMap": true
   },
@@ -16647,6 +17775,30 @@
    "trailMap": true
   },
   {
+   "id": "farellones",
+   "name": "Farellones",
+   "state": "Santiago",
+   "country": "CL",
+   "lat": -33.35555,
+   "lon": -70.30543,
+   "access": [],
+   "verticalFt": 920,
+   "lifts": 5,
+   "baseM": 2339,
+   "topM": 2620,
+   "website": "https://centrofarellones.cl/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 325,
+   "checkIn": {
+    "lat": -33.35499,
+    "lon": -70.30526,
+    "radiusM": 901
+   },
+   "trailMap": true
+  },
+  {
    "id": "febbio",
    "name": "Febbio",
    "state": "Emilia-Romagna",
@@ -17405,6 +18557,36 @@
    "trailMap": true
   },
   {
+   "id": "fox-peak",
+   "name": "Fox Peak",
+   "state": "Canterbury",
+   "country": "NZ",
+   "lat": -43.8531,
+   "lon": 170.80964,
+   "access": [],
+   "verticalFt": 1710,
+   "lifts": 5,
+   "baseM": 1323,
+   "topM": 1843,
+   "website": "https://www.foxpeak.co.nz/",
+   "runMix": [
+    3,
+    1,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 306,
+   "checkIn": {
+    "lat": -43.85233,
+    "lon": 170.80809,
+    "radiusM": 1005
+   },
+   "trailMap": true
+  },
+  {
    "id": "frabosa-soprana",
    "name": "Frabosa Soprana",
    "state": "Piedmont",
@@ -17605,6 +18787,36 @@
    "trailMap": true
   },
   {
+   "id": "fujimi-panorama-resort",
+   "name": "Fujimi Panorama Resort",
+   "state": "Nagano",
+   "country": "JP",
+   "lat": 35.9103,
+   "lon": 138.19883,
+   "access": [],
+   "verticalFt": 2390,
+   "lifts": 7,
+   "baseM": 1048,
+   "topM": 1776,
+   "website": "https://www.fujimipanorama.com/",
+   "runMix": [
+    2,
+    4,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 249,
+   "checkIn": {
+    "lat": 35.90981,
+    "lon": 138.19439,
+    "radiusM": 1318
+   },
+   "trailMap": true
+  },
+  {
    "id": "funasdalen",
    "name": "Funäsdalen",
    "state": "Jämtland",
@@ -17754,6 +18966,36 @@
     "lat": 47.2617,
     "lon": 14.68347,
     "radiusM": 844
+   },
+   "trailMap": true
+  },
+  {
+   "id": "gala-yuzawa",
+   "name": "Gala Yuzawa",
+   "state": "Niigata",
+   "country": "JP",
+   "lat": 36.95063,
+   "lon": 138.78295,
+   "access": [],
+   "verticalFt": 2690,
+   "lifts": 11,
+   "baseM": 358,
+   "topM": 1178,
+   "website": "https://gala.co.jp/winter",
+   "runMix": [
+    9,
+    9,
+    3,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 255,
+   "checkIn": {
+    "lat": 36.95014,
+    "lon": 138.78357,
+    "radiusM": 1711
    },
    "trailMap": true
   },
@@ -18141,6 +19383,30 @@
     "lat": 45.65921,
     "lon": 15.09184,
     "radiusM": 1179
+   },
+   "trailMap": true
+  },
+  {
+   "id": "geihoku-kokusai",
+   "name": "Geihoku Kokusai",
+   "state": "Hiroshima",
+   "country": "JP",
+   "lat": 34.70797,
+   "lon": 132.22706,
+   "access": [],
+   "verticalFt": 1380,
+   "lifts": 6,
+   "baseM": 697,
+   "topM": 1117,
+   "website": "https://geihokukokusai.jp/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 265,
+   "checkIn": {
+    "lat": 34.70828,
+    "lon": 132.22557,
+    "radiusM": 1315
    },
    "trailMap": true
   },
@@ -19055,6 +20321,35 @@
    "trailMap": true
   },
   {
+   "id": "grand-sunpia-inawashiro-resort",
+   "name": "Grand Sunpia Inawashiro Resort",
+   "state": "Fukushima",
+   "country": "JP",
+   "lat": 37.58389,
+   "lon": 140.06023,
+   "access": [],
+   "verticalFt": 1400,
+   "lifts": 4,
+   "baseM": 771,
+   "topM": 1198,
+   "runMix": [
+    8,
+    2,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 6,
+   "checkIn": {
+    "lat": 37.58643,
+    "lon": 140.05966,
+    "radiusM": 1086
+   },
+   "trailMap": true
+  },
+  {
    "id": "grand-targhee",
    "name": "Grand Targhee",
    "state": "WY",
@@ -19128,6 +20423,66 @@
     "lat": 42.90266,
     "lon": 0.1282,
     "radiusM": 4476
+   },
+   "trailMap": true
+  },
+  {
+   "id": "grandeco",
+   "name": "Grandeco",
+   "state": "Fukushima",
+   "country": "JP",
+   "lat": 37.70596,
+   "lon": 140.12896,
+   "access": [],
+   "verticalFt": 1870,
+   "lifts": 5,
+   "baseM": 1011,
+   "topM": 1581,
+   "website": "http://www.grandeco.com/hotel_resort/",
+   "runMix": [
+    10,
+    4,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 347,
+   "checkIn": {
+    "lat": 37.70871,
+    "lon": 140.12777,
+    "radiusM": 1666
+   },
+   "trailMap": true
+  },
+  {
+   "id": "grandee-hatoriko",
+   "name": "Grandee Hatoriko",
+   "state": "Fukushima",
+   "country": "JP",
+   "lat": 37.21333,
+   "lon": 140.02098,
+   "access": [],
+   "verticalFt": 1030,
+   "lifts": 4,
+   "baseM": 955,
+   "topM": 1270,
+   "website": "https://hatoriko.com/index.html",
+   "runMix": [
+    10,
+    1,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 223,
+   "checkIn": {
+    "lat": 37.21274,
+    "lon": 140.02054,
+    "radiusM": 1168
    },
    "trailMap": true
   },
@@ -19288,6 +20643,36 @@
     "lat": 39.15381,
     "lon": -120.15416,
     "radiusM": 400
+   },
+   "trailMap": true
+  },
+  {
+   "id": "gransnow-okuibuki",
+   "name": "Gransnow Okuibuki",
+   "state": "Gifu",
+   "country": "JP",
+   "lat": 35.51885,
+   "lon": 136.3943,
+   "access": [],
+   "verticalFt": 1580,
+   "lifts": 11,
+   "baseM": 739,
+   "topM": 1221,
+   "website": "https://www.okuibuki.co.jp/",
+   "runMix": [
+    4,
+    5,
+    2,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 106,
+   "checkIn": {
+    "lat": 35.51875,
+    "lon": 136.39373,
+    "radiusM": 954
    },
    "trailMap": true
   },
@@ -20613,6 +21998,90 @@
    "trailMap": true
   },
   {
+   "id": "hachi-kita",
+   "name": "Hachi Kita",
+   "state": "Hyogo",
+   "country": "JP",
+   "lat": 35.40322,
+   "lon": 134.54602,
+   "access": [],
+   "verticalFt": 2150,
+   "lifts": 9,
+   "baseM": 562,
+   "topM": 1217,
+   "website": "https://www.hachi-hachikita.co.jp/",
+   "runMix": [
+    5,
+    6,
+    3,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 229,
+   "checkIn": {
+    "lat": 35.4025,
+    "lon": 134.54521,
+    "radiusM": 1342
+   },
+   "trailMap": true
+  },
+  {
+   "id": "hachikogen",
+   "name": "Hachikogen",
+   "state": "Hyogo",
+   "country": "JP",
+   "lat": 35.38619,
+   "lon": 134.53276,
+   "access": [],
+   "verticalFt": 1780,
+   "lifts": 11,
+   "baseM": 674,
+   "topM": 1216,
+   "website": "https://www.hachi-hachikita.co.jp/",
+   "runMix": [
+    6,
+    1,
+    3,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 337,
+   "checkIn": {
+    "lat": 35.38421,
+    "lon": 134.53107,
+    "radiusM": 1294
+   },
+   "trailMap": true
+  },
+  {
+   "id": "hachimantai-resort-panorama-ski-are",
+   "name": "Hachimantai Resort Panorama Ski Are",
+   "state": "Iwate",
+   "country": "JP",
+   "lat": 39.88589,
+   "lon": 140.9782,
+   "access": [],
+   "verticalFt": 1370,
+   "lifts": 4,
+   "baseM": 557,
+   "topM": 975,
+   "website": "https://www.hachimantai.co.jp/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 175,
+   "checkIn": {
+    "lat": 39.88451,
+    "lon": 140.97762,
+    "radiusM": 1205
+   },
+   "trailMap": true
+  },
+  {
    "id": "hafjell",
    "name": "Hafjell",
    "state": "Innlandet",
@@ -20733,6 +22202,90 @@
     "lat": 47.47498,
     "lon": 10.65782,
     "radiusM": 1432
+   },
+   "trailMap": true
+  },
+  {
+   "id": "hakkoda-ropeway",
+   "name": "Hakkoda Ropeway",
+   "state": "Aomori",
+   "country": "JP",
+   "lat": 40.68335,
+   "lon": 140.84443,
+   "access": [],
+   "verticalFt": 2070,
+   "lifts": 1,
+   "baseM": 676,
+   "topM": 1306,
+   "website": "https://www.hakkouda-p.com/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 0,
+   "checkIn": {
+    "lat": 40.68214,
+    "lon": 140.84821,
+    "radiusM": 1404
+   },
+   "trailMap": true
+  },
+  {
+   "id": "hakodate-nanae",
+   "name": "Hakodate Nanae",
+   "state": "Hokkaido",
+   "country": "JP",
+   "lat": 41.97368,
+   "lon": 140.75715,
+   "access": [],
+   "verticalFt": 2270,
+   "lifts": 3,
+   "baseM": 257,
+   "topM": 949,
+   "website": "https://hakodate-nanae.jp/",
+   "runMix": [
+    5,
+    2,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 147,
+   "checkIn": {
+    "lat": 41.97221,
+    "lon": 140.75732,
+    "radiusM": 1900
+   },
+   "trailMap": true
+  },
+  {
+   "id": "hakodateyama",
+   "name": "Hakodateyama",
+   "state": "Shiga",
+   "country": "JP",
+   "lat": 35.43826,
+   "lon": 135.98543,
+   "access": [],
+   "verticalFt": 440,
+   "lifts": 5,
+   "baseM": 551,
+   "topM": 684,
+   "website": "https://www.hakodateyama.com/",
+   "runMix": [
+    3,
+    2,
+    2,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 359,
+   "checkIn": {
+    "lat": 35.43866,
+    "lon": 135.98464,
+    "radiusM": 656
    },
    "trailMap": true
   },
@@ -21106,6 +22659,30 @@
    "trailMap": true
   },
   {
+   "id": "hakusan-senjo-onsen-seymour",
+   "name": "Hakusan Senjo Onsen Seymour",
+   "state": "Ishikawa",
+   "country": "JP",
+   "lat": 36.34359,
+   "lon": 136.68557,
+   "access": [],
+   "verticalFt": 2350,
+   "lifts": 4,
+   "baseM": 305,
+   "topM": 1020,
+   "website": "https://sam-hakusan.com/seymour/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 130,
+   "checkIn": {
+    "lat": 36.34177,
+    "lon": 136.68651,
+    "radiusM": 1080
+   },
+   "trailMap": true
+  },
+  {
    "id": "haldenkopfle",
    "name": "Haldenköpfle",
    "state": "Baden-Württemberg",
@@ -21178,6 +22755,59 @@
     "lat": 63.16037,
     "lon": 17.23805,
     "radiusM": 878
+   },
+   "trailMap": true
+  },
+  {
+   "id": "hanawa",
+   "name": "Hanawa",
+   "state": "Akita",
+   "country": "JP",
+   "lat": 40.18333,
+   "lon": 140.82705,
+   "access": [],
+   "verticalFt": 1600,
+   "lifts": 3,
+   "baseM": 256,
+   "topM": 744,
+   "website": "https://r.goope.jp/alpas/",
+   "runMix": [
+    1,
+    1,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 147,
+   "checkIn": {
+    "lat": 40.18293,
+    "lon": 140.82784,
+    "radiusM": 899
+   },
+   "trailMap": true
+  },
+  {
+   "id": "hanmer-springs",
+   "name": "Hanmer Springs",
+   "state": "Canterbury",
+   "country": "NZ",
+   "lat": -42.44208,
+   "lon": 172.73037,
+   "access": [],
+   "verticalFt": 1020,
+   "lifts": 3,
+   "baseM": 1441,
+   "topM": 1751,
+   "website": "https://www.skihanmer.co.nz/",
+   "tags": [
+    "alpine"
+   ],
+   "checkIn": {
+    "lat": -42.44226,
+    "lon": 172.73136,
+    "radiusM": 669
    },
    "trailMap": true
   },
@@ -21590,6 +23220,36 @@
    "trailMap": true
   },
   {
+   "id": "heavens-sonohara-snow-world",
+   "name": "Heavens Sonohara Snow World",
+   "state": "Nagano",
+   "country": "JP",
+   "lat": 35.45274,
+   "lon": 137.6354,
+   "access": [],
+   "verticalFt": 680,
+   "lifts": 6,
+   "baseM": 1376,
+   "topM": 1583,
+   "website": "https://mt-heavens.com/",
+   "runMix": [
+    3,
+    1,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 325,
+   "checkIn": {
+    "lat": 35.45222,
+    "lon": 137.63605,
+    "radiusM": 728
+   },
+   "trailMap": true
+  },
+  {
    "id": "heiligenblut",
    "name": "Heiligenblut Grossglockner",
    "state": "Carinthia",
@@ -21967,6 +23627,114 @@
    "trailMap": true
   },
   {
+   "id": "hida-funayama-snow-resort-arkopia",
+   "name": "Hida Funayama Snow Resort Arkopia",
+   "state": "Gifu",
+   "country": "JP",
+   "lat": 36.03138,
+   "lon": 137.25379,
+   "access": [],
+   "verticalFt": 1320,
+   "lifts": 4,
+   "baseM": 857,
+   "topM": 1259,
+   "website": "https://www.mugen.click/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 236,
+   "checkIn": {
+    "lat": 36.03198,
+    "lon": 137.25379,
+    "radiusM": 1060
+   },
+   "trailMap": true
+  },
+  {
+   "id": "hida-kawai",
+   "name": "Hida Kawai",
+   "state": "Gifu",
+   "country": "JP",
+   "lat": 36.23497,
+   "lon": 137.07856,
+   "access": [],
+   "verticalFt": 1180,
+   "lifts": 4,
+   "baseM": 852,
+   "topM": 1213,
+   "website": "https://www.hidakawai.com/",
+   "runMix": [
+    1,
+    2,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 196,
+   "checkIn": {
+    "lat": 36.23499,
+    "lon": 137.0777,
+    "radiusM": 852
+   },
+   "trailMap": true
+  },
+  {
+   "id": "hida-nagareha-resort",
+   "name": "Hida Nagareha Resort",
+   "state": "Gifu",
+   "country": "JP",
+   "lat": 36.31634,
+   "lon": 137.23474,
+   "access": [],
+   "verticalFt": 2140,
+   "lifts": 6,
+   "baseM": 745,
+   "topM": 1398,
+   "website": "http://www.ryokufu.co.jp/",
+   "runMix": [
+    2,
+    2,
+    2,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 318,
+   "checkIn": {
+    "lat": 36.31559,
+    "lon": 137.23665,
+    "radiusM": 1406
+   },
+   "trailMap": true
+  },
+  {
+   "id": "hidaka-kokusai",
+   "name": "Hidaka Kokusai",
+   "state": "Hokkaido",
+   "country": "JP",
+   "lat": 42.86417,
+   "lon": 142.45677,
+   "access": [],
+   "verticalFt": 1630,
+   "lifts": 4,
+   "baseM": 253,
+   "topM": 749,
+   "website": "https://www.town.hidaka.hokkaido.jp/site/ski/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 133,
+   "checkIn": {
+    "lat": 42.86422,
+    "lon": 142.45691,
+    "radiusM": 1180
+   },
+   "trailMap": true
+  },
+  {
    "id": "hidden-valley-mo",
    "name": "Hidden Valley",
    "state": "MO",
@@ -22188,6 +23956,36 @@
     "lon": -74.66755,
     "radiusM": 800
    }
+  },
+  {
+   "id": "high1",
+   "name": "High1",
+   "state": "Gangwon",
+   "country": "KR",
+   "lat": 37.19913,
+   "lon": 128.82963,
+   "access": [],
+   "verticalFt": 2170,
+   "lifts": 9,
+   "baseM": 715,
+   "topM": 1376,
+   "website": "https://www.high1.com/ski/index.do",
+   "runMix": [
+    5,
+    3,
+    8,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 227,
+   "checkIn": {
+    "lat": 37.19243,
+    "lon": 128.8267,
+    "radiusM": 1879
+   },
+   "trailMap": true
   },
   {
    "id": "hillberg-ski-area",
@@ -22451,6 +24249,36 @@
     "lat": 47.08394,
     "lon": 11.66448,
     "radiusM": 3471
+   },
+   "trailMap": true
+  },
+  {
+   "id": "hirayu-onsen",
+   "name": "Hirayu Onsen",
+   "state": "Gifu",
+   "country": "JP",
+   "lat": 36.1854,
+   "lon": 137.56002,
+   "access": [],
+   "verticalFt": 1540,
+   "lifts": 2,
+   "baseM": 1311,
+   "topM": 1781,
+   "website": "https://www.hirayunomori.com/",
+   "runMix": [
+    1,
+    1,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 106,
+   "checkIn": {
+    "lat": 36.1849,
+    "lon": 137.55969,
+    "radiusM": 815
    },
    "trailMap": true
   },
@@ -23875,6 +25703,36 @@
    "trailMap": true
   },
   {
+   "id": "honokidaira",
+   "name": "Honokidaira",
+   "state": "Gifu",
+   "country": "JP",
+   "lat": 36.16938,
+   "lon": 137.49202,
+   "access": [],
+   "verticalFt": 1010,
+   "lifts": 5,
+   "baseM": 1230,
+   "topM": 1537,
+   "website": "https://hounoki-daira.com/",
+   "runMix": [
+    5,
+    7,
+    5,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 180,
+   "checkIn": {
+    "lat": 36.17025,
+    "lon": 137.4916,
+    "radiusM": 859
+   },
+   "trailMap": true
+  },
+  {
    "id": "hoodoo",
    "name": "Hoodoo",
    "state": "OR",
@@ -24399,6 +26257,30 @@
    "trailMap": true
   },
   {
+   "id": "hunter-mountain-shiobara",
+   "name": "Hunter Mountain Shiobara",
+   "state": "Tochigi",
+   "country": "JP",
+   "lat": 36.9308,
+   "lon": 139.76263,
+   "access": [],
+   "verticalFt": 570,
+   "lifts": 7,
+   "baseM": 1427,
+   "topM": 1602,
+   "website": "https://www.hunter.co.jp/winter/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 0,
+   "checkIn": {
+    "lat": 36.93023,
+    "lon": 139.76341,
+    "radiusM": 1337
+   },
+   "trailMap": true
+  },
+  {
    "id": "hurricane-ridge",
    "name": "Hurricane Ridge",
    "state": "WA",
@@ -24508,6 +26390,60 @@
     "lat": 44.84338,
     "lon": -93.36538,
     "radiusM": 589
+   },
+   "trailMap": true
+  },
+  {
+   "id": "hyounosen-kokusai",
+   "name": "Hyounosen Kokusai",
+   "state": "Hyogo",
+   "country": "JP",
+   "lat": 35.36318,
+   "lon": 134.52983,
+   "access": [],
+   "verticalFt": 1110,
+   "lifts": 4,
+   "baseM": 606,
+   "topM": 943,
+   "website": "https://www.hyounosen.jp/",
+   "runMix": [
+    1,
+    3,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 249,
+   "checkIn": {
+    "lat": 35.3626,
+    "lon": 134.52963,
+    "radiusM": 966
+   },
+   "trailMap": true
+  },
+  {
+   "id": "hyper-bowl-tohachi",
+   "name": "Hyper Bowl Tohachi",
+   "state": "Hyogo",
+   "country": "JP",
+   "lat": 35.38873,
+   "lon": 134.56249,
+   "access": [],
+   "verticalFt": 1200,
+   "lifts": 4,
+   "baseM": 659,
+   "topM": 1026,
+   "website": "https://www.tohachi.jp/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 285,
+   "checkIn": {
+    "lat": 35.39019,
+    "lon": 134.56097,
+    "radiusM": 1004
    },
    "trailMap": true
   },
@@ -24641,6 +26577,36 @@
    "trailMap": true
   },
   {
+   "id": "iox-arosa",
+   "name": "IOX-AROSA",
+   "state": "Toyama",
+   "country": "JP",
+   "lat": 36.51455,
+   "lon": 136.81226,
+   "access": [],
+   "verticalFt": 1370,
+   "lifts": 6,
+   "baseM": 357,
+   "topM": 775,
+   "website": "https://www.iox-arosa.jp/",
+   "runMix": [
+    3,
+    1,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 261,
+   "checkIn": {
+    "lat": 36.51466,
+    "lon": 136.81171,
+    "radiusM": 1030
+   },
+   "trailMap": true
+  },
+  {
    "id": "ibergeregg-handgruobi",
    "name": "Ibergeregg-Handgruobi",
    "state": "Schwyz",
@@ -24748,6 +26714,60 @@
    "trailMap": true
   },
   {
+   "id": "iizuna-resort",
+   "name": "Iizuna Resort",
+   "state": "Nagano",
+   "country": "JP",
+   "lat": 36.7415,
+   "lon": 138.157,
+   "access": [],
+   "verticalFt": 1790,
+   "lifts": 3,
+   "baseM": 924,
+   "topM": 1470,
+   "website": "https://iizunaresort.com/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 288,
+   "checkIn": {
+    "lat": 36.74121,
+    "lon": 138.15924,
+    "radiusM": 1267
+   },
+   "trailMap": true
+  },
+  {
+   "id": "imajo-365",
+   "name": "Imajo 365",
+   "state": "Fukui",
+   "country": "JP",
+   "lat": 35.72137,
+   "lon": 136.14223,
+   "access": [],
+   "verticalFt": 1050,
+   "lifts": 4,
+   "baseM": 433,
+   "topM": 754,
+   "website": "https://imajyo365.jp/",
+   "runMix": [
+    2,
+    1,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 252,
+   "checkIn": {
+    "lat": 35.72174,
+    "lon": 136.14178,
+    "radiusM": 927
+   },
+   "trailMap": true
+  },
+  {
    "id": "immenstadt",
    "name": "Immenstadt",
    "state": "Bavaria",
@@ -24767,6 +26787,36 @@
     "lat": 47.54612,
     "lon": 10.21777,
     "radiusM": 1153
+   },
+   "trailMap": true
+  },
+  {
+   "id": "inawashiro-snow-paradise",
+   "name": "Inawashiro Snow Paradise",
+   "state": "Fukushima",
+   "country": "JP",
+   "lat": 37.58078,
+   "lon": 140.09079,
+   "access": [],
+   "verticalFt": 1810,
+   "lifts": 11,
+   "baseM": 698,
+   "topM": 1249,
+   "website": "https://www.inawashiro-ski.com/",
+   "runMix": [
+    18,
+    4,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 334,
+   "checkIn": {
+    "lat": 37.58201,
+    "lon": 140.09035,
+    "radiusM": 1424
    },
    "trailMap": true
   },
@@ -24987,6 +27037,60 @@
    "trailMap": true
   },
   {
+   "id": "ishiuchi-maruyama",
+   "name": "Ishiuchi Maruyama",
+   "state": "Niigata",
+   "country": "JP",
+   "lat": 36.97082,
+   "lon": 138.79378,
+   "access": [],
+   "verticalFt": 2160,
+   "lifts": 14,
+   "baseM": 258,
+   "topM": 916,
+   "website": "https://www.ishiuchi.or.jp/",
+   "runMix": [
+    7,
+    6,
+    6,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 230,
+   "checkIn": {
+    "lat": 36.97009,
+    "lon": 138.79224,
+    "radiusM": 1333
+   },
+   "trailMap": true
+  },
+  {
+   "id": "ishizuchi",
+   "name": "Ishizuchi",
+   "state": "Ehime",
+   "country": "JP",
+   "lat": 33.79525,
+   "lon": 133.13111,
+   "access": [],
+   "verticalFt": 460,
+   "lifts": 5,
+   "baseM": 1261,
+   "topM": 1400,
+   "website": "https://www.ishizuchi.com/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 219,
+   "checkIn": {
+    "lat": 33.79492,
+    "lon": 133.12994,
+    "radiusM": 625
+   },
+   "trailMap": true
+  },
+  {
    "id": "isola-2000",
    "name": "Isola 2000",
    "state": "Alpes-Maritimes",
@@ -25013,6 +27117,149 @@
     "lat": 44.18418,
     "lon": 7.14769,
     "radiusM": 2395
+   },
+   "trailMap": true
+  },
+  {
+   "id": "itoigawa-seaside-valley",
+   "name": "Itoigawa Seaside Valley",
+   "state": "Niigata",
+   "country": "JP",
+   "lat": 36.93102,
+   "lon": 137.89226,
+   "access": [],
+   "verticalFt": 1610,
+   "lifts": 5,
+   "baseM": 244,
+   "topM": 734,
+   "website": "https://www.seasidevalley.com/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 193,
+   "checkIn": {
+    "lat": 36.92899,
+    "lon": 137.89087,
+    "radiusM": 1160
+   },
+   "trailMap": true
+  },
+  {
+   "id": "itsukamachi",
+   "name": "Itsukamachi",
+   "state": "Niigata",
+   "country": "JP",
+   "lat": 37.12291,
+   "lon": 138.89225,
+   "access": [],
+   "verticalFt": 1030,
+   "lifts": 4,
+   "baseM": 164,
+   "topM": 478,
+   "website": "http://www.itsukamachi.jp/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 283,
+   "checkIn": {
+    "lat": 37.12388,
+    "lon": 138.89031,
+    "radiusM": 1027
+   },
+   "trailMap": true
+  },
+  {
+   "id": "iwakisan-hyakuzawa",
+   "name": "Iwakisan Hyakuzawa",
+   "state": "Aomori",
+   "country": "JP",
+   "lat": 40.63368,
+   "lon": 140.32812,
+   "access": [],
+   "verticalFt": 1390,
+   "lifts": 3,
+   "baseM": 321,
+   "topM": 744,
+   "website": "https://www.hyakuzawa-ski.com/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 325,
+   "checkIn": {
+    "lat": 40.63467,
+    "lon": 140.32688,
+    "radiusM": 1110
+   },
+   "trailMap": true
+  },
+  {
+   "id": "iwappara",
+   "name": "Iwappara",
+   "state": "Niigata",
+   "country": "JP",
+   "lat": 36.94443,
+   "lon": 138.84135,
+   "access": [],
+   "verticalFt": 1930,
+   "lifts": 7,
+   "baseM": 396,
+   "topM": 984,
+   "website": "https://www.iwa-ppara.com/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 341,
+   "checkIn": {
+    "lat": 36.94468,
+    "lon": 138.84166,
+    "radiusM": 1325
+   },
+   "trailMap": true
+  },
+  {
+   "id": "iwate-kogen-snow-park",
+   "name": "Iwate Kogen Snow Park",
+   "state": "Iwate",
+   "country": "JP",
+   "lat": 39.81991,
+   "lon": 140.96598,
+   "access": [],
+   "verticalFt": 1840,
+   "lifts": 6,
+   "baseM": 646,
+   "topM": 1207,
+   "website": "https://iwatekogen.jp/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 9,
+   "checkIn": {
+    "lat": 39.82242,
+    "lon": 140.96532,
+    "radiusM": 1166
+   },
+   "trailMap": true
+  },
+  {
+   "id": "jam-fukui-katsuyama-mountain-resort",
+   "name": "JAM Fukui Katsuyama Mountain Resort",
+   "state": "Fukui",
+   "country": "JP",
+   "lat": 36.07111,
+   "lon": 136.57817,
+   "access": [],
+   "verticalFt": 2330,
+   "lifts": 8,
+   "baseM": 610,
+   "topM": 1319,
+   "website": "https://www.skijam.jp/",
+   "tags": [
+    "alpine"
+   ],
+   "checkIn": {
+    "lat": 36.06914,
+    "lon": 136.57738,
+    "radiusM": 2146
    },
    "trailMap": true
   },
@@ -25445,6 +27692,30 @@
    "trailMap": true
   },
   {
+   "id": "jeunesse-kurikoma",
+   "name": "Jeunesse Kurikoma",
+   "state": "Akita",
+   "country": "JP",
+   "lat": 39.15841,
+   "lon": 140.73319,
+   "access": [],
+   "verticalFt": 1250,
+   "lifts": 4,
+   "baseM": 390,
+   "topM": 771,
+   "website": "https://www.jeunesse-ski.com/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 117,
+   "checkIn": {
+    "lat": 39.15798,
+    "lon": 140.73328,
+    "radiusM": 1068
+   },
+   "trailMap": true
+  },
+  {
    "id": "jigatake",
    "name": "Jigatake",
    "state": "Nagano",
@@ -25538,6 +27809,60 @@
     "lat": 42.5487,
     "lon": -73.28453,
     "radiusM": 1199
+   },
+   "trailMap": true
+  },
+  {
+   "id": "jisan-forest",
+   "name": "Jisan Forest",
+   "state": "Gyeonggi",
+   "country": "KR",
+   "lat": 37.21369,
+   "lon": 127.34292,
+   "access": [],
+   "verticalFt": 660,
+   "lifts": 5,
+   "baseM": 123,
+   "topM": 325,
+   "website": "https://www.jisanresort.co.kr/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 211,
+   "checkIn": {
+    "lat": 37.21446,
+    "lon": 127.3429,
+    "radiusM": 670
+   },
+   "trailMap": true
+  },
+  {
+   "id": "joetsu-international",
+   "name": "Joetsu International",
+   "state": "Niigata",
+   "country": "JP",
+   "lat": 37.0342,
+   "lon": 138.79359,
+   "access": [],
+   "verticalFt": 2340,
+   "lifts": 19,
+   "baseM": 217,
+   "topM": 931,
+   "website": "https://www.jkokusai.co.jp/",
+   "runMix": [
+    2,
+    3,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 237,
+   "checkIn": {
+    "lat": 37.03155,
+    "lon": 138.79459,
+    "radiusM": 2751
    },
    "trailMap": true
   },
@@ -25767,6 +28092,36 @@
     "lat": 45.85003,
     "lon": 11.4968,
     "radiusM": 714
+   },
+   "trailMap": true
+  },
+  {
+   "id": "kagura",
+   "name": "Kagura",
+   "state": "Niigata",
+   "country": "JP",
+   "lat": 36.86863,
+   "lon": 138.7275,
+   "access": [],
+   "verticalFt": 3970,
+   "lifts": 18,
+   "baseM": 627,
+   "topM": 1838,
+   "website": "https://www.princehotels.co.jp/ski/kagura/",
+   "runMix": [
+    14,
+    7,
+    6,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 232,
+   "checkIn": {
+    "lat": 36.87024,
+    "lon": 138.74501,
+    "radiusM": 3868
    },
    "trailMap": true
   },
@@ -26151,6 +28506,36 @@
    "trailMap": true
   },
   {
+   "id": "karuizawa-prince",
+   "name": "Karuizawa Prince",
+   "state": "Gunma",
+   "country": "JP",
+   "lat": 36.33625,
+   "lon": 138.64247,
+   "access": [],
+   "verticalFt": 700,
+   "lifts": 8,
+   "baseM": 942,
+   "topM": 1156,
+   "website": "https://www.princehotels.co.jp/ski/karuizawa/",
+   "runMix": [
+    5,
+    2,
+    2,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 129,
+   "checkIn": {
+    "lat": 36.33635,
+    "lon": 138.64385,
+    "radiusM": 892
+   },
+   "trailMap": true
+  },
+  {
    "id": "karwendel-pertisau",
    "name": "Karwendel Bergbahn (Pertisau)",
    "state": "Tyrol",
@@ -26304,6 +28689,60 @@
    "trailMap": true
   },
   {
+   "id": "katashina-kogen",
+   "name": "Katashina Kogen",
+   "state": "Gunma",
+   "country": "JP",
+   "lat": 36.81039,
+   "lon": 139.22188,
+   "access": [],
+   "verticalFt": 1030,
+   "lifts": 5,
+   "baseM": 950,
+   "topM": 1263,
+   "website": "https://katashinakogen.co.jp/",
+   "runMix": [
+    1,
+    2,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 259,
+   "checkIn": {
+    "lat": 36.81018,
+    "lon": 139.22092,
+    "radiusM": 930
+   },
+   "trailMap": true
+  },
+  {
+   "id": "katashina-ogna-hotaka",
+   "name": "Katashina Ogna Hotaka",
+   "state": "Gunma",
+   "country": "JP",
+   "lat": 36.80138,
+   "lon": 139.19139,
+   "access": [],
+   "verticalFt": 1190,
+   "lifts": 4,
+   "baseM": 1099,
+   "topM": 1461,
+   "website": "https://k-hotaka.jp/ogna/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 353,
+   "checkIn": {
+    "lat": 36.80268,
+    "lon": 139.19147,
+    "radiusM": 920
+   },
+   "trailMap": true
+  },
+  {
    "id": "katschberg",
    "name": "Katschberg-Aineck",
    "state": "Salzburg",
@@ -26453,6 +28892,60 @@
     "lat": 46.86872,
     "lon": 10.70664,
     "radiusM": 2100
+   },
+   "trailMap": true
+  },
+  {
+   "id": "kawaba",
+   "name": "Kawaba",
+   "state": "Gunma",
+   "country": "JP",
+   "lat": 36.77933,
+   "lon": 139.11956,
+   "access": [],
+   "verticalFt": 1820,
+   "lifts": 6,
+   "baseM": 1288,
+   "topM": 1843,
+   "website": "https://www.kawaba.co.jp/snow/",
+   "runMix": [
+    2,
+    3,
+    4,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 29,
+   "checkIn": {
+    "lat": 36.77974,
+    "lon": 139.11604,
+    "radiusM": 1318
+   },
+   "trailMap": true
+  },
+  {
+   "id": "kazawa",
+   "name": "Kazawa",
+   "state": "Gunma",
+   "country": "JP",
+   "lat": 36.46518,
+   "lon": 138.42799,
+   "access": [],
+   "verticalFt": 1040,
+   "lifts": 8,
+   "baseM": 1350,
+   "topM": 1666,
+   "website": "http://www.kazawa.com/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 215,
+   "checkIn": {
+    "lat": 36.46667,
+    "lon": 138.42549,
+    "radiusM": 783
    },
    "trailMap": true
   },
@@ -27254,6 +29747,36 @@
    "trailMap": true
   },
   {
+   "id": "kisofukushima",
+   "name": "Kisofukushima",
+   "state": "Nagano",
+   "country": "JP",
+   "lat": 35.94799,
+   "lon": 137.67396,
+   "access": [],
+   "verticalFt": 2230,
+   "lifts": 4,
+   "baseM": 1215,
+   "topM": 1896,
+   "website": "https://www.kisofukushima-ski.com/",
+   "runMix": [
+    4,
+    2,
+    4,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 57,
+   "checkIn": {
+    "lat": 35.95038,
+    "lon": 137.67641,
+    "radiusM": 1350
+   },
+   "trailMap": true
+  },
+  {
    "id": "kissing-bridge",
    "name": "Kissing Bridge",
    "state": "NY",
@@ -27280,6 +29803,36 @@
     "lat": 42.59928,
     "lon": -78.65803,
     "radiusM": 1162
+   },
+   "trailMap": true
+  },
+  {
+   "id": "kitashiga-komaruyama",
+   "name": "Kitashiga Komaruyama",
+   "state": "Nagano",
+   "country": "JP",
+   "lat": 36.79338,
+   "lon": 138.45543,
+   "access": [],
+   "verticalFt": 1030,
+   "lifts": 5,
+   "baseM": 795,
+   "topM": 1110,
+   "website": "https://www.komaruyama.jp/",
+   "runMix": [
+    2,
+    3,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 112,
+   "checkIn": {
+    "lat": 36.79337,
+    "lon": 138.45522,
+    "radiusM": 805
    },
    "trailMap": true
   },
@@ -27798,6 +30351,30 @@
    "trailMap": true
   },
   {
+   "id": "konjiam-resort",
+   "name": "Konjiam Resort",
+   "state": "Gyeonggi",
+   "country": "KR",
+   "lat": 37.33382,
+   "lon": 127.288,
+   "access": [],
+   "verticalFt": 1050,
+   "lifts": 5,
+   "baseM": 177,
+   "topM": 496,
+   "website": "https://www.konjiamresort.co.kr/main.dev",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 221,
+   "checkIn": {
+    "lat": 37.33313,
+    "lon": 127.2865,
+    "radiusM": 904
+   },
+   "trailMap": true
+  },
+  {
    "id": "kope",
    "name": "Kope",
    "state": "Koroška",
@@ -28074,6 +30651,120 @@
     "lat": 60.75351,
     "lon": 16.49612,
     "radiusM": 1012
+   },
+   "trailMap": true
+  },
+  {
+   "id": "kurobushi-kogen-snow-park-jangle-jungle",
+   "name": "Kurobushi Kogen Snow Park Jangle Jungle",
+   "state": "Yamagata",
+   "country": "JP",
+   "lat": 38.43505,
+   "lon": 140.54551,
+   "access": [],
+   "verticalFt": 1040,
+   "lifts": 3,
+   "baseM": 711,
+   "topM": 1029,
+   "website": "https://jxj.co.jp/",
+   "runMix": [
+    3,
+    1,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 148,
+   "checkIn": {
+    "lat": 38.43548,
+    "lon": 140.54501,
+    "radiusM": 871
+   },
+   "trailMap": true
+  },
+  {
+   "id": "kurohime-kogen",
+   "name": "Kurohime Kogen",
+   "state": "Nagano",
+   "country": "JP",
+   "lat": 36.82521,
+   "lon": 138.16149,
+   "access": [],
+   "verticalFt": 1300,
+   "lifts": 6,
+   "baseM": 782,
+   "topM": 1178,
+   "website": "https://www.kurohime-kogen.co.jp/ski/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 255,
+   "checkIn": {
+    "lat": 36.8255,
+    "lon": 138.15765,
+    "radiusM": 1079
+   },
+   "trailMap": true
+  },
+  {
+   "id": "kurumayama-kogen-skypark",
+   "name": "Kurumayama Kogen SKYPARK",
+   "state": "Nagano",
+   "country": "JP",
+   "lat": 36.10428,
+   "lon": 138.20637,
+   "access": [],
+   "verticalFt": 1120,
+   "lifts": 5,
+   "baseM": 1569,
+   "topM": 1911,
+   "website": "https://kurumayama.com/",
+   "runMix": [
+    3,
+    5,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 280,
+   "checkIn": {
+    "lat": 36.10424,
+    "lon": 138.20616,
+    "radiusM": 936
+   },
+   "trailMap": true
+  },
+  {
+   "id": "kusatsu-onsen",
+   "name": "Kusatsu Onsen",
+   "state": "Gunma",
+   "country": "JP",
+   "lat": 36.63058,
+   "lon": 138.57439,
+   "access": [],
+   "verticalFt": 1230,
+   "lifts": 7,
+   "baseM": 1244,
+   "topM": 1620,
+   "website": "https://www.932-onsen.com/winter/",
+   "runMix": [
+    2,
+    2,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 260,
+   "checkIn": {
+    "lat": 36.63134,
+    "lon": 138.57444,
+    "radiusM": 1312
    },
    "trailMap": true
   },
@@ -28597,6 +31288,36 @@
    "trailMap": true
   },
   {
+   "id": "la-hoya",
+   "name": "La Hoya",
+   "state": "Chubut",
+   "country": "AR",
+   "lat": -42.82091,
+   "lon": -71.25684,
+   "access": [],
+   "verticalFt": 2160,
+   "lifts": 8,
+   "baseM": 1424,
+   "topM": 2081,
+   "website": "https://www.skilahoya.com/",
+   "runMix": [
+    4,
+    3,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 356,
+   "checkIn": {
+    "lat": -42.81824,
+    "lon": -71.25741,
+    "radiusM": 1238
+   },
+   "trailMap": true
+  },
+  {
    "id": "la-molina",
    "name": "La Molina",
    "state": "Catalonia",
@@ -28675,6 +31396,36 @@
     "lat": 39.27515,
     "lon": 16.46951,
     "radiusM": 1823
+   },
+   "trailMap": true
+  },
+  {
+   "id": "la-parva",
+   "name": "La Parva",
+   "state": "Santiago",
+   "country": "CL",
+   "lat": -33.32847,
+   "lon": -70.27242,
+   "access": [],
+   "verticalFt": 3030,
+   "lifts": 15,
+   "baseM": 2647,
+   "topM": 3572,
+   "website": "https://www.laparva.cl/",
+   "runMix": [
+    18,
+    27,
+    11,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 63,
+   "checkIn": {
+    "lat": -33.32788,
+    "lon": -70.27441,
+    "radiusM": 2124
    },
    "trailMap": true
   },
@@ -29254,6 +32005,66 @@
     "lat": 41.87386,
     "lon": -73.10227,
     "radiusM": 400
+   },
+   "trailMap": true
+  },
+  {
+   "id": "las-araucarias",
+   "name": "Las Araucarias",
+   "state": "Araucanía",
+   "country": "CL",
+   "lat": -38.68601,
+   "lon": -71.80076,
+   "access": [],
+   "verticalFt": 1410,
+   "lifts": 4,
+   "baseM": 1479,
+   "topM": 1910,
+   "website": "https://skiaraucarias.cl/el-centro/",
+   "runMix": [
+    0,
+    2,
+    7,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 99,
+   "checkIn": {
+    "lat": -38.68896,
+    "lon": -71.79091,
+    "radiusM": 1189
+   },
+   "trailMap": true
+  },
+  {
+   "id": "las-lenas",
+   "name": "Las Leñas",
+   "state": "Mendoza",
+   "country": "AR",
+   "lat": -35.13699,
+   "lon": -70.10279,
+   "access": [],
+   "verticalFt": 3940,
+   "lifts": 13,
+   "baseM": 2215,
+   "topM": 3416,
+   "website": "https://laslenas.com/",
+   "runMix": [
+    9,
+    16,
+    4,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 294,
+   "checkIn": {
+    "lat": -35.13706,
+    "lon": -70.10424,
+    "radiusM": 2433
    },
    "trailMap": true
   },
@@ -31756,6 +34567,36 @@
    "trailMap": true
   },
   {
+   "id": "los-puquios",
+   "name": "Los Puquios",
+   "state": "Mendoza",
+   "country": "AR",
+   "lat": -32.82346,
+   "lon": -69.89065,
+   "access": [],
+   "verticalFt": 430,
+   "lifts": 6,
+   "baseM": 2679,
+   "topM": 2809,
+   "website": "https://puquios.com.ar/",
+   "runMix": [
+    4,
+    2,
+    4,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 8,
+   "checkIn": {
+    "lat": -32.82403,
+    "lon": -69.88613,
+    "radiusM": 879
+   },
+   "trailMap": true
+  },
+  {
    "id": "loser",
    "name": "Loser (Altaussee)",
    "state": "Styria",
@@ -32930,6 +35771,36 @@
    "trailMap": true
   },
   {
+   "id": "manganui",
+   "name": "Manganui",
+   "state": "Taranaki",
+   "country": "NZ",
+   "lat": -39.30185,
+   "lon": 174.08452,
+   "access": [],
+   "verticalFt": 1430,
+   "lifts": 4,
+   "baseM": 1261,
+   "topM": 1697,
+   "website": "https://www.skitaranaki.co.nz/",
+   "runMix": [
+    1,
+    2,
+    12,
+    1
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 294,
+   "checkIn": {
+    "lat": -39.30165,
+    "lon": 174.08419,
+    "radiusM": 784
+   },
+   "trailMap": true
+  },
+  {
    "id": "maniva",
    "name": "Maniva",
    "state": "Lombardy",
@@ -33134,6 +36005,36 @@
     "lat": 44.1988,
     "lon": -80.05706,
     "radiusM": 610
+   },
+   "trailMap": true
+  },
+  {
+   "id": "manza-onsen",
+   "name": "Manza Onsen",
+   "state": "Gunma",
+   "country": "JP",
+   "lat": 36.63978,
+   "lon": 138.5029,
+   "access": [],
+   "verticalFt": 980,
+   "lifts": 5,
+   "baseM": 1658,
+   "topM": 1956,
+   "website": "https://www.princehotels.co.jp/ski/manza/",
+   "runMix": [
+    5,
+    1,
+    3,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 343,
+   "checkIn": {
+    "lat": 36.63987,
+    "lon": 138.50259,
+    "radiusM": 841
    },
    "trailMap": true
   },
@@ -33572,6 +36473,36 @@
    "trailMap": true
   },
   {
+   "id": "marunuma-kogen",
+   "name": "Marunuma Kogen",
+   "state": "Gunma",
+   "country": "JP",
+   "lat": 36.81071,
+   "lon": 139.3434,
+   "access": [],
+   "verticalFt": 1990,
+   "lifts": 8,
+   "baseM": 1383,
+   "topM": 1991,
+   "website": "https://www.marunuma.jp/winter/",
+   "runMix": [
+    7,
+    6,
+    3,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 115,
+   "checkIn": {
+    "lat": 36.81129,
+    "lon": 139.34178,
+    "radiusM": 1297
+   },
+   "trailMap": true
+  },
+  {
    "id": "masella",
    "name": "Masella",
    "state": "Catalonia",
@@ -33762,6 +36693,29 @@
     "lat": 46.61359,
     "lon": -70.48583,
     "radiusM": 1184
+   },
+   "trailMap": true
+  },
+  {
+   "id": "matsunoyama-onsen",
+   "name": "Matsunoyama Onsen",
+   "state": "Niigata",
+   "country": "JP",
+   "lat": 37.04936,
+   "lon": 138.60119,
+   "access": [],
+   "verticalFt": 1000,
+   "lifts": 2,
+   "baseM": 388,
+   "topM": 692,
+   "website": "https://www.matsunoyama-ski.com/",
+   "tags": [
+    "alpine"
+   ],
+   "checkIn": {
+    "lat": 37.04887,
+    "lon": 138.6013,
+    "radiusM": 755
    },
    "trailMap": true
   },
@@ -34096,6 +37050,30 @@
    "trailMap": true
   },
   {
+   "id": "megahiraonsen-megahira",
+   "name": "Megahiraonsen Megahira",
+   "state": "Hiroshima",
+   "country": "JP",
+   "lat": 34.49715,
+   "lon": 132.13411,
+   "access": [],
+   "verticalFt": 1550,
+   "lifts": 3,
+   "baseM": 592,
+   "topM": 1065,
+   "website": "https://www.megahira.co.jp/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 266,
+   "checkIn": {
+    "lat": 34.49708,
+    "lon": 132.1337,
+    "radiusM": 898
+   },
+   "trailMap": true
+  },
+  {
    "id": "megeve",
    "name": "Megève",
    "state": "Haute-Savoie",
@@ -34180,6 +37158,36 @@
     "lat": 48.65295,
     "lon": 8.24092,
     "radiusM": 561
+   },
+   "trailMap": true
+  },
+  {
+   "id": "meiho",
+   "name": "Meiho",
+   "state": "Gifu",
+   "country": "JP",
+   "lat": 35.94905,
+   "lon": 137.02847,
+   "access": [],
+   "verticalFt": 2220,
+   "lifts": 6,
+   "baseM": 899,
+   "topM": 1577,
+   "website": "https://www.meihoski.co.jp/",
+   "runMix": [
+    4,
+    5,
+    3,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 284,
+   "checkIn": {
+    "lat": 35.95203,
+    "lon": 137.02767,
+    "radiusM": 1470
    },
    "trailMap": true
   },
@@ -34401,6 +37409,30 @@
    "trailMap": true
   },
   {
+   "id": "mia",
+   "name": "Mia",
+   "state": "Nagano",
+   "country": "JP",
+   "lat": 35.92934,
+   "lon": 137.51509,
+   "access": [],
+   "verticalFt": 1850,
+   "lifts": 3,
+   "baseM": 1558,
+   "topM": 2121,
+   "website": "https://miaski-resort.com/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 255,
+   "checkIn": {
+    "lat": 35.92812,
+    "lon": 137.51491,
+    "radiusM": 1572
+   },
+   "trailMap": true
+  },
+  {
    "id": "middlebury-snowbowl",
    "name": "Middlebury Snowbowl",
    "state": "VT",
@@ -34516,6 +37548,60 @@
    "trailMap": true
   },
   {
+   "id": "mikata-snow-park",
+   "name": "Mikata Snow Park",
+   "state": "Hyogo",
+   "country": "JP",
+   "lat": 35.40949,
+   "lon": 134.53199,
+   "access": [],
+   "verticalFt": 1490,
+   "lifts": 4,
+   "baseM": 502,
+   "topM": 957,
+   "website": "https://www.mikatasnowpark.jp/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 134,
+   "checkIn": {
+    "lat": 35.40956,
+    "lon": 134.53085,
+    "radiusM": 874
+   },
+   "trailMap": true
+  },
+  {
+   "id": "minakami-kogen",
+   "name": "Minakami Kogen",
+   "state": "Gunma",
+   "country": "JP",
+   "lat": 36.85793,
+   "lon": 139.07789,
+   "access": [],
+   "verticalFt": 1290,
+   "lifts": 4,
+   "baseM": 851,
+   "topM": 1244,
+   "website": "https://fujiwaraski.com/",
+   "runMix": [
+    3,
+    4,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 90,
+   "checkIn": {
+    "lat": 36.85817,
+    "lon": 139.07937,
+    "radiusM": 1023
+   },
+   "trailMap": true
+  },
+  {
    "id": "minnedosa-ski-valley",
    "name": "Minnedosa Ski Valley",
    "state": "MB",
@@ -34596,6 +37682,35 @@
     "lat": 45.81538,
     "lon": -89.88873,
     "radiusM": 3668
+   },
+   "trailMap": true
+  },
+  {
+   "id": "minowa",
+   "name": "Minowa",
+   "state": "Fukushima",
+   "country": "JP",
+   "lat": 37.65121,
+   "lon": 140.2619,
+   "access": [],
+   "verticalFt": 1400,
+   "lifts": 3,
+   "baseM": 1045,
+   "topM": 1472,
+   "runMix": [
+    9,
+    2,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 92,
+   "checkIn": {
+    "lat": 37.65132,
+    "lon": 140.26272,
+    "radiusM": 956
    },
    "trailMap": true
   },
@@ -34810,6 +37925,90 @@
     "lat": 48.88768,
     "lon": 13.64344,
     "radiusM": 1174
+   },
+   "trailMap": true
+  },
+  {
+   "id": "miyagi-zao-eboshi-resort",
+   "name": "Miyagi Zao Eboshi Resort",
+   "state": "Miyagi",
+   "country": "JP",
+   "lat": 38.12548,
+   "lon": 140.51032,
+   "access": [],
+   "verticalFt": 2210,
+   "lifts": 8,
+   "baseM": 687,
+   "topM": 1361,
+   "website": "https://www.eboshi.co.jp/",
+   "runMix": [
+    10,
+    4,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 246,
+   "checkIn": {
+    "lat": 38.12425,
+    "lon": 140.51206,
+    "radiusM": 1513
+   },
+   "trailMap": true
+  },
+  {
+   "id": "miyagi-zao-shichikashuku",
+   "name": "Miyagi Zao Shichikashuku",
+   "state": "Miyagi",
+   "country": "JP",
+   "lat": 37.99607,
+   "lon": 140.37512,
+   "access": [],
+   "verticalFt": 1370,
+   "lifts": 4,
+   "baseM": 540,
+   "topM": 957,
+   "website": "http://www015.upp.so-net.ne.jp/ski-ski/",
+   "runMix": [
+    5,
+    2,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 116,
+   "checkIn": {
+    "lat": 37.99611,
+    "lon": 140.37564,
+    "radiusM": 783
+   },
+   "trailMap": true
+  },
+  {
+   "id": "mizuho-highland",
+   "name": "Mizuho Highland",
+   "state": "Hiroshima",
+   "country": "JP",
+   "lat": 34.79591,
+   "lon": 132.39083,
+   "access": [],
+   "verticalFt": 2370,
+   "lifts": 5,
+   "baseM": 491,
+   "topM": 1213,
+   "website": "https://www.mizuhohighland.com/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 240,
+   "checkIn": {
+    "lat": 34.79663,
+    "lon": 132.39,
+    "radiusM": 1865
    },
    "trailMap": true
   },
@@ -36904,6 +40103,36 @@
    "trailMap": true
   },
   {
+   "id": "mount-baw-baw",
+   "name": "Mount Baw Baw",
+   "state": "Victoria",
+   "country": "AU",
+   "lat": -37.83811,
+   "lon": 146.26919,
+   "access": [],
+   "verticalFt": 360,
+   "lifts": 8,
+   "baseM": 1455,
+   "topM": 1566,
+   "website": "https://www.mountbawbaw.com.au/",
+   "runMix": [
+    4,
+    7,
+    3,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 60,
+   "checkIn": {
+    "lat": -37.84,
+    "lon": 146.26999,
+    "radiusM": 649
+   },
+   "trailMap": true
+  },
+  {
    "id": "mount-bohemia",
    "name": "Mount Bohemia",
    "state": "MI",
@@ -36986,6 +40215,66 @@
     "lat": 50.22255,
     "lon": -126.34549,
     "radiusM": 930
+   },
+   "trailMap": true
+  },
+  {
+   "id": "mount-cheeseman",
+   "name": "Mount Cheeseman",
+   "state": "Canterbury",
+   "country": "NZ",
+   "lat": -43.155,
+   "lon": 171.66402,
+   "access": [],
+   "verticalFt": 1000,
+   "lifts": 3,
+   "baseM": 1550,
+   "topM": 1854,
+   "website": "https://www.mtcheeseman.co.nz/",
+   "runMix": [
+    3,
+    9,
+    7,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 298,
+   "checkIn": {
+    "lat": -43.1552,
+    "lon": 171.66454,
+    "radiusM": 630
+   },
+   "trailMap": true
+  },
+  {
+   "id": "mount-dobson",
+   "name": "Mount Dobson",
+   "state": "Canterbury",
+   "country": "NZ",
+   "lat": -43.9385,
+   "lon": 170.66156,
+   "access": [],
+   "verticalFt": 970,
+   "lifts": 4,
+   "baseM": 1713,
+   "topM": 2010,
+   "website": "https://mtdobson.co.nz",
+   "runMix": [
+    1,
+    6,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 26,
+   "checkIn": {
+    "lat": -43.93956,
+    "lon": 170.66719,
+    "radiusM": 997
    },
    "trailMap": true
   },
@@ -37282,6 +40571,36 @@
    "trailMap": true
   },
   {
+   "id": "mount-lyford",
+   "name": "Mount Lyford",
+   "state": "Marlborough",
+   "country": "NZ",
+   "lat": -42.44297,
+   "lon": 173.14898,
+   "access": [],
+   "verticalFt": 1060,
+   "lifts": 6,
+   "baseM": 1412,
+   "topM": 1735,
+   "website": "https://www.mtlyford.co.nz/",
+   "runMix": [
+    1,
+    8,
+    4,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 101,
+   "checkIn": {
+    "lat": -42.44508,
+    "lon": 173.14781,
+    "radiusM": 698
+   },
+   "trailMap": true
+  },
+  {
    "id": "mount-maichen-watson-lake",
    "name": "Mount Maichen (Watson Lake)",
    "state": "YT",
@@ -37332,6 +40651,53 @@
     "lat": 46.1151,
     "lon": -77.50913,
     "radiusM": 400
+   },
+   "trailMap": true
+  },
+  {
+   "id": "mount-mawson",
+   "name": "Mount Mawson",
+   "state": "Tasmania",
+   "country": "AU",
+   "lat": -42.68155,
+   "lon": 146.57713,
+   "access": [],
+   "verticalFt": 80,
+   "lifts": 3,
+   "baseM": 1220,
+   "topM": 1245,
+   "website": "https://mtmawson.info/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 0,
+   "checkIn": {
+    "lat": -42.6821,
+    "lon": 146.57695,
+    "radiusM": 914
+   },
+   "trailMap": true
+  },
+  {
+   "id": "mount-olympus",
+   "name": "Mount Olympus",
+   "state": "Canterbury",
+   "country": "NZ",
+   "lat": -43.1934,
+   "lon": 171.60594,
+   "access": [],
+   "verticalFt": 1150,
+   "lifts": 5,
+   "baseM": 1465,
+   "topM": 1814,
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 0,
+   "checkIn": {
+    "lat": -43.19347,
+    "lon": 171.60375,
+    "radiusM": 739
    },
    "trailMap": true
   },
@@ -37946,6 +41312,30 @@
    "trailMap": true
   },
   {
+   "id": "moya-hills",
+   "name": "Moya Hills",
+   "state": "Aomori",
+   "country": "JP",
+   "lat": 40.73386,
+   "lon": 140.79647,
+   "access": [],
+   "verticalFt": 910,
+   "lifts": 5,
+   "baseM": 241,
+   "topM": 519,
+   "website": "https://www.moyahills.jp/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 166,
+   "checkIn": {
+    "lat": 40.73257,
+    "lon": 140.79604,
+    "radiusM": 829
+   },
+   "trailMap": true
+  },
+  {
    "id": "mt-buller",
    "name": "Mt Buller",
    "state": "Victoria",
@@ -38285,6 +41675,29 @@
     "lat": 49.37221,
     "lon": -122.94449,
     "radiusM": 1179
+   },
+   "trailMap": true
+  },
+  {
+   "id": "mt-st-bernard",
+   "name": "Mt St Bernard",
+   "state": "Victoria",
+   "country": "AU",
+   "lat": -37.01033,
+   "lon": 147.07983,
+   "access": [],
+   "verticalFt": 300,
+   "lifts": 2,
+   "baseM": 1438,
+   "topM": 1530,
+   "website": "https://www.wangskiclub.org.au/",
+   "tags": [
+    "alpine"
+   ],
+   "checkIn": {
+    "lat": -37.00945,
+    "lon": 147.0804,
+    "radiusM": 469
    },
    "trailMap": true
   },
@@ -39231,6 +42644,66 @@
    "trailMap": true
   },
   {
+   "id": "muikamachi-hakkaisan",
+   "name": "Muikamachi Hakkaisan",
+   "state": "Niigata",
+   "country": "JP",
+   "lat": 37.11733,
+   "lon": 138.98568,
+   "access": [],
+   "verticalFt": 2660,
+   "lifts": 4,
+   "baseM": 358,
+   "topM": 1168,
+   "website": "https://www.princehotels.co.jp/ski/hakkaisan/",
+   "runMix": [
+    7,
+    4,
+    2,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 35,
+   "checkIn": {
+    "lat": 37.11745,
+    "lon": 138.98525,
+    "radiusM": 1226
+   },
+   "trailMap": true
+  },
+  {
+   "id": "muju",
+   "name": "Muju",
+   "state": "Jeollabuk",
+   "country": "KR",
+   "lat": 35.88937,
+   "lon": 127.74502,
+   "access": [],
+   "verticalFt": 2590,
+   "lifts": 11,
+   "baseM": 723,
+   "topM": 1512,
+   "website": "https://www.mdysresort.com/",
+   "runMix": [
+    6,
+    7,
+    8,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 199,
+   "checkIn": {
+    "lat": 35.87764,
+    "lon": 127.7423,
+    "radiusM": 2004
+   },
+   "trailMap": true
+  },
+  {
    "id": "mulligans-hollow",
    "name": "Mulligan's Hollow",
    "state": "MI",
@@ -39314,6 +42787,30 @@
     "lat": 54.52483,
     "lon": -124.20149,
     "radiusM": 1308
+   },
+   "trailMap": true
+  },
+  {
+   "id": "mutsushi-kamafuseyama",
+   "name": "Mutsushi Kamafuseyama",
+   "state": "Aomori",
+   "country": "JP",
+   "lat": 41.26598,
+   "lon": 141.13446,
+   "access": [],
+   "verticalFt": 1410,
+   "lifts": 3,
+   "baseM": 92,
+   "topM": 523,
+   "website": "https://mutsu-taikyo.jp/ski.html",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 310,
+   "checkIn": {
+    "lat": 41.2667,
+    "lon": 141.13234,
+    "radiusM": 998
    },
    "trailMap": true
   },
@@ -39698,6 +43195,30 @@
    "trailMap": true
   },
   {
+   "id": "naspa-ski-garden",
+   "name": "NASPA Ski Garden",
+   "state": "Niigata",
+   "country": "JP",
+   "lat": 36.92444,
+   "lon": 138.80499,
+   "access": [],
+   "verticalFt": 820,
+   "lifts": 6,
+   "baseM": 431,
+   "topM": 682,
+   "website": "https://naspa.co.jp/ski/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 293,
+   "checkIn": {
+    "lat": 36.92439,
+    "lon": 138.80561,
+    "radiusM": 756
+   },
+   "trailMap": true
+  },
+  {
    "id": "nekoma",
    "name": "NEKOMA Mountain",
    "state": "Fukushima",
@@ -39744,6 +43265,36 @@
     "lat": 37.60548,
     "lon": 140.03452,
     "radiusM": 2611
+   },
+   "trailMap": true
+  },
+  {
+   "id": "naeba",
+   "name": "Naeba",
+   "state": "Niigata",
+   "country": "JP",
+   "lat": 36.79321,
+   "lon": 138.77517,
+   "access": [],
+   "verticalFt": 2960,
+   "lifts": 15,
+   "baseM": 882,
+   "topM": 1785,
+   "website": "https://www.princehotels.co.jp/ski/naeba/",
+   "runMix": [
+    10,
+    6,
+    8,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 253,
+   "checkIn": {
+    "lat": 36.7945,
+    "lon": 138.77173,
+    "radiusM": 1572
    },
    "trailMap": true
   },
@@ -40224,6 +43775,30 @@
    "trailMap": true
   },
   {
+   "id": "new-greenpia-tsunan",
+   "name": "New Greenpia Tsunan",
+   "state": "Niigata",
+   "country": "JP",
+   "lat": 36.95448,
+   "lon": 138.68807,
+   "access": [],
+   "verticalFt": 1000,
+   "lifts": 3,
+   "baseM": 657,
+   "topM": 963,
+   "website": "https://www.new-greenpia.com/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 193,
+   "checkIn": {
+    "lat": 36.95253,
+    "lon": 138.68855,
+    "radiusM": 1164
+   },
+   "trailMap": true
+  },
+  {
    "id": "newcomb-ski-slope",
    "name": "Newcomb Ski Slope",
    "state": "NY",
@@ -40493,6 +44068,36 @@
    "trailMap": true
   },
   {
+   "id": "niseko-moiwa",
+   "name": "Niseko Moiwa",
+   "state": "Hokkaido",
+   "country": "JP",
+   "lat": 42.85556,
+   "lon": 140.63224,
+   "access": [],
+   "verticalFt": 1460,
+   "lifts": 3,
+   "baseM": 345,
+   "topM": 789,
+   "website": "https://niseko-moiwa.jp/",
+   "runMix": [
+    2,
+    3,
+    3,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 6,
+   "checkIn": {
+    "lat": 42.85552,
+    "lon": 140.63214,
+    "radiusM": 975
+   },
+   "trailMap": true
+  },
+  {
    "id": "niseko-united",
    "name": "Niseko United",
    "state": "Hokkaido",
@@ -40699,6 +44304,36 @@
     "lat": 60.22684,
     "lon": 9.57125,
     "radiusM": 2112
+   },
+   "trailMap": true
+  },
+  {
+   "id": "norn-minakami",
+   "name": "Norn Minakami",
+   "state": "Gunma",
+   "country": "JP",
+   "lat": 36.7415,
+   "lon": 138.93335,
+   "access": [],
+   "verticalFt": 1280,
+   "lifts": 4,
+   "baseM": 823,
+   "topM": 1214,
+   "website": "http://www.norn.co.jp/",
+   "runMix": [
+    3,
+    4,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 261,
+   "checkIn": {
+    "lat": 36.74104,
+    "lon": 138.93372,
+    "radiusM": 952
    },
    "trailMap": true
   },
@@ -41054,6 +44689,36 @@
    "trailMap": true
   },
   {
+   "id": "numajiri",
+   "name": "Numajiri",
+   "state": "Fukushima",
+   "country": "JP",
+   "lat": 37.62364,
+   "lon": 140.23599,
+   "access": [],
+   "verticalFt": 1140,
+   "lifts": 6,
+   "baseM": 865,
+   "topM": 1213,
+   "website": "https://www.numajiri-ski.jp/",
+   "runMix": [
+    12,
+    3,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 61,
+   "checkIn": {
+    "lat": 37.62327,
+    "lon": 140.23806,
+    "radiusM": 1180
+   },
+   "trailMap": true
+  },
+  {
    "id": "nuova-lizzola",
    "name": "Nuova Lizzola",
    "state": "Lombardy",
@@ -41136,6 +44801,30 @@
     "lat": 43.7514,
     "lon": -87.99039,
     "radiusM": 400
+   },
+   "trailMap": true
+  },
+  {
+   "id": "o2-resort",
+   "name": "O2 Resort",
+   "state": "Gangwon",
+   "country": "KR",
+   "lat": 37.17238,
+   "lon": 128.93709,
+   "access": [],
+   "verticalFt": 1880,
+   "lifts": 3,
+   "baseM": 844,
+   "topM": 1416,
+   "website": "https://www.o2resort.com/SKI/basicInfo.jsp",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 225,
+   "checkIn": {
+    "lat": 37.17351,
+    "lon": 128.93615,
+    "radiusM": 1258
    },
    "trailMap": true
   },
@@ -41645,6 +45334,66 @@
    "trailMap": true
   },
   {
+   "id": "oguna-hotaka",
+   "name": "Oguna Hotaka",
+   "state": "Gunma",
+   "country": "JP",
+   "lat": 36.78276,
+   "lon": 139.1644,
+   "access": [],
+   "verticalFt": 1840,
+   "lifts": 6,
+   "baseM": 1242,
+   "topM": 1803,
+   "website": "http://ognahotaka.jp/",
+   "runMix": [
+    5,
+    5,
+    4,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 308,
+   "checkIn": {
+    "lat": 36.78248,
+    "lon": 139.16602,
+    "radiusM": 1104
+   },
+   "trailMap": true
+  },
+  {
+   "id": "ohau",
+   "name": "Ohau",
+   "state": "Canterbury",
+   "country": "NZ",
+   "lat": -44.22133,
+   "lon": 169.77536,
+   "access": [],
+   "verticalFt": 1250,
+   "lifts": 3,
+   "baseM": 1419,
+   "topM": 1799,
+   "website": "https://ohau.co.nz/ohau-snow-fields/snow",
+   "runMix": [
+    3,
+    5,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 304,
+   "checkIn": {
+    "lat": -44.22144,
+    "lon": 169.77594,
+    "radiusM": 735
+   },
+   "trailMap": true
+  },
+  {
    "id": "okemo",
    "name": "Okemo",
    "state": "VT",
@@ -41712,6 +45461,30 @@
    "trailMap": true
   },
   {
+   "id": "oku-kannabe",
+   "name": "Oku Kannabe",
+   "state": "Hyogo",
+   "country": "JP",
+   "lat": 35.49766,
+   "lon": 134.64408,
+   "access": [],
+   "verticalFt": 170,
+   "lifts": 5,
+   "baseM": 386,
+   "topM": 439,
+   "website": "https://www.manba-ski.jp/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 0,
+   "checkIn": {
+    "lat": 35.49806,
+    "lon": 134.64487,
+    "radiusM": 1242
+   },
+   "trailMap": true
+  },
+  {
    "id": "okunakayama-kogen",
    "name": "Okunakayama Kogen",
    "state": "Iwate",
@@ -41757,6 +45530,60 @@
     "lat": 40.08619,
     "lon": 141.1816,
     "radiusM": 989
+   },
+   "trailMap": true
+  },
+  {
+   "id": "okutadami-maruyama",
+   "name": "Okutadami Maruyama",
+   "state": "Niigata",
+   "country": "JP",
+   "lat": 37.15995,
+   "lon": 139.23444,
+   "access": [],
+   "verticalFt": 1620,
+   "lifts": 5,
+   "baseM": 742,
+   "topM": 1237,
+   "website": "http://www.okutadami.co.jp/",
+   "runMix": [
+    2,
+    2,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 243,
+   "checkIn": {
+    "lat": 37.1598,
+    "lon": 139.23617,
+    "radiusM": 995
+   },
+   "trailMap": true
+  },
+  {
+   "id": "okutone",
+   "name": "Okutone",
+   "state": "Gunma",
+   "country": "JP",
+   "lat": 36.79817,
+   "lon": 139.01087,
+   "access": [],
+   "verticalFt": 1310,
+   "lifts": 6,
+   "baseM": 561,
+   "topM": 961,
+   "website": "https://okutone.jp/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 154,
+   "checkIn": {
+    "lat": 36.79778,
+    "lon": 139.00954,
+    "radiusM": 860
    },
    "trailMap": true
   },
@@ -41838,6 +45665,30 @@
     "lat": 38.78146,
     "lon": 140.63492,
     "radiusM": 930
+   },
+   "trailMap": true
+  },
+  {
+   "id": "ontake",
+   "name": "Ontake",
+   "state": "Nagano",
+   "country": "JP",
+   "lat": 35.86724,
+   "lon": 137.52074,
+   "access": [],
+   "verticalFt": 1730,
+   "lifts": 3,
+   "baseM": 1684,
+   "topM": 2212,
+   "website": "https://ontakeskijo.com/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 293,
+   "checkIn": {
+    "lat": 35.86705,
+    "lon": 137.51921,
+    "radiusM": 1870
    },
    "trailMap": true
   },
@@ -42091,6 +45942,30 @@
    "trailMap": true
   },
   {
+   "id": "osa",
+   "name": "Osa",
+   "state": "Hiroshima",
+   "country": "JP",
+   "lat": 34.74603,
+   "lon": 132.21285,
+   "access": [],
+   "verticalFt": 750,
+   "lifts": 5,
+   "baseM": 705,
+   "topM": 934,
+   "website": "https://osaski.co.jp/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 259,
+   "checkIn": {
+    "lat": 34.74589,
+    "lon": 132.21461,
+    "radiusM": 729
+   },
+   "trailMap": true
+  },
+  {
    "id": "osceola-tug-hill",
    "name": "Osceola Tug Hill XC Ski Center",
    "state": "NY",
@@ -42172,6 +46047,60 @@
     "lat": 44.45799,
     "lon": -80.28406,
     "radiusM": 903
+   },
+   "trailMap": true
+  },
+  {
+   "id": "osorakan-snow-park",
+   "name": "Osorakan Snow Park",
+   "state": "Hiroshima",
+   "country": "JP",
+   "lat": 34.59733,
+   "lon": 132.13977,
+   "access": [],
+   "verticalFt": 1290,
+   "lifts": 8,
+   "baseM": 882,
+   "topM": 1274,
+   "website": "https://www.osorakan.co.jp/",
+   "runMix": [
+    6,
+    3,
+    6,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 274,
+   "checkIn": {
+    "lat": 34.59717,
+    "lon": 132.13865,
+    "radiusM": 910
+   },
+   "trailMap": true
+  },
+  {
+   "id": "otaru-tenguyama",
+   "name": "Otaru Tenguyama",
+   "state": "Hokkaido",
+   "country": "JP",
+   "lat": 43.17365,
+   "lon": 140.97065,
+   "access": [],
+   "verticalFt": 1060,
+   "lifts": 3,
+   "baseM": 205,
+   "topM": 529,
+   "website": "https://tenguyama.ckk.chuo-bus.co.jp/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 198,
+   "checkIn": {
+    "lat": 43.1735,
+    "lon": 140.97171,
+    "radiusM": 803
    },
    "trailMap": true
   },
@@ -42346,6 +46275,30 @@
     "lat": 46.20351,
     "lon": 7.13413,
     "radiusM": 1850
+   },
+   "trailMap": true
+  },
+  {
+   "id": "owani-onsen",
+   "name": "Owani Onsen",
+   "state": "Aomori",
+   "country": "JP",
+   "lat": 40.50274,
+   "lon": 140.57109,
+   "access": [],
+   "verticalFt": 1470,
+   "lifts": 3,
+   "baseM": 101,
+   "topM": 550,
+   "website": "https://www.owani-ski.com/w/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 148,
+   "checkIn": {
+    "lat": 40.50083,
+    "lon": 140.57151,
+    "radiusM": 1040
    },
    "trailMap": true
   },
@@ -43890,6 +47843,36 @@
    "trailMap": true
   },
   {
+   "id": "phoenix-park",
+   "name": "Phoenix Park",
+   "state": "Gangwon",
+   "country": "KR",
+   "lat": 37.5801,
+   "lon": 128.32185,
+   "access": [],
+   "verticalFt": 1300,
+   "lifts": 7,
+   "baseM": 657,
+   "topM": 1053,
+   "website": "http://www.phoenixpark.co.kr/",
+   "runMix": [
+    10,
+    7,
+    3,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 214,
+   "checkIn": {
+    "lat": 37.57865,
+    "lon": 128.31632,
+    "radiusM": 1192
+   },
+   "trailMap": true
+  },
+  {
    "id": "pian-benot",
    "name": "Pian Benot",
    "state": "Piedmont",
@@ -44279,6 +48262,36 @@
     "lat": 47.00508,
     "lon": 8.26346,
     "radiusM": 3229
+   },
+   "trailMap": true
+  },
+  {
+   "id": "pilatus-tateshina",
+   "name": "Pilatus Tateshina",
+   "state": "Nagano",
+   "country": "JP",
+   "lat": 36.07251,
+   "lon": 138.31067,
+   "access": [],
+   "verticalFt": 1550,
+   "lifts": 3,
+   "baseM": 1751,
+   "topM": 2222,
+   "website": "https://www.pilatus.jp/",
+   "runMix": [
+    2,
+    4,
+    2,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 62,
+   "checkIn": {
+    "lat": 36.07332,
+    "lon": 138.31202,
+    "radiusM": 1286
    },
    "trailMap": true
   },
@@ -45243,6 +49256,36 @@
     "lat": 56.00992,
     "lon": -122.17111,
     "radiusM": 400
+   },
+   "trailMap": true
+  },
+  {
+   "id": "porters",
+   "name": "Porters",
+   "state": "Canterbury",
+   "country": "NZ",
+   "lat": -43.27077,
+   "lon": 171.63269,
+   "access": [],
+   "verticalFt": 2100,
+   "lifts": 6,
+   "baseM": 1304,
+   "topM": 1943,
+   "website": "http://www.skiporters.co.nz",
+   "runMix": [
+    0,
+    6,
+    13,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 270,
+   "checkIn": {
+    "lat": -43.27079,
+    "lon": 171.63356,
+    "radiusM": 1068
    },
    "trailMap": true
   },
@@ -46812,6 +50855,36 @@
     "lat": 43.4781,
     "lon": -71.8458,
     "radiusM": 1178
+   },
+   "trailMap": true
+  },
+  {
+   "id": "rainbow",
+   "name": "Rainbow",
+   "state": "Marlborough",
+   "country": "NZ",
+   "lat": -41.87103,
+   "lon": 172.85845,
+   "access": [],
+   "verticalFt": 670,
+   "lifts": 5,
+   "baseM": 1541,
+   "topM": 1744,
+   "website": "https://www.skirainbow.co.nz/",
+   "runMix": [
+    3,
+    1,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 333,
+   "checkIn": {
+    "lat": -41.872,
+    "lon": 172.8565,
+    "radiusM": 884
    },
    "trailMap": true
   },
@@ -48480,6 +52553,36 @@
    "trailMap": true
   },
   {
+   "id": "roundhill",
+   "name": "Roundhill",
+   "state": "Canterbury",
+   "country": "NZ",
+   "lat": -43.82356,
+   "lon": 170.66899,
+   "access": [],
+   "verticalFt": 2480,
+   "lifts": 4,
+   "baseM": 1365,
+   "topM": 2120,
+   "website": "https://www.roundhill.co.nz/",
+   "runMix": [
+    2,
+    6,
+    3,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 62,
+   "checkIn": {
+    "lat": -43.82269,
+    "lon": 170.66718,
+    "radiusM": 1339
+   },
+   "trailMap": true
+  },
+  {
    "id": "roundtop",
    "name": "Roundtop Mountain Resort",
    "state": "PA",
@@ -48705,6 +52808,36 @@
    "trailMap": true
   },
   {
+   "id": "ryuoo",
+   "name": "Ryuoo",
+   "state": "Nagano",
+   "country": "JP",
+   "lat": 36.78108,
+   "lon": 138.46881,
+   "access": [],
+   "verticalFt": 3460,
+   "lifts": 12,
+   "baseM": 867,
+   "topM": 1922,
+   "website": "https://www.komaruyama.jp/",
+   "runMix": [
+    4,
+    5,
+    2,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 106,
+   "checkIn": {
+    "lat": 36.77961,
+    "lon": 138.47132,
+    "radiusM": 2222
+   },
+   "trailMap": true
+  },
+  {
    "id": "reallon",
    "name": "Réallon",
    "state": "Hautes-Alpes",
@@ -48794,6 +52927,30 @@
     "lat": 46.74976,
     "lon": 7.42797,
     "radiusM": 1580
+   },
+   "trailMap": true
+  },
+  {
+   "id": "sam-hakusan-ichirino",
+   "name": "SAM Hakusan Ichirino",
+   "state": "Ishikawa",
+   "country": "JP",
+   "lat": 36.263,
+   "lon": 136.71166,
+   "access": [],
+   "verticalFt": 1590,
+   "lifts": 4,
+   "baseM": 547,
+   "topM": 1031,
+   "website": "https://sam-hakusan.com/sam-snow/ichirino/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 175,
+   "checkIn": {
+    "lat": 36.26232,
+    "lon": 136.71057,
+    "radiusM": 968
    },
    "trailMap": true
   },
@@ -49040,6 +53197,36 @@
     "lat": 47.4317,
     "lon": -121.41581,
     "radiusM": 400
+   },
+   "trailMap": true
+  },
+  {
+   "id": "sahoro",
+   "name": "Sahoro",
+   "state": "Hokkaido",
+   "country": "JP",
+   "lat": 43.17604,
+   "lon": 142.79593,
+   "access": [],
+   "verticalFt": 2090,
+   "lifts": 9,
+   "baseM": 408,
+   "topM": 1044,
+   "website": "https://www.sahoro.co.jp/",
+   "runMix": [
+    8,
+    2,
+    10,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 263,
+   "checkIn": {
+    "lat": 43.17531,
+    "lon": 142.79507,
+    "radiusM": 1502
    },
    "trailMap": true
   },
@@ -49362,6 +53549,60 @@
     "lat": 45.58159,
     "lon": 6.91104,
     "radiusM": 1758
+   },
+   "trailMap": true
+  },
+  {
+   "id": "sakae-club",
+   "name": "Sakae Club",
+   "state": "Nagano",
+   "country": "JP",
+   "lat": 36.99949,
+   "lon": 138.55986,
+   "access": [],
+   "verticalFt": 1330,
+   "lifts": 3,
+   "baseM": 396,
+   "topM": 800,
+   "website": "https://sakaeclub.jp/",
+   "runMix": [
+    3,
+    4,
+    2,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 332,
+   "checkIn": {
+    "lat": 37.00011,
+    "lon": 138.55955,
+    "radiusM": 834
+   },
+   "trailMap": true
+  },
+  {
+   "id": "saku-ski-garden-parada",
+   "name": "Saku Ski Garden Parada",
+   "state": "Nagano",
+   "country": "JP",
+   "lat": 36.28747,
+   "lon": 138.51344,
+   "access": [],
+   "verticalFt": 950,
+   "lifts": 8,
+   "baseM": 758,
+   "topM": 1047,
+   "website": "https://www.saku-parada.jp/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 126,
+   "checkIn": {
+    "lat": 36.28627,
+    "lon": 138.51426,
+    "radiusM": 1125
    },
    "trailMap": true
   },
@@ -49738,6 +53979,36 @@
    "trailMap": true
   },
   {
+   "id": "sanlaiva",
+   "name": "Sanlaiva",
+   "state": "Hokkaido",
+   "country": "JP",
+   "lat": 42.52154,
+   "lon": 141.0965,
+   "access": [],
+   "verticalFt": 1190,
+   "lifts": 3,
+   "baseM": 356,
+   "topM": 720,
+   "website": "https://www.sanlaiva.com/",
+   "runMix": [
+    4,
+    3,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 268,
+   "checkIn": {
+    "lat": 42.52136,
+    "lon": 141.09714,
+    "radiusM": 796
+   },
+   "trailMap": true
+  },
+  {
    "id": "sansicario",
    "name": "Sansicario",
    "state": "Piedmont",
@@ -49794,6 +54065,30 @@
     "lat": 46.39809,
     "lon": 10.47921,
     "radiusM": 2003
+   },
+   "trailMap": true
+  },
+  {
+   "id": "santa-present-park",
+   "name": "Santa Present Park",
+   "state": "Hokkaido",
+   "country": "JP",
+   "lat": 43.75813,
+   "lon": 142.29941,
+   "access": [],
+   "verticalFt": 520,
+   "lifts": 5,
+   "baseM": 164,
+   "topM": 322,
+   "website": "https://www.asahikawasantapresentpark.com/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 224,
+   "checkIn": {
+    "lat": 43.75812,
+    "lon": 142.29895,
+    "radiusM": 642
    },
    "trailMap": true
   },
@@ -49896,6 +54191,120 @@
     "lat": 35.12257,
     "lon": -83.05931,
     "radiusM": 400
+   },
+   "trailMap": true
+  },
+  {
+   "id": "sapporo-bankei",
+   "name": "Sapporo Bankei",
+   "state": "Hokkaido",
+   "country": "JP",
+   "lat": 43.02788,
+   "lon": 141.27798,
+   "access": [],
+   "verticalFt": 790,
+   "lifts": 6,
+   "baseM": 193,
+   "topM": 435,
+   "website": "https://www.bankei.co.jp/",
+   "runMix": [
+    9,
+    3,
+    3,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 177,
+   "checkIn": {
+    "lat": 43.02719,
+    "lon": 141.27747,
+    "radiusM": 732
+   },
+   "trailMap": true
+  },
+  {
+   "id": "sapporo-kokusai",
+   "name": "Sapporo Kokusai",
+   "state": "Hokkaido",
+   "country": "JP",
+   "lat": 43.07235,
+   "lon": 141.06917,
+   "access": [],
+   "verticalFt": 1540,
+   "lifts": 4,
+   "baseM": 620,
+   "topM": 1089,
+   "website": "https://www.sapporo-kokusai.jp/",
+   "runMix": [
+    4,
+    8,
+    2,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 268,
+   "checkIn": {
+    "lat": 43.07306,
+    "lon": 141.07007,
+    "radiusM": 1258
+   },
+   "trailMap": true
+  },
+  {
+   "id": "sapporo-moiwayama",
+   "name": "Sapporo Moiwayama",
+   "state": "Hokkaido",
+   "country": "JP",
+   "lat": 43.01388,
+   "lon": 141.32768,
+   "access": [],
+   "verticalFt": 860,
+   "lifts": 7,
+   "baseM": 177,
+   "topM": 439,
+   "website": "https://www.rinyu.co.jp/modules/pico02/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 349,
+   "checkIn": {
+    "lat": 43.0155,
+    "lon": 141.32721,
+    "radiusM": 991
+   },
+   "trailMap": true
+  },
+  {
+   "id": "sapporo-teine",
+   "name": "Sapporo Teine",
+   "state": "Hokkaido",
+   "country": "JP",
+   "lat": 43.08751,
+   "lon": 141.20705,
+   "access": [],
+   "verticalFt": 2120,
+   "lifts": 12,
+   "baseM": 340,
+   "topM": 986,
+   "website": "https://sapporo-teine.com/snow/",
+   "runMix": [
+    7,
+    4,
+    3,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 214,
+   "checkIn": {
+    "lat": 43.08808,
+    "lon": 141.20405,
+    "radiusM": 1885
    },
    "trailMap": true
   },
@@ -51109,6 +55518,36 @@
    "trailMap": true
   },
   {
+   "id": "selwyn",
+   "name": "Selwyn",
+   "state": "New South Wales",
+   "country": "AU",
+   "lat": -35.9086,
+   "lon": 148.45219,
+   "access": [],
+   "verticalFt": 360,
+   "lifts": 8,
+   "baseM": 1490,
+   "topM": 1600,
+   "website": "https://www.selwynsnow.com.au/",
+   "runMix": [
+    7,
+    13,
+    2,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 357,
+   "checkIn": {
+    "lat": -35.90884,
+    "lon": 148.45228,
+    "radiusM": 658
+   },
+   "trailMap": true
+  },
+  {
    "id": "semmering-hirschenkogel",
    "name": "Semmering Hirschenkogel",
    "state": "Lower Austria",
@@ -51135,6 +55574,29 @@
     "lat": 47.62623,
     "lon": 15.83183,
     "radiusM": 884
+   },
+   "trailMap": true
+  },
+  {
+   "id": "senjojiki",
+   "name": "Senjojiki",
+   "state": "Nagano",
+   "country": "JP",
+   "lat": 35.7775,
+   "lon": 137.81462,
+   "access": [],
+   "verticalFt": 3110,
+   "lifts": 1,
+   "baseM": 1693,
+   "topM": 2642,
+   "website": "https://www.chuo-alps.com/hotel/ski/",
+   "tags": [
+    "alpine"
+   ],
+   "checkIn": {
+    "lat": 35.77263,
+    "lon": 137.82377,
+    "radiusM": 1265
    },
    "trailMap": true
   },
@@ -51670,6 +56132,100 @@
     "lat": 39.8969,
     "lon": 140.94307,
     "radiusM": 1195
+   },
+   "trailMap": true
+  },
+  {
+   "id": "shinshu-matsumoto-nomugitoge",
+   "name": "Shinshu-Matsumoto Nomugitoge",
+   "state": "Nagano",
+   "country": "JP",
+   "lat": 36.04795,
+   "lon": 137.72373,
+   "access": [],
+   "verticalFt": 2230,
+   "lifts": 4,
+   "baseM": 1434,
+   "topM": 2114,
+   "website": "http://www.gakutoresort.jp/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 100,
+   "checkIn": {
+    "lat": 36.04707,
+    "lon": 137.72315,
+    "radiusM": 1478
+   },
+   "trailMap": true
+  },
+  {
+   "id": "shiramine-alpen-kyogijou",
+   "name": "Shiramine Alpen Kyogijou",
+   "state": "Ishikawa",
+   "country": "JP",
+   "lat": 36.18217,
+   "lon": 136.63262,
+   "access": [],
+   "verticalFt": 1220,
+   "lifts": 2,
+   "baseM": 481,
+   "topM": 854,
+   "website": "https://shiramine-ss.com/",
+   "tags": [
+    "alpine"
+   ],
+   "checkIn": {
+    "lat": 36.18598,
+    "lon": 136.63211,
+    "radiusM": 752
+   },
+   "trailMap": true
+  },
+  {
+   "id": "shirao",
+   "name": "Shirao",
+   "state": "Gifu",
+   "country": "JP",
+   "lat": 35.89836,
+   "lon": 136.94012,
+   "access": [],
+   "verticalFt": 1640,
+   "lifts": 5,
+   "baseM": 739,
+   "topM": 1238,
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 89,
+   "checkIn": {
+    "lat": 35.89897,
+    "lon": 136.93976,
+    "radiusM": 1083
+   },
+   "trailMap": true
+  },
+  {
+   "id": "shizukuishi",
+   "name": "Shizukuishi",
+   "state": "Iwate",
+   "country": "JP",
+   "lat": 39.783,
+   "lon": 140.92005,
+   "access": [],
+   "verticalFt": 2330,
+   "lifts": 6,
+   "baseM": 423,
+   "topM": 1133,
+   "website": "https://www.princehotels.com/en/ski/shizukuishi/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 292,
+   "checkIn": {
+    "lat": 39.77873,
+    "lon": 140.91882,
+    "radiusM": 1729
    },
    "trailMap": true
   },
@@ -54133,6 +58689,30 @@
    "trailMap": true
   },
   {
+   "id": "sky-valley",
+   "name": "Sky Valley",
+   "state": "Hyogo",
+   "country": "JP",
+   "lat": 35.39498,
+   "lon": 134.56684,
+   "access": [],
+   "verticalFt": 1500,
+   "lifts": 5,
+   "baseM": 536,
+   "topM": 992,
+   "website": "https://skyvalley.jp/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 251,
+   "checkIn": {
+    "lat": 35.39518,
+    "lon": 134.56501,
+    "radiusM": 1106
+   },
+   "trailMap": true
+  },
+  {
    "id": "skytops-ski-hill",
    "name": "Skytop's Ski Hill",
    "state": "PA",
@@ -54557,6 +59137,90 @@
     "lat": 43.46569,
     "lon": -110.75888,
     "radiusM": 1025
+   },
+   "trailMap": true
+  },
+  {
+   "id": "snow-park-oze-tokura",
+   "name": "Snow Park Oze Tokura",
+   "state": "Gunma",
+   "country": "JP",
+   "lat": 36.85145,
+   "lon": 139.24456,
+   "access": [],
+   "verticalFt": 1030,
+   "lifts": 6,
+   "baseM": 1077,
+   "topM": 1392,
+   "website": "https://ozetokura.co.jp/snowpark/",
+   "runMix": [
+    2,
+    4,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 75,
+   "checkIn": {
+    "lat": 36.85204,
+    "lon": 139.24569,
+    "radiusM": 938
+   },
+   "trailMap": true
+  },
+  {
+   "id": "snow-park-yeti",
+   "name": "Snow Park Yeti",
+   "state": "Shizuoka",
+   "country": "JP",
+   "lat": 35.30058,
+   "lon": 138.77184,
+   "access": [],
+   "verticalFt": 310,
+   "lifts": 6,
+   "baseM": 1346,
+   "topM": 1441,
+   "website": "https://www.yeti-resort.com/",
+   "runMix": [
+    2,
+    1,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 296,
+   "checkIn": {
+    "lat": 35.30147,
+    "lon": 138.77215,
+    "radiusM": 549
+   },
+   "trailMap": true
+  },
+  {
+   "id": "snow-resort-nekoyama",
+   "name": "Snow Resort Nekoyama",
+   "state": "Hiroshima",
+   "country": "JP",
+   "lat": 35.03796,
+   "lon": 133.19968,
+   "access": [],
+   "verticalFt": 990,
+   "lifts": 4,
+   "baseM": 697,
+   "topM": 1000,
+   "website": "https://nekoyama.net/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 164,
+   "checkIn": {
+    "lat": 35.0374,
+    "lon": 133.19973,
+    "radiusM": 665
    },
    "trailMap": true
   },
@@ -55011,6 +59675,29 @@
     "lat": 45.86773,
     "lon": -116.09327,
     "radiusM": 514
+   },
+   "trailMap": true
+  },
+  {
+   "id": "snowplanet",
+   "name": "Snowplanet",
+   "state": "Auckland",
+   "country": "NZ",
+   "lat": -36.63531,
+   "lon": 174.66653,
+   "access": [],
+   "verticalFt": 100,
+   "lifts": 4,
+   "baseM": 32,
+   "topM": 61,
+   "website": "https://snowplanet.co.nz",
+   "tags": [
+    "alpine"
+   ],
+   "checkIn": {
+    "lat": -36.63312,
+    "lon": 174.668,
+    "radiusM": 530
    },
    "trailMap": true
   },
@@ -57579,6 +62266,66 @@
    "trailMap": true
   },
   {
+   "id": "sugadaira-kogen",
+   "name": "Sugadaira Kogen",
+   "state": "Nagano",
+   "country": "JP",
+   "lat": 36.54146,
+   "lon": 138.35255,
+   "access": [],
+   "verticalFt": 1090,
+   "lifts": 13,
+   "baseM": 1267,
+   "topM": 1598,
+   "website": "https://sugadaira-snowresort.com/",
+   "runMix": [
+    2,
+    5,
+    2,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 31,
+   "checkIn": {
+    "lat": 36.53912,
+    "lon": 138.34451,
+    "radiusM": 1692
+   },
+   "trailMap": true
+  },
+  {
+   "id": "sugadaira-pine-beak",
+   "name": "Sugadaira Pine Beak",
+   "state": "Nagano",
+   "country": "JP",
+   "lat": 36.5209,
+   "lon": 138.31329,
+   "access": [],
+   "verticalFt": 1250,
+   "lifts": 6,
+   "baseM": 1252,
+   "topM": 1634,
+   "website": "https://pinebeak.jp/",
+   "runMix": [
+    5,
+    2,
+    4,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 234,
+   "checkIn": {
+    "lat": 36.52017,
+    "lon": 138.31012,
+    "radiusM": 1274
+   },
+   "trailMap": true
+  },
+  {
    "id": "sugar-bowl",
    "name": "Sugar Bowl",
    "state": "CA",
@@ -57828,6 +62575,30 @@
    "trailMap": true
   },
   {
+   "id": "suhara",
+   "name": "Suhara",
+   "state": "Niigata",
+   "country": "JP",
+   "lat": 37.32948,
+   "lon": 139.00867,
+   "access": [],
+   "verticalFt": 1140,
+   "lifts": 4,
+   "baseM": 202,
+   "topM": 549,
+   "website": "https://www.suhara-ski.com/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 293,
+   "checkIn": {
+    "lat": 37.32892,
+    "lon": 139.00994,
+    "radiusM": 959
+   },
+   "trailMap": true
+  },
+  {
    "id": "sulden",
    "name": "Sulden",
    "state": "South Tyrol",
@@ -57913,6 +62684,36 @@
     "lat": 44.94727,
     "lon": -85.18739,
     "radiusM": 544
+   },
+   "trailMap": true
+  },
+  {
+   "id": "sun-meadows-kiyosato",
+   "name": "Sun Meadows Kiyosato",
+   "state": "Yamanashi",
+   "country": "JP",
+   "lat": 35.95024,
+   "lon": 138.40915,
+   "access": [],
+   "verticalFt": 880,
+   "lifts": 5,
+   "baseM": 1611,
+   "topM": 1880,
+   "website": "https://www.sunmeadows.co.jp/",
+   "runMix": [
+    6,
+    4,
+    2,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 282,
+   "checkIn": {
+    "lat": 35.94996,
+    "lon": 138.4091,
+    "radiusM": 762
    },
    "trailMap": true
   },
@@ -58950,6 +63751,60 @@
    "trailMap": true
   },
   {
+   "id": "tainai",
+   "name": "Tainai",
+   "state": "Niigata",
+   "country": "JP",
+   "lat": 38.00481,
+   "lon": 139.50255,
+   "access": [],
+   "verticalFt": 1820,
+   "lifts": 8,
+   "baseM": 147,
+   "topM": 703,
+   "website": "https://www.tainairesort.jp/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 143,
+   "checkIn": {
+    "lat": 38.00389,
+    "lon": 139.50421,
+    "radiusM": 1685
+   },
+   "trailMap": true
+  },
+  {
+   "id": "takanbo",
+   "name": "Takanbo",
+   "state": "Toyama",
+   "country": "JP",
+   "lat": 36.37746,
+   "lon": 136.86273,
+   "access": [],
+   "verticalFt": 1070,
+   "lifts": 3,
+   "baseM": 417,
+   "topM": 742,
+   "website": "https://gokayama-kankou.com/",
+   "runMix": [
+    2,
+    2,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 212,
+   "checkIn": {
+    "lat": 36.37829,
+    "lon": 136.86208,
+    "radiusM": 692
+   },
+   "trailMap": true
+  },
+  {
    "id": "takasu-snow-park",
    "name": "Takasu Snow Park",
    "state": "Gifu",
@@ -59069,6 +63924,60 @@
     "lat": 44.68534,
     "lon": -116.14372,
     "radiusM": 2255
+   },
+   "trailMap": true
+  },
+  {
+   "id": "tambara",
+   "name": "Tambara",
+   "state": "Gunma",
+   "country": "JP",
+   "lat": 36.7842,
+   "lon": 139.08235,
+   "access": [],
+   "verticalFt": 1030,
+   "lifts": 6,
+   "baseM": 1243,
+   "topM": 1556,
+   "website": "https://www.tambara.co.jp/lavenderpark/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 47,
+   "checkIn": {
+    "lat": 36.78687,
+    "lon": 139.08402,
+    "radiusM": 1063
+   },
+   "trailMap": true
+  },
+  {
+   "id": "tangram-madarao-ski-circus",
+   "name": "Tangram Madarao Ski Circus",
+   "state": "Nagano",
+   "country": "JP",
+   "lat": 36.8509,
+   "lon": 138.2672,
+   "access": [],
+   "verticalFt": 1670,
+   "lifts": 5,
+   "baseM": 799,
+   "topM": 1308,
+   "website": "https://www.tangram.jp/",
+   "runMix": [
+    7,
+    2,
+    6,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 147,
+   "checkIn": {
+    "lat": 36.85036,
+    "lon": 138.26502,
+    "radiusM": 1090
    },
    "trailMap": true
   },
@@ -59206,6 +64115,30 @@
     "lat": 46.49106,
     "lon": 13.54812,
     "radiusM": 2689
+   },
+   "trailMap": true
+  },
+  {
+   "id": "tateyama-sanroku",
+   "name": "Tateyama Sanroku",
+   "state": "Toyama",
+   "country": "JP",
+   "lat": 36.56764,
+   "lon": 137.42539,
+   "access": [],
+   "verticalFt": 2200,
+   "lifts": 8,
+   "baseM": 489,
+   "topM": 1160,
+   "website": "https://www.tateyama36.co.jp/ski",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 161,
+   "checkIn": {
+    "lat": 36.56794,
+    "lon": 137.42588,
+    "radiusM": 1271
    },
    "trailMap": true
   },
@@ -59502,6 +64435,60 @@
     "lat": 37.91704,
     "lon": -107.83718,
     "radiusM": 2913
+   },
+   "trailMap": true
+  },
+  {
+   "id": "temple-basin",
+   "name": "Temple Basin",
+   "state": "Canterbury",
+   "country": "NZ",
+   "lat": -42.9086,
+   "lon": 171.58154,
+   "access": [],
+   "verticalFt": 1330,
+   "lifts": 3,
+   "baseM": 1346,
+   "topM": 1751,
+   "website": "https://www.templebasin.co.nz/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 69,
+   "checkIn": {
+    "lat": -42.90834,
+    "lon": 171.58254,
+    "radiusM": 952
+   },
+   "trailMap": true
+  },
+  {
+   "id": "tengendai-kogen",
+   "name": "Tengendai Kogen",
+   "state": "Yamagata",
+   "country": "JP",
+   "lat": 37.76719,
+   "lon": 140.1389,
+   "access": [],
+   "verticalFt": 2910,
+   "lifts": 4,
+   "baseM": 927,
+   "topM": 1815,
+   "website": "https://www.tengendai.jp/",
+   "runMix": [
+    1,
+    3,
+    3,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 143,
+   "checkIn": {
+    "lat": 37.76765,
+    "lon": 140.13229,
+    "radiusM": 1581
    },
    "trailMap": true
   },
@@ -60889,6 +65876,36 @@
    "trailMap": true
   },
   {
+   "id": "tomamu",
+   "name": "Tomamu",
+   "state": "Hokkaido",
+   "country": "JP",
+   "lat": 43.0728,
+   "lon": 142.61928,
+   "access": [],
+   "verticalFt": 1920,
+   "lifts": 7,
+   "baseM": 587,
+   "topM": 1172,
+   "website": "https://www.snowtomamu.jp/",
+   "runMix": [
+    16,
+    27,
+    4,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 313,
+   "checkIn": {
+    "lat": 43.07228,
+    "lon": 142.61644,
+    "radiusM": 1724
+   },
+   "trailMap": true
+  },
+  {
    "id": "torgnon",
    "name": "Torgnon",
    "state": "Aosta Valley",
@@ -61047,6 +66064,36 @@
     "lat": 44.50137,
     "lon": -72.74881,
     "radiusM": 5540
+   },
+   "trailMap": true
+  },
+  {
+   "id": "treble-cone",
+   "name": "Treble Cone",
+   "state": "Otago",
+   "country": "NZ",
+   "lat": -44.63529,
+   "lon": 168.88262,
+   "access": [],
+   "verticalFt": 2310,
+   "lifts": 3,
+   "baseM": 1251,
+   "topM": 1955,
+   "website": "https://www.treblecone.com/",
+   "runMix": [
+    7,
+    19,
+    36,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 300,
+   "checkIn": {
+    "lat": -44.63584,
+    "lon": 168.88444,
+    "radiusM": 1390
    },
    "trailMap": true
   },
@@ -61566,6 +66613,29 @@
    "trailMap": true
   },
   {
+   "id": "tukino",
+   "name": "Tukino",
+   "state": "Waikato",
+   "country": "NZ",
+   "lat": -39.2788,
+   "lon": 175.60136,
+   "access": [],
+   "verticalFt": 950,
+   "lifts": 3,
+   "baseM": 1681,
+   "topM": 1972,
+   "website": "https://www.tukino.org/",
+   "tags": [
+    "alpine"
+   ],
+   "checkIn": {
+    "lat": -39.27681,
+    "lon": 175.60466,
+    "radiusM": 879
+   },
+   "trailMap": true
+  },
+  {
    "id": "turnau",
    "name": "Turnau",
    "state": "Styria",
@@ -61621,6 +66691,36 @@
     "lat": 48.60612,
     "lon": -115.64264,
     "radiusM": 1191
+   },
+   "trailMap": true
+  },
+  {
+   "id": "turoa",
+   "name": "Turoa",
+   "state": "Manawatu-Wanganui",
+   "country": "NZ",
+   "lat": -39.30081,
+   "lon": 175.54021,
+   "access": [],
+   "verticalFt": 2320,
+   "lifts": 7,
+   "baseM": 1610,
+   "topM": 2316,
+   "website": "https://www.pureturoa.nz/",
+   "runMix": [
+    9,
+    7,
+    7,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 62,
+   "checkIn": {
+    "lat": -39.29955,
+    "lon": 175.54067,
+    "radiusM": 1513
    },
    "trailMap": true
   },
@@ -61972,6 +67072,30 @@
    "trailMap": true
   },
   {
+   "id": "up-kannabe",
+   "name": "UP Kannabe",
+   "state": "Hyogo",
+   "country": "JP",
+   "lat": 35.50453,
+   "lon": 134.6785,
+   "access": [],
+   "verticalFt": 380,
+   "lifts": 5,
+   "baseM": 283,
+   "topM": 399,
+   "website": "https://www.kannabe.co.jp/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 0,
+   "checkIn": {
+    "lat": 35.50482,
+    "lon": 134.68052,
+    "radiusM": 762
+   },
+   "trailMap": true
+  },
+  {
    "id": "ukkohalla",
    "name": "Ukkohalla",
    "state": "Kainuu",
@@ -62133,6 +67257,53 @@
     "lat": 43.82442,
     "lon": -79.44013,
     "radiusM": 400
+   },
+   "trailMap": true
+  },
+  {
+   "id": "ushidake-onsen",
+   "name": "Ushidake Onsen",
+   "state": "Toyama",
+   "country": "JP",
+   "lat": 36.56612,
+   "lon": 137.05472,
+   "access": [],
+   "verticalFt": 1040,
+   "lifts": 3,
+   "baseM": 334,
+   "topM": 651,
+   "website": "https://ushidake.com/ski/index.php",
+   "tags": [
+    "alpine"
+   ],
+   "checkIn": {
+    "lat": 36.56646,
+    "lon": 137.05562,
+    "radiusM": 968
+   },
+   "trailMap": true
+  },
+  {
+   "id": "utopia-saioto",
+   "name": "Utopia Saioto",
+   "state": "Hiroshima",
+   "country": "JP",
+   "lat": 34.78237,
+   "lon": 132.32305,
+   "access": [],
+   "verticalFt": 1330,
+   "lifts": 6,
+   "baseM": 736,
+   "topM": 1142,
+   "website": "https://www.saioto.co.jp/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 114,
+   "checkIn": {
+    "lat": 34.78287,
+    "lon": 132.32358,
+    "radiusM": 876
    },
    "trailMap": true
   },
@@ -62980,6 +68151,35 @@
     "lat": 41.88865,
     "lon": 14.05242,
     "radiusM": 826
+   },
+   "trailMap": true
+  },
+  {
+   "id": "valle-hermoso",
+   "name": "Valle Hermoso",
+   "state": "Biobío",
+   "country": "CL",
+   "lat": -36.91163,
+   "lon": -71.41869,
+   "access": [],
+   "verticalFt": 2870,
+   "lifts": 11,
+   "baseM": 1526,
+   "topM": 2401,
+   "runMix": [
+    10,
+    13,
+    3,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 40,
+   "checkIn": {
+    "lat": -36.89544,
+    "lon": -71.41387,
+    "radiusM": 2132
    },
    "trailMap": true
   },
@@ -64035,6 +69235,35 @@
    "trailMap": true
   },
   {
+   "id": "vivaldi-park",
+   "name": "Vivaldi Park",
+   "state": "Gangwon",
+   "country": "KR",
+   "lat": 37.64197,
+   "lon": 127.68707,
+   "access": [],
+   "verticalFt": 960,
+   "lifts": 9,
+   "baseM": 282,
+   "topM": 576,
+   "runMix": [
+    2,
+    4,
+    2,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 145,
+   "checkIn": {
+    "lat": 37.64182,
+    "lon": 127.6882,
+    "radiusM": 902
+   },
+   "trailMap": true
+  },
+  {
    "id": "vogel",
    "name": "Vogel",
    "state": "Gorenjska",
@@ -64061,6 +69290,36 @@
     "lat": 46.25791,
     "lon": 13.82799,
     "radiusM": 2219
+   },
+   "trailMap": true
+  },
+  {
+   "id": "volcan-osorno",
+   "name": "Volcán Osorno",
+   "state": "Los Lagos",
+   "country": "CL",
+   "lat": -41.12178,
+   "lon": -72.52454,
+   "access": [],
+   "verticalFt": 1490,
+   "lifts": 2,
+   "baseM": 1194,
+   "topM": 1647,
+   "website": "https://centrovolcanosorno.cl/",
+   "runMix": [
+    1,
+    3,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 25,
+   "checkIn": {
+    "lat": -41.12053,
+    "lon": -72.52193,
+    "radiusM": 915
    },
    "trailMap": true
   },
@@ -64271,6 +69530,30 @@
    "trailMap": true
   },
   {
+   "id": "winghills-shiratori-resort",
+   "name": "WINGHILLS Shiratori Resort",
+   "state": "Gifu",
+   "country": "JP",
+   "lat": 35.97228,
+   "lon": 136.80931,
+   "access": [],
+   "verticalFt": 1520,
+   "lifts": 4,
+   "baseM": 875,
+   "topM": 1339,
+   "website": "https://winghills.net/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 30,
+   "checkIn": {
+    "lat": 35.97349,
+    "lon": 136.81115,
+    "radiusM": 1242
+   },
+   "trailMap": true
+  },
+  {
    "id": "wachusett",
    "name": "Wachusett Mountain",
    "state": "MA",
@@ -64307,6 +69590,30 @@
     "lat": 42.49608,
     "lon": -71.88796,
     "radiusM": 981
+   },
+   "trailMap": true
+  },
+  {
+   "id": "wakasa-hyonosen",
+   "name": "Wakasa Hyonosen",
+   "state": "Tottori",
+   "country": "JP",
+   "lat": 35.34896,
+   "lon": 134.49135,
+   "access": [],
+   "verticalFt": 1370,
+   "lifts": 5,
+   "baseM": 770,
+   "topM": 1187,
+   "website": "http://www.hyounosen.co.jp/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 140,
+   "checkIn": {
+    "lat": 35.34728,
+    "lon": 134.49306,
+    "radiusM": 948
    },
    "trailMap": true
   },
@@ -64762,6 +70069,30 @@
    "trailMap": true
   },
   {
+   "id": "welli-hilli-park",
+   "name": "Welli Hilli Park",
+   "state": "Gangwon",
+   "country": "KR",
+   "lat": 37.48344,
+   "lon": 128.2448,
+   "access": [],
+   "verticalFt": 220,
+   "lifts": 9,
+   "baseM": 581,
+   "topM": 648,
+   "website": "https://www.wellihillipark.com/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 0,
+   "checkIn": {
+    "lat": 37.48469,
+    "lon": 128.24561,
+    "radiusM": 922
+   },
+   "trailMap": true
+  },
+  {
    "id": "wendelstein",
    "name": "Wendelstein",
    "state": "Bavaria",
@@ -64920,6 +70251,36 @@
     "lat": 47.57304,
     "lon": 16.01217,
     "radiusM": 1100
+   },
+   "trailMap": true
+  },
+  {
+   "id": "whakapapa",
+   "name": "Whakapapa",
+   "state": "Manawatu-Wanganui",
+   "country": "NZ",
+   "lat": -39.25044,
+   "lon": 175.56054,
+   "access": [],
+   "verticalFt": 2380,
+   "lifts": 13,
+   "baseM": 1573,
+   "topM": 2299,
+   "website": "https://www.whakapapa.com/",
+   "runMix": [
+    6,
+    29,
+    15,
+    7
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 163,
+   "checkIn": {
+    "lat": -39.24943,
+    "lon": 175.56052,
+    "radiusM": 1509
    },
    "trailMap": true
   },
@@ -65315,6 +70676,60 @@
     "lat": 40.67806,
     "lon": -111.52442,
     "radiusM": 2762
+   },
+   "trailMap": true
+  },
+  {
+   "id": "white-valley",
+   "name": "White Valley",
+   "state": "Gunma",
+   "country": "JP",
+   "lat": 36.79561,
+   "lon": 138.96334,
+   "access": [],
+   "verticalFt": 1230,
+   "lifts": 2,
+   "baseM": 641,
+   "topM": 1016,
+   "website": "https://www.whitevalley.jp/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 94,
+   "checkIn": {
+    "lat": 36.7955,
+    "lon": 138.96386,
+    "radiusM": 741
+   },
+   "trailMap": true
+  },
+  {
+   "id": "white-world-oze-iwakura",
+   "name": "White World Oze Iwakura",
+   "state": "Gunma",
+   "country": "JP",
+   "lat": 36.8205,
+   "lon": 139.21093,
+   "access": [],
+   "verticalFt": 2070,
+   "lifts": 11,
+   "baseM": 1043,
+   "topM": 1673,
+   "website": "https://www.oze-iwakura.co.jp/ski/",
+   "runMix": [
+    2,
+    7,
+    1,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 319,
+   "checkIn": {
+    "lat": 36.82126,
+    "lon": 139.20786,
+    "radiusM": 1449
    },
    "trailMap": true
   },
@@ -66194,6 +71609,29 @@
    "trailMap": true
   },
   {
+   "id": "windsor-snow-village",
+   "name": "Windsor Snow Village",
+   "state": "Hokkaido",
+   "country": "JP",
+   "lat": 42.58935,
+   "lon": 140.75638,
+   "access": [],
+   "verticalFt": 1300,
+   "lifts": 3,
+   "baseM": 223,
+   "topM": 620,
+   "website": "https://www.windsor-hotels.co.jp",
+   "tags": [
+    "alpine"
+   ],
+   "checkIn": {
+    "lat": 42.58984,
+    "lon": 140.76587,
+    "radiusM": 1328
+   },
+   "trailMap": true
+  },
+  {
    "id": "winter-park",
    "name": "Winter Park",
    "state": "CO",
@@ -66909,6 +72347,60 @@
    "trailMap": true
   },
   {
+   "id": "x-jam-takaifuji",
+   "name": "X-JAM Takaifuji",
+   "state": "Nagano",
+   "country": "JP",
+   "lat": 36.79894,
+   "lon": 138.41824,
+   "access": [],
+   "verticalFt": 1070,
+   "lifts": 4,
+   "baseM": 697,
+   "topM": 1023,
+   "website": "https://x-jam.jp/",
+   "runMix": [
+    5,
+    5,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 255,
+   "checkIn": {
+    "lat": 36.79828,
+    "lon": 138.41868,
+    "radiusM": 1060
+   },
+   "trailMap": true
+  },
+  {
+   "id": "yabuhara-kogen",
+   "name": "Yabuhara Kogen",
+   "state": "Nagano",
+   "country": "JP",
+   "lat": 35.95966,
+   "lon": 137.7306,
+   "access": [],
+   "verticalFt": 1810,
+   "lifts": 6,
+   "baseM": 1124,
+   "topM": 1676,
+   "website": "https://www.yabuhara-kogen.jp/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 204,
+   "checkIn": {
+    "lat": 35.95753,
+    "lon": 137.73057,
+    "radiusM": 1306
+   },
+   "trailMap": true
+  },
+  {
    "id": "yawgoo-valley-ski-area",
    "name": "Yawgoo Valley Ski Area",
    "state": "RI",
@@ -67017,6 +72509,66 @@
    "trailMap": true
   },
   {
+   "id": "yomase-onsen",
+   "name": "Yomase Onsen",
+   "state": "Nagano",
+   "country": "JP",
+   "lat": 36.78715,
+   "lon": 138.41299,
+   "access": [],
+   "verticalFt": 1480,
+   "lifts": 5,
+   "baseM": 728,
+   "topM": 1178,
+   "website": "https://x-jam.jp/",
+   "runMix": [
+    4,
+    7,
+    2,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 319,
+   "checkIn": {
+    "lat": 36.79226,
+    "lon": 138.4162,
+    "radiusM": 1393
+   },
+   "trailMap": true
+  },
+  {
+   "id": "yonezawa-snow-world",
+   "name": "Yonezawa Snow World",
+   "state": "Yamagata",
+   "country": "JP",
+   "lat": 37.86506,
+   "lon": 140.23816,
+   "access": [],
+   "verticalFt": 720,
+   "lifts": 5,
+   "baseM": 486,
+   "topM": 706,
+   "website": "https://www.yonezawa-ski.co.jp/",
+   "runMix": [
+    7,
+    1,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 120,
+   "checkIn": {
+    "lat": 37.86525,
+    "lon": 140.2376,
+    "radiusM": 826
+   },
+   "trailMap": true
+  },
+  {
    "id": "yunding",
    "name": "Yunding Snow Park",
    "state": "Hebei",
@@ -67063,6 +72615,54 @@
     "lat": 40.94975,
     "lon": 115.41764,
     "radiusM": 1764
+   },
+   "trailMap": true
+  },
+  {
+   "id": "yunomaru",
+   "name": "Yunomaru",
+   "state": "Gunma",
+   "country": "JP",
+   "lat": 36.42573,
+   "lon": 138.42332,
+   "access": [],
+   "verticalFt": 390,
+   "lifts": 6,
+   "baseM": 1724,
+   "topM": 1844,
+   "website": "https://yunomaru.co.jp/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 0,
+   "checkIn": {
+    "lat": 36.42562,
+    "lon": 138.42299,
+    "radiusM": 1071
+   },
+   "trailMap": true
+  },
+  {
+   "id": "yuzawa-kogen",
+   "name": "Yuzawa Kogen",
+   "state": "Niigata",
+   "country": "JP",
+   "lat": 36.93582,
+   "lon": 138.79207,
+   "access": [],
+   "verticalFt": 2600,
+   "lifts": 7,
+   "baseM": 348,
+   "topM": 1141,
+   "website": "https://www.yuzawakogen.com/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 216,
+   "checkIn": {
+    "lat": 36.93351,
+    "lon": 138.79383,
+    "radiusM": 1386
    },
    "trailMap": true
   },
@@ -67122,6 +72722,30 @@
    "trailMap": true
   },
   {
+   "id": "yuzawa-park",
+   "name": "Yuzawa Park",
+   "state": "Niigata",
+   "country": "JP",
+   "lat": 36.92383,
+   "lon": 138.85909,
+   "access": [],
+   "verticalFt": 630,
+   "lifts": 6,
+   "baseM": 448,
+   "topM": 641,
+   "website": "http://www.park-resort.com/",
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 136,
+   "checkIn": {
+    "lat": 36.92437,
+    "lon": 138.85996,
+    "radiusM": 748
+   },
+   "trailMap": true
+  },
+  {
    "id": "zahmer-kaiser",
    "name": "Zahmer Kaiser (Walchsee)",
    "state": "Tyrol",
@@ -67157,6 +72781,36 @@
     "lat": 47.6378,
     "lon": 12.29507,
     "radiusM": 686
+   },
+   "trailMap": true
+  },
+  {
+   "id": "zao-liza-world",
+   "name": "Zao Liza World",
+   "state": "Yamagata",
+   "country": "JP",
+   "lat": 38.12406,
+   "lon": 140.41065,
+   "access": [],
+   "verticalFt": 1230,
+   "lifts": 3,
+   "baseM": 1071,
+   "topM": 1446,
+   "website": "http://www.zaoliza.co.jp/",
+   "runMix": [
+    4,
+    2,
+    0,
+    0
+   ],
+   "tags": [
+    "alpine"
+   ],
+   "mapBearing": 86,
+   "checkIn": {
+    "lat": 38.12446,
+    "lon": 140.41407,
+    "radiusM": 920
    },
    "trailMap": true
   },

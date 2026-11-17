@@ -1,0 +1,1 @@
+{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"kind":"lift","liftType":"chair_lift"},"geometry":{"type":"LineString","coordinates":[[138.59927,37.05152],[138.60486,37.04477]]}},{"type":"Feature","properties":{"kind":"lift","liftType":"chair_lift"},"geometry":{"type":"LineString","coordinates":[[138.59774,37.05297],[138.59926,37.05012]]}}]}
