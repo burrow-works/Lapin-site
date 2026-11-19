@@ -1,9 +1,10 @@
 # Lapin privacy policy
 
-Last updated 16 November 2026.
+Last updated 19 November 2026.
 
 Lapin: Ski Pass & Resort Log ("Lapin") is made by Burrow Works LLC. Lapin keeps your ski days on your phone.
-There are no accounts, no ads, no analytics and no tracking. Burrow Works runs no server that receives your data, and nothing you enter is sold or shared.
+There are no accounts and no ads. Burrow Works does not sell your data and does not share it for anyone else's
+purposes. What the app collects and sends is described below; if that changes, this policy is updated first.
 
 ## What stays on your phone
 
@@ -111,6 +112,6 @@ If this policy changes, the new version will be posted here with a new date.
 
 ## Contact
 
-Questions about this policy: [CONTACT EMAIL]
+Questions about this policy: hello@burrowworks.app
 
 © Burrow Works LLC
