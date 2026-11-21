@@ -1,6 +1,6 @@
 {
  "format": 1,
- "version": 33,
+ "version": 34,
  "season": "2026-27",
  "dataAsOf": "2026-11-17",
  "passes": [
@@ -741,7 +741,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 270,
    "checkIn": {
     "lat": 68.36276,
     "lon": 18.74661,
@@ -849,6 +849,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 140,
    "checkIn": {
     "lat": 46.77112,
     "lon": -89.08944,
@@ -942,7 +943,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 317,
    "checkIn": {
     "lat": -28.81948,
     "lon": 28.72322,
@@ -1027,7 +1028,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 244,
+   "mapBearing": 245,
    "checkIn": {
     "lat": 45.63721,
     "lon": 6.04931,
@@ -1733,7 +1734,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 176,
+   "mapBearing": 179,
    "checkIn": {
     "lat": 42.73332,
     "lon": -88.42842,
@@ -2515,7 +2516,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 288,
    "checkIn": {
     "lat": 46.84973,
     "lon": 12.08629,
@@ -2988,7 +2989,7 @@
     "source": "https://www.ikonpass.com/en/destinations/arai-mountain-resort",
     "checked": "2026-10-12"
    },
-   "mapBearing": 261,
+   "mapBearing": 262,
    "checkIn": {
     "lat": 36.98982,
     "lon": 138.15655,
@@ -3281,7 +3282,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 148,
    "checkIn": {
     "lat": 43.36181,
     "lon": -72.33191,
@@ -3341,7 +3342,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 235,
+   "mapBearing": 232,
    "checkIn": {
     "lat": 42.89794,
     "lon": -0.38708,
@@ -3431,7 +3432,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 233,
+   "mapBearing": 232,
    "checkIn": {
     "lat": 43.14066,
     "lon": 141.02961,
@@ -3756,6 +3757,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 132,
    "checkIn": {
     "lat": 47.28193,
     "lon": 9.00105,
@@ -3778,6 +3780,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 111,
    "checkIn": {
     "lat": 50.81851,
     "lon": 13.09173,
@@ -3897,7 +3900,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 274,
    "checkIn": {
     "lat": 45.18001,
     "lon": 5.54548,
@@ -3945,6 +3948,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 226,
    "checkIn": {
     "lat": -44.78123,
     "lon": 170.31944,
@@ -4223,7 +4227,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 185,
+   "mapBearing": 181,
    "checkIn": {
     "lat": 46.56954,
     "lon": -115.87104,
@@ -4310,7 +4314,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 201,
+   "mapBearing": 202,
    "checkIn": {
     "lat": 47.80557,
     "lon": 6.85262,
@@ -4667,7 +4671,7 @@
     "source": "https://www.indyskipass.com/our-resorts/bear-creek",
     "checked": "2026-10-12"
    },
-   "mapBearing": 220,
+   "mapBearing": 221,
    "checkIn": {
     "lat": 40.47515,
     "lon": -75.62963,
@@ -5357,7 +5361,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 226,
    "checkIn": {
     "lat": 43.12857,
     "lon": -72.45468,
@@ -5387,7 +5391,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 2,
+   "mapBearing": 3,
    "checkIn": {
     "lat": 46.44277,
     "lon": 8.16649,
@@ -5441,6 +5445,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 283,
    "checkIn": {
     "lat": -41.5344,
     "lon": 147.66093,
@@ -5485,7 +5490,7 @@
     "source": "https://openskimap.org/?obj=e5aebd95738452e2967b4b9cce0a50b1822a6dde",
     "checked": "2026-11-05"
    },
-   "mapBearing": 222,
+   "mapBearing": 223,
    "checkIn": {
     "lat": 47.07176,
     "lon": 11.45338,
@@ -5666,7 +5671,7 @@
     "source": "https://www.tyrol.tl/en/leisure-activities/winter-sports/skiing-areas-in-tyrol/berwang-bichlbach-zugspitz-arena/",
     "checked": "2026-11-05"
    },
-   "mapBearing": 0,
+   "mapBearing": 234,
    "checkIn": {
     "lat": 47.4133,
     "lon": 10.75374,
@@ -5829,7 +5834,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 335,
+   "mapBearing": 342,
    "checkIn": {
     "lat": 46.8969,
     "lon": 8.71019,
@@ -5882,7 +5887,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 229,
    "checkIn": {
     "lat": 56.12904,
     "lon": -120.73266,
@@ -6205,7 +6210,7 @@
     "source": "https://www.bigrockmaine.com",
     "checked": "2026-10-12"
    },
-   "mapBearing": 72,
+   "mapBearing": 71,
    "checkIn": {
     "lat": 46.52374,
     "lon": -67.82188,
@@ -6350,6 +6355,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 0,
    "checkIn": {
     "lat": 46.33485,
     "lon": -85.52087,
@@ -6479,7 +6485,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 218,
+   "mapBearing": 220,
    "checkIn": {
     "lat": 42.46509,
     "lon": -85.76076,
@@ -6617,7 +6623,7 @@
     "source": "https://www.indyskipass.com/our-resorts/bjorkliden",
     "checked": "2026-10-12"
    },
-   "mapBearing": 239,
+   "mapBearing": 241,
    "checkIn": {
     "lat": 68.39946,
     "lon": 18.66258,
@@ -7039,6 +7045,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 205,
    "checkIn": {
     "lat": 47.74076,
     "lon": 11.5112,
@@ -7085,7 +7092,7 @@
     "source": "https://www.bluehillsboston.com/aboutus",
     "checked": "2026-11-05"
    },
-   "mapBearing": 132,
+   "mapBearing": 136,
    "checkIn": {
     "lat": 42.21514,
     "lon": -71.11719,
@@ -7249,7 +7256,7 @@
     "source": "https://en.wikipedia.org/wiki/Blue_Mountain_Resort",
     "checked": "2026-10-12"
    },
-   "mapBearing": 175,
+   "mapBearing": 176,
    "checkIn": {
     "lat": 40.81493,
     "lon": -75.51305,
@@ -7373,7 +7380,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 185,
+   "mapBearing": 181,
    "checkIn": {
     "lat": 42.94297,
     "lon": -81.33992,
@@ -7403,7 +7410,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 191,
+   "mapBearing": 189,
    "checkIn": {
     "lat": 42.98289,
     "lon": 13.24482,
@@ -7612,7 +7619,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 188,
+   "mapBearing": 187,
    "checkIn": {
     "lat": 45.92592,
     "lon": 10.17654,
@@ -8117,7 +8124,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 184,
    "checkIn": {
     "lat": 42.84658,
     "lon": -72.58588,
@@ -8147,7 +8154,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 266,
+   "mapBearing": 265,
    "checkIn": {
     "lat": 47.66528,
     "lon": 11.53084,
@@ -8171,7 +8178,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 325,
+   "mapBearing": 326,
    "checkIn": {
     "lat": 46.94953,
     "lon": 8.9931,
@@ -8748,7 +8755,7 @@
     "source": "https://www.indyskipass.com/our-resorts/bruce-mound-winter-sports-area",
     "checked": "2026-10-12"
    },
-   "mapBearing": 265,
+   "mapBearing": 261,
    "checkIn": {
     "lat": 44.44464,
     "lon": -90.78779,
@@ -9160,6 +9167,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 83,
    "checkIn": {
     "lat": 40.47896,
     "lon": -109.43154,
@@ -9773,7 +9781,7 @@
     "source": "https://www.camdensnowbowl.com/",
     "checked": "2026-10-12"
    },
-   "mapBearing": 241,
+   "mapBearing": 240,
    "checkIn": {
     "lat": 44.21427,
     "lon": -69.14139,
@@ -9883,6 +9891,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 247,
    "checkIn": {
     "lat": 43.03663,
     "lon": -76.28614,
@@ -9955,7 +9964,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 181,
    "checkIn": {
     "lat": 44.4753,
     "lon": -72.94496,
@@ -10066,7 +10075,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 233,
+   "mapBearing": 234,
    "checkIn": {
     "lat": 41.4554,
     "lon": 14.38589,
@@ -10528,7 +10537,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 266,
+   "mapBearing": 264,
    "checkIn": {
     "lat": 52.30551,
     "lon": -113.68668,
@@ -11152,7 +11161,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 315,
    "checkIn": {
     "lat": 47.66505,
     "lon": -68.89449,
@@ -11416,6 +11425,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 197,
    "checkIn": {
     "lat": -41.13692,
     "lon": -71.37258,
@@ -11445,7 +11455,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 320,
+   "mapBearing": 321,
    "checkIn": {
     "lat": -41.78643,
     "lon": -71.58906,
@@ -11593,7 +11603,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 217,
+   "mapBearing": 216,
    "checkIn": {
     "lat": 45.66836,
     "lon": 3.81588,
@@ -11623,7 +11633,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 49,
+   "mapBearing": 50,
    "checkIn": {
     "lat": 45.84627,
     "lon": 7.631,
@@ -11861,7 +11871,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 172,
    "checkIn": {
     "lat": 37.28185,
     "lon": -107.86815,
@@ -12088,7 +12098,7 @@
     "source": "https://www.indyskipass.com/our-resorts/cherry-peak",
     "checked": "2026-10-12"
    },
-   "mapBearing": 135,
+   "mapBearing": 133,
    "checkIn": {
     "lat": 41.92223,
     "lon": -111.75377,
@@ -12201,6 +12211,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 0,
    "checkIn": {
     "lat": 42.72249,
     "lon": -78.74611,
@@ -12309,7 +12320,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 148,
    "checkIn": {
     "lat": 44.46936,
     "lon": -114.32152,
@@ -12368,7 +12379,7 @@
     "source": "https://www.indyskipass.com/our-resorts/christie-mountain",
     "checked": "2026-10-12"
    },
-   "mapBearing": 248,
+   "mapBearing": 250,
    "checkIn": {
     "lat": 45.50674,
     "lon": -91.38405,
@@ -12413,7 +12424,7 @@
     "source": "https://openskimap.org/?obj=daeda6699aff32076cc90fd43fc0eaf0156ce7cd",
     "checked": "2026-11-05"
    },
-   "mapBearing": 255,
+   "mapBearing": 256,
    "checkIn": {
     "lat": 47.508,
     "lon": 11.67848,
@@ -12527,6 +12538,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 332,
    "checkIn": {
     "lat": 46.18439,
     "lon": 8.79196,
@@ -12637,7 +12649,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 209,
    "checkIn": {
     "lat": 34.53433,
     "lon": -85.60147,
@@ -12690,7 +12702,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 357,
    "checkIn": {
     "lat": -37.02374,
     "lon": 147.24424,
@@ -12806,7 +12818,7 @@
     "source": "https://www.indyskipass.com/our-resorts/coffee-mill-ski-area",
     "checked": "2026-10-12"
    },
-   "mapBearing": 186,
+   "mapBearing": 185,
    "checkIn": {
     "lat": 44.35979,
     "lon": -92.04349,
@@ -12913,7 +12925,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 276,
    "checkIn": {
     "lat": 46.79367,
     "lon": 12.62974,
@@ -13028,7 +13040,7 @@
     "source": "https://www.indyskipass.com/our-resorts/cooper-spur-ski-area",
     "checked": "2026-10-12"
    },
-   "mapBearing": 194,
+   "mapBearing": 200,
    "checkIn": {
     "lat": 45.4107,
     "lon": -121.60694,
@@ -13130,6 +13142,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 344,
    "checkIn": {
     "lat": -35.51417,
     "lon": 148.92193,
@@ -13159,7 +13172,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 150,
+   "mapBearing": 155,
    "checkIn": {
     "lat": 44.12636,
     "lon": 10.81832,
@@ -13322,6 +13335,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 177,
    "checkIn": {
     "lat": 42.18415,
     "lon": -74.11904,
@@ -13516,6 +13530,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 167,
    "checkIn": {
     "lat": 44.2553,
     "lon": -72.75222,
@@ -13625,6 +13640,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 142,
    "checkIn": {
     "lat": 46.54346,
     "lon": -88.55629,
@@ -14069,7 +14085,7 @@
     "checked": "2026-10-12"
    },
    "niehuesUrl": "https://jamesniehues.com/products/crotched-mountain",
-   "mapBearing": 188,
+   "mapBearing": 187,
    "checkIn": {
     "lat": 43.00759,
     "lon": -71.87906,
@@ -14126,7 +14142,7 @@
     "source": "https://www.indyskipass.com/our-resorts/crystal-mountain",
     "checked": "2026-10-12"
    },
-   "mapBearing": 327,
+   "mapBearing": 330,
    "checkIn": {
     "lat": 44.52368,
     "lon": -85.99678,
@@ -14271,7 +14287,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 351,
+   "mapBearing": 352,
    "checkIn": {
     "lat": 45.83056,
     "lon": 7.15488,
@@ -14663,7 +14679,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 167,
    "checkIn": {
     "lat": 35.39616,
     "lon": 133.54067,
@@ -14687,6 +14703,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 115,
    "checkIn": {
     "lat": 47.43431,
     "lon": 11.28303,
@@ -15054,7 +15071,7 @@
     "checked": "2026-10-12"
    },
    "niehuesUrl": "https://jamesniehues.com/products/devils-head",
-   "mapBearing": 6,
+   "mapBearing": 4,
    "checkIn": {
     "lat": 43.42252,
     "lon": -89.6294,
@@ -15311,7 +15328,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 323,
    "checkIn": {
     "lat": 44.5389,
     "lon": -118.5982,
@@ -15529,6 +15546,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 134,
    "checkIn": {
     "lat": 62.07164,
     "lon": 9.15623,
@@ -15669,7 +15687,7 @@
     "source": "https://openskimap.org/?obj=d8d6de9e96822f6601610759fe3ec65e1aa3935e",
     "checked": "2026-11-05"
    },
-   "mapBearing": 95,
+   "mapBearing": 100,
    "checkIn": {
     "lat": 46.73595,
     "lon": 12.49399,
@@ -15693,7 +15711,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 345,
    "checkIn": {
     "lat": 43.37717,
     "lon": -73.78993,
@@ -15780,7 +15798,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 252,
+   "mapBearing": 245,
    "checkIn": {
     "lat": 49.90252,
     "lon": -92.7882,
@@ -15833,7 +15851,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 181,
    "checkIn": {
     "lat": 39.23765,
     "lon": -106.30406,
@@ -15888,7 +15906,7 @@
     "source": "https://www.indyskipass.com/our-resorts/dynaland",
     "checked": "2026-10-12"
    },
-   "mapBearing": 295,
+   "mapBearing": 296,
    "checkIn": {
     "lat": 35.99161,
     "lon": 136.86218,
@@ -16229,6 +16247,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 132,
    "checkIn": {
     "lat": 42.53833,
     "lon": -72.59314,
@@ -16453,7 +16472,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 177,
    "checkIn": {
     "lat": 53.53374,
     "lon": -113.47511,
@@ -16506,6 +16525,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 55,
    "checkIn": {
     "lat": 46.89905,
     "lon": 8.64404,
@@ -16725,7 +16745,7 @@
     "source": "https://openskimap.org/?obj=14e44f003d9b6e9b2b4b0558cb95b247b4008b3c",
     "checked": "2026-11-05"
    },
-   "mapBearing": 168,
+   "mapBearing": 167,
    "checkIn": {
     "lat": 47.10444,
     "lon": 11.32408,
@@ -16934,7 +16954,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 240,
+   "mapBearing": 235,
    "checkIn": {
     "lat": 37.81738,
     "lon": 127.58714,
@@ -16982,7 +17002,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 251,
    "checkIn": {
     "lat": 42.71601,
     "lon": -78.59066,
@@ -17405,7 +17425,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 254,
+   "mapBearing": 257,
    "checkIn": {
     "lat": 37.78881,
     "lon": 15.02436,
@@ -17428,7 +17448,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 12,
+   "mapBearing": 10,
    "checkIn": {
     "lat": 37.71144,
     "lon": 14.99899,
@@ -17585,6 +17605,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 196,
    "checkIn": {
     "lat": 49.70351,
     "lon": -95.1888,
@@ -17697,7 +17718,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 223,
+   "mapBearing": 220,
    "checkIn": {
     "lat": 47.45311,
     "lon": 11.24282,
@@ -17925,7 +17946,7 @@
     "source": "https://openskimap.org/?obj=93f78af003dfe7aa2efa72fb091e67828d5ff77c",
     "checked": "2026-11-05"
    },
-   "mapBearing": 120,
+   "mapBearing": 118,
    "checkIn": {
     "lat": 47.04527,
     "lon": 10.69229,
@@ -17955,7 +17976,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 191,
+   "mapBearing": 188,
    "checkIn": {
     "lat": 45.27847,
     "lon": -117.11398,
@@ -18058,7 +18079,7 @@
     "source": "https://openskimap.org/?obj=359fe484adda3faa6e97dabffe5c7aa90364e48e",
     "checked": "2026-11-06"
    },
-   "mapBearing": 290,
+   "mapBearing": 289,
    "checkIn": {
     "lat": 47.81105,
     "lon": 13.72643,
@@ -18242,7 +18263,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 218,
+   "mapBearing": 215,
    "checkIn": {
     "lat": 44.91176,
     "lon": 5.32422,
@@ -18548,7 +18569,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 186,
    "checkIn": {
     "lat": 43.37439,
     "lon": -88.25159,
@@ -18961,7 +18982,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 222,
+   "mapBearing": 225,
    "checkIn": {
     "lat": 47.2617,
     "lon": 14.68347,
@@ -18991,7 +19012,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 255,
+   "mapBearing": 254,
    "checkIn": {
     "lat": 36.95014,
     "lon": 138.78357,
@@ -19015,7 +19036,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 258,
    "checkIn": {
     "lat": 61.66373,
     "lon": 8.34928,
@@ -19114,7 +19135,7 @@
     "source": "https://www.tyrol.tl/en/leisure-activities/winter-sports/skiing-areas-in-tyrol/silvapark-paznauntal/",
     "checked": "2026-11-05"
    },
-   "mapBearing": 206,
+   "mapBearing": 205,
    "checkIn": {
     "lat": 46.96368,
     "lon": 10.13926,
@@ -19324,7 +19345,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 138,
+   "mapBearing": 136,
    "checkIn": {
     "lat": 59.87553,
     "lon": 8.72833,
@@ -19777,7 +19798,7 @@
     "source": "https://openskimap.org/?obj=de62da63231c90907f454ddbd3d8f4a280e219d4",
     "checked": "2026-11-06"
    },
-   "mapBearing": 226,
+   "mapBearing": 228,
    "checkIn": {
     "lat": 46.33374,
     "lon": 7.22565,
@@ -19801,6 +19822,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 0,
    "checkIn": {
     "lat": 45.86024,
     "lon": -87.03673,
@@ -19886,7 +19908,7 @@
     "source": "https://www.indyskipass.com/our-resorts/glencoe-mountain-resort",
     "checked": "2026-10-12"
    },
-   "mapBearing": 199,
+   "mapBearing": 198,
    "checkIn": {
     "lat": 56.6209,
     "lon": -4.83716,
@@ -20116,7 +20138,7 @@
     "source": "https://openskimap.org/?obj=d4cb3282136b8577609eab37f579b5fdff4480a7",
     "checked": "2026-11-05"
    },
-   "mapBearing": 357,
+   "mapBearing": 359,
    "checkIn": {
     "lat": 46.72008,
     "lon": 12.61994,
@@ -20638,7 +20660,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 178,
    "checkIn": {
     "lat": 39.15381,
     "lon": -120.15416,
@@ -21257,7 +21279,7 @@
     "checked": "2026-10-12"
    },
    "niehuesUrl": "https://jamesniehues.com/products/grouse-mountain",
-   "mapBearing": 315,
+   "mapBearing": 314,
    "checkIn": {
     "lat": 49.38021,
     "lon": -123.07541,
@@ -21349,7 +21371,7 @@
     "source": "https://openskimap.org/?obj=96682590bffa8f01f852eac06bca6fa6dcea0945",
     "checked": "2026-11-06"
    },
-   "mapBearing": 288,
+   "mapBearing": 287,
    "checkIn": {
     "lat": 47.12342,
     "lon": 13.65185,
@@ -21425,7 +21447,7 @@
     "source": "https://www.tyrol.tl/en/leisure-activities/winter-sports/skiing-areas-in-tyrol/grossglockner-resort-east-tyrol",
     "checked": "2026-11-05"
    },
-   "mapBearing": 0,
+   "mapBearing": 263,
    "checkIn": {
     "lat": 47.00122,
     "lon": 12.59966,
@@ -21502,7 +21524,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 275,
    "checkIn": {
     "lat": 49.01315,
     "lon": 12.79384,
@@ -21919,7 +21941,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 157,
+   "mapBearing": 158,
    "checkIn": {
     "lat": 48.05241,
     "lon": 6.90415,
@@ -21943,7 +21965,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 204,
+   "mapBearing": 203,
    "checkIn": {
     "lat": 47.64144,
     "lon": 12.94477,
@@ -22221,7 +22243,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 106,
    "checkIn": {
     "lat": 40.68214,
     "lon": 140.84821,
@@ -22650,7 +22672,7 @@
     "source": "https://sanosaka.jp/",
     "checked": "2026-10-13"
    },
-   "mapBearing": 241,
+   "mapBearing": 244,
    "checkIn": {
     "lat": 36.62351,
     "lon": 137.8359,
@@ -22804,6 +22826,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 240,
    "checkIn": {
     "lat": -42.44226,
     "lon": 172.73136,
@@ -22827,7 +22850,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 296,
    "checkIn": {
     "lat": 44.81585,
     "lon": -73.0685,
@@ -22956,7 +22979,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 243,
    "checkIn": {
     "lat": 43.83505,
     "lon": -72.37129,
@@ -23296,7 +23319,7 @@
     "source": "https://www.indyskipass.com/our-resorts/skigebiet-heiligenblut-grossglockner",
     "checked": "2026-10-12"
    },
-   "mapBearing": 43,
+   "mapBearing": 45,
    "checkIn": {
     "lat": 47.05669,
     "lon": 12.86956,
@@ -23487,7 +23510,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 234,
+   "mapBearing": 230,
    "checkIn": {
     "lat": 44.77945,
     "lon": -68.96004,
@@ -24066,7 +24089,7 @@
     "source": "https://www.indyskipass.com/our-resorts/hilltop-ski-area",
     "checked": "2026-10-12"
    },
-   "mapBearing": 108,
+   "mapBearing": 105,
    "checkIn": {
     "lat": 61.14087,
     "lon": -149.73761,
@@ -24114,7 +24137,7 @@
     "source": "https://www.hellyhansen.com/en_us/skifree/resorts",
     "checked": "2026-11-15"
    },
-   "mapBearing": 144,
+   "mapBearing": 143,
    "checkIn": {
     "lat": 61.88325,
     "lon": 25.31188,
@@ -24190,7 +24213,7 @@
     "source": "https://openskimap.org/?obj=b0bddc47ef4ca3986252ef0f2a22daa242427f15",
     "checked": "2026-11-06"
    },
-   "mapBearing": 160,
+   "mapBearing": 159,
    "checkIn": {
     "lat": 47.68048,
     "lon": 14.16765,
@@ -24838,7 +24861,7 @@
     "source": "https://tyrol.tl/en/leisure-activities/winter-sports/skiing-areas-in-tyrol/hochoetz-oetztal",
     "checked": "2026-11-05"
    },
-   "mapBearing": 135,
+   "mapBearing": 139,
    "checkIn": {
     "lat": 47.21761,
     "lon": 10.9336,
@@ -25221,7 +25244,7 @@
     "source": "https://www.indyskipass.com/our-resorts/hoedown-hill",
     "checked": "2026-10-12"
    },
-   "mapBearing": 184,
+   "mapBearing": 188,
    "checkIn": {
     "lat": 40.45386,
     "lon": -104.9295,
@@ -25402,7 +25425,7 @@
     "source": "https://www.indyskipass.com/our-resorts/bergbahnen-hohsaas",
     "checked": "2026-10-12"
    },
-   "mapBearing": 81,
+   "mapBearing": 82,
    "checkIn": {
     "lat": 46.13833,
     "lon": 7.96344,
@@ -25572,6 +25595,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 138,
    "checkIn": {
     "lat": 67.2923,
     "lon": 15.47868,
@@ -25805,7 +25829,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 293,
    "checkIn": {
     "lat": 62.01093,
     "lon": 6.54307,
@@ -25835,7 +25859,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 200,
+   "mapBearing": 199,
    "checkIn": {
     "lat": 44.54614,
     "lon": -79.67359,
@@ -26385,7 +26409,7 @@
     "source": "https://www.indyskipass.com/our-resorts/hyland-hills",
     "checked": "2026-10-12"
    },
-   "mapBearing": 250,
+   "mapBearing": 245,
    "checkIn": {
     "lat": 44.84338,
     "lon": -93.36538,
@@ -26783,6 +26807,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 186,
    "checkIn": {
     "lat": 47.54612,
     "lon": 10.21777,
@@ -27136,7 +27161,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 193,
+   "mapBearing": 192,
    "checkIn": {
     "lat": 36.92899,
     "lon": 137.89087,
@@ -27256,6 +27281,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 87,
    "checkIn": {
     "lat": 36.06914,
     "lon": 136.57738,
@@ -27317,7 +27343,7 @@
     "source": "https://en.wikipedia.org/wiki/Jack_Frost_Ski_Resort",
     "checked": "2026-10-12"
    },
-   "mapBearing": 185,
+   "mapBearing": 184,
    "checkIn": {
     "lat": 41.11092,
     "lon": -75.65172,
@@ -27471,7 +27497,7 @@
     "source": "https://openskimap.org/?obj=4e5142c99424c78912f24890c8a3b827ade3c82b",
     "checked": "2026-11-06"
    },
-   "mapBearing": 190,
+   "mapBearing": 191,
    "checkIn": {
     "lat": 46.60245,
     "lon": 7.2872,
@@ -28411,7 +28437,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 46,
+   "mapBearing": 48,
    "checkIn": {
     "lat": 46.49859,
     "lon": 7.70183,
@@ -28572,7 +28598,7 @@
     "source": "https://openskimap.org/?obj=6457561181eb8db69380de8d4dbe2ad2362d612f",
     "checked": "2026-11-05"
    },
-   "mapBearing": 173,
+   "mapBearing": 174,
    "checkIn": {
     "lat": 47.42858,
     "lon": 11.69677,
@@ -28656,7 +28682,7 @@
     "source": "https://www.hakubavalley.com/en/ski_resort_info_en/",
     "checked": "2026-10-13"
    },
-   "mapBearing": 325,
+   "mapBearing": 326,
    "checkIn": {
     "lat": 36.59962,
     "lon": 137.82979,
@@ -28941,7 +28967,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 215,
+   "mapBearing": 214,
    "checkIn": {
     "lat": 36.46667,
     "lon": 138.42549,
@@ -29118,7 +29144,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 113,
    "checkIn": {
     "lat": 47.78261,
     "lon": 13.24768,
@@ -29165,6 +29191,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 262,
    "checkIn": {
     "lat": 44.46028,
     "lon": -87.55999,
@@ -30056,7 +30083,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 225,
    "checkIn": {
     "lat": 49.96703,
     "lon": 11.84591,
@@ -30102,7 +30129,7 @@
     "source": "https://openskimap.org/?obj=cc230857c5e1b30400e87df6ecaaf2c47e02aebe",
     "checked": "2026-11-06"
    },
-   "mapBearing": 196,
+   "mapBearing": 195,
    "checkIn": {
     "lat": 46.93162,
     "lon": 8.48893,
@@ -30273,7 +30300,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 237,
    "checkIn": {
     "lat": 47.59561,
     "lon": 11.047,
@@ -31392,6 +31419,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 288,
    "checkIn": {
     "lat": 39.27515,
     "lon": 16.46951,
@@ -31586,6 +31614,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 135,
    "checkIn": {
     "lat": 47.59206,
     "lon": 11.09417,
@@ -31675,6 +31704,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 230,
    "checkIn": {
     "lat": 40.78976,
     "lon": 15.09882,
@@ -31927,7 +31957,7 @@
     "checked": "2026-10-12"
    },
    "niehuesUrl": "https://jamesniehues.com/products/lake-louise",
-   "mapBearing": 0,
+   "mapBearing": 45,
    "checkIn": {
     "lat": 51.45306,
     "lon": -116.13214,
@@ -32001,6 +32031,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 272,
    "checkIn": {
     "lat": 41.87386,
     "lon": -73.10227,
@@ -32194,7 +32225,7 @@
     "source": "https://en.wikipedia.org/wiki/Laurel_Mountain_Ski_Resort",
     "checked": "2026-10-12"
    },
-   "mapBearing": 155,
+   "mapBearing": 151,
    "checkIn": {
     "lat": 40.16697,
     "lon": -79.16948,
@@ -32308,7 +32339,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 178,
+   "mapBearing": 181,
    "checkIn": {
     "lat": 45.05682,
     "lon": 6.28179,
@@ -32515,7 +32546,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 222,
+   "mapBearing": 224,
    "checkIn": {
     "lat": 47.92809,
     "lon": 7.02728,
@@ -32747,7 +32778,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 220,
    "checkIn": {
     "lat": 47.78907,
     "lon": 6.91745,
@@ -32950,6 +32981,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 0,
    "checkIn": {
     "lat": 38.01891,
     "lon": -107.66905,
@@ -33520,7 +33552,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 192,
+   "mapBearing": 194,
    "checkIn": {
     "lat": 42.83654,
     "lon": 1.74346,
@@ -33782,7 +33814,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 127,
    "checkIn": {
     "lat": 46.45703,
     "lon": 6.93693,
@@ -34105,7 +34137,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 230,
    "checkIn": {
     "lat": 55.33982,
     "lon": -123.07871,
@@ -34251,7 +34283,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 117,
    "checkIn": {
     "lat": 46.43103,
     "lon": -81.14177,
@@ -34372,7 +34404,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 217,
    "checkIn": {
     "lat": 41.14223,
     "lon": -75.5598,
@@ -34588,7 +34620,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 8,
+   "mapBearing": 10,
    "checkIn": {
     "lat": -32.82403,
     "lon": -69.88613,
@@ -34748,7 +34780,7 @@
     "source": "https://www.indyskipass.com/our-resorts/lost-valley",
     "checked": "2026-10-12"
    },
-   "mapBearing": 266,
+   "mapBearing": 263,
    "checkIn": {
     "lat": 44.13631,
     "lon": -70.28302,
@@ -34929,7 +34961,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 94,
+   "mapBearing": 97,
    "checkIn": {
     "lat": 44.67166,
     "lon": 5.77201,
@@ -34984,7 +35016,7 @@
     "source": "https://en.wikipedia.org/wiki/Lutsen_Mountains",
     "checked": "2026-10-12"
    },
-   "mapBearing": 313,
+   "mapBearing": 309,
    "checkIn": {
     "lat": 47.65722,
     "lon": -90.72077,
@@ -35110,7 +35142,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 256,
+   "mapBearing": 257,
    "checkIn": {
     "lat": 45.96795,
     "lon": 7.93668,
@@ -35140,7 +35172,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 26,
+   "mapBearing": 25,
    "checkIn": {
     "lat": 45.98699,
     "lon": 7.97651,
@@ -35513,7 +35545,7 @@
     "source": "https://www.indyskipass.com/our-resorts/magic-mountain-idaho",
     "checked": "2026-10-12"
    },
-   "mapBearing": 251,
+   "mapBearing": 253,
    "checkIn": {
     "lat": 42.18623,
     "lon": -114.29009,
@@ -36629,7 +36661,7 @@
     "source": "https://openskimap.org/?obj=45a940355cca76e598e2a54c273e06cd0916e04f",
     "checked": "2026-11-06"
    },
-   "mapBearing": 204,
+   "mapBearing": 205,
    "checkIn": {
     "lat": 46.17077,
     "lon": 6.4478,
@@ -36712,6 +36744,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 149,
    "checkIn": {
     "lat": 37.04887,
     "lon": 138.6013,
@@ -37041,7 +37074,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 218,
+   "mapBearing": 214,
    "checkIn": {
     "lat": 52.45336,
     "lon": -114.25968,
@@ -37539,7 +37572,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 152,
+   "mapBearing": 155,
    "checkIn": {
     "lat": 46.36228,
     "lon": 6.00662,
@@ -38028,6 +38061,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 89,
    "checkIn": {
     "lat": 59.96714,
     "lon": 10.02928,
@@ -38180,7 +38214,7 @@
     "source": "https://en.wikipedia.org/wiki/Yongpyong_Resort",
     "checked": "2026-10-12"
    },
-   "mapBearing": 179,
+   "mapBearing": 180,
    "checkIn": {
     "lat": 37.62747,
     "lon": 128.67683,
@@ -38396,7 +38430,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 204,
+   "mapBearing": 207,
    "checkIn": {
     "lat": 45.5889,
     "lon": -75.84553,
@@ -38680,7 +38714,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 147,
+   "mapBearing": 145,
    "checkIn": {
     "lat": 45.87763,
     "lon": -74.17272,
@@ -38880,7 +38914,7 @@
     "source": "https://www.indyskipass.com/our-resorts/mont-ripley-ski-area",
     "checked": "2026-11-12"
    },
-   "mapBearing": 3,
+   "mapBearing": 2,
    "checkIn": {
     "lat": 47.1302,
     "lon": -88.55953,
@@ -38962,7 +38996,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 183,
+   "mapBearing": 185,
    "checkIn": {
     "lat": 46.03939,
     "lon": 6.49724,
@@ -39534,7 +39568,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 112,
    "checkIn": {
     "lat": 44.40255,
     "lon": 6.37851,
@@ -39853,7 +39887,7 @@
     "source": "https://openskimap.org/?obj=1215669125c5549bd831eb34bca2741e86721ba1",
     "checked": "2026-11-06"
    },
-   "mapBearing": 176,
+   "mapBearing": 175,
    "checkIn": {
     "lat": 46.29495,
     "lon": 5.96374,
@@ -40008,7 +40042,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 144,
+   "mapBearing": 146,
    "checkIn": {
     "lat": 45.88573,
     "lon": 8.44889,
@@ -40124,7 +40158,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 60,
+   "mapBearing": 57,
    "checkIn": {
     "lat": -37.84,
     "lon": 146.26999,
@@ -40210,7 +40244,7 @@
     "source": "https://www.indyskipass.com/our-resorts/mount-cain",
     "checked": "2026-11-12"
    },
-   "mapBearing": 39,
+   "mapBearing": 40,
    "checkIn": {
     "lat": 50.22255,
     "lon": -126.34549,
@@ -40413,7 +40447,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 201,
    "checkIn": {
     "lat": 47.28347,
     "lon": -93.44799,
@@ -40562,7 +40596,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 185,
+   "mapBearing": 190,
    "checkIn": {
     "lat": 32.4449,
     "lon": -110.78251,
@@ -40670,7 +40704,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 226,
    "checkIn": {
     "lat": -42.6821,
     "lon": 146.57695,
@@ -40693,7 +40727,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 355,
    "checkIn": {
     "lat": -43.19347,
     "lon": 171.60375,
@@ -40807,7 +40841,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 134,
    "checkIn": {
     "lat": 44.45585,
     "lon": -71.57378,
@@ -41458,7 +41492,7 @@
     "source": "https://www.indyskipass.com/our-resorts/mt-eyak",
     "checked": "2026-10-12"
    },
-   "mapBearing": 71,
+   "mapBearing": 69,
    "checkIn": {
     "lat": 60.55194,
     "lon": -145.7404,
@@ -41694,6 +41728,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 312,
    "checkIn": {
     "lat": -37.00945,
     "lon": 147.0804,
@@ -41933,7 +41968,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 110,
+   "mapBearing": 108,
    "checkIn": {
     "lat": 34.27341,
     "lon": -117.61059,
@@ -42020,6 +42055,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 0,
    "checkIn": {
     "lat": 43.72731,
     "lon": -79.725,
@@ -42043,7 +42079,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 245,
    "checkIn": {
     "lat": 44.29713,
     "lon": -71.77559,
@@ -42101,6 +42137,7 @@
     "source": "https://www.indyskipass.com/our-resorts/mt-holiday",
     "checked": "2026-10-12"
    },
+   "mapBearing": 173,
    "checkIn": {
     "lat": 44.74143,
     "lon": -85.51464,
@@ -42936,7 +42973,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 348,
+   "mapBearing": 347,
    "checkIn": {
     "lat": 55.87168,
     "lon": -97.77641,
@@ -43056,7 +43093,7 @@
     "source": "https://openskimap.org/?obj=39daafb4d6541b404e54e01331568e80f40481a7",
     "checked": "2026-11-06"
    },
-   "mapBearing": 48,
+   "mapBearing": 0,
    "checkIn": {
     "lat": 47.0255,
     "lon": 13.00613,
@@ -43156,7 +43193,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 198,
+   "mapBearing": 197,
    "checkIn": {
     "lat": 47.84299,
     "lon": 7.86129,
@@ -44213,7 +44250,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 210,
+   "mapBearing": 207,
    "checkIn": {
     "lat": 44.12009,
     "lon": -89.1833,
@@ -44353,7 +44390,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 183,
    "checkIn": {
     "lat": 43.18633,
     "lon": -77.87586,
@@ -44710,7 +44747,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 61,
+   "mapBearing": 59,
    "checkIn": {
     "lat": 37.62327,
     "lon": 140.23806,
@@ -45247,7 +45284,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 272,
+   "mapBearing": 270,
    "checkIn": {
     "lat": 50.42813,
     "lon": 12.96054,
@@ -45325,7 +45362,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 187,
    "checkIn": {
     "lat": 40.10957,
     "lon": -80.65185,
@@ -45476,7 +45513,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 242,
    "checkIn": {
     "lat": 35.49806,
     "lon": 134.64487,
@@ -46350,7 +46387,7 @@
     "source": "https://www.indyskipass.com/our-resorts/destination-owls-head",
     "checked": "2026-10-12"
    },
-   "mapBearing": 190,
+   "mapBearing": 189,
    "checkIn": {
     "lat": 45.07097,
     "lon": -72.29529,
@@ -46555,7 +46592,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 100,
+   "mapBearing": 98,
    "checkIn": {
     "lat": 64.6749,
     "lon": 27.95735,
@@ -46728,7 +46765,7 @@
     "source": "https://www.paolipeaks.com/",
     "checked": "2026-10-12"
    },
-   "mapBearing": 219,
+   "mapBearing": 214,
    "checkIn": {
     "lat": 38.55827,
     "lon": -86.51032,
@@ -46933,7 +46970,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 166,
+   "mapBearing": 164,
    "checkIn": {
     "lat": 42.1842,
     "lon": 14.10151,
@@ -46963,7 +47000,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 151,
+   "mapBearing": 152,
    "checkIn": {
     "lat": 46.50948,
     "lon": 10.46412,
@@ -46993,7 +47030,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 31,
+   "mapBearing": 29,
    "checkIn": {
     "lat": 45.95398,
     "lon": 6.74902,
@@ -47219,7 +47256,7 @@
     "source": "https://www.indyskipass.com/our-resorts/pebble-creek-ski-area",
     "checked": "2026-10-12"
    },
-   "mapBearing": 127,
+   "mapBearing": 126,
    "checkIn": {
     "lat": 42.77454,
     "lon": -112.15337,
@@ -47494,7 +47531,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 175,
+   "mapBearing": 176,
    "checkIn": {
     "lat": 46.03036,
     "lon": 9.57151,
@@ -47585,7 +47622,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 93,
    "checkIn": {
     "lat": 45.37603,
     "lon": -84.94323,
@@ -47779,6 +47816,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 87,
    "checkIn": {
     "lat": 47.50545,
     "lon": 9.7661,
@@ -47888,6 +47926,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 215,
    "checkIn": {
     "lat": 45.21849,
     "lon": 7.22525,
@@ -48079,7 +48118,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 181,
+   "mapBearing": 180,
    "checkIn": {
     "lat": 45.96554,
     "lon": 9.49886,
@@ -48258,6 +48297,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 205,
    "checkIn": {
     "lat": 47.00508,
     "lon": 8.26346,
@@ -48585,7 +48625,7 @@
     "source": "https://www.indyskipass.com/our-resorts/pitztaler-gletscherbahn",
     "checked": "2026-10-12"
    },
-   "mapBearing": 227,
+   "mapBearing": 226,
    "checkIn": {
     "lat": 46.92411,
     "lon": 10.87721,
@@ -48797,7 +48837,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 267,
+   "mapBearing": 266,
    "checkIn": {
     "lat": 42.28905,
     "lon": -74.65696,
@@ -48909,6 +48949,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 0,
    "checkIn": {
     "lat": 42.16473,
     "lon": -89.88773,
@@ -48932,7 +48973,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 207,
    "checkIn": {
     "lat": 43.53124,
     "lon": -72.7505,
@@ -49008,7 +49049,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 151,
+   "mapBearing": 150,
    "checkIn": {
     "lat": 45.67748,
     "lon": -65.37844,
@@ -49482,7 +49523,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 291,
+   "mapBearing": 293,
    "checkIn": {
     "lat": 51.16355,
     "lon": 8.49058,
@@ -49915,7 +49956,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 56,
+   "mapBearing": 60,
    "checkIn": {
     "lat": 45.38544,
     "lon": 6.73507,
@@ -50432,7 +50473,7 @@
     "source": "https://www.indyskipass.com/our-resorts/pyha-ski-resort",
     "checked": "2026-10-12"
    },
-   "mapBearing": 233,
+   "mapBearing": 234,
    "checkIn": {
     "lat": 67.02643,
     "lon": 27.23017,
@@ -50718,7 +50759,6 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
    "checkIn": {
     "lat": 44.28928,
     "lon": -79.43443,
@@ -51103,7 +51143,7 @@
     "source": "https://openskimap.org/?obj=78f4bcb9d9f709618fa42afb442c8ff72668e6d5",
     "checked": "2026-11-06"
    },
-   "mapBearing": 293,
+   "mapBearing": 292,
    "checkIn": {
     "lat": 46.54241,
     "lon": 6.97154,
@@ -51455,7 +51495,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 68,
+   "mapBearing": 69,
    "checkIn": {
     "lat": 46.69624,
     "lon": 11.43851,
@@ -51589,7 +51629,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 194,
    "checkIn": {
     "lat": 43.6318,
     "lon": -73.74077,
@@ -52195,6 +52235,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 137,
    "checkIn": {
     "lat": 41.6907,
     "lon": -74.01581,
@@ -52269,7 +52310,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 206,
+   "mapBearing": 209,
    "checkIn": {
     "lat": 46.45892,
     "lon": 15.35051,
@@ -52636,7 +52677,7 @@
     "source": "https://en.wikipedia.org/wiki/Roundtop_Mountain_Resort",
     "checked": "2026-10-12"
    },
-   "mapBearing": 199,
+   "mapBearing": 198,
    "checkIn": {
     "lat": 40.10648,
     "lon": -76.92617,
@@ -52829,7 +52870,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 106,
+   "mapBearing": 105,
    "checkIn": {
     "lat": 36.77961,
     "lon": 138.47132,
@@ -53036,7 +53077,7 @@
     "source": "https://openskimap.org/?obj=3a47b82d85b0253cfe4ee7f14743d03076a7c32a",
     "checked": "2026-11-06"
    },
-   "mapBearing": 102,
+   "mapBearing": 101,
    "checkIn": {
     "lat": 46.08738,
     "lon": 7.96545,
@@ -53193,6 +53234,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 68,
    "checkIn": {
     "lat": 47.4317,
     "lon": -121.41581,
@@ -53439,7 +53481,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 145,
+   "mapBearing": 143,
    "checkIn": {
     "lat": 45.35722,
     "lon": 5.84084,
@@ -53469,7 +53511,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 249,
+   "mapBearing": 250,
    "checkIn": {
     "lat": 44.46084,
     "lon": 6.70911,
@@ -53805,7 +53847,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 254,
+   "mapBearing": 253,
    "checkIn": {
     "lat": 43.0378,
     "lon": -5.39227,
@@ -53947,7 +53989,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 193,
+   "mapBearing": 195,
    "checkIn": {
     "lat": 44.27349,
     "lon": 7.88197,
@@ -53971,6 +54013,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 154,
    "checkIn": {
     "lat": 49.0069,
     "lon": 12.8456,
@@ -54162,7 +54205,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 150,
    "checkIn": {
     "lat": 45.25306,
     "lon": 5.78124,
@@ -54186,7 +54229,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 191,
    "checkIn": {
     "lat": 35.12257,
     "lon": -83.05931,
@@ -54460,7 +54503,7 @@
     "source": "https://www.indyskipass.com/our-resorts/sasquatch-mountain-resort",
     "checked": "2026-10-12"
    },
-   "mapBearing": 326,
+   "mapBearing": 324,
    "checkIn": {
     "lat": 49.38442,
     "lon": -121.94098,
@@ -54506,7 +54549,7 @@
     "source": "https://openskimap.org/?obj=04363b99935eba601ebcb4260527765fd732ebd6",
     "checked": "2026-11-06"
    },
-   "mapBearing": 141,
+   "mapBearing": 142,
    "checkIn": {
     "lat": 47.06912,
     "lon": 8.65225,
@@ -54666,7 +54709,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 87,
    "checkIn": {
     "lat": 41.12677,
     "lon": -75.05152,
@@ -54695,7 +54738,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 210,
+   "mapBearing": 217,
    "checkIn": {
     "lat": 41.88591,
     "lon": 13.86652,
@@ -54969,7 +55012,7 @@
     "source": "https://www.indyskipass.com/our-resorts/schuss-mountain-at-shanty-creek",
     "checked": "2026-10-12"
    },
-   "mapBearing": 274,
+   "mapBearing": 277,
    "checkIn": {
     "lat": 44.94355,
     "lon": -85.13652,
@@ -55055,7 +55098,7 @@
     "source": "https://openskimap.org/?obj=e5f2ecffbec19f6ada9be3680c33c156b3795b68",
     "checked": "2026-11-06"
    },
-   "mapBearing": 151,
+   "mapBearing": 152,
    "checkIn": {
     "lat": 46.65937,
     "lon": 7.30087,
@@ -55140,7 +55183,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 256,
+   "mapBearing": 257,
    "checkIn": {
     "lat": 46.53754,
     "lon": 10.92557,
@@ -55230,7 +55273,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 76,
    "checkIn": {
     "lat": 46.98466,
     "lon": 13.77761,
@@ -55260,7 +55303,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 175,
+   "mapBearing": 176,
    "checkIn": {
     "lat": 45.7512,
     "lon": 8.08418,
@@ -55339,7 +55382,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 328,
+   "mapBearing": 327,
    "checkIn": {
     "lat": 46.82081,
     "lon": 10.28175,
@@ -55396,6 +55439,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 272,
    "checkIn": {
     "lat": 43.85296,
     "lon": -70.45526,
@@ -55509,7 +55553,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 276,
+   "mapBearing": 292,
    "checkIn": {
     "lat": 40.49958,
     "lon": 15.75288,
@@ -55593,6 +55637,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 300,
    "checkIn": {
     "lat": 35.77263,
     "lon": 137.82377,
@@ -55911,7 +55956,7 @@
     "source": "https://en.wikipedia.org/wiki/Seven_Springs_Mountain_Resort",
     "checked": "2026-10-12"
    },
-   "mapBearing": 218,
+   "mapBearing": 216,
    "checkIn": {
     "lat": 40.02407,
     "lon": -79.30307,
@@ -56027,7 +56072,7 @@
     "source": "https://www.indyskipass.com/our-resorts/shawnee-mountain-ski-area",
     "checked": "2026-10-12"
    },
-   "mapBearing": 137,
+   "mapBearing": 138,
    "checkIn": {
     "lat": 41.03565,
     "lon": -75.07791,
@@ -56175,6 +56220,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 129,
    "checkIn": {
     "lat": 36.18598,
     "lon": 136.63211,
@@ -56494,6 +56540,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 187,
    "checkIn": {
     "lat": 45.888,
     "lon": -84.82936,
@@ -56603,7 +56650,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 116,
    "checkIn": {
     "lat": 37.88017,
     "lon": -107.66187,
@@ -56710,6 +56757,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 78,
    "checkIn": {
     "lat": 62.95722,
     "lon": 22.94544,
@@ -57214,7 +57262,7 @@
     "source": "https://www.indyskipass.com/our-resorts/ski-big-bear",
     "checked": "2026-10-12"
    },
-   "mapBearing": 231,
+   "mapBearing": 234,
    "checkIn": {
     "lat": 41.52619,
     "lon": -75.01911,
@@ -57272,7 +57320,7 @@
     "source": "https://www.indyskipass.com/our-resorts/ski-bluewood",
     "checked": "2026-10-12"
    },
-   "mapBearing": 187,
+   "mapBearing": 186,
    "checkIn": {
     "lat": 46.07631,
     "lon": -117.85183,
@@ -57405,6 +57453,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 76,
    "checkIn": {
     "lat": 50.13675,
     "lon": -123.1103,
@@ -57524,7 +57573,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 203,
+   "mapBearing": 202,
    "checkIn": {
     "lat": 50.431,
     "lon": 9.94122,
@@ -57812,7 +57861,7 @@
     "source": "https://www.indyskipass.com/our-resorts/ski-land",
     "checked": "2026-10-12"
    },
-   "mapBearing": 165,
+   "mapBearing": 161,
    "checkIn": {
     "lat": 65.05111,
     "lon": -147.41068,
@@ -58115,7 +58164,7 @@
     "source": "https://www.indyskipass.com/our-resorts/ski-saint-bruno",
     "checked": "2026-10-12"
    },
-   "mapBearing": 137,
+   "mapBearing": 136,
    "checkIn": {
     "lat": 45.55611,
     "lon": -73.33223,
@@ -58728,7 +58777,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 292,
    "checkIn": {
     "lat": 41.24007,
     "lon": -75.23531,
@@ -58902,7 +58951,7 @@
     "source": "https://www.indyskipass.com/our-resorts/smokey-mountain-ski-club",
     "checked": "2026-10-12"
    },
-   "mapBearing": 277,
+   "mapBearing": 279,
    "checkIn": {
     "lat": 52.97711,
     "lon": -66.92784,
@@ -59016,6 +59065,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 242,
    "checkIn": {
     "lat": 40.9069,
     "lon": -115.85822,
@@ -59071,7 +59121,7 @@
     "source": "https://skisnowcreek.com/",
     "checked": "2026-10-12"
    },
-   "mapBearing": 152,
+   "mapBearing": 175,
    "checkIn": {
     "lat": 39.46556,
     "lon": -94.96984,
@@ -59478,7 +59528,7 @@
     "source": "https://www.hellyhansen.com/en_us/skifree/resorts",
     "checked": "2026-11-15"
    },
-   "mapBearing": 141,
+   "mapBearing": 142,
    "checkIn": {
     "lat": 44.41017,
     "lon": -79.78916,
@@ -59641,6 +59691,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 86,
    "checkIn": {
     "lat": 37.35287,
     "lon": -79.16607,
@@ -59694,6 +59745,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 81,
    "checkIn": {
     "lat": -36.63312,
     "lon": 174.668,
@@ -59802,7 +59854,7 @@
     "checked": "2026-10-12"
    },
    "niehuesUrl": "https://jamesniehues.com/products/snowshoe",
-   "mapBearing": 212,
+   "mapBearing": 209,
    "checkIn": {
     "lat": 38.42439,
     "lon": -79.99585,
@@ -59852,6 +59904,7 @@
     "source": "https://www.indyskipass.com/our-resorts/snowstar",
     "checked": "2026-10-12"
    },
+   "mapBearing": 80,
    "checkIn": {
     "lat": 41.42467,
     "lon": -90.74744,
@@ -60161,6 +60214,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 290,
    "checkIn": {
     "lat": 68.8043,
     "lon": 16.39179,
@@ -60220,7 +60274,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 93,
+   "mapBearing": 92,
    "checkIn": {
     "lat": 45.91516,
     "lon": -74.11672,
@@ -60512,7 +60566,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 150,
+   "mapBearing": 149,
    "checkIn": {
     "lat": 45.96365,
     "lon": 9.96869,
@@ -60968,6 +61022,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 132,
    "checkIn": {
     "lat": 46.91209,
     "lon": -71.80792,
@@ -61295,7 +61350,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 157,
+   "mapBearing": 156,
    "checkIn": {
     "lat": 44.83716,
     "lon": 5.41981,
@@ -61517,7 +61572,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 193,
+   "mapBearing": 191,
    "checkIn": {
     "lat": 47.51634,
     "lon": 10.01366,
@@ -61934,7 +61989,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 182,
    "checkIn": {
     "lat": 47.43614,
     "lon": 15.70463,
@@ -62064,7 +62119,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 198,
+   "mapBearing": 196,
    "checkIn": {
     "lat": 61.94896,
     "lon": 7.36183,
@@ -62257,7 +62312,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 215,
+   "mapBearing": 216,
    "checkIn": {
     "lat": 47.67076,
     "lon": 12.04168,
@@ -62317,7 +62372,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 234,
+   "mapBearing": 235,
    "checkIn": {
     "lat": 36.52017,
     "lon": 138.31012,
@@ -63212,7 +63267,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 119,
+   "mapBearing": 118,
    "checkIn": {
     "lat": 53.56696,
     "lon": -113.37233,
@@ -63326,7 +63381,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 241,
    "checkIn": {
     "lat": 62.96155,
     "lon": 8.6649,
@@ -63742,7 +63797,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 212,
+   "mapBearing": 213,
    "checkIn": {
     "lat": 39.35103,
     "lon": -120.26369,
@@ -64110,7 +64165,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 208,
+   "mapBearing": 210,
    "checkIn": {
     "lat": 46.49106,
     "lon": 13.54812,
@@ -64241,7 +64296,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 83,
+   "mapBearing": 81,
    "checkIn": {
     "lat": 54.30406,
     "lon": -113.47343,
@@ -64628,7 +64683,7 @@
     "source": "https://www.indyskipass.com/our-resorts/terry-peak",
     "checked": "2026-10-12"
    },
-   "mapBearing": 224,
+   "mapBearing": 222,
    "checkIn": {
     "lat": 44.33342,
     "lon": -103.83186,
@@ -64902,7 +64957,7 @@
     "source": "https://www.highlandsharborsprings.com/",
     "checked": "2026-10-12"
    },
-   "mapBearing": 273,
+   "mapBearing": 275,
    "checkIn": {
     "lat": 45.47412,
     "lon": -84.94423,
@@ -65125,7 +65180,7 @@
     "checked": "2026-10-13"
    },
    "niehuesUrl": "https://jamesniehues.com/products/the-remarkables-1",
-   "mapBearing": 160,
+   "mapBearing": 164,
    "checkIn": {
     "lat": -45.05716,
     "lon": 168.81546,
@@ -65218,6 +65273,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 249,
    "checkIn": {
     "lat": 43.93649,
     "lon": -72.61128,
@@ -65262,7 +65318,7 @@
     "source": "https://openskimap.org/?obj=d3c7b897d3dac0b590961eb352677d3070e52fe1",
     "checked": "2026-11-06"
    },
-   "mapBearing": 164,
+   "mapBearing": 162,
    "checkIn": {
     "lat": 46.3775,
     "lon": 6.73926,
@@ -65429,7 +65485,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 292,
+   "mapBearing": 291,
    "checkIn": {
     "lat": 52.01558,
     "lon": -101.60398,
@@ -65574,7 +65630,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 166,
+   "mapBearing": 167,
    "checkIn": {
     "lat": 39.0373,
     "lon": -79.39611,
@@ -65817,7 +65873,7 @@
     "source": "https://www.indyskipass.com/our-resorts/togakushi-ski-resort",
     "checked": "2026-10-12"
    },
-   "mapBearing": 117,
+   "mapBearing": 118,
    "checkIn": {
     "lat": 36.74968,
     "lon": 138.10497,
@@ -66233,6 +66289,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 132,
    "checkIn": {
     "lat": 48.78762,
     "lon": -87.10728,
@@ -66286,6 +66343,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 0,
    "checkIn": {
     "lat": 44.50981,
     "lon": -87.94832,
@@ -66400,7 +66458,7 @@
     "source": "https://www.indyskipass.com/our-resorts/trollhaugen",
     "checked": "2026-10-12"
    },
-   "mapBearing": 222,
+   "mapBearing": 221,
    "checkIn": {
     "lat": 45.34888,
     "lon": -92.61955,
@@ -66628,6 +66686,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 299,
    "checkIn": {
     "lat": -39.27681,
     "lon": 175.60466,
@@ -66876,6 +66935,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 328,
    "checkIn": {
     "lat": 62.77053,
     "lon": 7.26193,
@@ -66899,6 +66959,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 224,
    "checkIn": {
     "lat": 52.53634,
     "lon": -125.8492,
@@ -67087,7 +67148,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 322,
    "checkIn": {
     "lat": 35.50482,
     "lon": 134.68052,
@@ -67252,7 +67313,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 218,
    "checkIn": {
     "lat": 43.82442,
     "lon": -79.44013,
@@ -67276,6 +67337,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 190,
    "checkIn": {
     "lat": 36.56646,
     "lon": 137.05562,
@@ -67698,7 +67760,7 @@
     "source": "https://www.indyskipass.com/our-resorts/val-direne",
     "checked": "2026-10-12"
    },
-   "mapBearing": 304,
+   "mapBearing": 303,
    "checkIn": {
     "lat": 48.47767,
     "lon": -67.57995,
@@ -67899,6 +67961,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 66,
    "checkIn": {
     "lat": 46.52035,
     "lon": -72.76469,
@@ -67996,7 +68059,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 195,
+   "mapBearing": 196,
    "checkIn": {
     "lat": 40.38384,
     "lon": -0.63249,
@@ -68778,7 +68841,7 @@
     "source": "https://openskimap.org/?obj=d6582b43907eabfba13b7f54f9c96dc569d64e62",
     "checked": "2026-11-06"
    },
-   "mapBearing": 212,
+   "mapBearing": 213,
    "checkIn": {
     "lat": 46.23893,
     "lon": 7.52835,
@@ -68888,7 +68951,7 @@
     "source": "https://www.skithevets.org/",
     "checked": "2026-10-12"
    },
-   "mapBearing": 186,
+   "mapBearing": 179,
    "checkIn": {
     "lat": 43.44321,
     "lon": -71.69123,
@@ -69255,7 +69318,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 145,
+   "mapBearing": 146,
    "checkIn": {
     "lat": 37.64182,
     "lon": 127.6882,
@@ -69521,7 +69584,7 @@
     "source": "https://openskimap.org/?obj=d72042aaa28205941f77ba967c9fe8421c715401",
     "checked": "2026-11-05"
    },
-   "mapBearing": 213,
+   "mapBearing": 217,
    "checkIn": {
     "lat": 47.27447,
     "lon": 11.59128,
@@ -69609,7 +69672,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 140,
+   "mapBearing": 146,
    "checkIn": {
     "lat": 35.34728,
     "lon": 134.49306,
@@ -69632,7 +69695,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 172,
    "checkIn": {
     "lat": 47.46839,
     "lon": 10.71711,
@@ -69656,6 +69719,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 140,
    "checkIn": {
     "lat": 47.66821,
     "lon": 11.78526,
@@ -69929,7 +69993,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 319,
+   "mapBearing": 320,
    "checkIn": {
     "lat": 46.71312,
     "lon": 10.49487,
@@ -70030,7 +70094,7 @@
     "source": "https://openskimap.org/?obj=ce27bffab42bb84f428aa6a5f1e3b3889536dc6b",
     "checked": "2026-11-06"
    },
-   "mapBearing": 189,
+   "mapBearing": 187,
    "checkIn": {
     "lat": 47.14495,
     "lon": 12.62766,
@@ -70084,7 +70148,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 193,
    "checkIn": {
     "lat": 37.48469,
     "lon": 128.24561,
@@ -70618,7 +70682,7 @@
     "source": "https://www.indyskipass.com/our-resorts/white-pine-resort",
     "checked": "2026-10-12"
    },
-   "mapBearing": 150,
+   "mapBearing": 149,
    "checkIn": {
     "lat": 42.97254,
     "lon": -109.75151,
@@ -70780,7 +70844,7 @@
     "source": "https://www.indyskipass.com/our-resorts/whitepia-takasu",
     "checked": "2026-10-12"
    },
-   "mapBearing": 129,
+   "mapBearing": 132,
    "checkIn": {
     "lat": 35.95144,
     "lon": 136.94004,
@@ -70947,7 +71011,7 @@
     "checked": "2026-10-22"
    },
    "niehuesUrl": "https://jamesniehues.com/products/whitefish-mountain-resort",
-   "mapBearing": 0,
+   "mapBearing": 9,
    "checkIn": {
     "lat": 48.49792,
     "lon": -114.34494,
@@ -71540,7 +71604,7 @@
     "source": "https://en.wikipedia.org/wiki/Wilmot_Mountain",
     "checked": "2026-10-12"
    },
-   "mapBearing": 243,
+   "mapBearing": 247,
    "checkIn": {
     "lat": 42.49851,
     "lon": -88.19038,
@@ -71624,6 +71688,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 260,
    "checkIn": {
     "lat": 42.58984,
     "lon": 140.76587,
@@ -71727,6 +71792,7 @@
     "source": "https://www.indyskipass.com/our-resorts/winter4kids",
     "checked": "2026-10-12"
    },
+   "mapBearing": 153,
    "checkIn": {
     "lat": 41.18426,
     "lon": -74.47961,
@@ -71756,7 +71822,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 238,
+   "mapBearing": 237,
    "checkIn": {
     "lat": 51.18911,
     "lon": 8.50706,
@@ -71819,7 +71885,7 @@
     "source": "https://www.indyskipass.com/our-resorts/wintergreen",
     "checked": "2026-10-12"
    },
-   "mapBearing": 236,
+   "mapBearing": 234,
    "checkIn": {
     "lat": 37.91755,
     "lon": -78.94011,
@@ -71877,7 +71943,7 @@
     "checked": "2026-10-12"
    },
    "niehuesUrl": "https://jamesniehues.com/products/winterplace",
-   "mapBearing": 168,
+   "mapBearing": 167,
    "checkIn": {
     "lat": 37.59528,
     "lon": -81.11849,
@@ -71937,7 +72003,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 342,
+   "mapBearing": 345,
    "checkIn": {
     "lat": 51.74657,
     "lon": 10.62189,
@@ -72089,6 +72155,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 157,
    "checkIn": {
     "lat": 40.07439,
     "lon": -75.27495,
@@ -72315,7 +72382,7 @@
     "source": "https://openskimap.org/?obj=c59eb5ea73c7ee28d4d4bc11ff9701156f9ee17d",
     "checked": "2026-11-06"
    },
-   "mapBearing": 274,
+   "mapBearing": 275,
    "checkIn": {
     "lat": 47.63772,
     "lon": 14.28369,
@@ -72338,7 +72405,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 0,
+   "mapBearing": 249,
    "checkIn": {
     "lat": 47.12217,
     "lon": 8.885,
@@ -72392,7 +72459,7 @@
    "tags": [
     "alpine"
    ],
-   "mapBearing": 204,
+   "mapBearing": 203,
    "checkIn": {
     "lat": 35.95753,
     "lon": 137.73057,
@@ -72500,7 +72567,7 @@
     "source": "https://en.wikipedia.org/wiki/Ylläs",
     "checked": "2026-10-12"
    },
-   "mapBearing": 183,
+   "mapBearing": 188,
    "checkIn": {
     "lat": 67.56621,
     "lon": 24.22339,
@@ -72880,6 +72947,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 190,
    "checkIn": {
     "lat": 46.36923,
     "lon": 14.03029,
@@ -73132,7 +73200,7 @@
     "source": "https://openskimap.org/?obj=ae3cd8edec4919c6e3888b22332b75c4c3092cc1",
     "checked": "2026-11-06"
    },
-   "mapBearing": 194,
+   "mapBearing": 201,
    "checkIn": {
     "lat": 47.65336,
     "lon": 13.09203,
@@ -73216,6 +73284,7 @@
    "tags": [
     "alpine"
    ],
+   "mapBearing": 199,
    "checkIn": {
     "lat": 47.75424,
     "lon": 13.35872,
