@@ -19,3 +19,10 @@ Corduroy), served by GitHub Pages from `main`.
   `tools/build_slopes.py`; the roster's `trailMap` says which resorts have one. Push changed files here with the roster.
 - `context/<id>.json.gz` (0.89): each mapped resort's map-background pack (woods, roads, contours, base areas, the town),
   from `tools/build_context.py`.
+
+## Planned
+
+- **Privacy wording (Blake, 22 Nov 2026):** the promise is "we don't sell your data" (no selling or sharing with other
+  companies, no ads, no ad tracking, data sent only for a feature you use), not "everything stays on your phone":
+  Lapin+'s server already receives some data, and features like leaderboards would send more. When the app's
+  `docs/privacy-policy.md` is reworded, copy it here as usual. Tracked in the Lapin dev plan.
