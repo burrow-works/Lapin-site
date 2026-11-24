@@ -1,9 +1,9 @@
 # Lapin privacy policy
 
-Last updated 19 November 2026.
+Last updated 24 November 2026.
 
 Lapin: Ski Pass & Resort Log ("Lapin") is made by Burrow Works LLC. Lapin keeps your ski days on your phone.
-There are no accounts and no ads. Burrow Works does not sell your data and does not share it for anyone else's
+No account is needed and there are no ads. Burrow Works does not sell your data and does not share it for anyone else's
 purposes. What the app collects and sends is described below; if that changes, this policy is updated first.
 
 ## What stays on your phone
@@ -63,6 +63,8 @@ carries only what's listed. As with any internet request, the service also sees 
   sends it to Google to find it on the map.
 - **Google Play** (through the Play Store app on your phone): with the version from Google Play, the app asks Play
   whether your Google account has Lapin+ and what it costs where you are. See Lapin+ below.
+- **Burrow Works** (api.burrowworks.app), only if you sign in to a Burrow Works account: see the account section
+  below. Nothing is sent to it while you're signed out.
 - **GitHub** (raw.githubusercontent.com): the list of resorts and pass rules, at most once a day, so changes reach
   you without an app update. Nothing about you is sent with it. Also a resort's trail map (its runs and lifts), the
   first time you open its map, its page or a day there, then kept on the phone; and, over Wi-Fi, the trail maps of the
@@ -94,6 +96,30 @@ Lapin is free. Lapin+ is an optional subscription that adds features. It is sold
 
 Lapin+ never deletes anything. If it ends, what you made with it (planned days, prices you typed) stays on your phone
 and comes back if you subscribe again.
+
+## The Burrow Works account (optional)
+
+Burrow Works makes Lapin and Puffly. If you sign in with Google to a Burrow Works account (Settings → Burrow Works
+account), one subscription unlocks both apps: Lapin+ in Lapin and Puffly+ in Puffly. Nothing else in Lapin needs an
+account, and without one everything works as described above.
+
+- **What is sent when you sign in:** the sign-in token Google gives the app, so our server (api.burrowworks.app) can
+  check it with Google. The server keeps Google's number for your account (a user ID), not your email address or
+  name. The app shows your email address from your phone's own Google sign-in; it isn't sent.
+- **What is sent while you're signed in:** the Google Play purchase token of your Lapin+ subscription, if you have
+  one, and which app is asking. The server asks Google Play about that token and keeps what Google says: which
+  product, whether it is active or renewing, when it runs out, and whether it was refunded. Google Play also tells the
+  server when a subscription renews, is cancelled or is refunded. The server answers the app with a record it signs,
+  which the app keeps on your phone. A purchase made while you're signed in carries your account's number, so it
+  lands on the right account.
+- **What is never sent:** your ski days, tracks, recordings, location, passes, plans or anything else in the app.
+- **Who sees it:** Burrow Works, on servers run by Cloudflare for us. It is not sold or shared for anyone else's
+  purposes. Together with Puffly's subscription it lets the apps tell you if you're paying for both, so you can cancel
+  one.
+- **Deleting it:** Settings → Burrow Works account → Delete account, in Lapin or Puffly, or at
+  https://api.burrowworks.app/delete-account. This deletes the account, its sign-ins and the record of its
+  subscriptions from the server at once. Subscriptions are Google Play's and keep running until you cancel them in
+  Google Play. Signing out removes the account from your phone but keeps it on the server until you delete it.
 
 ## Backups
 
