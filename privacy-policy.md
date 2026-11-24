@@ -17,6 +17,7 @@ purposes. What the app collects and sends is described below; if that changes, t
   stats and the runs and lifts it matched.
 - Stored forecasts, and the resorts you told check-ins to skip.
 - Trail maps of the resorts whose maps, pages or days you've opened, or saved over Wi-Fi.
+- 3D views of the resorts whose 3D view or replay you've opened (a picture and the grid that places a track on it).
 - Map backgrounds of the resorts whose maps you've opened, or saved over Wi-Fi (terrain, woods, roads, place names).
 - Whether you have Lapin+: the last answer from Google Play (see Lapin+ below).
 
@@ -49,11 +50,13 @@ Android's settings, at any time.
 The app downloads forecasts, alerts and map backgrounds. Each request goes straight to the service named below and
 carries only what's listed. As with any internet request, the service also sees your IP address.
 
-- **Open-Meteo** (api.open-meteo.com): the map position and height of resorts on your passes, to get their forecasts.
-  The list of resorts can show which passes you hold. Your own location is never sent. With powder alerts on, this
-  also happens once a day in the background, for resorts on your passes within your alert distance.
-- **US National Weather Service** (api.weather.gov): the map position of a US resort when you open its page, to check
-  for storm alerts.
+- **US National Weather Service** (api.weather.gov): the map position of a US resort, to get its forecast and to
+  check for storm alerts. The list of resorts asked about can show which passes you hold. Your own location is never
+  sent. With powder alerts on, the forecast request also happens once a day in the background, for resorts on your
+  passes within your alert distance.
+- **MET Norway** (api.met.no): the map position and mid-mountain height of a resort outside the United States, to
+  get its forecast. The same applies: the list can show which passes you hold, your own location is never sent, and
+  with powder alerts on it also happens once a day in the background.
 - **Google** (www.google.com), in test builds only: a resort's website address, to fetch its logo. The version on
   Google Play shows the resort's initials instead and never makes this request.
 - **Your phone's address lookup**: the town or ZIP code you type for your home location. Android's built-in geocoder
@@ -63,8 +66,9 @@ carries only what's listed. As with any internet request, the service also sees 
 - **GitHub** (raw.githubusercontent.com): the list of resorts and pass rules, at most once a day, so changes reach
   you without an app update. Nothing about you is sent with it. Also a resort's trail map (its runs and lifts), the
   first time you open its map, its page or a day there, then kept on the phone; and, over Wi-Fi, the trail maps of the
-  resorts on your passes within 200 miles of home, so they work with no signal. The requests carry only which resort;
-  the resorts chosen can show which passes you hold and roughly where you ski. Also the map background of a resort
+  resorts on your passes within 200 miles of home, so they work with no signal. Also a resort's 3D view, the first
+  time you open it or play a day back on it, then kept on the phone. The requests carry only which resort; the
+  resorts chosen can show which passes you hold and roughly where you ski. Also the map background of a resort
   (its woods, roads, car parks and place names): see Amazon below.
 - **Amazon Web Services** (elevation-tiles-prod.s3.amazonaws.com): terrain tiles for the area around a resort, for
   the shaded relief under its trail map. They're requested the first time you open a map of that resort, then kept on

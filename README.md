@@ -19,3 +19,8 @@ Corduroy), served by GitHub Pages from `main`.
   `tools/build_slopes.py`; the roster's `trailMap` says which resorts have one. Push changed files here with the roster.
 - `context/<id>.json.gz` (0.89): each mapped resort's map-background pack (woods, roads, contours, base areas, the town),
   from `tools/build_context.py`.
+- `views/<id>.webp` and `views/<id>.json.gz` (0.109): each mapped resort's painted 3D view (about 70 KB) and its
+  projection grid (about 12 KB: where each point of a lattice over the resort lands in the picture, and whether a
+  ridge hides it), from `tools/render_views.py` in the app repo. The app downloads a resort's pair the first time its
+  3D view or a 3D replay there opens, then keeps it. Added in batches as the renders finish; a resort without a pair
+  yet simply shows no view.
