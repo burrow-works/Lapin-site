@@ -1,0 +1,134 @@
+{
+ "format": 1,
+ "version": 1,
+ "asOf": "2026-11-25",
+ "events": [
+  {
+   "resort": "jay-peak",
+   "start": "2026-11-27",
+   "kind": "passholder",
+   "title": "Day for the Devoted: opening-day celebration, free tickets by registration",
+   "url": "https://unofficialnetworks.com/2026/11/03/vermont-ski-resort-giveaway/"
+  },
+  {
+   "resort": "copper",
+   "start": "2026-11-28",
+   "kind": "race",
+   "title": "Stifel Copper Cup: men's World Cup super-G and giant slalom",
+   "url": "https://usskiandsnowboard.org/news/us-ski-snowboard-announces-2026-27-fis-domestic-world-cup-schedule",
+   "end": "2026-11-29"
+  },
+  {
+   "resort": "killington-pico",
+   "start": "2026-11-28",
+   "kind": "race",
+   "title": "Stifel Killington Cup: women's World Cup giant slalom and slalom",
+   "url": "https://killington.com/the-killington-cup",
+   "end": "2026-11-29"
+  },
+  {
+   "resort": "beaver-creek",
+   "start": "2026-12-03",
+   "kind": "race",
+   "title": "Stifel Birds of Prey: men's World Cup downhill, super-G and giant slalom",
+   "url": "https://usskiandsnowboard.org/news/us-ski-snowboard-announces-2026-27-fis-domestic-world-cup-schedule",
+   "end": "2026-12-06"
+  },
+  {
+   "resort": "mammoth",
+   "start": "2026-12-12",
+   "kind": "festival",
+   "title": "Night of Lights",
+   "url": "https://mammothmountain.com/events"
+  },
+  {
+   "resort": "copper",
+   "start": "2026-12-19",
+   "kind": "race",
+   "title": "Toyota U.S. Grand Prix: halfpipe",
+   "url": "https://usskiandsnowboard.org/news/us-ski-snowboard-announces-2026-27-fis-domestic-world-cup-schedule",
+   "end": "2026-12-20"
+  },
+  {
+   "resort": "steamboat",
+   "start": "2027-01-18",
+   "kind": "festival",
+   "title": "Cowboy Downhill",
+   "url": "https://www.texasmonthly.com/event/52nd-annual-busch-light-cowboy-downhill/"
+  },
+  {
+   "resort": "deer-valley",
+   "start": "2027-01-28",
+   "kind": "race",
+   "title": "Freestyle International: World Cup moguls, dual moguls and aerials",
+   "url": "https://usskiandsnowboard.org/news/us-ski-snowboard-announces-2026-27-fis-domestic-world-cup-schedule",
+   "end": "2027-01-30"
+  },
+  {
+   "resort": "aspen-snowmass",
+   "start": "2027-01-29",
+   "kind": "race",
+   "title": "X Games Aspen at Buttermilk",
+   "url": "https://snowbrains.com/x-games-league-winter-season-2027-schedule/",
+   "end": "2027-01-31"
+  },
+  {
+   "resort": "jackson-hole",
+   "start": "2027-02-06",
+   "kind": "race",
+   "title": "Kings and Queens of Corbet's",
+   "url": "https://www.jacksonhole.com/events/2027-kings-and-queens",
+   "end": "2027-02-13"
+  },
+  {
+   "resort": "aspen-snowmass",
+   "start": "2027-02-27",
+   "kind": "race",
+   "title": "Toyota U.S. Grand Prix at Buttermilk: slopestyle and halfpipe",
+   "url": "https://usskiandsnowboard.org/news/us-ski-snowboard-announces-2026-27-fis-domestic-world-cup-schedule",
+   "end": "2027-02-28"
+  },
+  {
+   "resort": "sun-valley",
+   "start": "2027-03-20",
+   "kind": "race",
+   "title": "Stifel Sun Valley Finals: World Cup Finals",
+   "url": "https://usskiandsnowboard.org/news/us-ski-snowboard-announces-2026-27-fis-domestic-world-cup-schedule",
+   "end": "2027-03-25"
+  },
+  {
+   "resort": "loon",
+   "start": "2027-03-27",
+   "kind": "festival",
+   "title": "Rubix Kube '80s Day",
+   "url": "https://loonmtn.com/events"
+  },
+  {
+   "resort": "sunday-river",
+   "start": "2027-03-27",
+   "kind": "festival",
+   "title": "Spring Fest Weekend",
+   "url": "https://www.sundayriver.com/events",
+   "end": "2027-03-28"
+  },
+  {
+   "resort": "whistler",
+   "start": "2027-04-02",
+   "kind": "festival",
+   "title": "World Ski & Snowboard Festival",
+   "url": "https://www.whistler.com/events/world-ski-snowboard-festival/",
+   "end": "2027-04-11"
+  }
+ ],
+ "links": {
+  "bolton-valley": "https://www.boltonvalley.com/things-to-do/",
+  "loon": "https://loonmtn.com/events",
+  "mammoth": "https://mammothmountain.com/events",
+  "palisades": "https://www.palisadestahoe.com/events-and-activities/events-calendar",
+  "saddleback": "https://www.saddlebackmaine.com/events",
+  "smugglers-notch": "https://smuggs.com/events/tag/winter/list",
+  "sugarloaf": "https://www.sugarloaf.com/events-calendar",
+  "sunday-river": "https://www.sundayriver.com/events",
+  "waterville-valley": "https://www.waterville.com/valley-events"
+ }
+}

@@ -66,8 +66,8 @@ carries only what's listed. As with any internet request, the service also sees 
   whether your Google account has Lapin+ and what it costs where you are. See Lapin+ below.
 - **Burrow Works** (api.burrowworks.app), only if you sign in to a Burrow Works account: see the account section
   below. Nothing is sent to it while you're signed out.
-- **GitHub** (raw.githubusercontent.com): the list of resorts and pass rules, at most once a day, so changes reach
-  you without an app update. Nothing about you is sent with it. Also a resort's trail map (its runs and lifts), the
+- **GitHub** (raw.githubusercontent.com): the list of resorts and pass rules, and the list of resort events, at most
+  once a day, so changes reach you without an app update. Nothing about you is sent with them. Also a resort's trail map (its runs and lifts), the
   first time you open its map, its page or a day there, then kept on the phone; and, over Wi-Fi, the trail maps of the
   resorts on your passes within 200 miles of home, so they work with no signal. Also a resort's 3D view, the first
   time you open it or play a day back on it, then kept on the phone. The requests carry only which resort; the
@@ -80,7 +80,7 @@ carries only what's listed. As with any internet request, the service also sees 
   map tiles or which resort; the resorts chosen can show which passes you hold and roughly where you ski. Your own
   location is never sent. Turning map backgrounds off stops these requests and deletes what was saved.
 
-Buttons such as Website, Snow report, Niehues painting and Directions open your browser or maps app. Those apps and sites have their own
+Buttons such as Website, Snow report, Niehues painting, an event and Directions open your browser or maps app. Those apps and sites have their own
 privacy policies.
 
 ## Lapin+ and Google Play
