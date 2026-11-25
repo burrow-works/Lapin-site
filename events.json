@@ -1,6 +1,6 @@
 {
  "format": 1,
- "version": 1,
+ "version": 2,
  "asOf": "2026-11-25",
  "events": [
   {
@@ -130,5 +130,79 @@
   "sugarloaf": "https://www.sugarloaf.com/events-calendar",
   "sunday-river": "https://www.sundayriver.com/events",
   "waterville-valley": "https://www.waterville.com/valley-events"
+ },
+ "seasons": {
+  "beaver-creek": {
+   "url": "https://snowbrains.com/vail-resorts-announces-2026-27-opening-dates-for-11-resorts/",
+   "opens": "2026-11-25"
+  },
+  "big-sky": {
+   "url": "https://snowbrains.com/ikon-pass-resorts-opening-dates-2026-27/",
+   "opens": "2026-11-25"
+  },
+  "breckenridge": {
+   "url": "https://snowbrains.com/vail-resorts-announces-2026-27-opening-dates-for-11-resorts/",
+   "opens": "2026-11-06"
+  },
+  "crested-butte": {
+   "url": "https://snowbrains.com/vail-resorts-announces-2026-27-opening-dates-for-11-resorts/",
+   "opens": "2026-11-25"
+  },
+  "jackson-hole": {
+   "url": "https://snowbrains.com/jackson-hole-mountain-resort-wy-announces-opening-date-for-2026-27-ski-season/",
+   "opens": "2026-11-27"
+  },
+  "jay-peak": {
+   "url": "https://unofficialnetworks.com/2026/11/03/vermont-ski-resort-giveaway/",
+   "opens": "2026-11-27"
+  },
+  "killington-pico": {
+   "url": "https://www.boston.com/travel/skiing/2026/11/17/vermonts-killington-opens-for-the-season-kicking-off-winter-in-new-england/",
+   "opens": "2026-11-17"
+  },
+  "kirkwood": {
+   "url": "https://snowbrains.com/vail-resorts-announces-2026-27-opening-dates-for-11-resorts/",
+   "opens": "2026-12-04"
+  },
+  "mount-snow": {
+   "url": "https://news.vailresorts.com/stowe-okemo-mount-snow-opening-day",
+   "opens": "2026-11-21"
+  },
+  "okemo": {
+   "url": "https://news.vailresorts.com/stowe-okemo-mount-snow-opening-day",
+   "opens": "2026-11-21"
+  },
+  "park-city": {
+   "url": "https://snowbrains.com/vail-resorts-announces-2026-27-opening-dates-for-11-resorts/",
+   "opens": "2026-11-20"
+  },
+  "smugglers-notch": {
+   "url": "https://www.sunandski.com/blog/travel/eastern-u-s-ski-resorts-opening-dates-for-the-2026-2027-season",
+   "opens": "2026-11-27"
+  },
+  "snowbird": {
+   "url": "https://snowbrains.com/ikon-pass-resorts-opening-dates-2026-27/",
+   "opens": "2026-11-27"
+  },
+  "stevens-pass": {
+   "url": "https://snowbrains.com/vail-resorts-announces-2026-27-opening-dates-for-11-resorts/",
+   "opens": "2026-12-04"
+  },
+  "stowe": {
+   "url": "https://news.vailresorts.com/stowe-okemo-mount-snow-opening-day",
+   "opens": "2026-11-21"
+  },
+  "stratton": {
+   "url": "https://unofficialnetworks.com/2026/09/17/ikon-pass-us-ski-resort-opening-dates-2026-27/",
+   "opens": "2026-11-18"
+  },
+  "sunday-river": {
+   "url": "https://unofficialnetworks.com/2026/09/17/ikon-pass-us-ski-resort-opening-dates-2026-27/",
+   "opens": "2026-11-15"
+  },
+  "vail": {
+   "url": "https://snowbrains.com/vail-resorts-announces-2026-27-opening-dates-for-11-resorts/",
+   "opens": "2026-11-13"
+  }
  }
 }

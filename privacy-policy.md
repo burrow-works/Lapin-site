@@ -66,7 +66,7 @@ carries only what's listed. As with any internet request, the service also sees 
   whether your Google account has Lapin+ and what it costs where you are. See Lapin+ below.
 - **Burrow Works** (api.burrowworks.app), only if you sign in to a Burrow Works account: see the account section
   below. Nothing is sent to it while you're signed out.
-- **GitHub** (raw.githubusercontent.com): the list of resorts and pass rules, and the list of resort events, at most
+- **GitHub** (raw.githubusercontent.com): the list of resorts and pass rules, and the list of resort events and opening days, at most
   once a day, so changes reach you without an app update. Nothing about you is sent with them. Also a resort's trail map (its runs and lifts), the
   first time you open its map, its page or a day there, then kept on the phone; and, over Wi-Fi, the trail maps of the
   resorts on your passes within 200 miles of home, so they work with no signal. Also a resort's 3D view, the first
