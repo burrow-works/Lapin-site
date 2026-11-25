@@ -1,6 +1,6 @@
 # Lapin privacy policy
 
-Last updated 24 November 2026.
+Last updated 25 November 2026.
 
 Lapin: Ski Pass & Resort Log ("Lapin") is made by Burrow Works LLC. Lapin keeps your ski days on your phone.
 No account is needed and there are no ads. Burrow Works does not sell your data and does not share it for anyone else's
@@ -19,6 +19,7 @@ purposes. What the app collects and sends is described below; if that changes, t
 - Trail maps of the resorts whose maps, pages or days you've opened, or saved over Wi-Fi.
 - 3D views of the resorts whose 3D view or replay you've opened (a picture and the grid that places a track on it).
 - Map backgrounds of the resorts whose maps you've opened, or saved over Wi-Fi (terrain, woods, roads, place names).
+- With Lapin+, the finer terrain of the mountains you've turned in Live 3D.
 - Whether you have Lapin+: the last answer from Google Play (see Lapin+ below).
 
 All of this is deleted when you uninstall the app or clear its storage.
@@ -73,8 +74,8 @@ carries only what's listed. As with any internet request, the service also sees 
   resorts chosen can show which passes you hold and roughly where you ski. Also the map background of a resort
   (its woods, roads, car parks and place names): see Amazon below.
 - **Amazon Web Services** (elevation-tiles-prod.s3.amazonaws.com): terrain tiles for the area around a resort, for
-  the shaded relief under its trail map. They're requested the first time you open a map of that resort, then kept on
-  the phone. With map backgrounds on (Settings → Map backgrounds), the app also saves them, together with the GitHub
+  the shaded relief under its trail map and, with Lapin+, the mountain in Live 3D. They're requested the first time you
+  open a map or Live 3D of that resort, then kept on the phone. With map backgrounds on (Settings → Map backgrounds), the app also saves them, together with the GitHub
   file above, for the resorts on your passes within 200 miles of home, over Wi-Fi only. The requests carry only which
   map tiles or which resort; the resorts chosen can show which passes you hold and roughly where you ski. Your own
   location is never sent. Turning map backgrounds off stops these requests and deletes what was saved.
