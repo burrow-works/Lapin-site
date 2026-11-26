@@ -1,7 +1,7 @@
 {
  "format": 1,
- "version": 2,
- "asOf": "2026-11-25",
+ "version": 3,
+ "asOf": "2026-11-26",
  "events": [
   {
    "resort": "jay-peak",
@@ -133,20 +133,61 @@
  },
  "seasons": {
   "beaver-creek": {
-   "url": "https://snowbrains.com/vail-resorts-announces-2026-27-opening-dates-for-11-resorts/",
+   "url": "https://www.denver7.com/news/local-news/vail-resorts-announces-target-opening-dates-for-2026-2027-season",
+   "target": true,
    "opens": "2026-11-25"
   },
   "big-sky": {
-   "url": "https://snowbrains.com/ikon-pass-resorts-opening-dates-2026-27/",
+   "url": "https://www.bigskyresort.com/events/winter-opening-day",
+   "target": true,
    "opens": "2026-11-25"
+  },
+  "black-mountain-nh": {
+   "url": "https://www.wmur.com/article/ski-season-new-hampshire-opening-112526/74533399",
+   "opens": "2026-11-25"
+  },
+  "bolton-valley": {
+   "url": "https://skivermont.com/opening-dates",
+   "target": true,
+   "opens": "2026-12-05"
   },
   "breckenridge": {
-   "url": "https://snowbrains.com/vail-resorts-announces-2026-27-opening-dates-for-11-resorts/",
-   "opens": "2026-11-06"
+   "url": "https://www.basemountainsports.com/blog/colorado-ski-resorts-opening-days/",
+   "opens": "2026-11-11"
+  },
+  "bretton-woods": {
+   "url": "https://www.wmur.com/article/ski-season-new-hampshire-opening-112526/74533399",
+   "opens": "2026-11-26"
+  },
+  "burke": {
+   "url": "https://skivermont.com/opening-dates",
+   "target": true,
+   "opens": "2026-12-05"
   },
   "crested-butte": {
-   "url": "https://snowbrains.com/vail-resorts-announces-2026-27-opening-dates-for-11-resorts/",
+   "url": "https://www.denver7.com/news/local-news/vail-resorts-announces-target-opening-dates-for-2026-2027-season",
+   "target": true,
    "opens": "2026-11-25"
+  },
+  "deer-valley": {
+   "url": "https://www.alterramtn.co/en/news/26-27-opening-dates",
+   "target": true,
+   "opens": "2026-12-05"
+  },
+  "eldora": {
+   "url": "https://www.alterramtn.co/en/news/26-27-opening-dates",
+   "target": true,
+   "opens": "2026-11-13"
+  },
+  "granite-peak": {
+   "url": "https://www.alterramtn.co/en/news/26-27-opening-dates",
+   "target": true,
+   "opens": "2026-11-21"
+  },
+  "heavenly": {
+   "url": "https://news.vailresorts.com/2026-08-18-Is-Winter-About-to-Show-Off-Vail-Resorts-Announces-2026-27-Opening-Dates-as-Super-El-Nino-Builds-Anticipation-for-Great-Powder",
+   "target": true,
+   "opens": "2026-11-20"
   },
   "jackson-hole": {
    "url": "https://snowbrains.com/jackson-hole-mountain-resort-wy-announces-opening-date-for-2026-27-ski-season/",
@@ -161,48 +202,135 @@
    "opens": "2026-11-17"
   },
   "kirkwood": {
-   "url": "https://snowbrains.com/vail-resorts-announces-2026-27-opening-dates-for-11-resorts/",
+   "url": "https://www.denver7.com/news/local-news/vail-resorts-announces-target-opening-dates-for-2026-2027-season",
+   "target": true,
    "opens": "2026-12-04"
   },
+  "le-massif": {
+   "url": "https://www.alterramtn.co/en/news/26-27-opening-dates",
+   "target": true,
+   "opens": "2026-12-05"
+  },
+  "lutsen": {
+   "url": "https://www.alterramtn.co/en/news/26-27-opening-dates",
+   "target": true,
+   "opens": "2026-11-21"
+  },
+  "magic": {
+   "url": "https://skivermont.com/opening-dates",
+   "target": true,
+   "opens": "2026-12-12"
+  },
+  "mammoth": {
+   "url": "https://www.alterramtn.co/en/news/26-27-opening-dates",
+   "target": true,
+   "opens": "2026-11-13"
+  },
+  "middlebury-snowbowl": {
+   "url": "https://skivermont.com/opening-dates",
+   "target": true,
+   "opens": "2026-12-09"
+  },
   "mount-snow": {
-   "url": "https://news.vailresorts.com/stowe-okemo-mount-snow-opening-day",
+   "url": "https://www.wcax.com/2026/11/18/warm-weather-delays-opening-days-vermont-ski-resorts/",
+   "target": true,
    "opens": "2026-11-21"
   },
-  "okemo": {
-   "url": "https://news.vailresorts.com/stowe-okemo-mount-snow-opening-day",
-   "opens": "2026-11-21"
-  },
-  "park-city": {
-   "url": "https://snowbrains.com/vail-resorts-announces-2026-27-opening-dates-for-11-resorts/",
+  "northstar": {
+   "url": "https://news.vailresorts.com/2026-08-18-Is-Winter-About-to-Show-Off-Vail-Resorts-Announces-2026-27-Opening-Dates-as-Super-El-Nino-Builds-Anticipation-for-Great-Powder",
+   "target": true,
    "opens": "2026-11-20"
   },
+  "okemo": {
+   "url": "https://www.wcax.com/2026/11/18/warm-weather-delays-opening-days-vermont-ski-resorts/",
+   "target": true,
+   "opens": "2026-11-21"
+  },
+  "palisades": {
+   "url": "https://www.alterramtn.co/en/news/26-27-opening-dates",
+   "target": true,
+   "opens": "2026-11-25"
+  },
+  "park-city": {
+   "url": "https://www.denver7.com/news/local-news/vail-resorts-announces-target-opening-dates-for-2026-2027-season",
+   "target": true,
+   "opens": "2026-11-20"
+  },
+  "revelstoke": {
+   "url": "https://www.alterramtn.co/en/news/26-27-opening-dates",
+   "target": true,
+   "opens": "2026-12-05"
+  },
+  "saddleback": {
+   "url": "https://www.wabi.tv/2026/11/25/time-ski-maine-resorts-open-thanksgiving-holiday-weekend/",
+   "target": true,
+   "opens": "2026-12-04"
+  },
   "smugglers-notch": {
-   "url": "https://www.sunandski.com/blog/travel/eastern-u-s-ski-resorts-opening-dates-for-the-2026-2027-season",
+   "url": "https://www.smuggs.com/views-from-the-notch/winter-on-the-horizon/",
+   "target": true,
    "opens": "2026-11-27"
   },
   "snowbird": {
    "url": "https://snowbrains.com/ikon-pass-resorts-opening-dates-2026-27/",
+   "target": true,
    "opens": "2026-11-27"
   },
+  "snowshoe": {
+   "url": "https://www.alterramtn.co/en/news/26-27-opening-dates",
+   "target": true,
+   "opens": "2026-11-25"
+  },
   "stevens-pass": {
-   "url": "https://snowbrains.com/vail-resorts-announces-2026-27-opening-dates-for-11-resorts/",
+   "url": "https://www.denver7.com/news/local-news/vail-resorts-announces-target-opening-dates-for-2026-2027-season",
+   "target": true,
    "opens": "2026-12-04"
   },
   "stowe": {
-   "url": "https://news.vailresorts.com/stowe-okemo-mount-snow-opening-day",
+   "url": "https://www.wcax.com/2026/11/18/warm-weather-delays-opening-days-vermont-ski-resorts/",
+   "target": true,
    "opens": "2026-11-21"
   },
   "stratton": {
-   "url": "https://unofficialnetworks.com/2026/09/17/ikon-pass-us-ski-resort-opening-dates-2026-27/",
+   "url": "https://unofficialnetworks.com/2026/11/23/us-ski-resorts-open-thanksgiving-weekend-2026/",
+   "target": true,
    "opens": "2026-11-18"
   },
+  "sugarbush": {
+   "url": "https://www.alterramtn.co/en/news/26-27-opening-dates",
+   "target": true,
+   "opens": "2026-11-21"
+  },
+  "sugarloaf": {
+   "url": "https://www.wabi.tv/2026/11/25/time-ski-maine-resorts-open-thanksgiving-holiday-weekend/",
+   "opens": "2026-11-27"
+  },
+  "sun-peaks": {
+   "url": "https://www.alterramtn.co/en/news/26-27-opening-dates",
+   "target": true,
+   "opens": "2026-11-21"
+  },
   "sunday-river": {
-   "url": "https://unofficialnetworks.com/2026/09/17/ikon-pass-us-ski-resort-opening-dates-2026-27/",
-   "opens": "2026-11-15"
+   "url": "https://www.wmur.com/article/ski-season-new-hampshire-opening-112526/74533399",
+   "opens": "2026-11-25"
+  },
+  "tremblant": {
+   "url": "https://www.alterramtn.co/en/news/26-27-opening-dates",
+   "target": true,
+   "opens": "2026-11-26"
   },
   "vail": {
-   "url": "https://snowbrains.com/vail-resorts-announces-2026-27-opening-dates-for-11-resorts/",
+   "url": "https://www.basemountainsports.com/blog/colorado-ski-resorts-opening-days/",
    "opens": "2026-11-13"
+  },
+  "waterville-valley": {
+   "url": "https://www.wmur.com/article/ski-season-new-hampshire-opening-112526/74533399",
+   "opens": "2026-11-28"
+  },
+  "whistler": {
+   "url": "https://news.vailresorts.com/2026-08-18-Is-Winter-About-to-Show-Off-Vail-Resorts-Announces-2026-27-Opening-Dates-as-Super-El-Nino-Builds-Anticipation-for-Great-Powder",
+   "target": true,
+   "opens": "2026-11-20"
   }
  }
 }
