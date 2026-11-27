@@ -1,7 +1,7 @@
 {
  "format": 1,
- "version": 3,
- "asOf": "2026-11-26",
+ "version": 4,
+ "asOf": "2026-11-27",
  "events": [
   {
    "resort": "jay-peak",
@@ -138,13 +138,17 @@
    "opens": "2026-11-25"
   },
   "big-sky": {
-   "url": "https://www.bigskyresort.com/events/winter-opening-day",
-   "target": true,
+   "url": "https://bigskyresort.com",
    "opens": "2026-11-25"
   },
   "black-mountain-nh": {
    "url": "https://www.wmur.com/article/ski-season-new-hampshire-opening-112526/74533399",
    "opens": "2026-11-25"
+  },
+  "blue-mountain-pa": {
+   "url": "https://www.skibluemt.com/",
+   "target": true,
+   "opens": "2026-12-04"
   },
   "bolton-valley": {
    "url": "https://skivermont.com/opening-dates",
@@ -164,30 +168,64 @@
    "target": true,
    "opens": "2026-12-05"
   },
+  "castle-mountain": {
+   "url": "https://www.skicastle.ca",
+   "target": true,
+   "opens": "2026-12-11"
+  },
+  "cataloochee": {
+   "url": "https://cataloochee.com/",
+   "opens": "2026-11-15"
+  },
   "crested-butte": {
    "url": "https://www.denver7.com/news/local-news/vail-resorts-announces-target-opening-dates-for-2026-2027-season",
    "target": true,
    "opens": "2026-11-25"
+  },
+  "cuchara": {
+   "url": "https://cucharamountainpark.org",
+   "target": true,
+   "opens": "2026-12-12"
   },
   "deer-valley": {
    "url": "https://www.alterramtn.co/en/news/26-27-opening-dates",
    "target": true,
    "opens": "2026-12-05"
   },
+  "dodge-ridge": {
+   "url": "https://www.dodgeridge.com/site/",
+   "opens": "2026-11-21"
+  },
   "eldora": {
    "url": "https://www.alterramtn.co/en/news/26-27-opening-dates",
    "target": true,
    "opens": "2026-11-13"
   },
-  "granite-peak": {
-   "url": "https://www.alterramtn.co/en/news/26-27-opening-dates",
+  "fernie": {
+   "url": "https://www.skifernie.com",
+   "opens": "2026-12-04"
+  },
+  "giants-ridge": {
+   "url": "https://www.giantsridge.com/",
    "target": true,
-   "opens": "2026-11-21"
+   "opens": "2026-12-04"
+  },
+  "granby-ranch": {
+   "url": "https://granbyranch.com/",
+   "opens": "2026-11-25"
+  },
+  "granite-peak": {
+   "url": "https://www.skigranitepeak.com/",
+   "opens": "2026-11-27"
   },
   "heavenly": {
    "url": "https://news.vailresorts.com/2026-08-18-Is-Winter-About-to-Show-Off-Vail-Resorts-Announces-2026-27-Opening-Dates-as-Super-El-Nino-Builds-Anticipation-for-Great-Powder",
    "target": true,
    "opens": "2026-11-20"
+  },
+  "howelsen-hill": {
+   "url": "https://steamboatsprings.net/131/Howelsen-Hill-Ski-Area",
+   "opens": "2026-11-28"
   },
   "jackson-hole": {
    "url": "https://snowbrains.com/jackson-hole-mountain-resort-wy-announces-opening-date-for-2026-27-ski-season/",
@@ -196,6 +234,10 @@
   "jay-peak": {
    "url": "https://unofficialnetworks.com/2026/11/03/vermont-ski-resort-giveaway/",
    "opens": "2026-11-27"
+  },
+  "kicking-horse": {
+   "url": "https://kickinghorseresort.com/",
+   "opens": "2026-12-11"
   },
   "killington-pico": {
    "url": "https://www.boston.com/travel/skiing/2026/11/17/vermonts-killington-opens-for-the-season-kicking-off-winter-in-new-england/",
@@ -231,10 +273,26 @@
    "target": true,
    "opens": "2026-12-09"
   },
+  "moose-mountain": {
+   "url": "https://shredthemoose.com/",
+   "opens": "2026-11-28"
+  },
   "mount-snow": {
    "url": "https://www.wcax.com/2026/11/18/warm-weather-delays-opening-days-vermont-ski-resorts/",
    "target": true,
    "opens": "2026-11-21"
+  },
+  "mt-bachelor": {
+   "url": "https://www.mtbachelor.com/",
+   "opens": "2026-12-04"
+  },
+  "mt-washington": {
+   "url": "https://www.mountwashington.ca",
+   "opens": "2026-12-11"
+  },
+  "nakiska": {
+   "url": "https://www.skinakiska.com",
+   "opens": "2026-11-28"
   },
   "northstar": {
    "url": "https://news.vailresorts.com/2026-08-18-Is-Winter-About-to-Show-Off-Vail-Resorts-Announces-2026-27-Opening-Dates-as-Super-El-Nino-Builds-Anticipation-for-Great-Powder",
@@ -251,24 +309,56 @@
    "target": true,
    "opens": "2026-11-25"
   },
+  "panorama": {
+   "url": "https://www.panoramaresort.com",
+   "opens": "2026-12-04"
+  },
   "park-city": {
    "url": "https://www.denver7.com/news/local-news/vail-resorts-announces-target-opening-dates-for-2026-2027-season",
    "target": true,
    "opens": "2026-11-20"
   },
-  "revelstoke": {
-   "url": "https://www.alterramtn.co/en/news/26-27-opening-dates",
+  "pass-powderkeg": {
+   "url": "https://www.passpowderkeg.com/",
+   "opens": "2026-12-05"
+  },
+  "red-mountain": {
+   "url": "https://www.redresort.com/",
    "target": true,
+   "opens": "2026-12-12"
+  },
+  "revelstoke": {
+   "url": "https://www.revelstokemountainresort.com/",
    "opens": "2026-12-05"
   },
   "saddleback": {
-   "url": "https://www.wabi.tv/2026/11/25/time-ski-maine-resorts-open-thanksgiving-holiday-weekend/",
-   "target": true,
+   "url": "https://www.saddlebackmaine.com/",
    "opens": "2026-12-04"
+  },
+  "schweitzer": {
+   "url": "https://www.schweitzer.com/",
+   "opens": "2026-11-27"
+  },
+  "showdown": {
+   "url": "https://www.showdownmontana.com/",
+   "target": true,
+   "opens": "2026-12-11"
+  },
+  "ski-bluewood": {
+   "url": "https://www.bluewood.com",
+   "opens": "2026-12-10"
   },
   "smugglers-notch": {
    "url": "https://www.smuggs.com/views-from-the-notch/winter-on-the-horizon/",
    "target": true,
+   "opens": "2026-11-27"
+  },
+  "snow-king": {
+   "url": "https://snowkingmountain.com/",
+   "opens": "2026-12-04"
+  },
+  "snowbasin": {
+   "url": "https://www.snowbasin.com/",
    "opens": "2026-11-27"
   },
   "snowbird": {
@@ -276,10 +366,23 @@
    "target": true,
    "opens": "2026-11-27"
   },
+  "snowriver": {
+   "url": "https://www.snowriver.com/",
+   "target": true,
+   "opens": "2026-12-05"
+  },
   "snowshoe": {
    "url": "https://www.alterramtn.co/en/news/26-27-opening-dates",
    "target": true,
    "opens": "2026-11-25"
+  },
+  "spirit-mountain": {
+   "url": "https://spiritmt.com/winter",
+   "opens": "2026-11-28"
+  },
+  "steamboat": {
+   "url": "https://www.steamboat.com/",
+   "opens": "2026-11-27"
   },
   "stevens-pass": {
    "url": "https://www.denver7.com/news/local-news/vail-resorts-announces-target-opening-dates-for-2026-2027-season",
@@ -296,6 +399,10 @@
    "target": true,
    "opens": "2026-11-18"
   },
+  "sugar-bowl": {
+   "url": "https://www.sugarbowl.com/",
+   "opens": "2026-11-21"
+  },
   "sugarbush": {
    "url": "https://www.alterramtn.co/en/news/26-27-opening-dates",
    "target": true,
@@ -306,17 +413,30 @@
    "opens": "2026-11-27"
   },
   "sun-peaks": {
-   "url": "https://www.alterramtn.co/en/news/26-27-opening-dates",
+   "url": "https://www.sunpeaksresort.com/",
    "target": true,
-   "opens": "2026-11-21"
+   "opens": "2026-11-26"
+  },
+  "sun-valley": {
+   "url": "https://www.sunvalley.com/",
+   "target": true,
+   "opens": "2026-11-26"
   },
   "sunday-river": {
    "url": "https://www.wmur.com/article/ski-season-new-hampshire-opening-112526/74533399",
    "opens": "2026-11-25"
   },
-  "tremblant": {
-   "url": "https://www.alterramtn.co/en/news/26-27-opening-dates",
+  "sunlight-mountain": {
+   "url": "https://sunlightmtn.com/",
+   "opens": "2026-12-11"
+  },
+  "telluride": {
+   "url": "https://tellurideskiresort.com",
    "target": true,
+   "opens": "2026-12-05"
+  },
+  "tremblant": {
+   "url": "https://www.tremblant.ca",
    "opens": "2026-11-26"
   },
   "vail": {
