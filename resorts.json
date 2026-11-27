@@ -1,6 +1,6 @@
 {
  "format": 1,
- "version": 34,
+ "version": 35,
  "season": "2026-27",
  "dataAsOf": "2026-11-17",
  "passes": [
@@ -3610,6 +3610,7 @@
     "source": "https://en.wikipedia.org/wiki/Aspen/Snowmass",
     "checked": "2026-10-12"
    },
+   "niehuesUrl": "https://jamesniehues.com/products/snowmass",
    "mapBearing": 185,
    "checkIn": {
     "lat": 39.18869,
@@ -5945,6 +5946,7 @@
     "source": "https://www.bigbearmountainresort.com/",
     "checked": "2026-10-12"
    },
+   "niehuesUrl": "https://jamesniehues.com/products/bear-mountain",
    "mapBearing": 187,
    "checkIn": {
     "lat": 34.22011,
@@ -29438,6 +29440,7 @@
     "source": "https://en.wikipedia.org/wiki/Killington_Ski_Resort",
     "checked": "2026-10-12"
    },
+   "niehuesUrl": "https://jamesniehues.com/products/killington-ski",
    "mapBearing": 257,
    "checkIn": {
     "lat": 43.61035,
@@ -46568,6 +46571,7 @@
     "source": "https://en.wikipedia.org/wiki/Palisades_Tahoe",
     "checked": "2026-10-12"
    },
+   "niehuesUrl": "https://jamesniehues.com/products/squaw-valley-ski-resort",
    "mapBearing": 232,
    "checkIn": {
     "lat": 39.1914,
@@ -64957,6 +64961,7 @@
     "source": "https://www.highlandsharborsprings.com/",
     "checked": "2026-10-12"
    },
+   "niehuesUrl": "https://jamesniehues.com/products/boyne-highlands",
    "mapBearing": 275,
    "checkIn": {
     "lat": 45.47412,
