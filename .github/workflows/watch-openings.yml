@@ -1,0 +1,43 @@
+# Daily: which resort pages changed what they say about opening (see .github/watch/watch_openings.py). No AI, no keys.
+# When something changed, it comments on (or opens) the one issue labelled `openings`; otherwise it stays quiet.
+name: Watch openings
+on:
+  schedule:
+    - cron: "17 11 * * *"   # 6:17 am Eastern
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: write
+concurrency: watch-openings
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Read the resort pages
+        run: python3 .github/watch/watch_openings.py
+      - name: Keep what the pages said
+        run: |
+          if ! git diff --quiet -- .github/watch/state.json || [ -n "$(git ls-files --others -- .github/watch/state.json)" ]; then
+            git config user.name "lapin-opening-watch"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add .github/watch/state.json
+            git commit -m "Opening watch: $(date -u +%F)"
+            git push
+          fi
+      - name: Tell the issue
+        if: hashFiles('.github/watch/report.md') != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create openings --color 6FA3F2 --description "Resort pages changed what they say about opening" --force
+          n=$(gh issue list --label openings --state open --json number --jq '.[0].number')
+          if [ -n "$n" ]; then
+            gh issue comment "$n" --body-file .github/watch/report.md
+          else
+            gh issue create --title "Opening dates to check" --label openings --body-file .github/watch/report.md
+          fi
